@@ -5,21 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex, nofollow, noarchive" />
   <link rel="icon" href="/assets/favicon.png" />
-  <link rel="stylesheet" href="/styles.css?v=atl48" />
-  <title>Client Login | Atlas For Entrepreneurs</title>
+  <link rel="stylesheet" href="/styles.css?v=atl67" />
+  <title>Secure Client Sign-In | Atlas For Entrepreneurs</title>
   <meta name="description" content="Secure client sign-in for Atlas For Entrepreneurs dashboards." />
 </head>
 <body class="login-page">
   <header class="site-header">
-    <a class="brand" href="/" aria-label="Atlas For Entrepreneurs home"><img src="/assets/atlas-logo.png" alt="Atlas For Entrepreneurs logo" /><span>Atlas Client Login</span></a>
-    <nav aria-label="Primary navigation"><a href="/">Home</a><a href="/free-business-assessment/">Assessment</a><a class="nav-cta" href="/client-dashboard/">Dashboard</a></nav>
+    <a class="brand" href="/" aria-label="Atlas For Entrepreneurs home"><img src="/assets/atlas-logo.png" alt="Atlas For Entrepreneurs logo" /><span>Atlas Client Sign-In</span></a>
+    <nav aria-label="Primary navigation"><a href="/">Home</a><a href="/free-business-assessment/">Assessment</a><a class="nav-cta" href="/client-sign-in/">Client Sign-In</a></nav>
   </header>
   <main>
     <section class="auth-shell secure-auth-shell">
       <div class="auth-card">
         <p class="eyebrow">Secure Client Sign-In</p>
         <h1>Welcome back.</h1>
-        <p class="large-muted">Use the temporary Atlas credentials Manny controls. This V1 portal uses hashed password checks and session-only access for a safe dashboard demo.</p>
+        <p class="large-muted">Use the temporary Atlas credentials Manny controls. This portal is for approved client dashboard access only.</p>
         <form id="loginForm" class="auth-form">
           <label for="username">Username</label>
           <input id="username" name="username" type="text" autocomplete="username" required />
@@ -28,12 +28,12 @@
           <button class="button primary" type="submit">Open Secure Dashboard</button>
           <p id="loginMessage" class="form-message" role="status" aria-live="polite"></p>
         </form>
-        <div class="security-note"><strong>Noindex + no private files</strong><span>Dashboard pages are marked noindex. This static V1 does not expose private QTIME source folders, phone numbers, emails, private notes, or personal addresses.</span></div>
+        <div class="security-note"><strong>Noindex + no private files</strong><span>Dashboard pages are marked noindex. Do not store private client source folders, phone numbers, emails, private notes, or personal addresses in this static site.</span></div>
       </div>
       <aside class="auth-side"><img src="/assets/atlas-logo.png" alt="Atlas logo" /><h2>Guide. Grow. Live More.</h2><p>Client dashboards keep paid clients focused on approved priorities, onboarding, approvals, and reports.</p></aside>
     </section>
   </main>
-  <script src="/client-dashboard/auth.js"></script>
+  <script src="/client-dashboard/auth.js?v=atl50"></script>
   <script>document.getElementById('loginForm').addEventListener('submit', atlasHandleLogin);</script>
 </body>
 </html>

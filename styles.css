@@ -47,9 +47,9 @@ section[id], #dashboard, #files, #atlas-chat { scroll-margin-top: 96px; }
   letter-spacing: -.02em;
 }
 .brand img { width: 48px; height: 48px; object-fit: contain; }
-nav { display: flex; align-items: center; gap: 20px; font-weight: 800; font-size: 14px; }
-nav a { text-decoration: none; color: var(--ink); }
-nav a:hover { color: var(--blue); }
+nav { display: flex; align-items: center; gap: 16px; font-weight: 800; font-size: 14px; }
+nav a { text-decoration: none; color: var(--ink); line-height: 1.1; }
+nav a:hover, nav a:focus-visible, .button:focus-visible, .text-link:focus-visible { color: var(--blue); outline: 3px solid rgba(242,183,5,.55); outline-offset: 4px; border-radius: 999px; }
 .nav-cta { color: var(--blue); border: 1px solid var(--border); border-radius: 999px; padding: 9px 14px; background: white; }
 .nav-button { border: 1px solid var(--border); border-radius: 999px; padding: 9px 14px; background: white; color: var(--blue); font: inherit; font-weight: 900; cursor: pointer; }
 .locked .portal-header nav { display: none; }
@@ -62,7 +62,7 @@ nav a:hover { color: var(--blue); }
   grid-template-columns: 1fr 1.03fr;
   gap: 40px;
   align-items: center;
-  padding: 64px 6vw 52px;
+  padding: 72px 6vw 56px;
   background:
     radial-gradient(circle at 10% 0%, rgba(242,183,5,.18), transparent 34%),
     linear-gradient(180deg, #fff 0%, #f7f9fc 100%);
@@ -140,7 +140,7 @@ h3 { font-size: 24px; line-height: 1.12; margin-bottom: 10px; letter-spacing: -.
 .signal-card span, .role, .card-kicker { color: var(--blue); font-size: 12px; font-weight: 950; letter-spacing: .1em; text-transform: uppercase; }
 .signal-card strong { display: block; font-size: 20px; letter-spacing: -.03em; margin: 6px 0; }
 .signal-card p { color: var(--muted); margin-bottom: 0; }
-.section-inner { padding: 82px 6vw; max-width: 1200px; margin: auto; }
+.section-inner { padding: 88px 6vw; max-width: 1200px; margin: auto; }
 .narrow { max-width: 850px; }
 .center { text-align: center; }
 .split { display: grid; grid-template-columns: .9fr 1.1fr; gap: 48px; align-items: start; }
@@ -163,7 +163,7 @@ h3 { font-size: 24px; line-height: 1.12; margin-bottom: 10px; letter-spacing: -.
 }
 .card p { color: var(--muted); margin-bottom: 0; }
 .card-kicker { display: inline-flex; margin-bottom: 18px; }
-.executive-card { min-height: 292px; }
+.executive-card { min-height: 276px; }
 .executive-card h3 { font-size: 30px; color: var(--blue-900); margin-top: 12px; }
 .steps { display: grid; gap: 16px; }
 .steps article {
@@ -580,8 +580,9 @@ textarea { resize: vertical; }
 .approval-grid p { color: var(--muted); margin: 0; }
 .approval-grid strong { color: var(--ink); }
 @media (max-width: 980px) {
-  .site-header { position: relative; align-items: flex-start; gap: 12px; flex-direction: column; }
-  nav { gap: 12px; flex-wrap: wrap; }
+  .site-header { position: sticky; align-items: flex-start; gap: 12px; flex-direction: column; padding: 12px 5vw; }
+  nav { width: 100%; gap: 10px; flex-wrap: wrap; }
+  nav a { padding: 6px 0; }
   .hero, .split, .pricing-layout, .platform-layout, .chat-layout, .auth-shell, .assessment-hero, .portal-hero, .mission-hero, .mission-two-column { grid-template-columns: 1fr; }
   .cards.three, .cards.four, .deliverable-grid, .faq-grid, .portal-grid, .file-grid, .stats-grid, .client-ops-grid, .project-grid, .agent-status-grid, .approval-grid { grid-template-columns: 1fr 1fr; }
   .proof-card { grid-template-columns: 1fr; }
@@ -592,20 +593,26 @@ textarea { resize: vertical; }
 @media (max-width: 640px) {
   .site-header { padding: 12px 5vw; }
   .brand img { width: 42px; height: 42px; }
-  nav { font-size: 13px; }
-  .hero { padding: 34px 5vw 44px; }
-  h1 { font-size: 44px; }
+  .brand span { font-size: 15px; }
+  nav { font-size: 13px; gap: 8px 12px; }
+  .nav-cta { padding: 8px 11px; }
+  .hero { padding: 40px 5vw 46px; }
+  h1 { font-size: clamp(38px, 12vw, 44px); letter-spacing: -.055em; }
+  h2 { font-size: clamp(30px, 10vw, 38px); }
+  h3 { font-size: 22px; }
+  .subhead, .large-muted, .body-stack p, .problem p, .contact p { font-size: 18px; }
   .cards.three, .cards.four, .deliverable-grid, .faq-grid, .portal-grid, .file-grid, .stats-grid, .client-ops-grid, .project-grid, .agent-status-grid, .approval-grid, .mission-file-grid { grid-template-columns: 1fr; }
   .hero-actions, .button-row { flex-direction: column; }
   .button { width: 100%; }
   .section-inner { padding: 64px 5vw; }
-  .pricing-box, .proof-card { padding: 26px; }
+  .pricing-box, .proof-card { padding: 24px; }
   .auth-shell, .assessment-hero, .portal-hero { padding: 44px 5vw; }
   .mission-hero, .mission-section { padding: 44px 5vw; }
   .auth-card, .auth-side, .assessment-card, .client-score-card, .portal-card { padding: 24px; }
   .status-list div { grid-template-columns: 1fr; }
   .chat-form { grid-template-columns: 1fr; }
   .pricing-box h3 { font-size: 46px; }
-  .proof-preview { min-height: 280px; }
+  .proof-preview { min-height: 260px; }
+  .proof-preview span { left: 18px; bottom: 18px; }
   .steps article { grid-template-columns: 1fr; }
 }
