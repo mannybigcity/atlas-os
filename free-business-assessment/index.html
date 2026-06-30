@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Free Business Assessment | Atlas For Entrepreneurs</title>
+  <meta name="description" content="Start the free Atlas business assessment to identify priorities, growth opportunities, and next steps." />
+  <link rel="icon" href="../assets/favicon.png" />
+  <link rel="stylesheet" href="../styles.css?v=atl46" />
+</head>
+<body class="assessment-page">
+  <header class="site-header">
+    <a class="brand" href="../" aria-label="Atlas For Entrepreneurs home">
+      <img src="../assets/atlas-logo.png" alt="Atlas For Entrepreneurs logo" />
+      <span>Atlas For Entrepreneurs</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="../#about">About</a>
+      <a href="../#pricing">Pricing</a>
+      <a href="../client-login/">Client Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="assessment-hero">
+      <div>
+        <p class="eyebrow">Free Business Assessment</p>
+        <h1>Turn scattered business thoughts into the next right move.</h1>
+        <p class="subhead">This V1 page is becoming ABIS: the Atlas Business Intelligence Intake System. Every answer is captured for follow-up, prioritization, and the next best executive recommendation.</p>
+      </div>
+      <div class="assessment-card">
+        <strong>Guide. Grow. Live More.</strong>
+        <span>Atlas reviews the business before recommending websites, automations, campaigns, or monthly support.</span>
+      </div>
+    </section>
+
+    <section class="section-inner assessment-form-section">
+      <form id="assessmentForm" class="assessment-form">
+        <div class="section-heading">
+          <p class="eyebrow">Start Here</p>
+          <h2>Business snapshot</h2>
+          <p>These questions feed the Atlas Intake Database so Atlas can understand the business, identify blockers, and route next actions without wasting the owner's time.</p>
+        </div>
+
+        <label>Business name<input name="businessName" type="text" placeholder="Your business name" required /></label>
+        <label>Your name<input name="ownerName" type="text" placeholder="Owner / decision maker" required /></label>
+        <label>Email<input name="email" type="email" placeholder="you@example.com" required /></label>
+        <label>What do you sell?<textarea name="offer" rows="3" placeholder="Products, services, audience, location..."></textarea></label>
+        <label>What is the biggest growth blocker right now?<textarea name="blocker" rows="3" placeholder="Leads, pricing, website, follow-up, operations, time..."></textarea></label>
+        <label>What would create more Saturdays for your family?<textarea name="saturdays" rows="3" placeholder="Less owner workload, more recurring revenue, better systems..."></textarea></label>
+        <label class="visually-hidden" aria-hidden="true">Leave this field blank<input name="website" type="text" tabindex="-1" autocomplete="off" /></label>
+
+        <button id="assessmentSubmitButton" class="button primary" type="submit">Submit Free Business Assessment</button>
+        <p id="assessmentMessage" class="form-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <img src="../assets/atlas-logo.png" alt="Atlas logo" />
+    <p><strong>Atlas For Entrepreneurs</strong></p>
+    <p>ABIS Phase 1 intake. Google Sheets endpoint installation documented in ATL-47 notes.</p>
+  </footer>
+
+  <script src="./abis-config.js"></script>
+  <script>
+    const ABIS_APPS_SCRIPT_ENDPOINT = window.ATLAS_ABIS_APPS_SCRIPT_ENDPOINT || '';
+    const ENDPOINT_PLACEHOLDER = 'PASTE_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE';
+
+    function generateClientId() {
+      const now = new Date();
+      const datePart = now.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}Z$/, 'Z');
+      const randomPart = Math.random().toString(36).slice(2, 8).toUpperCase();
+      return `ABIS-${datePart}-${randomPart}`;
+    }
+
+    function buildAssessmentPayload(form) {
+      const data = new FormData(form);
+      const timestamp = new Date().toISOString();
+      const answers = {
+        offer: String(data.get('offer') || '').trim(),
+        blocker: String(data.get('blocker') || '').trim(),
+        saturdays: String(data.get('saturdays') || '').trim()
+      };
+
+      return {
+        timestamp,
+        clientId: generateClientId(),
+        businessName: String(data.get('businessName') || '').trim(),
+        owner: String(data.get('ownerName') || '').trim(),
+        email: String(data.get('email') || '').trim(),
+        assessmentAnswers: answers,
+        status: 'New Assessment',
+        source: 'Atlas Website'
+      };
+    }
+
+    document.getElementById('assessmentForm').addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const form = event.currentTarget;
+      const message = document.getElementById('assessmentMessage');
+      const button = document.getElementById('assessmentSubmitButton');
+
+      if (new FormData(form).get('website')) return;
+
+      const endpoint = ABIS_APPS_SCRIPT_ENDPOINT.trim();
+      const payload = buildAssessmentPayload(form);
+
+      if (!endpoint || endpoint === ENDPOINT_PLACEHOLDER) {
+        console.info('ABIS payload preview. Configure the Google Apps Script Web App URL before production submission.', payload);
+        message.textContent = 'ABIS is ready, but the Google Apps Script Web App endpoint still needs to be installed before live submissions are accepted.';
+        return;
+      }
+
+      button.disabled = true;
+      button.textContent = 'Submitting...';
+      message.textContent = 'Submitting your assessment to Atlas...';
+
+      try {
+        await fetch(endpoint, {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+          body: JSON.stringify(payload)
+        });
+        form.reset();
+        message.textContent = `Assessment submitted. Your Atlas Client ID is ${payload.clientId}.`;
+      } catch (error) {
+        console.error('ABIS submission failed', error);
+        message.textContent = 'Submission failed. Please email info@atlasforentrepreneurs.com so Atlas can capture your assessment.';
+      } finally {
+        button.disabled = false;
+        button.textContent = 'Submit Free Business Assessment';
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+# Non-runtime Paperclip and local working files
+.snapshots/
+.paperclip_tmp/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.rej
+*.log
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+atl[0-9][0-9]_*.json
+*_interaction*.json
+*_interactions*.json
+*_patch*.json
+*_response.json
+
+# Dependency/build/cache folders (not needed for this static site source)
+node_modules/
+dist/
+build/
+.cache/
+.cache*/
+coverage/
+
+# Local environment, secrets, credentials, and private keys
+.env
+.env.*
+!.env.example
+secrets/
+secret/
+credentials/
+credentials.*
+*credentials*
+*secret*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.token
+service-account*.json
+*_service_account*.json
+*oauth*.json
+*.local.json
+*.local.js
+*.local.mjs
+*.local.cjs
+auth.local.*
+config.local.*

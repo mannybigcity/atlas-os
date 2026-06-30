@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mission Control | Atlas For Entrepreneurs</title>
+  <meta name="description" content="Atlas Mission Control dashboard for executive visibility across clients, projects, approvals, activity, and deliverables." />
+  <link rel="icon" href="../assets/favicon.png" />
+  <link rel="stylesheet" href="../styles.css?v=atl46" />
+</head>
+<body class="mission-control-page">
+  <header class="site-header mission-header">
+    <a class="brand" href="../" aria-label="Atlas For Entrepreneurs home">
+      <img src="../assets/atlas-logo.png" alt="Atlas For Entrepreneurs logo" />
+      <span>Atlas Mission Control</span>
+    </a>
+    <nav aria-label="Mission Control navigation">
+      <a href="#overview">Overview</a>
+      <a href="#clients">Clients</a>
+      <a href="#projects">Projects</a>
+      <a href="#agents">Agents</a>
+      <a href="#approvals">Approvals</a>
+      <a class="nav-cta" href="../client-sign-in/">Client Sign-In</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="mission-hero" id="overview">
+      <div class="mission-hero-copy">
+        <p class="eyebrow">Executive Dashboard V1</p>
+        <h1>Atlas Mission Control.</h1>
+        <p class="subhead">One internal view for Manny to see company status, client dashboards, projects, agent assignments, approvals, blocked work, files, and what is ready to review.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#clients">Open Client Operations</a>
+          <a class="button secondary" href="../client-dashboard/qtime-productions/">Preview QTime Dashboard</a>
+          <a class="button secondary" href="../">Public Website Preview</a>
+        </div>
+        <div class="mission-notice">
+          <strong>V1 visibility note:</strong>
+          <span>Live company data is not connected yet. Cards marked Demo/Static are intentional placeholders so Manny can see the operating model before backend integrations are approved.</span>
+        </div>
+      </div>
+      <aside class="mission-command-card" aria-label="Mission Control status summary">
+        <img src="../assets/atlas-logo.png" alt="Atlas logo" />
+        <span class="status-badge active">Mission Control Active</span>
+        <h2>Guide. Grow. Live More.</h2>
+        <p>Massive Action. Maximum Effort. Minimal Money.</p>
+        <div class="command-links">
+          <a href="../free-business-assessment/">Free Assessment</a>
+          <a href="../client-sign-in/">Client Sign-In</a>
+          <a href="../assets/qtime-productions-business-assessment-presentation.pdf">QTime Presentation</a>
+        </div>
+      </aside>
+    </section>
+
+    <section class="mission-section">
+      <div class="mission-grid stats-grid">
+        <article class="metric-card"><span>Active Clients</span><strong>1</strong><em>QTime paid/active as Atlas's first paying client</em></article>
+        <article class="metric-card"><span>Active Projects</span><strong>7</strong><em>Static V1 project cards below</em></article>
+        <article class="metric-card"><span>Open Approvals</span><strong>4</strong><em>Assessment, AI chat, publish, assets</em></article>
+        <article class="metric-card"><span>Recent Deliverables</span><strong>3</strong><em>QTime presentation + PayPal link + client portal demo</em></article>
+        <article class="metric-card"><span>Website Status</span><strong>Local V1</strong><em>Public preview available</em></article>
+        <article class="metric-card"><span>Portal Status</span><strong>Demo</strong><em>Browser/session protected only</em></article>
+        <article class="metric-card"><span>Assessment Status</span><strong>ABIS Phase 1</strong><em>Google Sheet destination selected; Apps Script endpoint pending install</em></article>
+        <article class="metric-card"><span>Token/Budget</span><strong>Pending</strong><em>Not connected yet</em></article>
+        <article class="metric-card"><span>Today Completed</span><strong>Pending</strong><em>Needs live task feed</em></article>
+        <article class="metric-card warning"><span>Blocked Items</span><strong>4</strong><em>See Approval Center</em></article>
+      </div>
+    </section>
+
+    <section id="clients" class="mission-section light-section">
+      <div class="section-heading">
+        <p class="eyebrow">Client Operations</p>
+        <h2>Client dashboard access from Mission Control.</h2>
+        <p>Manny can open each client view from one place. QTime is connected to the existing portal/dashboard demo and approved blueprint file.</p>
+      </div>
+      <div class="client-ops-grid">
+        <article class="client-ops-card primary-client">
+          <div class="card-topline">
+            <span class="status-badge active">Paid / Active</span>
+            <span class="status-badge">QTime Productions / Quincy</span>
+          </div>
+          <h3>QTime Productions</h3>
+          <dl class="status-list">
+            <div><dt>Client status</dt><dd>Paid / Active</dd></div>
+            <div><dt>Payment milestone</dt><dd>$50 received · first paying Atlas client</dd></div>
+            <div><dt>Blueprint status</dt><dd>Approved demo PDF available</dd></div>
+            <div><dt>Portal status</dt><dd>Static dashboard connected</dd></div>
+            <div><dt>Latest deliverables</dt><dd>Business Growth Blueprint, portal shell, priority dashboard</dd></div>
+            <div><dt>Current priorities</dt><dd>Sponsor outreach, website presence, CRM follow-up rhythm</dd></div>
+            <div><dt>Pending approvals</dt><dd>Private assets, stronger auth, live AI/backend before production</dd></div>
+            <div><dt>Last activity</dt><dd>ATL-47 logged $50 payment and started ABIS Phase 1 intake system</dd></div>
+          </dl>
+          <div class="button-row">
+            <a class="button primary" href="../client-dashboard/qtime-productions/">View Client Dashboard</a>
+            <a class="button secondary" href="../assets/qtime-productions-business-assessment-presentation.pdf">View Files</a>
+            <a class="button secondary" href="../client-dashboard/">Open Admin View</a>
+          </div>
+        </article>
+
+        <article class="client-ops-card muted-client">
+          <span class="status-badge pending">Future Client</span>
+          <h3>SIS Custom Creations</h3>
+          <p>Client dashboard card reserved. Blueprint, portal, files, priorities, approvals, and activity are Not Connected Yet.</p>
+          <a class="button secondary" href="#approvals">View Setup Needs</a>
+        </article>
+
+        <article class="client-ops-card muted-client">
+          <span class="status-badge pending">Future Client</span>
+          <h3>FRESH Apparel</h3>
+          <p>Client dashboard card reserved. Blueprint, portal, files, priorities, approvals, and activity are Not Connected Yet.</p>
+          <a class="button secondary" href="#approvals">View Setup Needs</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="mission-section">
+      <div class="section-heading">
+        <p class="eyebrow">Internal Project Cards</p>
+        <h2>What Atlas is building and what needs attention next.</h2>
+      </div>
+      <div class="mission-grid project-grid">
+        <article class="project-card"><span class="status-badge active">In Progress</span><h3>Atlas Website</h3><p><strong>Progress:</strong> Local V1 live.</p><p><strong>Last updated:</strong> ATL-44 / ATL-45.</p><p><strong>Assigned agent:</strong> Taylor + Micah.</p><p><strong>Next action:</strong> Manny review before publish.</p></article>
+        <article class="project-card"><span class="status-badge active">Demo Ready</span><h3>Client Portal</h3><p><strong>Progress:</strong> QTime portal shell connected.</p><p><strong>Last updated:</strong> ATL-44.</p><p><strong>Assigned agent:</strong> Mason + David.</p><p><strong>Next action:</strong> Strong auth and backend plan.</p></article>
+        <article class="project-card"><span class="status-badge active">ABIS Phase 1</span><h3>Business Assessment System</h3><p><strong>Progress:</strong> Form audited and wired for Google Apps Script intake.</p><p><strong>Last updated:</strong> ATL-47.</p><p><strong>Assigned agent:</strong> Debbie + David.</p><p><strong>Next action:</strong> Deploy Apps Script endpoint and paste the Web App URL into the assessment page.</p></article>
+        <article class="project-card"><span class="status-badge pending">Pending</span><h3>Marketing Campaigns</h3><p><strong>Progress:</strong> Not connected yet.</p><p><strong>Last updated:</strong> Pending.</p><p><strong>Assigned agent:</strong> Micah + Hunter.</p><p><strong>Next action:</strong> Build launch campaign after offer approval.</p></article>
+        <article class="project-card"><span class="status-badge active">Connected</span><h3>Revenue Engine</h3><p><strong>Progress:</strong> Manny's official PayPal payment link is connected to the public pricing/contact CTAs.</p><p><strong>Last updated:</strong> ATL-46.</p><p><strong>Assigned agent:</strong> Hunter + Gideon.</p><p><strong>Next action:</strong> Monitor first payment flow after production upload.</p></article>
+        <article class="project-card"><span class="status-badge pending">Pending</span><h3>CRM / Customer Command</h3><p><strong>Progress:</strong> Not connected yet.</p><p><strong>Last updated:</strong> Pending tool decision.</p><p><strong>Assigned agent:</strong> David + Mason.</p><p><strong>Next action:</strong> Select CRM/email/Sheet/backend target.</p></article>
+        <article class="project-card"><span class="status-badge demo">Demo Static</span><h3>Executive Team</h3><p><strong>Progress:</strong> Static status board in this V1.</p><p><strong>Last updated:</strong> ATL-45.</p><p><strong>Assigned agent:</strong> ATLAS.</p><p><strong>Next action:</strong> Connect live Paperclip/Hermes status later.</p></article>
+      </div>
+    </section>
+
+    <section id="agents" class="mission-section light-section">
+      <div class="section-heading">
+        <p class="eyebrow">Executive Agent Status</p>
+        <h2>Static V1 visibility until live agent status is connected.</h2>
+        <p>These cards are clearly marked Demo/Static where the data is not pulled from a live agent runtime yet.</p>
+      </div>
+      <div class="agent-status-grid">
+        <article><strong>Atlas</strong><span>Current assignment: Mission Control coordination</span><em>Active · Not blocked · Manny approval: review publish plan</em></article>
+        <article><strong>Mason</strong><span>Current assignment: Infrastructure and portal/backend path</span><em>Demo static · Blocked by auth/backend approval</em></article>
+        <article><strong>Hunter</strong><span>Current assignment: Revenue opportunities</span><em>Demo static · Not blocked</em></article>
+        <article><strong>Micah</strong><span>Current assignment: Marketing and launch messaging</span><em>Demo static · Needs offer approval</em></article>
+        <article><strong>David</strong><span>Current assignment: CRM and assessment destination</span><em>Demo static · Blocked by tool decision</em></article>
+        <article><strong>Amanda</strong><span>Current assignment: Client experience and communication</span><em>Demo static · Not blocked</em></article>
+        <article><strong>Debbie</strong><span>Current assignment: Intake and onboarding flow</span><em>Demo static · Needs assessment destination</em></article>
+        <article><strong>Gideon</strong><span>Current assignment: Pricing and profitability</span><em>Demo static · Needs payment approval</em></article>
+        <article><strong>Oracle</strong><span>Current assignment: Research intelligence</span><em>Demo static · Not connected yet</em></article>
+        <article><strong>Scout</strong><span>Current assignment: Lead discovery</span><em>Demo static · Not connected yet</em></article>
+        <article><strong>Taylor</strong><span>Current assignment: Website UX/design system</span><em>Demo static · Needs final design review</em></article>
+      </div>
+    </section>
+
+    <section id="activity" class="mission-section mission-two-column">
+      <div>
+        <p class="eyebrow">Activity Feed</p>
+        <h2>Recent visible work.</h2>
+        <ol class="activity-feed">
+          <li><strong>Atlas connected Mission Control to QTime dashboard.</strong><span>ATL-45 · Demo/static executive view</span></li>
+          <li><strong>Mason updated the client portal shell.</strong><span>ATL-44 · QTime dashboard, files, priorities, static chat</span></li>
+          <li><strong>Atlas reviewed QTime Blueprint.</strong><span>Approved demo PDF is linked from portal and Mission Control</span></li>
+          <li><strong>David added CRM follow-up recommendations.</strong><span>Pipeline rhythm appears in QTime priorities</span></li>
+          <li><strong>ATL-46 connected PayPal and replaced the PDF sample.</strong><span>Payment CTA uses Manny's PayPal link and QTime presentation asset is live locally</span></li>
+        </ol>
+      </div>
+      <div id="files" class="mission-files-card">
+        <p class="eyebrow">Files and Deliverables</p>
+        <h2>Quick links</h2>
+        <div class="file-grid mission-file-grid">
+          <a class="file-card" href="../assets/qtime-productions-business-assessment-presentation.pdf"><strong>QTime Presentation</strong><span>Real approved PDF asset</span></a>
+          <a class="file-card" href="../ATL44_CLIENT_PORTAL_NOTES.md"><strong>Portal Notes</strong><span>ATL-44 implementation notes</span></a>
+          <a class="file-card" href="../client-dashboard/qtime-productions/"><strong>QTime Portal Preview</strong><span>ATL-48 secure dashboard route</span></a>
+          <a class="file-card" href="../free-business-assessment/"><strong>Assessment Page</strong><span>Static V1 form page</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="approvals" class="mission-section light-section">
+      <div class="section-heading">
+        <p class="eyebrow">Approval Center</p>
+        <h2>Open gates before production publishing or live integrations.</h2>
+      </div>
+      <div class="approval-grid">
+        <article><span class="status-badge active">Connected</span><h3>PayPal payment link</h3><p><strong>Why it matters:</strong> Revenue collection now uses Manny's official PayPal payment asset.</p><p><strong>Owner:</strong> Manny + Gideon</p><p><strong>Next action:</strong> QTime payment received; verify production payment flow after upload.</p></article>
+        <article><span class="status-badge warning">Install Needed</span><h3>ABIS Google Sheets endpoint</h3><p><strong>Why it matters:</strong> Assessment answers must append to the Atlas Intake Database and notify Atlas.</p><p><strong>Owner:</strong> Manny + David + Debbie</p><p><strong>Next action:</strong> Deploy the ATL-47 Apps Script Web App and install its URL in the assessment page.</p></article>
+        <article><span class="status-badge warning">Approval Gate</span><h3>Live AI chat integration</h3><p><strong>Why it matters:</strong> Client data should not be sent to APIs without privacy/backend approval.</p><p><strong>Owner:</strong> Manny + Mason + Solomon</p><p><strong>Next action:</strong> Approve architecture, provider, privacy rules, and budget.</p></article>
+        <article><span class="status-badge warning">Approval Gate</span><h3>Publish website</h3><p><strong>Why it matters:</strong> Public copy, routes, payments, forms, and client permissions need final review.</p><p><strong>Owner:</strong> Manny + ATLAS</p><p><strong>Next action:</strong> Review local preview and approve production upload checklist.</p></article>
+        <article><span class="status-badge warning">Needed</span><h3>Client assets approval</h3><p><strong>Why it matters:</strong> Logos, images, private documents, and testimonials must be official.</p><p><strong>Owner:</strong> Manny + Amanda + Ranger</p><p><strong>Next action:</strong> Approve which QTime assets may appear in a live client portal.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="../assets/atlas-logo.png" alt="Atlas logo" />
+    <p><strong>Atlas Mission Control</strong></p>
+    <p>Internal V1 dashboard · Demo/static data clearly labeled · No live APIs, payment code, or publishing performed.</p>
+  </footer>
+</body>
+</html>

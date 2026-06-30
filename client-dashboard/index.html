@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow, noarchive" />
+  <link rel="icon" href="/assets/favicon.png" />
+  <link rel="stylesheet" href="/styles.css?v=atl48" />
+  <title>Client Dashboard Admin | Atlas For Entrepreneurs</title>
+  <meta name="description" content="Manny admin view for Atlas client dashboards." />
+</head>
+<body class="client-dashboard-page secure-dashboard">
+  <script src="/client-dashboard/auth.js?v=atl50"></script><script>atlasProtectPage('admin');</script>
+  <header class="site-header portal-header">
+    <a class="brand" href="/" aria-label="Atlas home"><img src="/assets/atlas-logo.png" alt="Atlas logo" /><span>Atlas Client Dashboard</span></a>
+    <nav aria-label="Admin dashboard navigation"><a href="#clients">Clients</a><a href="#workflow">Workflow</a><a href="#security">Security</a><a class="nav-cta" href="/client-dashboard/qtime-productions/">QTIME</a><button class="nav-button" type="button" data-logout>Log Out</button></nav>
+  </header>
+  <main class="protected-content">
+    <section class="mission-hero" id="overview">
+      <div class="mission-hero-copy"><p class="eyebrow">Manny Admin View</p><h1>Client Command Center.</h1><p class="subhead">Signed in as <strong data-session-name></strong>. This view lets Manny open each client dashboard, monitor approval gates, and keep private work out of the public website.</p><div class="hero-actions"><a class="button primary" href="/client-dashboard/qtime-productions/">Open QTIME Dashboard</a><a class="button secondary" href="/client-dashboard/qtime-productions/approvals/">Review Approvals</a><a class="button secondary" href="/mission-control/">Mission Control</a></div></div>
+      <aside class="mission-command-card"><img src="/assets/atlas-logo.png" alt="Atlas logo" /><span class="status-badge active">Admin Access</span><h2>Client #001 is active.</h2><p>QTIME Productions dashboard is connected with approved, sanitized dashboard data only.</p></aside>
+    </section>
+    <section id="clients" class="mission-section light-section"><div class="section-heading"><p class="eyebrow">Clients</p><h2>Private dashboard routing.</h2><p>Manny can see all clients. Quincy is routed only to QTIME Productions.</p></div><div class="client-ops-grid"><article class="client-ops-card primary-client"><div class="card-topline"><span class="status-badge active">Paid / Active</span><span class="status-badge">Client #001</span></div><h3>QTIME PRODUCTIONS</h3><dl class="status-list"><div><dt>Client</dt><dd>Quincy / QTIME PRODUCTIONS</dd></div><div><dt>Dashboard</dt><dd>Secure static V1 route created</dd></div><div><dt>Current gates</dt><dd>Official assets, services/pricing, upcoming events, permission-confirmed media</dd></div><div><dt>Private files</dt><dd>Not published; source folder remains local only</dd></div></dl><div class="button-row"><a class="button primary" href="/client-dashboard/qtime-productions/">View Dashboard</a><a class="button secondary" href="/client-dashboard/qtime-productions/onboarding/">Onboarding</a><a class="button secondary" href="/client-dashboard/qtime-productions/reports/">Reports</a></div></article><article class="client-ops-card muted-client"><span class="status-badge pending">Future Client</span><h3>Reserved Slot</h3><p>Future clients need separate client slugs, credentials, and dashboard routing before any data is shown.</p></article><article class="client-ops-card muted-client"><span class="status-badge warning">Security Reminder</span><h3>Static V1</h3><p>Use only sanitized dashboard summaries here. Move to server-side auth before uploading private documents.</p></article></div></section>
+    <section id="workflow" class="mission-section"><div class="section-heading"><p class="eyebrow">Approval Workflow</p><h2>Protect the publish path.</h2></div><div class="approval-grid"><article><span class="status-badge active">Atlas</span><h3>Review</h3><p>Strategy and brand protection before Manny sees client-ready work.</p></article><article><span class="status-badge warning">Manny</span><h3>Approve</h3><p>Owner approval required before client presentation, outreach, or publishing.</p></article><article><span class="status-badge warning">Quincy</span><h3>Confirm</h3><p>Client facts, assets, events, and permissions must be confirmed.</p></article><article><span class="status-badge pending">Publish</span><h3>Locked</h3><p>No Meta automation, outreach, or public posting is enabled.</p></article><article><span class="status-badge active">David</span><h3>Workflow</h3><p>Lead pipeline, tasks, approvals, and follow-up status are summarized for V1.</p></article></div></section>
+    <section id="security" class="mission-section light-section"><div class="section-heading"><p class="eyebrow">Security Notes</p><h2>What is protected now and what needs V2.</h2><p>Login is required in the browser and pages are noindexed. No private QTIME files, personal contact details, private notes, or local file paths are exposed to Quincy. For true production privacy, move credentials and dashboard data behind a server-side session.</p></div></section>
+  </main>
+  <footer><img src="/assets/atlas-logo.png" alt="Atlas logo" /><p><strong>Atlas Client Dashboard</strong></p><p>Admin V1 · Noindex · Private files stay local.</p></footer>
+</body>
+</html>
