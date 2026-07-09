@@ -1,0 +1,133 @@
+{
+  "gallery_status": "pending_approval",
+  "rank": 4,
+  "opportunity": {
+    "rank": 4,
+    "keyword": "America 250 custom embroidered hats",
+    "focus": "America 250",
+    "source": "web_search_plus_local_seasonal_scoring",
+    "demand_score": 8,
+    "competition_score": 8,
+    "competition_level": "Low",
+    "profit_score": 9,
+    "mission_fit_score": 9,
+    "mission_fit": "High",
+    "selection_score": 8.43,
+    "opportunity_score": 8,
+    "demand_signal": "High",
+    "profit_signal": "High",
+    "average_price": 31.99,
+    "price_low": 24.99,
+    "price_high": 43.99,
+    "average_favorites": 144,
+    "sampled_listing_count": 4,
+    "uniqueness_signal": "High",
+    "recommended_offer": "Create patch/embroidered patriotic hats for commemorative local events.",
+    "risks": [
+      "Seasonal timing is tight; prioritize fast mockup/sample path.",
+      "Verify phrases, patriotic wording, and fonts for trademark/licensing before publishing."
+    ],
+    "next_actions": [
+      "Micah creates production-safe art prompt and concept package.",
+      "Amanda prepares listing title, tags, description, and pricing review notes.",
+      "Manny reviews gallery package before any public listing or customer commitment."
+    ],
+    "sample_listings": []
+  },
+  "micah_asset_package": {
+    "rank": 4,
+    "source_keyword": "America 250 custom embroidered hats",
+    "source_opportunity_score": 8,
+    "source_signals": {
+      "demand": "High",
+      "competition": "Low",
+      "mission_fit": "High"
+    },
+    "design_title": "America 250 Custom Embroidered Hats: Seasonal Approval Asset Package",
+    "design_concept": "A durable embroidered hat or workwear patch design for teams, volunteers, and entrepreneurs who want a faith-rooted identity piece. Hunter offer context: Create patch/embroidered patriotic hats for commemorative local events.",
+    "art_direction": "Simple patch-ready shield or rectangle mark with bold icon, limited thread colors, and clear silhouette for embroidery digitizing.",
+    "color_palette": [
+      "khaki",
+      "deep navy",
+      "white",
+      "rust",
+      "forest green"
+    ],
+    "typography_suggestions": "Block sans-serif or slab serif, no hairline strokes, all text large enough to survive embroidery on a hat front.",
+    "openai_image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for America 250 custom embroidered hats. embroidered workwear hat patch, simple shield badge, faith rooted identity, limited thread color vector art. Use this market context without copying listings: Hunter opportunity signals. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: khaki, deep navy, white, rust, forest green.",
+    "image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for America 250 custom embroidered hats. embroidered workwear hat patch, simple shield badge, faith rooted identity, limited thread color vector art. Use this market context without copying listings: Hunter opportunity signals. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: khaki, deep navy, white, rust, forest green.",
+    "commercial_use_notes": "Original artwork direction for the 'America 250 custom embroidered hats' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval.",
+    "seasonal_scores": {
+      "demand_score": 8,
+      "competition_score": 8,
+      "profit_score": 9,
+      "mission_fit_score": 9,
+      "selection_score": 8.43
+    },
+    "asset_package_status": "pending_approval_gallery_ready",
+    "production_asset_files": []
+  },
+  "amanda_listing_package": {
+    "rank": 4,
+    "source_keyword": "America 250 custom embroidered hats",
+    "source_opportunity_score": 8,
+    "source_design_title": "America 250 Custom Embroidered Hats: Seasonal Approval Asset Package",
+    "product_title": "Custom Embroidered Hat - Seasonal Approval Asset Package Personalized Church Team Business Cap",
+    "seo_title": "Custom Embroidered Hat - Seasonal Approval Asset Package Personalized Church Team Business Cap | America 250 Custom Embroidered Hats, Perso…",
+    "etsy_tags": [
+      "america 250 custom",
+      "custom hat",
+      "embroidered hat",
+      "trucker hat",
+      "dad hat",
+      "church hats",
+      "team hats",
+      "logo hat",
+      "hat patch",
+      "custom gift",
+      "personalized",
+      "faith gift",
+      "christian gift"
+    ],
+    "description": "Custom Embroidered Hat - Seasonal Approval Asset Package Personalized Church Team Business Cap\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: America 250 custom embroidered hats.\n- Design direction from Micah: A durable embroidered hat or workwear patch design for teams, volunteers, and entrepreneurs who want a faith-rooted identity piece. Hunter offer context: Create patch/embroidered patriotic hats for commemorative local events.\n- Visual execution notes: Simple patch-ready shield or rectangle mark with bold icon, limited thread colors, and clear silhouette for embroidery digitizing.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Create patch/embroidered patriotic hats for commemorative local events.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.",
+    "materials": [
+      "structured trucker hat or dad hat blank",
+      "embroidery thread or patch material",
+      "stabilizer backing",
+      "packaging sleeve"
+    ],
+    "occasion": "Team event, church group order, business launch, Father's Day, volunteer appreciation",
+    "recipient": "Church teams, dads, coaches, business owners, ministry volunteers",
+    "category_recommendation": "Clothing > Unisex Adult Clothing > Hats & Caps > Baseball & Trucker Caps",
+    "pricing_suggestion": {
+      "suggested_price_range": "$30.39-$39.99",
+      "anchor_price": "$35.19",
+      "source_average_price": "$31.99",
+      "rationale": "Price inside or slightly above Hunter's sampled market range, then adjust after Manny reviews blank cost, labor, Etsy fees, shipping, personalization complexity, and desired margin.",
+      "manny_review_required": true
+    },
+    "production_notes": [
+      "Confirm blank/product cost, supplier availability, labor time, packaging, shipping class, and Etsy fees before publishing.",
+      "Create final production art from owned or properly licensed fonts and graphics only.",
+      "Run a small sample or internal proof before accepting custom orders at scale.",
+      "Check transfer size, shirt color contrast, wash-care language, and size chart accuracy.",
+      "Digitize embroidery/patch artwork and verify stitch count, minimum text height, and thread color limits."
+    ],
+    "mockup_notes": [
+      "Use mockups that clearly show the product category: Clothing > Unisex Adult Clothing > Hats & Caps > Baseball & Trucker Caps.",
+      "Reflect Micah art direction: Simple patch-ready shield or rectangle mark with bold icon, limited thread colors, and clear silhouette for embroidery digitizing.",
+      "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+      "Keep mockup styling aligned with this color palette: khaki, deep navy, white, rust, forest green.",
+      "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+    ],
+    "manny_approval_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+  },
+  "files": {
+    "concept_preview_svg": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\04-america-250-custom-embroidered-hats\\concept_preview.svg",
+    "image_prompt_txt": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\04-america-250-custom-embroidered-hats\\image_prompt.txt",
+    "asset_brief_md": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\04-america-250-custom-embroidered-hats\\asset_brief.md",
+    "listing_copy_md": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\04-america-250-custom-embroidered-hats\\listing_copy.md",
+    "asset_package_json": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\04-america-250-custom-embroidered-hats\\asset_package.json"
+  },
+  "approval_gate": "Manny approval required before publishing, customer contact, ad spend, live product creation, or public marketplace action."
+}

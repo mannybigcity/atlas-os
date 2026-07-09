@@ -1,0 +1,85 @@
+{
+  "mission": "Micah Design Prompt Engine",
+  "generated_at": "2026-06-21T14:26:55",
+  "source_mission": "Hunter Etsy Research",
+  "source_generated_at": "2026-06-21T14:26:55",
+  "agent_chain": {
+    "assigned_by": "Atlas",
+    "builder": "Mason",
+    "revenue_owner": "Hunter",
+    "design_owner": "Micah"
+  },
+  "top_source_opportunity": {
+    "keyword": "christian streetwear shirts",
+    "source": "offline_seed_data",
+    "sampled_listing_count": 3,
+    "price_low": 21.99,
+    "price_high": 29.99,
+    "average_price": 25.32,
+    "average_favorites": 173.67,
+    "competition_level": "Low",
+    "demand_signal": "High",
+    "uniqueness_signal": "Low",
+    "mission_fit": "High",
+    "opportunity_score": 8,
+    "recommended_offer": "Use this as a design-validation keyword, but only build after finding a stronger niche angle.",
+    "risks": [
+      "Main risk is execution speed: validate demand before building a large catalog."
+    ],
+    "next_actions": [
+      "Pick the strongest niche angle and draft 3 listing titles.",
+      "Estimate blank/product cost, labor time, shipping, and Etsy fees before publishing.",
+      "Create one mockup or sample photo, then test with local/social audience before scaling."
+    ],
+    "sample_listings": [
+      {
+        "title": "Faith Over Fear Christian T Shirt",
+        "price": 23.99,
+        "currency": "USD",
+        "favorites": 210,
+        "url": "offline-seed"
+      },
+      {
+        "title": "Jesus Loves You Comfort Colors Shirt",
+        "price": 29.99,
+        "currency": "USD",
+        "favorites": 175,
+        "url": "offline-seed"
+      },
+      {
+        "title": "Bible Verse Scripture Tee",
+        "price": 21.99,
+        "currency": "USD",
+        "favorites": 136,
+        "url": "offline-seed"
+      }
+    ]
+  },
+  "design_concepts": [
+    {
+      "rank": 1,
+      "source_keyword": "christian streetwear shirts",
+      "source_opportunity_score": 8,
+      "source_signals": {
+        "demand": "High",
+        "competition": "Low",
+        "mission_fit": "High"
+      },
+      "design_title": "Christian Streetwear Shirts: Hope Forward Statement Tee",
+      "design_concept": "A bold FRESH-aligned statement shirt built around encouragement, service, and everyday witness without copying common slogans. Hunter offer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.",
+      "art_direction": "Modern typography-led shirt graphic with kinetic layout, small icon accents, and optional meal-giving impact line.",
+      "color_palette": [
+        "washed black",
+        "off white",
+        "sunrise orange",
+        "royal blue",
+        "muted gold"
+      ],
+      "typography_suggestions": "Heavy condensed headline, italic accent word, and simple sans-serif footer; prioritize clear production-ready hierarchy.",
+      "openai_image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for christian streetwear shirts. bold faith based statement tee, modern typographic streetwear layout, hopeful energy, screen print ready. Use this market context without copying listings: Faith Over Fear Christian T Shirt; Jesus Loves You Comfort Colors Shirt; Bible Verse Scripture Tee. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: washed black, off white, sunrise orange, royal blue, muted gold.",
+      "image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for christian streetwear shirts. bold faith based statement tee, modern typographic streetwear layout, hopeful energy, screen print ready. Use this market context without copying listings: Faith Over Fear Christian T Shirt; Jesus Loves You Comfort Colors Shirt; Bible Verse Scripture Tee. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: washed black, off white, sunrise orange, royal blue, muted gold.",
+      "commercial_use_notes": "Original artwork direction for the 'christian streetwear shirts' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval."
+    }
+  ],
+  "approval_required_before_public_action": true
+}

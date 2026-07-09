@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Uncle Ray",
+    "business": "Manpower Resources",
+    "product": "10 patch hats",
+    "status": "Invoice Sent",
+    "follow_up": "2026-06-05"
+  },
+  {
+    "name": "Bobby",
+    "business": "B&B HVAC",
+    "product": "hats and shirts",
+    "status": "Mockup Approved"
+  },
+  {
+    "name": "Kandy",
+    "business": "Canes Baseball",
+    "product": "team shirts",
+    "status": "Invoice Sent"
+  },
+  {
+    "name": "Test Notes Lead",
+    "business": "Mason Test",
+    "product": "CRM Notes",
+    "status": "Hot",
+    "notes": "This is Mason notes test"
+  }
+]

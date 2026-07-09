@@ -1,0 +1,21 @@
+{
+  "asset_id": "ramfam-faith-over-fear-tee-001",
+  "asset_name": "Faith Over Fear Tee Concept",
+  "creator_agent": "Micah",
+  "creation_date": "2026-06-18",
+  "file_location": "RAMFAM_KINGDOM_BRAIN/06_MISSIONS/commerce_pipeline_runner/latest/02_micah_design_prompt_engine/faith-over-fear-tee.png",
+  "file_locations": {
+    "metadata": "C:\\Users\\User\\Desktop\\PUTER\\design_gallery\\pending\\ramfam-faith-over-fear-tee-001\\asset_metadata.json"
+  },
+  "approval_status": "Approved",
+  "marketplace_status": "Published",
+  "updated_at": "2026-06-18T15:13:51",
+  "last_status_change": "2026-06-18T15:13:51",
+  "publication_type": "digital",
+  "channels": [
+    "etsy_digital",
+    "shopify_digital"
+  ],
+  "manual_approval_required": true,
+  "manual_approval_scope": "external_marketplace_action"
+}

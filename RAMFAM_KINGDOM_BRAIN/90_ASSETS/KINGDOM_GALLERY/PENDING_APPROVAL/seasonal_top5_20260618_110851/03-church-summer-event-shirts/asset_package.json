@@ -1,0 +1,132 @@
+{
+  "gallery_status": "pending_approval",
+  "rank": 3,
+  "opportunity": {
+    "rank": 3,
+    "keyword": "Church summer event shirts",
+    "focus": "Church Summer Events",
+    "source": "web_search_plus_local_seasonal_scoring",
+    "demand_score": 9,
+    "competition_score": 7,
+    "competition_level": "Medium",
+    "profit_score": 8,
+    "mission_fit_score": 10,
+    "mission_fit": "High",
+    "selection_score": 8.43,
+    "opportunity_score": 8,
+    "demand_signal": "High",
+    "profit_signal": "High",
+    "average_price": 26.99,
+    "price_low": 19.99,
+    "price_high": 38.99,
+    "average_favorites": 162,
+    "sampled_listing_count": 5,
+    "uniqueness_signal": "Medium",
+    "recommended_offer": "Custom church picnic/VBS/retreat shirts with editable church name, date, and theme.",
+    "risks": [
+      "Seasonal timing is tight; prioritize fast mockup/sample path.",
+      "Verify phrases, patriotic wording, and fonts for trademark/licensing before publishing."
+    ],
+    "next_actions": [
+      "Micah creates production-safe art prompt and concept package.",
+      "Amanda prepares listing title, tags, description, and pricing review notes.",
+      "Manny reviews gallery package before any public listing or customer commitment."
+    ],
+    "sample_listings": []
+  },
+  "micah_asset_package": {
+    "rank": 3,
+    "source_keyword": "Church summer event shirts",
+    "source_opportunity_score": 8,
+    "source_signals": {
+      "demand": "High",
+      "competition": "Medium",
+      "mission_fit": "High"
+    },
+    "design_title": "Church Summer Event Shirts: Seasonal Approval Asset Package",
+    "design_concept": "An event-ready design system for retreats, youth groups, conferences, and ministry teams needing a clean custom shirt concept. Hunter offer context: Custom church picnic/VBS/retreat shirts with editable church name, date, and theme.",
+    "art_direction": "Outdoor badge emblem with mountain or path symbolism, simple cross-negative-space detail, and editable event/date line.",
+    "color_palette": [
+      "navy",
+      "bone",
+      "copper",
+      "olive",
+      "sky blue"
+    ],
+    "typography_suggestions": "Condensed sans-serif for event text, sturdy slab serif for the theme phrase, clean microtype for location and year.",
+    "openai_image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for Church summer event shirts. church retreat badge emblem, mountain path symbolism, clean cross negative space, screen print vector style. Use this market context without copying listings: Hunter opportunity signals. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: navy, bone, copper, olive, sky blue.",
+    "image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for Church summer event shirts. church retreat badge emblem, mountain path symbolism, clean cross negative space, screen print vector style. Use this market context without copying listings: Hunter opportunity signals. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: navy, bone, copper, olive, sky blue.",
+    "commercial_use_notes": "Original artwork direction for the 'Church summer event shirts' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval.",
+    "seasonal_scores": {
+      "demand_score": 9,
+      "competition_score": 7,
+      "profit_score": 8,
+      "mission_fit_score": 10,
+      "selection_score": 8.43
+    },
+    "asset_package_status": "pending_approval_gallery_ready",
+    "production_asset_files": []
+  },
+  "amanda_listing_package": {
+    "rank": 3,
+    "source_keyword": "Church summer event shirts",
+    "source_opportunity_score": 8,
+    "source_design_title": "Church Summer Event Shirts: Seasonal Approval Asset Package",
+    "product_title": "Church Summer Event Shirts - Seasonal Approval Asset Package Custom Faith Shirt for Family Church Gifts",
+    "seo_title": "Church Summer Event Shirts - Seasonal Approval Asset Package Custom Faith Shirt for Family Church Gifts | Church Summer Event Shirts, Perso…",
+    "etsy_tags": [
+      "church summer event",
+      "christian shirt",
+      "faith shirt",
+      "custom shirt",
+      "church shirt",
+      "family shirts",
+      "teacher shirt",
+      "jesus shirt",
+      "retreat shirt",
+      "custom gift",
+      "personalized",
+      "faith gift",
+      "christian gift"
+    ],
+    "description": "Church Summer Event Shirts - Seasonal Approval Asset Package Custom Faith Shirt for Family Church Gifts\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: Church summer event shirts.\n- Design direction from Micah: An event-ready design system for retreats, youth groups, conferences, and ministry teams needing a clean custom shirt concept. Hunter offer context: Custom church picnic/VBS/retreat shirts with editable church name, date, and theme.\n- Visual execution notes: Outdoor badge emblem with mountain or path symbolism, simple cross-negative-space detail, and editable event/date line.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Custom church picnic/VBS/retreat shirts with editable church name, date, and theme.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.",
+    "materials": [
+      "soft cotton or cotton-blend shirt",
+      "DTF, screen print, or vinyl transfer",
+      "care card",
+      "shipping mailer"
+    ],
+    "occasion": "Church event, family gathering, retreat, teacher appreciation, everyday faith wear",
+    "recipient": "Families, church groups, teachers, youth ministries, faith-based shoppers",
+    "category_recommendation": "Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts",
+    "pricing_suggestion": {
+      "suggested_price_range": "$25.64-$33.74",
+      "anchor_price": "$29.69",
+      "source_average_price": "$26.99",
+      "rationale": "Price inside or slightly above Hunter's sampled market range, then adjust after Manny reviews blank cost, labor, Etsy fees, shipping, personalization complexity, and desired margin.",
+      "manny_review_required": true
+    },
+    "production_notes": [
+      "Confirm blank/product cost, supplier availability, labor time, packaging, shipping class, and Etsy fees before publishing.",
+      "Create final production art from owned or properly licensed fonts and graphics only.",
+      "Run a small sample or internal proof before accepting custom orders at scale.",
+      "Check transfer size, shirt color contrast, wash-care language, and size chart accuracy."
+    ],
+    "mockup_notes": [
+      "Use mockups that clearly show the product category: Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts.",
+      "Reflect Micah art direction: Outdoor badge emblem with mountain or path symbolism, simple cross-negative-space detail, and editable event/date line.",
+      "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+      "Keep mockup styling aligned with this color palette: navy, bone, copper, olive, sky blue.",
+      "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+    ],
+    "manny_approval_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+  },
+  "files": {
+    "concept_preview_svg": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\03-church-summer-event-shirts\\concept_preview.svg",
+    "image_prompt_txt": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\03-church-summer-event-shirts\\image_prompt.txt",
+    "asset_brief_md": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\03-church-summer-event-shirts\\asset_brief.md",
+    "listing_copy_md": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\03-church-summer-event-shirts\\listing_copy.md",
+    "asset_package_json": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\03-church-summer-event-shirts\\asset_package.json"
+  },
+  "approval_gate": "Manny approval required before publishing, customer contact, ad spend, live product creation, or public marketplace action."
+}

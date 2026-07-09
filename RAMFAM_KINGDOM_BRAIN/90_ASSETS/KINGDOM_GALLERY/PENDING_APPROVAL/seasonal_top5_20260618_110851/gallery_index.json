@@ -1,0 +1,58 @@
+{
+  "mission": "Kingdom Gallery Pending Approval - Seasonal Top 5",
+  "generated_at": "2026-06-18T11:08:51",
+  "mission_folder": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\seasonal_opportunity_analysis\\seasonal_opportunity_mission_20260618_110851",
+  "gallery_folder": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851",
+  "status": "pending_approval",
+  "counts": {
+    "ranked_opportunities": 25,
+    "selected_opportunities": 5,
+    "asset_packages": 5,
+    "listing_packages": 5
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "America 250 faith family freedom shirts",
+      "folder": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\01-america-250-faith-family-freedom-shirts",
+      "preview": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\01-america-250-faith-family-freedom-shirts\\concept_preview.svg",
+      "status": "pending_approval"
+    },
+    {
+      "rank": 2,
+      "title": "Faith Family Freedom yard sign bundle",
+      "folder": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\02-faith-family-freedom-yard-sign-bundle",
+      "preview": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\02-faith-family-freedom-yard-sign-bundle\\concept_preview.svg",
+      "status": "pending_approval"
+    },
+    {
+      "rank": 3,
+      "title": "Church summer event shirts",
+      "folder": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\03-church-summer-event-shirts",
+      "preview": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\03-church-summer-event-shirts\\concept_preview.svg",
+      "status": "pending_approval"
+    },
+    {
+      "rank": 4,
+      "title": "America 250 custom embroidered hats",
+      "folder": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\04-america-250-custom-embroidered-hats",
+      "preview": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\04-america-250-custom-embroidered-hats\\concept_preview.svg",
+      "status": "pending_approval"
+    },
+    {
+      "rank": 5,
+      "title": "America 250 engraved cutting board",
+      "folder": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\05-america-250-engraved-cutting-board",
+      "preview": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\05-america-250-engraved-cutting-board\\concept_preview.svg",
+      "status": "pending_approval"
+    }
+  ],
+  "source_reports": {
+    "hunter_json": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\seasonal_opportunity_analysis\\seasonal_opportunity_mission_20260618_110851\\01_hunter_seasonal_research\\hunter_seasonal_opportunity_analysis_latest.json",
+    "hunter_markdown": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\seasonal_opportunity_analysis\\seasonal_opportunity_mission_20260618_110851\\01_hunter_seasonal_research\\hunter_seasonal_opportunity_analysis_latest.md",
+    "micah_json": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\seasonal_opportunity_analysis\\seasonal_opportunity_mission_20260618_110851\\02_micah_asset_packages\\micah_design_prompts_latest.json",
+    "micah_markdown": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\seasonal_opportunity_analysis\\seasonal_opportunity_mission_20260618_110851\\02_micah_asset_packages\\micah_design_prompts_latest.md",
+    "amanda_json": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\seasonal_opportunity_analysis\\seasonal_opportunity_mission_20260618_110851\\03_amanda_listing_packages\\amanda_listing_packages_latest.json",
+    "amanda_markdown": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\seasonal_opportunity_analysis\\seasonal_opportunity_mission_20260618_110851\\03_amanda_listing_packages\\amanda_listing_packages_latest.md"
+  }
+}

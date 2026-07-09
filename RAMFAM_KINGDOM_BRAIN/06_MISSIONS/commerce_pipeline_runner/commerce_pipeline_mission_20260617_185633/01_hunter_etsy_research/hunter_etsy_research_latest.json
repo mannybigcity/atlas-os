@@ -1,0 +1,351 @@
+{
+  "mission": "Hunter Etsy Research",
+  "generated_at": "2026-06-17T18:56:33",
+  "agent_chain": {
+    "assigned_by": "Atlas",
+    "builder": "Mason",
+    "revenue_owner": "Hunter"
+  },
+  "api_used": false,
+  "api_errors": {
+    "custom embroidered hats": "ETSY_KEYSTRING not available or API disabled",
+    "christian shirts": "ETSY_KEYSTRING not available or API disabled",
+    "faith family shirts": "ETSY_KEYSTRING not available or API disabled",
+    "church event shirts": "ETSY_KEYSTRING not available or API disabled",
+    "teacher appreciation shirts": "ETSY_KEYSTRING not available or API disabled",
+    "custom laser engraved gifts": "ETSY_KEYSTRING not available or API disabled"
+  },
+  "keywords": [
+    "custom embroidered hats",
+    "christian shirts",
+    "faith family shirts",
+    "church event shirts",
+    "teacher appreciation shirts",
+    "custom laser engraved gifts"
+  ],
+  "top_opportunity": {
+    "keyword": "custom laser engraved gifts",
+    "source": "offline_seed_data",
+    "sampled_listing_count": 3,
+    "price_low": 34.99,
+    "price_high": 42.0,
+    "average_price": 38.99,
+    "average_favorites": 95.33,
+    "competition_level": "Low",
+    "demand_signal": "High",
+    "uniqueness_signal": "Medium",
+    "mission_fit": "High",
+    "opportunity_score": 10,
+    "recommended_offer": "Launch a personalized engraved gift bundle with scripture, family names, or business branding.",
+    "risks": [
+      "Main risk is execution speed: validate demand before building a large catalog."
+    ],
+    "next_actions": [
+      "Pick the strongest niche angle and draft 3 listing titles.",
+      "Estimate blank/product cost, labor time, shipping, and Etsy fees before publishing.",
+      "Create one mockup or sample photo, then test with local/social audience before scaling."
+    ],
+    "sample_listings": [
+      {
+        "title": "Custom Laser Engraved Cutting Board Gift",
+        "price": 39.99,
+        "currency": "USD",
+        "favorites": 132,
+        "url": "offline-seed"
+      },
+      {
+        "title": "Personalized Engraved Tumbler",
+        "price": 34.99,
+        "currency": "USD",
+        "favorites": 96,
+        "url": "offline-seed"
+      },
+      {
+        "title": "Engraved Scripture Wood Sign",
+        "price": 42.0,
+        "currency": "USD",
+        "favorites": 58,
+        "url": "offline-seed"
+      }
+    ]
+  },
+  "opportunities": [
+    {
+      "keyword": "custom laser engraved gifts",
+      "source": "offline_seed_data",
+      "sampled_listing_count": 3,
+      "price_low": 34.99,
+      "price_high": 42.0,
+      "average_price": 38.99,
+      "average_favorites": 95.33,
+      "competition_level": "Low",
+      "demand_signal": "High",
+      "uniqueness_signal": "Medium",
+      "mission_fit": "High",
+      "opportunity_score": 10,
+      "recommended_offer": "Launch a personalized engraved gift bundle with scripture, family names, or business branding.",
+      "risks": [
+        "Main risk is execution speed: validate demand before building a large catalog."
+      ],
+      "next_actions": [
+        "Pick the strongest niche angle and draft 3 listing titles.",
+        "Estimate blank/product cost, labor time, shipping, and Etsy fees before publishing.",
+        "Create one mockup or sample photo, then test with local/social audience before scaling."
+      ],
+      "sample_listings": [
+        {
+          "title": "Custom Laser Engraved Cutting Board Gift",
+          "price": 39.99,
+          "currency": "USD",
+          "favorites": 132,
+          "url": "offline-seed"
+        },
+        {
+          "title": "Personalized Engraved Tumbler",
+          "price": 34.99,
+          "currency": "USD",
+          "favorites": 96,
+          "url": "offline-seed"
+        },
+        {
+          "title": "Engraved Scripture Wood Sign",
+          "price": 42.0,
+          "currency": "USD",
+          "favorites": 58,
+          "url": "offline-seed"
+        }
+      ]
+    },
+    {
+      "keyword": "faith family shirts",
+      "source": "offline_seed_data",
+      "sampled_listing_count": 3,
+      "price_low": 26.5,
+      "price_high": 31.99,
+      "average_price": 28.83,
+      "average_favorites": 60.33,
+      "competition_level": "Low",
+      "demand_signal": "Medium",
+      "uniqueness_signal": "Medium",
+      "mission_fit": "High",
+      "opportunity_score": 9,
+      "recommended_offer": "Launch a faith-forward personalized apparel offer with matching family/church group options.",
+      "risks": [
+        "Main risk is execution speed: validate demand before building a large catalog."
+      ],
+      "next_actions": [
+        "Pick the strongest niche angle and draft 3 listing titles.",
+        "Estimate blank/product cost, labor time, shipping, and Etsy fees before publishing.",
+        "Create one mockup or sample photo, then test with local/social audience before scaling."
+      ],
+      "sample_listings": [
+        {
+          "title": "Matching Faith Family Shirts",
+          "price": 28.0,
+          "currency": "USD",
+          "favorites": 92,
+          "url": "offline-seed"
+        },
+        {
+          "title": "Personalized Christian Family Reunion Shirts",
+          "price": 31.99,
+          "currency": "USD",
+          "favorites": 48,
+          "url": "offline-seed"
+        },
+        {
+          "title": "Faith Based Family Vacation Shirts",
+          "price": 26.5,
+          "currency": "USD",
+          "favorites": 41,
+          "url": "offline-seed"
+        }
+      ]
+    },
+    {
+      "keyword": "custom embroidered hats",
+      "source": "offline_seed_data",
+      "sampled_listing_count": 3,
+      "price_low": 22.0,
+      "price_high": 27.99,
+      "average_price": 24.83,
+      "average_favorites": 61,
+      "competition_level": "Low",
+      "demand_signal": "Medium",
+      "uniqueness_signal": "High",
+      "mission_fit": "High",
+      "opportunity_score": 8,
+      "recommended_offer": "Launch a 12-piece custom embroidered hat starter bundle for churches, teams, and local businesses.",
+      "risks": [
+        "Main risk is execution speed: validate demand before building a large catalog."
+      ],
+      "next_actions": [
+        "Pick the strongest niche angle and draft 3 listing titles.",
+        "Estimate blank/product cost, labor time, shipping, and Etsy fees before publishing.",
+        "Create one mockup or sample photo, then test with local/social audience before scaling."
+      ],
+      "sample_listings": [
+        {
+          "title": "Custom Embroidered Richardson 112 Trucker Hat",
+          "price": 27.99,
+          "currency": "USD",
+          "favorites": 88,
+          "url": "offline-seed"
+        },
+        {
+          "title": "Personalized Dad Hat with Logo Embroidery",
+          "price": 24.5,
+          "currency": "USD",
+          "favorites": 64,
+          "url": "offline-seed"
+        },
+        {
+          "title": "Bulk Custom Church Group Embroidered Hats",
+          "price": 22.0,
+          "currency": "USD",
+          "favorites": 31,
+          "url": "offline-seed"
+        }
+      ]
+    },
+    {
+      "keyword": "christian shirts",
+      "source": "offline_seed_data",
+      "sampled_listing_count": 3,
+      "price_low": 21.99,
+      "price_high": 29.99,
+      "average_price": 25.32,
+      "average_favorites": 173.67,
+      "competition_level": "Low",
+      "demand_signal": "High",
+      "uniqueness_signal": "Low",
+      "mission_fit": "High",
+      "opportunity_score": 8,
+      "recommended_offer": "Use this as a design-validation keyword, but only build after finding a stronger niche angle.",
+      "risks": [
+        "Main risk is execution speed: validate demand before building a large catalog."
+      ],
+      "next_actions": [
+        "Pick the strongest niche angle and draft 3 listing titles.",
+        "Estimate blank/product cost, labor time, shipping, and Etsy fees before publishing.",
+        "Create one mockup or sample photo, then test with local/social audience before scaling."
+      ],
+      "sample_listings": [
+        {
+          "title": "Faith Over Fear Christian T Shirt",
+          "price": 23.99,
+          "currency": "USD",
+          "favorites": 210,
+          "url": "offline-seed"
+        },
+        {
+          "title": "Jesus Loves You Comfort Colors Shirt",
+          "price": 29.99,
+          "currency": "USD",
+          "favorites": 175,
+          "url": "offline-seed"
+        },
+        {
+          "title": "Bible Verse Scripture Tee",
+          "price": 21.99,
+          "currency": "USD",
+          "favorites": 136,
+          "url": "offline-seed"
+        }
+      ]
+    },
+    {
+      "keyword": "teacher appreciation shirts",
+      "source": "offline_seed_data",
+      "sampled_listing_count": 3,
+      "price_low": 22.99,
+      "price_high": 27.99,
+      "average_price": 25.16,
+      "average_favorites": 74.33,
+      "competition_level": "Low",
+      "demand_signal": "Medium",
+      "uniqueness_signal": "Medium",
+      "mission_fit": "High",
+      "opportunity_score": 8,
+      "recommended_offer": "Launch a faith-forward personalized apparel offer with matching family/church group options.",
+      "risks": [
+        "Main risk is execution speed: validate demand before building a large catalog."
+      ],
+      "next_actions": [
+        "Pick the strongest niche angle and draft 3 listing titles.",
+        "Estimate blank/product cost, labor time, shipping, and Etsy fees before publishing.",
+        "Create one mockup or sample photo, then test with local/social audience before scaling."
+      ],
+      "sample_listings": [
+        {
+          "title": "Teacher Appreciation Custom Shirt",
+          "price": 22.99,
+          "currency": "USD",
+          "favorites": 115,
+          "url": "offline-seed"
+        },
+        {
+          "title": "Personalized Teacher Team Shirts",
+          "price": 27.99,
+          "currency": "USD",
+          "favorites": 71,
+          "url": "offline-seed"
+        },
+        {
+          "title": "Faith Based Teacher Shirt",
+          "price": 24.5,
+          "currency": "USD",
+          "favorites": 37,
+          "url": "offline-seed"
+        }
+      ]
+    },
+    {
+      "keyword": "church event shirts",
+      "source": "offline_seed_data",
+      "sampled_listing_count": 3,
+      "price_low": 19.99,
+      "price_high": 25.5,
+      "average_price": 23.49,
+      "average_favorites": 36,
+      "competition_level": "Low",
+      "demand_signal": "Low",
+      "uniqueness_signal": "Medium",
+      "mission_fit": "Medium",
+      "opportunity_score": 5,
+      "recommended_offer": "Use this as a design-validation keyword, but only build after finding a stronger niche angle.",
+      "risks": [
+        "Main risk is execution speed: validate demand before building a large catalog."
+      ],
+      "next_actions": [
+        "Pick the strongest niche angle and draft 3 listing titles.",
+        "Estimate blank/product cost, labor time, shipping, and Etsy fees before publishing.",
+        "Create one mockup or sample photo, then test with local/social audience before scaling."
+      ],
+      "sample_listings": [
+        {
+          "title": "Custom Church Retreat Shirts",
+          "price": 24.99,
+          "currency": "USD",
+          "favorites": 38,
+          "url": "offline-seed"
+        },
+        {
+          "title": "Youth Group Event Shirt Design",
+          "price": 19.99,
+          "currency": "USD",
+          "favorites": 26,
+          "url": "offline-seed"
+        },
+        {
+          "title": "Women Ministry Conference Shirt",
+          "price": 25.5,
+          "currency": "USD",
+          "favorites": 44,
+          "url": "offline-seed"
+        }
+      ]
+    }
+  ],
+  "approval_required_before_public_action": true
+}

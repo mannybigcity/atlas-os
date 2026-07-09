@@ -1,0 +1,68 @@
+{
+  "log_name": "RAMFAM Kingdom Construction Log",
+  "mission": "Track every Kingdom build from idea to completion.",
+  "statuses": [
+    "Planned",
+    "Building",
+    "Testing",
+    "Complete"
+  ],
+  "projects": [
+    {
+      "project": "Mason v1 - Kingdom Architect",
+      "status": "Complete",
+      "priority": "High",
+      "owner": "Mason",
+      "notes": "Mason can read the Kingdom Blueprint and report the current Kingdom structure."
+    },
+    {
+      "project": "Mason v2 - Build Recommendation",
+      "status": "Complete",
+      "priority": "High",
+      "owner": "Mason",
+      "notes": "Mason can recommend the next Kingdom build."
+    },
+    {
+      "project": "Mason v3 - Construction Log",
+      "status": "Building",
+      "priority": "High",
+      "owner": "Mason",
+      "notes": "Mason will read and report the construction log."
+    },
+    {
+      "project": "Kingdom Inspector",
+      "status": "Planned",
+      "priority": "High",
+      "owner": "Mason",
+      "notes": "Mason will inspect existing folders, files, and systems."
+    },
+    {
+      "project": "Hunter - Revenue Commander",
+      "status": "Planned",
+      "priority": "High",
+      "owner": "Hunter",
+      "notes": "Hunter will track cashflow, revenue opportunities, invoices, and commission paths."
+    },
+    {
+      "project": "Scout - Opportunity Scout",
+      "status": "Planned",
+      "priority": "Medium",
+      "owner": "Scout",
+      "notes": "Scout will find leads, market intelligence, and opportunities."
+    },
+    {
+      "project": "Taylor - Website Tailor",
+      "status": "Planned",
+      "priority": "Medium",
+      "owner": "Taylor",
+      "notes": "Taylor will help create websites, website mockups, and client proposal pages."
+    },
+    {
+      "project": "Ranger - Customer Success Director",
+      "status": "Planned",
+      "priority": "Medium",
+      "owner": "Ranger",
+      "notes": "Ranger will manage follow-ups, reviews, referrals, and retention."
+    }
+  ]
+}

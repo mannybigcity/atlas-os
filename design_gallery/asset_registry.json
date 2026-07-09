@@ -1,0 +1,367 @@
+{
+  "factory": "RAMFAM KINGDOM Digital Asset Factory",
+  "phase": "Phase 3 - Micah Digital Factory",
+  "assets": [
+    {
+      "asset_id": "ramfam-faith-over-fear-tee-001",
+      "asset_preview": "",
+      "asset_name": "Faith Over Fear Tee Concept",
+      "creator_agent": "Micah",
+      "creation_date": "2026-06-18",
+      "approval_status": "Approved",
+      "marketplace_status": "Published",
+      "file_location": "RAMFAM_KINGDOM_BRAIN/06_MISSIONS/commerce_pipeline_runner/latest/02_micah_design_prompt_engine/faith-over-fear-tee.png",
+      "updated_at": "2026-06-18T15:13:51",
+      "last_status_change": "2026-06-18T15:13:51",
+      "file_locations": {
+        "metadata": "C:\\Users\\User\\Desktop\\PUTER\\design_gallery\\pending\\ramfam-faith-over-fear-tee-001\\asset_metadata.json"
+      },
+      "publication_type": "digital",
+      "channels": [
+        "etsy_digital",
+        "shopify_digital"
+      ],
+      "manual_approval_required": true,
+      "manual_approval_scope": "external_marketplace_action"
+    },
+    {
+      "asset_id": "sis-custom-event-banner-001",
+      "asset_preview": "",
+      "asset_name": "SIS Custom Event Banner",
+      "creator_agent": "Mason",
+      "creation_date": "2026-06-18",
+      "approval_status": "Approved",
+      "marketplace_status": "Published",
+      "file_location": "RAMFAM_KINGDOM_BRAIN/04_ASSETS/designs/sis-custom-event-banner.svg",
+      "publication_type": "digital",
+      "channels": [
+        "etsy_digital",
+        "shopify_digital"
+      ],
+      "manual_approval_required": true,
+      "manual_approval_scope": "external_marketplace_action",
+      "updated_at": "2026-06-18T15:19:58",
+      "last_status_change": "2026-06-18T15:19:58",
+      "file_locations": {
+        "metadata": "C:\\Users\\User\\Desktop\\PUTER\\design_gallery\\pending\\sis-custom-event-banner-001\\asset_metadata.json"
+      }
+    },
+    {
+      "asset_id": "fresh-hope-hoodie-001",
+      "asset_preview": "",
+      "asset_name": "FRESH Hope Hoodie",
+      "creator_agent": "Micah",
+      "creation_date": "2026-06-17",
+      "approval_status": "Approved",
+      "marketplace_status": "Published",
+      "file_location": "RAMFAM_KINGDOM_BRAIN/04_ASSETS/designs/fresh-hope-hoodie.png"
+    },
+    {
+      "asset_id": "kingdom-legacy-mug-001",
+      "asset_preview": "",
+      "asset_name": "Kingdom Legacy Mug",
+      "creator_agent": "Amanda",
+      "creation_date": "2026-06-16",
+      "approval_status": "Approved",
+      "marketplace_status": "Published",
+      "file_location": "RAMFAM_KINGDOM_BRAIN/04_ASSETS/designs/kingdom-legacy-mug.png"
+    },
+    {
+      "asset_id": "faith_over_fear",
+      "asset_preview": "/design-gallery/pending/faith_over_fear/faith_over_fear.png",
+      "asset_name": "Faith Over Fear",
+      "creator_agent": "Micah the Fox",
+      "creation_date": "2026-06-18",
+      "date_created": "2026-06-18T09:44:04",
+      "approval_status": "Approved",
+      "marketplace_status": "Published",
+      "revenue": 0,
+      "file_location": "C:\\Users\\User\\Desktop\\PUTER\\design_gallery\\pending\\faith_over_fear\\asset_metadata.json",
+      "file_locations": {
+        "svg": "C:\\Users\\User\\Desktop\\PUTER\\design_gallery\\pending\\faith_over_fear\\faith_over_fear.svg",
+        "png": "C:\\Users\\User\\Desktop\\PUTER\\design_gallery\\pending\\faith_over_fear\\faith_over_fear.png",
+        "prompt": "C:\\Users\\User\\Desktop\\PUTER\\design_gallery\\pending\\faith_over_fear\\faith_over_fear_prompt.txt",
+        "listing_notes": "C:\\Users\\User\\Desktop\\PUTER\\design_gallery\\pending\\faith_over_fear\\listing_notes.txt",
+        "metadata": "C:\\Users\\User\\Desktop\\PUTER\\design_gallery\\pending\\faith_over_fear\\asset_metadata.json"
+      },
+      "updated_at": "2026-06-18T10:24:10",
+      "last_status_change": "2026-06-18T10:24:10"
+    },
+    {
+      "asset_id": "seasonal-top5-20260618-110851-01-america-250-faith-family-freedom-shirts",
+      "asset_preview": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\01-america-250-faith-family-freedom-shirts\\concept_preview.svg",
+      "asset_name": "America 250 Faith Family Freedom Shirts: Seasonal Approval Asset Package",
+      "creator_agent": "Micah / Amanda",
+      "creation_date": "2026-06-18",
+      "approval_status": "Approved",
+      "marketplace_status": "Review Queue",
+      "publication_type": "",
+      "publication_scope": "Internal review only",
+      "channels": [],
+      "manual_approval_required": true,
+      "manual_approval_scope": "manny_result_review_before_public_action",
+      "external_publication_blocked": true,
+      "blocked_external_channels": [
+        "etsy",
+        "shopify",
+        "printify",
+        "social_media",
+        "customers",
+        "ads",
+        "payments"
+      ],
+      "file_location": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\01-america-250-faith-family-freedom-shirts\\asset_package.json",
+      "file_locations": {
+        "metadata": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\01-america-250-faith-family-freedom-shirts\\asset_package.json",
+        "svg": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\01-america-250-faith-family-freedom-shirts\\concept_preview.svg",
+        "listing_copy": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\01-america-250-faith-family-freedom-shirts\\listing_copy.md",
+        "asset_brief": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\01-america-250-faith-family-freedom-shirts\\asset_brief.md",
+        "image_prompt": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\01-america-250-faith-family-freedom-shirts\\image_prompt.txt"
+      },
+      "source_gallery_folder": "RAMFAM_KINGDOM_BRAIN/90_ASSETS/KINGDOM_GALLERY/PENDING_APPROVAL/seasonal_top5_20260618_110851/01-america-250-faith-family-freedom-shirts",
+      "source_opportunity": {
+        "rank": 1,
+        "keyword": "America 250 faith family freedom shirts",
+        "focus": "America 250",
+        "selection_score": 9.0,
+        "opportunity_score": 9
+      },
+      "approval_gate": "Manny approval required before publishing, customer contact, ad spend, live product creation, or public marketplace action.",
+      "updated_at": "2026-06-21T17:40:17",
+      "last_status_change": "2026-06-21T17:40:17"
+    },
+    {
+      "asset_id": "seasonal-top5-20260618-110851-02-faith-family-freedom-yard-sign-bundle",
+      "asset_preview": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\02-faith-family-freedom-yard-sign-bundle\\concept_preview.svg",
+      "asset_name": "Faith Family Freedom Yard Sign Bundle: Seasonal Approval Asset Package",
+      "creator_agent": "Micah / Amanda",
+      "creation_date": "2026-06-18",
+      "approval_status": "Pending Approval",
+      "marketplace_status": "Review Queue",
+      "publication_type": "",
+      "publication_scope": "Internal review only",
+      "channels": [],
+      "manual_approval_required": true,
+      "manual_approval_scope": "manny_result_review_before_public_action",
+      "external_publication_blocked": true,
+      "blocked_external_channels": [
+        "etsy",
+        "shopify",
+        "printify",
+        "social_media",
+        "customers",
+        "ads",
+        "payments"
+      ],
+      "file_location": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\02-faith-family-freedom-yard-sign-bundle\\asset_package.json",
+      "file_locations": {
+        "metadata": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\02-faith-family-freedom-yard-sign-bundle\\asset_package.json",
+        "svg": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\02-faith-family-freedom-yard-sign-bundle\\concept_preview.svg",
+        "listing_copy": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\02-faith-family-freedom-yard-sign-bundle\\listing_copy.md",
+        "asset_brief": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\02-faith-family-freedom-yard-sign-bundle\\asset_brief.md",
+        "image_prompt": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\02-faith-family-freedom-yard-sign-bundle\\image_prompt.txt"
+      },
+      "source_gallery_folder": "RAMFAM_KINGDOM_BRAIN/90_ASSETS/KINGDOM_GALLERY/PENDING_APPROVAL/seasonal_top5_20260618_110851/02-faith-family-freedom-yard-sign-bundle",
+      "source_opportunity": {
+        "rank": 2,
+        "keyword": "Faith Family Freedom yard sign bundle",
+        "focus": "Faith Family Freedom",
+        "selection_score": 8.93,
+        "opportunity_score": 9
+      },
+      "approval_gate": "Manny approval required before publishing, customer contact, ad spend, live product creation, or public marketplace action."
+    },
+    {
+      "asset_id": "seasonal-top5-20260618-110851-03-church-summer-event-shirts",
+      "asset_preview": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\03-church-summer-event-shirts\\concept_preview.svg",
+      "asset_name": "Church Summer Event Shirts: Seasonal Approval Asset Package",
+      "creator_agent": "Micah / Amanda",
+      "creation_date": "2026-06-18",
+      "approval_status": "Pending Approval",
+      "marketplace_status": "Review Queue",
+      "publication_type": "",
+      "publication_scope": "Internal review only",
+      "channels": [],
+      "manual_approval_required": true,
+      "manual_approval_scope": "manny_result_review_before_public_action",
+      "external_publication_blocked": true,
+      "blocked_external_channels": [
+        "etsy",
+        "shopify",
+        "printify",
+        "social_media",
+        "customers",
+        "ads",
+        "payments"
+      ],
+      "file_location": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\03-church-summer-event-shirts\\asset_package.json",
+      "file_locations": {
+        "metadata": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\03-church-summer-event-shirts\\asset_package.json",
+        "svg": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\03-church-summer-event-shirts\\concept_preview.svg",
+        "listing_copy": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\03-church-summer-event-shirts\\listing_copy.md",
+        "asset_brief": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\03-church-summer-event-shirts\\asset_brief.md",
+        "image_prompt": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\03-church-summer-event-shirts\\image_prompt.txt"
+      },
+      "source_gallery_folder": "RAMFAM_KINGDOM_BRAIN/90_ASSETS/KINGDOM_GALLERY/PENDING_APPROVAL/seasonal_top5_20260618_110851/03-church-summer-event-shirts",
+      "source_opportunity": {
+        "rank": 3,
+        "keyword": "Church summer event shirts",
+        "focus": "Church Summer Events",
+        "selection_score": 8.43,
+        "opportunity_score": 8
+      },
+      "approval_gate": "Manny approval required before publishing, customer contact, ad spend, live product creation, or public marketplace action."
+    },
+    {
+      "asset_id": "seasonal-top5-20260618-110851-04-america-250-custom-embroidered-hats",
+      "asset_preview": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\04-america-250-custom-embroidered-hats\\concept_preview.svg",
+      "asset_name": "America 250 Custom Embroidered Hats: Seasonal Approval Asset Package",
+      "creator_agent": "Micah / Amanda",
+      "creation_date": "2026-06-18",
+      "approval_status": "Pending Approval",
+      "marketplace_status": "Review Queue",
+      "publication_type": "",
+      "publication_scope": "Internal review only",
+      "channels": [],
+      "manual_approval_required": true,
+      "manual_approval_scope": "manny_result_review_before_public_action",
+      "external_publication_blocked": true,
+      "blocked_external_channels": [
+        "etsy",
+        "shopify",
+        "printify",
+        "social_media",
+        "customers",
+        "ads",
+        "payments"
+      ],
+      "file_location": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\04-america-250-custom-embroidered-hats\\asset_package.json",
+      "file_locations": {
+        "metadata": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\04-america-250-custom-embroidered-hats\\asset_package.json",
+        "svg": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\04-america-250-custom-embroidered-hats\\concept_preview.svg",
+        "listing_copy": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\04-america-250-custom-embroidered-hats\\listing_copy.md",
+        "asset_brief": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\04-america-250-custom-embroidered-hats\\asset_brief.md",
+        "image_prompt": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\04-america-250-custom-embroidered-hats\\image_prompt.txt"
+      },
+      "source_gallery_folder": "RAMFAM_KINGDOM_BRAIN/90_ASSETS/KINGDOM_GALLERY/PENDING_APPROVAL/seasonal_top5_20260618_110851/04-america-250-custom-embroidered-hats",
+      "source_opportunity": {
+        "rank": 4,
+        "keyword": "America 250 custom embroidered hats",
+        "focus": "America 250",
+        "selection_score": 8.43,
+        "opportunity_score": 8
+      },
+      "approval_gate": "Manny approval required before publishing, customer contact, ad spend, live product creation, or public marketplace action."
+    },
+    {
+      "asset_id": "seasonal-top5-20260618-110851-05-america-250-engraved-cutting-board",
+      "asset_preview": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\05-america-250-engraved-cutting-board\\concept_preview.svg",
+      "asset_name": "America 250 Engraved Cutting Board: Seasonal Approval Asset Package",
+      "creator_agent": "Micah / Amanda",
+      "creation_date": "2026-06-18",
+      "approval_status": "Pending Approval",
+      "marketplace_status": "Review Queue",
+      "publication_type": "",
+      "publication_scope": "Internal review only",
+      "channels": [],
+      "manual_approval_required": true,
+      "manual_approval_scope": "manny_result_review_before_public_action",
+      "external_publication_blocked": true,
+      "blocked_external_channels": [
+        "etsy",
+        "shopify",
+        "printify",
+        "social_media",
+        "customers",
+        "ads",
+        "payments"
+      ],
+      "file_location": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\05-america-250-engraved-cutting-board\\asset_package.json",
+      "file_locations": {
+        "metadata": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\05-america-250-engraved-cutting-board\\asset_package.json",
+        "svg": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\05-america-250-engraved-cutting-board\\concept_preview.svg",
+        "listing_copy": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\05-america-250-engraved-cutting-board\\listing_copy.md",
+        "asset_brief": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\05-america-250-engraved-cutting-board\\asset_brief.md",
+        "image_prompt": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\05-america-250-engraved-cutting-board\\image_prompt.txt"
+      },
+      "source_gallery_folder": "RAMFAM_KINGDOM_BRAIN/90_ASSETS/KINGDOM_GALLERY/PENDING_APPROVAL/seasonal_top5_20260618_110851/05-america-250-engraved-cutting-board",
+      "source_opportunity": {
+        "rank": 5,
+        "keyword": "America 250 engraved cutting board",
+        "focus": "America 250",
+        "selection_score": 8.43,
+        "opportunity_score": 8
+      },
+      "approval_gate": "Manny approval required before publishing, customer contact, ad spend, live product creation, or public marketplace action."
+    },
+    {
+      "asset_id": "asset_built_to_serve_romans_12_11_20260621",
+      "title": "Built To Serve \u2014 Romans 12:11 Christian Streetwear Tee",
+      "product_title": "Built To Serve \u2014 Romans 12:11 Christian Streetwear Tee",
+      "sku": "FRESH-BUILT-TO-SERVE-ROM1211-TEE-001",
+      "etsy_title": "Built To Serve Christian Streetwear Shirt, Romans 12:11 Faith Tee, Modern Christian T Shirt, Men Women Unisex Gift",
+      "description": "Built To Serve \u2014 Romans 12:11 Christian Streetwear Tee\n\nA bold Christian streetwear tee for men and women who want their faith to look clean, modern, and wearable beyond Sunday morning.\n\nDesign:\n- Front graphic: \u201cBUILT TO SERVE\u201d with Romans 12:11 reference\n- Premium modern-vintage typography with subtle sunrise/cross details\n- Faith-forward without looking generic or cheesy\n\nProduct details:\n- Unisex jersey tee recommended\n- Soft cotton or cotton-blend shirt\n- Front print, centered chest, approximately 11\u201312 inches wide\n- Recommended launch colors: washed black, cream/ivory, forest, navy\n- Sizes: S\u20132XL to start\n\nGreat for:\n- Everyday Christian streetwear\n- Church volunteers and ministry teams\n- Father\u2019s Day, birthday, youth ministry, or encouragement gifts\n- Faith-based entrepreneurs and servants/leaders\n\nProduction note:\nFinal blank, provider, print method, mockups, shipping profile, and launch price must be reviewed before publishing. Final artwork must use owned/licensed fonts and graphics only.\n",
+      "price": 28.99,
+      "tags": [
+        "christian shirt",
+        "faith shirt",
+        "romans 12 11",
+        "serve shirt",
+        "jesus shirt",
+        "christian tee",
+        "faith based gift",
+        "church shirt",
+        "unisex tee",
+        "streetwear tee",
+        "bible verse tee",
+        "christian gift",
+        "fresh apparel"
+      ],
+      "category": "Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts",
+      "image_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\00_etsy_ready_product\\built-to-serve-romans-12-11-design-draft.png",
+      "design_artwork_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\00_etsy_ready_product\\built-to-serve-romans-12-11-design-draft.png",
+      "approval_status": "Approved",
+      "marketplace_status": "Published",
+      "publication_type": "digital",
+      "channels": [
+        "kingdom_gallery"
+      ],
+      "source": "commerce_pipeline_runner",
+      "created_at": "2026-06-21T15:02:03",
+      "updated_at": "2026-06-21T16:14:50",
+      "asset_name": "Built To Serve \u2014 Romans 12:11 Christian Streetwear Tee",
+      "product_name": "Built To Serve \u2014 Romans 12:11 Christian Streetwear Tee",
+      "internal_sku": "FRESH-BUILT-TO-SERVE-ROM1211-TEE-001",
+      "etsy_description": "Built To Serve \u2014 Romans 12:11 Christian Streetwear Tee\n\nA bold Christian streetwear tee for men and women who want their faith to look clean, modern, and wearable beyond Sunday morning.\n\nDesign:\n- Front graphic: \u201cBUILT TO SERVE\u201d with Romans 12:11 reference\n- Premium modern-vintage typography with subtle sunrise/cross details\n- Faith-forward without looking generic or cheesy\n\nProduct details:\n- Unisex jersey tee recommended\n- Soft cotton or cotton-blend shirt\n- Front print, centered chest, approximately 11\u201312 inches wide\n- Recommended launch colors: washed black, cream/ivory, forest, navy\n- Sizes: S\u20132XL to start\n\nGreat for:\n- Everyday Christian streetwear\n- Church volunteers and ministry teams\n- Father\u2019s Day, birthday, youth ministry, or encouragement gifts\n- Faith-based entrepreneurs and servants/leaders\n\nProduction note:\nFinal blank, provider, print method, mockups, shipping profile, and launch price must be reviewed before publishing. Final artwork must use owned/licensed fonts and graphics only.\n",
+      "asset_preview": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\00_etsy_ready_product\\built-to-serve-romans-12-11-design-draft.png",
+      "manual_approval_required": false,
+      "external_publication_blocked": true,
+      "blocked_external_channels": [
+        "etsy",
+        "shopify",
+        "printify",
+        "social_media",
+        "customers",
+        "ads",
+        "payments"
+      ]
+    }
+  ],
+  "updated_at": "2026-06-21T17:40:17",
+  "source_of_truth": "C:\\Users\\User\\Desktop\\PUTER\\design_gallery\\asset_registry.json",
+  "status_standards": {
+    "approval_status": [
+      "Pending Approval",
+      "Approved",
+      "Rejected"
+    ],
+    "marketplace_status": [
+      "Review Queue",
+      "Published",
+      "Top Seller"
+    ]
+  },
+  "import_sources": {
+    "pending_approval": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL"
+  }
+}

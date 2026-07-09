@@ -1,0 +1,51 @@
+{
+  "system_name": "Scout Target Database",
+  "owner": "Scout",
+  "mission": "Find businesses with weak or missing websites that can become digital marketing clients.",
+  "location": "Cypress, Texas",
+  "target_categories": [
+    "Barbershops",
+    "HVAC",
+    "Plumbing",
+    "Roofing",
+    "Landscaping",
+    "Pressure Washing",
+    "Auto Detailing",
+    "Churches"
+  ],
+  "targets": [
+    {
+      "business_name": "Example Barbershop",
+      "category": "Barbershop",
+      "source": "Google Maps",
+      "website_status": "No Website Found",
+      "facebook_status": "Unknown",
+      "instagram_status": "Unknown",
+      "opportunity_score": 8,
+      "status": "New",
+      "notes": "Replace this with a real business after Scout begins hunting."
+    },
+    {
+      "business_name": "ABC Plumbing",
+      "category": "Plumbing",
+      "source": "Google Maps",
+      "website_status": "No Website Found",
+      "facebook_status": "Has Facebook",
+      "instagram_status": "No Instagram",
+      "opportunity_score": 9,
+      "status": "New",
+      "notes": "Potential website client"
+    },
+    {
+      "business_name": "Cypress Plumbing",
+      "category": "Unknown",
+      "source": "Manual",
+      "website_status": "Unknown",
+      "facebook_status": "Unknown",
+      "instagram_status": "Unknown",
+      "opportunity_score": 5,
+      "status": "New",
+      "notes": "Added manually through PUTER."
+    }
+  ]
+}

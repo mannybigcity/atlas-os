@@ -1,0 +1,50 @@
+{
+  "mission": "Commerce Image Prompt Exporter",
+  "generated_at": "2026-06-17T19:40:31",
+  "source_mission": "Commerce Approval Dashboard",
+  "source_micah_mission": "Micah Design Prompt Engine",
+  "mission_folder": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260617_185633",
+  "agent_chain": {
+    "assigned_by": "Atlas",
+    "builder": "Mason",
+    "design_owner": "Micah",
+    "approval_owner": "Manny"
+  },
+  "counts": {
+    "micah_design_decisions": 3,
+    "approved_prompt_exports": 0,
+    "blocked_or_unapproved_designs": 3
+  },
+  "openai_image_prompts": [],
+  "image_generation_enabled": false,
+  "auto_publish_enabled": false,
+  "approval_required_before_public_action": true,
+  "manny_approval_guard": {
+    "prompt_export_requires_manny_approved_micah_decision": true,
+    "image_generation": "blocked_not_performed_by_exporter",
+    "publish_action": "blocked_pending_separate_manny_approval",
+    "printify_live_creation": "blocked_pending_separate_manny_approval",
+    "pricing_change": "blocked_pending_separate_manny_approval",
+    "sample_order": "blocked_pending_separate_manny_approval",
+    "ad_spend": "blocked_pending_separate_manny_approval",
+    "customer_contact": "blocked_pending_separate_manny_approval",
+    "customer_commitment": "blocked_pending_separate_manny_approval",
+    "requirement": "Manny approval is required before generating images, publishing listings, creating live Printify products, changing pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+  },
+  "actions_not_taken": [
+    "No images were generated.",
+    "No Etsy listing was published.",
+    "No live Printify product was created or modified.",
+    "No sample order was placed.",
+    "No ad budget was spent.",
+    "No customer was contacted or committed."
+  ],
+  "exports": {
+    "archive_json": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260617_185633\\05_commerce_image_prompt_exporter\\commerce_image_prompts_20260617_194031.json",
+    "latest_json": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260617_185633\\05_commerce_image_prompt_exporter\\commerce_image_prompts_latest.json",
+    "archive_report": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260617_185633\\05_commerce_image_prompt_exporter\\commerce_image_prompts_20260617_194031.md",
+    "latest_report": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260617_185633\\05_commerce_image_prompt_exporter\\commerce_image_prompts_latest.md",
+    "prompt_text_dir": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260617_185633\\05_commerce_image_prompt_exporter\\openai_image_prompts",
+    "prompt_text_files": []
+  }
+}

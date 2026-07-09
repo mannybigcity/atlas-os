@@ -1,0 +1,69 @@
+﻿# Secrets
+.env
+.env.*
+*.env
+.env_WORKING
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Logs/cache/temp
+logs/
+*.log
+.tmp.driveupload/
+_mason_temp/
+voice_cache/
+
+# Big/installer/backup files
+*.zip
+*.exe
+*.msix
+*.mp3
+*.jpg
+*.png
+*.mp4
+
+# Hermes local state
+.hermes/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local/generated workspaces
+mason_workspace/
+backups/
+tmp_probe/
+uploads/
+logs/
+voice_cache/
+_mason_temp/
+
+# Generated indexes/reports
+hermes_file_index.txt
+hermes_skills_tree.txt
+mason_workspace/
+*.bak
+*.backup*
+*_BACKUP*
+*backup*
+
+# Personal/client data - keep local for now
+CLIENTS/
+memory/
+RAMFAM_KINGDOM_BRAIN/99_MEMORY/
+
+# Large/generated media
+*.mp3
+*.mp4
+*.zip
+*.exe
+*.msix
+*.jpg
+*.jpeg
+*.png
+*.jfif

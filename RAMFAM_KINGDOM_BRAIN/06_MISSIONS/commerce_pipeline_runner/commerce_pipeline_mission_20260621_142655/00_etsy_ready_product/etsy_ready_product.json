@@ -1,0 +1,89 @@
+{
+  "product_name": "Built To Serve — Romans 12:11 Christian Streetwear Tee",
+  "internal_sku": "FRESH-BUILT-TO-SERVE-ROM1211-TEE-001",
+  "status": "etsy_ready_draft_pending_manny_approval",
+  "etsy_title": "Built To Serve Christian Streetwear Shirt, Romans 12:11 Faith Tee, Modern Christian T Shirt, Men Women Unisex Gift",
+  "price": 28.99,
+  "quantity": 999,
+  "category": "Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts",
+  "tags": [
+    "christian shirt",
+    "faith shirt",
+    "romans 12 11",
+    "serve shirt",
+    "jesus shirt",
+    "christian tee",
+    "faith based gift",
+    "church shirt",
+    "unisex tee",
+    "streetwear tee",
+    "bible verse tee",
+    "christian gift",
+    "fresh apparel"
+  ],
+  "materials": [
+    "soft cotton or cotton-blend shirt",
+    "DTF, screen print, or vinyl transfer",
+    "care card",
+    "shipping mailer"
+  ],
+  "variations": {
+    "shirt_blank": "Bella+Canvas 3001 or Comfort Colors 1717 after provider confirmation",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      "Washed Black",
+      "Ivory/Cream",
+      "Forest",
+      "Navy"
+    ]
+  },
+  "personalization": "Not personalized for launch; optional church/team back print can be reviewed later.",
+  "design_artwork_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\00_etsy_ready_product\\built-to-serve-romans-12-11-design-draft.png",
+  "design_prompt_used": "Original Christian streetwear t-shirt graphic; phrase BUILT TO SERVE; smaller text ROMANS 12:11; modern vintage typography; sunrise rays; small cross icon; screen print ready.",
+  "printify_draft_payload": {
+    "title": "Built To Serve — Romans 12:11 Christian Streetwear Tee",
+    "description": "Christian Streetwear Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts\n\nChristian Streetwear Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: christian streetwear shirts.\n- Design direction from Micah: A bold FRESH-aligned statement shirt built around encouragement, service, and everyday witness without copying common slogans. Hunter offer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.\n- Visual execution notes: Modern typography-led shirt graphic with kinetic layout, small icon accents, and optional meal-giving impact line.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.\n\nPrintify draft notes:\n- This is a draft package only; no product has been published automatically.\n- Final production art, provider, variants, price, shipping, and mockups require Manny approval.\n- Customer-facing promises must not be made until product proofing and fulfillment assumptions are confirmed.",
+    "tags": [
+      "christian shirt",
+      "faith shirt",
+      "romans 12 11",
+      "serve shirt",
+      "jesus shirt",
+      "streetwear tee"
+    ],
+    "blueprint_search_terms": "unisex jersey t-shirt bella canvas comfort colors shirt",
+    "recommended_product_type": "Unisex Jersey T-Shirt",
+    "recommended_blank": "Bella+Canvas 3001 or Comfort Colors 1717 if available in the target Printify shop.",
+    "visible": false,
+    "is_locked": false,
+    "publish_action": "none_manual_manny_approval_required"
+  },
+  "pricing_math": {
+    "retail_price": 28.99,
+    "estimated_printify_base_cost": 12.5,
+    "estimated_shipping_cost": 4.75,
+    "estimated_marketplace_transaction_fee": 1.88,
+    "estimated_payment_fee": 1.12,
+    "estimated_total_cost": 20.25,
+    "estimated_profit": 8.74,
+    "target_margin_percent": 30.1,
+    "source_average_price": "$25.32",
+    "pricing_status": "draft_math_pending_manny_review",
+    "notes": "Replace estimates with exact Printify provider cost, selected variant cost, shop fees, shipping profile, discounts, and tax assumptions before publishing."
+  },
+  "approval_gate": {
+    "required_approval": "Manny approval is required before creating live Printify products, publishing, changing pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+    "approved_for_publish": false,
+    "approved_for_sample_order": false,
+    "approved_for_ad_spend": false,
+    "approved_for_customer_commitment": false,
+    "source_amanda_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+  },
+  "etsy_description": "Built To Serve — Romans 12:11 Christian Streetwear Tee\n\nA bold Christian streetwear tee for men and women who want their faith to look clean, modern, and wearable beyond Sunday morning.\n\nDesign:\n- Front graphic: “BUILT TO SERVE” with Romans 12:11 reference\n- Premium modern-vintage typography with subtle sunrise/cross details\n- Faith-forward without looking generic or cheesy\n\nProduct details:\n- Unisex jersey tee recommended\n- Soft cotton or cotton-blend shirt\n- Front print, centered chest, approximately 11–12 inches wide\n- Recommended launch colors: washed black, cream/ivory, forest, navy\n- Sizes: S–2XL to start\n\nGreat for:\n- Everyday Christian streetwear\n- Church volunteers and ministry teams\n- Father’s Day, birthday, youth ministry, or encouragement gifts\n- Faith-based entrepreneurs and servants/leaders\n\nProduction note:\nFinal blank, provider, print method, mockups, shipping profile, and launch price must be reviewed before publishing. Final artwork must use owned/licensed fonts and graphics only.\n"
+}

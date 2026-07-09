@@ -1,0 +1,22 @@
+{
+  "mission_name": "Revenue War Room Missions",
+  "owner": "Mason",
+  "status": "Active",
+  "missions": [
+    {
+      "agent": "Hunter",
+      "title": "Find 20 Local Business Prospects",
+      "status": "Assigned"
+    },
+    {
+      "agent": "Amanda",
+      "title": "Find 20 Outreach Opportunities",
+      "status": "Assigned"
+    },
+    {
+      "agent": "Micah",
+      "title": "Create 5 Revenue Posts",
+      "status": "Assigned"
+    }
+  ]
+}

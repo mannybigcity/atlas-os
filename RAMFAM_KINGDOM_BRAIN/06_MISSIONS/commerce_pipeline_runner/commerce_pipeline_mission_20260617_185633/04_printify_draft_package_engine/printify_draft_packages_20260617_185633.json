@@ -1,0 +1,554 @@
+{
+  "mission": "Printify Draft Package Engine",
+  "generated_at": "2026-06-17T18:56:33",
+  "source_mission": "Amanda Listing Engine",
+  "source_generated_at": "2026-06-17T18:56:33",
+  "agent_chain": {
+    "assigned_by": "Atlas",
+    "builder": "Mason",
+    "listing_owner": "Amanda",
+    "draft_owner": "Mason",
+    "approval_owner": "Manny"
+  },
+  "top_printify_draft_package": {
+    "rank": 1,
+    "draft_id": "printify-draft-01-custom-laser-engraved-gifts",
+    "source_listing_rank": 1,
+    "source_keyword": "custom laser engraved gifts",
+    "source_design_title": "Custom Laser Engraved Gifts: Heirloom Scripture Minimal",
+    "title": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming",
+    "product_type_recommendation": {
+      "product_type": "Wooden Cutting Board",
+      "printify_category": "Home & Living > Kitchen & Dining > Cutting Boards",
+      "recommended_blank": "Wood or bamboo cutting board-style blank if available; otherwise route to manual SIS laser production instead of Printify.",
+      "blueprint_search_terms": "wooden cutting board engraved kitchen gift personalized board",
+      "variant_notes": [
+        "Confirm Printify has a suitable board/provider before treating this as POD-ready.",
+        "If exact blank is unavailable, keep this as a local SIS production draft."
+      ],
+      "source_category": "Home & Living > Home Decor > Signs OR Kitchen & Dining > Cutting Boards",
+      "selection_status": "recommended_not_selected"
+    },
+    "print_area_notes": [
+      "Primary print/engraving area: front board face; confirm provider template or local laser bed dimensions.",
+      "Use single-color vector or high-contrast raster art with generous safe margins around handles and edges.",
+      "If Printify cannot support engraving on the selected board, do not force POD; flag for SIS in-house laser fulfillment."
+    ],
+    "mockup_direction": [
+      "Use a warm kitchen/countertop hero mockup and a close-up that shows engraved detail clearly.",
+      "Include one personalization example with names/date and one scale/context image with kitchen props.",
+      "Use mockups that clearly show the product category: Home & Living > Home Decor > Signs OR Kitchen & Dining > Cutting Boards.",
+      "Reflect Micah art direction: Minimal heirloom composition with centered engraving layout, fine line botanical accents, generous negative space, and balanced product mockup framing.",
+      "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+      "Keep mockup styling aligned with this color palette: warm walnut brown, soft ivory, charcoal ink, muted sage, brushed gold accent.",
+      "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+    ],
+    "product_description": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming\n\nCustom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: custom laser engraved gifts.\n- Design direction from Micah: A premium personalized keepsake built around family names, short scripture text, and a clean monogram focal point. Hunter offer context: Launch a personalized engraved gift bundle with scripture, family names, or business branding.\n- Visual execution notes: Minimal heirloom composition with centered engraving layout, fine line botanical accents, generous negative space, and balanced product mockup framing.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Launch a personalized engraved gift bundle with scripture, family names, or business branding.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.\n\nPrintify draft notes:\n- This is a draft package only; no product has been published automatically.\n- Final production art, provider, variants, price, shipping, and mockups require Manny approval.\n- Customer-facing promises must not be made until product proofing and fulfillment assumptions are confirmed.",
+    "pricing_math": {
+      "retail_price": 48.49,
+      "estimated_printify_base_cost": 18.0,
+      "estimated_shipping_cost": 7.95,
+      "estimated_marketplace_transaction_fee": 3.15,
+      "estimated_payment_fee": 1.7,
+      "estimated_total_cost": 30.8,
+      "estimated_profit": 17.69,
+      "target_margin_percent": 36.5,
+      "source_average_price": "$38.99",
+      "pricing_status": "draft_math_pending_manny_review",
+      "notes": "Replace estimates with exact Printify provider cost, selected variant cost, shop fees, shipping profile, discounts, and tax assumptions before publishing."
+    },
+    "tags": [
+      "custom laser gifts",
+      "engraved gift",
+      "laser engraved",
+      "cutting board",
+      "wood sign",
+      "wedding gift",
+      "housewarming",
+      "family name",
+      "scripture gift",
+      "custom gift",
+      "personalized",
+      "faith gift",
+      "christian gift"
+    ],
+    "listing_checklist": [
+      {
+        "item": "Manny approves product type, supplier/provider, and launch risk.",
+        "status": "pending_manny_review"
+      },
+      {
+        "item": "Final artwork uses owned/licensed fonts and graphics only.",
+        "status": "pending_manny_review"
+      },
+      {
+        "item": "No copyrighted characters, protected logos, celebrity names, lyrics, or trademarked slogans.",
+        "status": "pending_manny_review"
+      },
+      {
+        "item": "Printify blueprint/provider and variant availability are confirmed.",
+        "status": "pending_manny_review"
+      },
+      {
+        "item": "Print area dimensions, safe margins, bleed, and file format are verified.",
+        "status": "pending_manny_review"
+      },
+      {
+        "item": "Retail price, fees, shipping assumptions, and margin are reviewed.",
+        "status": "pending_manny_review"
+      },
+      {
+        "item": "Mockups accurately represent the selected blank, colors, and personalization limits.",
+        "status": "pending_manny_review"
+      },
+      {
+        "item": "Description, tags, and customer-facing production time are reviewed.",
+        "status": "pending_manny_review"
+      },
+      {
+        "item": "Sample/proof path is defined before public launch or customer commitment.",
+        "status": "pending_manny_review"
+      }
+    ],
+    "manny_approval_gate": {
+      "required_approval": "Manny approval is required before creating live Printify products, publishing, changing pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+      "approved_for_publish": false,
+      "approved_for_sample_order": false,
+      "approved_for_ad_spend": false,
+      "approved_for_customer_commitment": false,
+      "source_amanda_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+    },
+    "printify_draft_payload": {
+      "title": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming",
+      "description": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming\n\nCustom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: custom laser engraved gifts.\n- Design direction from Micah: A premium personalized keepsake built around family names, short scripture text, and a clean monogram focal point. Hunter offer context: Launch a personalized engraved gift bundle with scripture, family names, or business branding.\n- Visual execution notes: Minimal heirloom composition with centered engraving layout, fine line botanical accents, generous negative space, and balanced product mockup framing.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Launch a personalized engraved gift bundle with scripture, family names, or business branding.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.\n\nPrintify draft notes:\n- This is a draft package only; no product has been published automatically.\n- Final production art, provider, variants, price, shipping, and mockups require Manny approval.\n- Customer-facing promises must not be made until product proofing and fulfillment assumptions are confirmed.",
+      "tags": [
+        "custom laser gifts",
+        "engraved gift",
+        "laser engraved",
+        "cutting board",
+        "wood sign",
+        "wedding gift",
+        "housewarming",
+        "family name",
+        "scripture gift",
+        "custom gift",
+        "personalized",
+        "faith gift",
+        "christian gift"
+      ],
+      "blueprint_search_terms": "wooden cutting board engraved kitchen gift personalized board",
+      "recommended_product_type": "Wooden Cutting Board",
+      "recommended_blank": "Wood or bamboo cutting board-style blank if available; otherwise route to manual SIS laser production instead of Printify.",
+      "visible": false,
+      "is_locked": false,
+      "publish_action": "none_manual_manny_approval_required"
+    }
+  },
+  "printify_draft_packages": [
+    {
+      "rank": 1,
+      "draft_id": "printify-draft-01-custom-laser-engraved-gifts",
+      "source_listing_rank": 1,
+      "source_keyword": "custom laser engraved gifts",
+      "source_design_title": "Custom Laser Engraved Gifts: Heirloom Scripture Minimal",
+      "title": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming",
+      "product_type_recommendation": {
+        "product_type": "Wooden Cutting Board",
+        "printify_category": "Home & Living > Kitchen & Dining > Cutting Boards",
+        "recommended_blank": "Wood or bamboo cutting board-style blank if available; otherwise route to manual SIS laser production instead of Printify.",
+        "blueprint_search_terms": "wooden cutting board engraved kitchen gift personalized board",
+        "variant_notes": [
+          "Confirm Printify has a suitable board/provider before treating this as POD-ready.",
+          "If exact blank is unavailable, keep this as a local SIS production draft."
+        ],
+        "source_category": "Home & Living > Home Decor > Signs OR Kitchen & Dining > Cutting Boards",
+        "selection_status": "recommended_not_selected"
+      },
+      "print_area_notes": [
+        "Primary print/engraving area: front board face; confirm provider template or local laser bed dimensions.",
+        "Use single-color vector or high-contrast raster art with generous safe margins around handles and edges.",
+        "If Printify cannot support engraving on the selected board, do not force POD; flag for SIS in-house laser fulfillment."
+      ],
+      "mockup_direction": [
+        "Use a warm kitchen/countertop hero mockup and a close-up that shows engraved detail clearly.",
+        "Include one personalization example with names/date and one scale/context image with kitchen props.",
+        "Use mockups that clearly show the product category: Home & Living > Home Decor > Signs OR Kitchen & Dining > Cutting Boards.",
+        "Reflect Micah art direction: Minimal heirloom composition with centered engraving layout, fine line botanical accents, generous negative space, and balanced product mockup framing.",
+        "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+        "Keep mockup styling aligned with this color palette: warm walnut brown, soft ivory, charcoal ink, muted sage, brushed gold accent.",
+        "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+      ],
+      "product_description": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming\n\nCustom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: custom laser engraved gifts.\n- Design direction from Micah: A premium personalized keepsake built around family names, short scripture text, and a clean monogram focal point. Hunter offer context: Launch a personalized engraved gift bundle with scripture, family names, or business branding.\n- Visual execution notes: Minimal heirloom composition with centered engraving layout, fine line botanical accents, generous negative space, and balanced product mockup framing.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Launch a personalized engraved gift bundle with scripture, family names, or business branding.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.\n\nPrintify draft notes:\n- This is a draft package only; no product has been published automatically.\n- Final production art, provider, variants, price, shipping, and mockups require Manny approval.\n- Customer-facing promises must not be made until product proofing and fulfillment assumptions are confirmed.",
+      "pricing_math": {
+        "retail_price": 48.49,
+        "estimated_printify_base_cost": 18.0,
+        "estimated_shipping_cost": 7.95,
+        "estimated_marketplace_transaction_fee": 3.15,
+        "estimated_payment_fee": 1.7,
+        "estimated_total_cost": 30.8,
+        "estimated_profit": 17.69,
+        "target_margin_percent": 36.5,
+        "source_average_price": "$38.99",
+        "pricing_status": "draft_math_pending_manny_review",
+        "notes": "Replace estimates with exact Printify provider cost, selected variant cost, shop fees, shipping profile, discounts, and tax assumptions before publishing."
+      },
+      "tags": [
+        "custom laser gifts",
+        "engraved gift",
+        "laser engraved",
+        "cutting board",
+        "wood sign",
+        "wedding gift",
+        "housewarming",
+        "family name",
+        "scripture gift",
+        "custom gift",
+        "personalized",
+        "faith gift",
+        "christian gift"
+      ],
+      "listing_checklist": [
+        {
+          "item": "Manny approves product type, supplier/provider, and launch risk.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Final artwork uses owned/licensed fonts and graphics only.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "No copyrighted characters, protected logos, celebrity names, lyrics, or trademarked slogans.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Printify blueprint/provider and variant availability are confirmed.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Print area dimensions, safe margins, bleed, and file format are verified.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Retail price, fees, shipping assumptions, and margin are reviewed.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Mockups accurately represent the selected blank, colors, and personalization limits.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Description, tags, and customer-facing production time are reviewed.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Sample/proof path is defined before public launch or customer commitment.",
+          "status": "pending_manny_review"
+        }
+      ],
+      "manny_approval_gate": {
+        "required_approval": "Manny approval is required before creating live Printify products, publishing, changing pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "approved_for_publish": false,
+        "approved_for_sample_order": false,
+        "approved_for_ad_spend": false,
+        "approved_for_customer_commitment": false,
+        "source_amanda_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+      },
+      "printify_draft_payload": {
+        "title": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming",
+        "description": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming\n\nCustom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: custom laser engraved gifts.\n- Design direction from Micah: A premium personalized keepsake built around family names, short scripture text, and a clean monogram focal point. Hunter offer context: Launch a personalized engraved gift bundle with scripture, family names, or business branding.\n- Visual execution notes: Minimal heirloom composition with centered engraving layout, fine line botanical accents, generous negative space, and balanced product mockup framing.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Launch a personalized engraved gift bundle with scripture, family names, or business branding.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.\n\nPrintify draft notes:\n- This is a draft package only; no product has been published automatically.\n- Final production art, provider, variants, price, shipping, and mockups require Manny approval.\n- Customer-facing promises must not be made until product proofing and fulfillment assumptions are confirmed.",
+        "tags": [
+          "custom laser gifts",
+          "engraved gift",
+          "laser engraved",
+          "cutting board",
+          "wood sign",
+          "wedding gift",
+          "housewarming",
+          "family name",
+          "scripture gift",
+          "custom gift",
+          "personalized",
+          "faith gift",
+          "christian gift"
+        ],
+        "blueprint_search_terms": "wooden cutting board engraved kitchen gift personalized board",
+        "recommended_product_type": "Wooden Cutting Board",
+        "recommended_blank": "Wood or bamboo cutting board-style blank if available; otherwise route to manual SIS laser production instead of Printify.",
+        "visible": false,
+        "is_locked": false,
+        "publish_action": "none_manual_manny_approval_required"
+      }
+    },
+    {
+      "rank": 2,
+      "draft_id": "printify-draft-02-faith-family-shirts",
+      "source_listing_rank": 2,
+      "source_keyword": "faith family shirts",
+      "source_design_title": "Faith Family Shirts: Faith Family Matching Set",
+      "title": "Faith Family Shirts - Faith Family Matching Set Custom Faith Shirt for Family Church Gifts",
+      "product_type_recommendation": {
+        "product_type": "Unisex Jersey T-Shirt",
+        "printify_category": "Men's Clothing > T-shirts OR Women's Clothing > T-shirts",
+        "recommended_blank": "Bella+Canvas 3001 or Comfort Colors 1717 if available in the target Printify shop.",
+        "blueprint_search_terms": "unisex jersey t-shirt bella canvas comfort colors shirt",
+        "variant_notes": [
+          "Start with core unisex sizes S-2XL.",
+          "Use neutral, high-conversion colors such as black, white, heather, cream, navy, and forest."
+        ],
+        "source_category": "Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts",
+        "selection_status": "recommended_not_selected"
+      },
+      "print_area_notes": [
+        "Primary print area: front chest, centered, approximately 11-12 inches wide for adult shirts.",
+        "Prepare transparent PNG artwork at 4500 x 5400 px, 300 DPI, sRGB, with no background box.",
+        "Keep important text inside safe margins and verify contrast on each garment color."
+      ],
+      "mockup_direction": [
+        "Use a clean front-facing shirt hero mockup first.",
+        "Include a close-up of the chest print, a lifestyle/family or church group context mockup, and a size/color chart image.",
+        "Use mockups that clearly show the product category: Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts.",
+        "Reflect Micah art direction: Stacked badge layout with subtle rays, hand-lettered faith phrase, and adaptable placement for adult, youth, and toddler shirts.",
+        "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+        "Keep mockup styling aligned with this color palette: cream, deep forest green, terracotta, warm sand, soft black.",
+        "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+      ],
+      "product_description": "Faith Family Shirts - Faith Family Matching Set Custom Faith Shirt for Family Church Gifts\n\nFaith Family Shirts - Faith Family Matching Set Custom Faith Shirt for Family Church Gifts\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: faith family shirts.\n- Design direction from Micah: A coordinated family or church-group apparel design that feels warm, modern, and photo-ready for Etsy listing mockups. Hunter offer context: Launch a faith-forward personalized apparel offer with matching family/church group options.\n- Visual execution notes: Stacked badge layout with subtle rays, hand-lettered faith phrase, and adaptable placement for adult, youth, and toddler shirts.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Launch a faith-forward personalized apparel offer with matching family/church group options.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.\n\nPrintify draft notes:\n- This is a draft package only; no product has been published automatically.\n- Final production art, provider, variants, price, shipping, and mockups require Manny approval.\n- Customer-facing promises must not be made until product proofing and fulfillment assumptions are confirmed.",
+      "pricing_math": {
+        "retail_price": 31.71,
+        "estimated_printify_base_cost": 12.5,
+        "estimated_shipping_cost": 4.75,
+        "estimated_marketplace_transaction_fee": 2.06,
+        "estimated_payment_fee": 1.2,
+        "estimated_total_cost": 20.51,
+        "estimated_profit": 11.2,
+        "target_margin_percent": 35.3,
+        "source_average_price": "$28.83",
+        "pricing_status": "draft_math_pending_manny_review",
+        "notes": "Replace estimates with exact Printify provider cost, selected variant cost, shop fees, shipping profile, discounts, and tax assumptions before publishing."
+      },
+      "tags": [
+        "faith family shirts",
+        "christian shirt",
+        "faith shirt",
+        "custom shirt",
+        "church shirt",
+        "family shirts",
+        "teacher shirt",
+        "jesus shirt",
+        "retreat shirt",
+        "custom gift",
+        "personalized",
+        "faith gift",
+        "christian gift"
+      ],
+      "listing_checklist": [
+        {
+          "item": "Manny approves product type, supplier/provider, and launch risk.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Final artwork uses owned/licensed fonts and graphics only.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "No copyrighted characters, protected logos, celebrity names, lyrics, or trademarked slogans.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Printify blueprint/provider and variant availability are confirmed.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Print area dimensions, safe margins, bleed, and file format are verified.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Retail price, fees, shipping assumptions, and margin are reviewed.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Mockups accurately represent the selected blank, colors, and personalization limits.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Description, tags, and customer-facing production time are reviewed.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Sample/proof path is defined before public launch or customer commitment.",
+          "status": "pending_manny_review"
+        }
+      ],
+      "manny_approval_gate": {
+        "required_approval": "Manny approval is required before creating live Printify products, publishing, changing pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "approved_for_publish": false,
+        "approved_for_sample_order": false,
+        "approved_for_ad_spend": false,
+        "approved_for_customer_commitment": false,
+        "source_amanda_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+      },
+      "printify_draft_payload": {
+        "title": "Faith Family Shirts - Faith Family Matching Set Custom Faith Shirt for Family Church Gifts",
+        "description": "Faith Family Shirts - Faith Family Matching Set Custom Faith Shirt for Family Church Gifts\n\nFaith Family Shirts - Faith Family Matching Set Custom Faith Shirt for Family Church Gifts\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: faith family shirts.\n- Design direction from Micah: A coordinated family or church-group apparel design that feels warm, modern, and photo-ready for Etsy listing mockups. Hunter offer context: Launch a faith-forward personalized apparel offer with matching family/church group options.\n- Visual execution notes: Stacked badge layout with subtle rays, hand-lettered faith phrase, and adaptable placement for adult, youth, and toddler shirts.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Launch a faith-forward personalized apparel offer with matching family/church group options.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.\n\nPrintify draft notes:\n- This is a draft package only; no product has been published automatically.\n- Final production art, provider, variants, price, shipping, and mockups require Manny approval.\n- Customer-facing promises must not be made until product proofing and fulfillment assumptions are confirmed.",
+        "tags": [
+          "faith family shirts",
+          "christian shirt",
+          "faith shirt",
+          "custom shirt",
+          "church shirt",
+          "family shirts",
+          "teacher shirt",
+          "jesus shirt",
+          "retreat shirt",
+          "custom gift",
+          "personalized",
+          "faith gift",
+          "christian gift"
+        ],
+        "blueprint_search_terms": "unisex jersey t-shirt bella canvas comfort colors shirt",
+        "recommended_product_type": "Unisex Jersey T-Shirt",
+        "recommended_blank": "Bella+Canvas 3001 or Comfort Colors 1717 if available in the target Printify shop.",
+        "visible": false,
+        "is_locked": false,
+        "publish_action": "none_manual_manny_approval_required"
+      }
+    },
+    {
+      "rank": 3,
+      "draft_id": "printify-draft-03-custom-embroidered-hats",
+      "source_listing_rank": 3,
+      "source_keyword": "custom embroidered hats",
+      "source_design_title": "Custom Embroidered Hats: Kingdom Workwear Patch",
+      "title": "Custom Embroidered Hat - Kingdom Workwear Patch Personalized Church Team Business Cap",
+      "product_type_recommendation": {
+        "product_type": "Embroidered Trucker Hat",
+        "printify_category": "Accessories > Hats",
+        "recommended_blank": "Structured trucker hat or dad cap with embroidery support.",
+        "blueprint_search_terms": "embroidered trucker hat dad cap patch hat",
+        "variant_notes": [
+          "Limit launch colors to 3-5 hat colors.",
+          "Avoid tiny type; embroidery needs thicker strokes and fewer colors."
+        ],
+        "source_category": "Clothing > Unisex Adult Clothing > Hats & Caps > Baseball & Trucker Caps",
+        "selection_status": "recommended_not_selected"
+      },
+      "print_area_notes": [
+        "Primary print area: front center embroidery/patch zone; confirm provider stitch-area dimensions.",
+        "Use simplified vector-style art with large text, limited thread colors, and no fine texture.",
+        "Request digitized proof before Manny approves any public order commitment."
+      ],
+      "mockup_direction": [
+        "Use front-facing hat hero mockup plus angled side view.",
+        "Include close-up of embroidery/patch area and one lifestyle/workwear context image.",
+        "Use mockups that clearly show the product category: Clothing > Unisex Adult Clothing > Hats & Caps > Baseball & Trucker Caps.",
+        "Reflect Micah art direction: Simple patch-ready shield or rectangle mark with bold icon, limited thread colors, and clear silhouette for embroidery digitizing.",
+        "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+        "Keep mockup styling aligned with this color palette: khaki, deep navy, white, rust, forest green.",
+        "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+      ],
+      "product_description": "Custom Embroidered Hat - Kingdom Workwear Patch Personalized Church Team Business Cap\n\nCustom Embroidered Hat - Kingdom Workwear Patch Personalized Church Team Business Cap\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: custom embroidered hats.\n- Design direction from Micah: A durable embroidered hat or workwear patch design for teams, volunteers, and entrepreneurs who want a faith-rooted identity piece. Hunter offer context: Launch a 12-piece custom embroidered hat starter bundle for churches, teams, and local businesses.\n- Visual execution notes: Simple patch-ready shield or rectangle mark with bold icon, limited thread colors, and clear silhouette for embroidery digitizing.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Launch a 12-piece custom embroidered hat starter bundle for churches, teams, and local businesses.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.\n\nPrintify draft notes:\n- This is a draft package only; no product has been published automatically.\n- Final production art, provider, variants, price, shipping, and mockups require Manny approval.\n- Customer-facing promises must not be made until product proofing and fulfillment assumptions are confirmed.",
+      "pricing_math": {
+        "retail_price": 29.99,
+        "estimated_printify_base_cost": 13.25,
+        "estimated_shipping_cost": 4.95,
+        "estimated_marketplace_transaction_fee": 1.95,
+        "estimated_payment_fee": 1.15,
+        "estimated_total_cost": 21.3,
+        "estimated_profit": 8.69,
+        "target_margin_percent": 29.0,
+        "source_average_price": "$24.83",
+        "pricing_status": "draft_math_pending_manny_review",
+        "notes": "Replace estimates with exact Printify provider cost, selected variant cost, shop fees, shipping profile, discounts, and tax assumptions before publishing."
+      },
+      "tags": [
+        "custom embroidered",
+        "custom hat",
+        "embroidered hat",
+        "trucker hat",
+        "dad hat",
+        "church hats",
+        "team hats",
+        "logo hat",
+        "hat patch",
+        "custom gift",
+        "personalized",
+        "faith gift",
+        "christian gift"
+      ],
+      "listing_checklist": [
+        {
+          "item": "Manny approves product type, supplier/provider, and launch risk.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Final artwork uses owned/licensed fonts and graphics only.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "No copyrighted characters, protected logos, celebrity names, lyrics, or trademarked slogans.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Printify blueprint/provider and variant availability are confirmed.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Print area dimensions, safe margins, bleed, and file format are verified.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Retail price, fees, shipping assumptions, and margin are reviewed.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Mockups accurately represent the selected blank, colors, and personalization limits.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Description, tags, and customer-facing production time are reviewed.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Sample/proof path is defined before public launch or customer commitment.",
+          "status": "pending_manny_review"
+        }
+      ],
+      "manny_approval_gate": {
+        "required_approval": "Manny approval is required before creating live Printify products, publishing, changing pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "approved_for_publish": false,
+        "approved_for_sample_order": false,
+        "approved_for_ad_spend": false,
+        "approved_for_customer_commitment": false,
+        "source_amanda_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+      },
+      "printify_draft_payload": {
+        "title": "Custom Embroidered Hat - Kingdom Workwear Patch Personalized Church Team Business Cap",
+        "description": "Custom Embroidered Hat - Kingdom Workwear Patch Personalized Church Team Business Cap\n\nCustom Embroidered Hat - Kingdom Workwear Patch Personalized Church Team Business Cap\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: custom embroidered hats.\n- Design direction from Micah: A durable embroidered hat or workwear patch design for teams, volunteers, and entrepreneurs who want a faith-rooted identity piece. Hunter offer context: Launch a 12-piece custom embroidered hat starter bundle for churches, teams, and local businesses.\n- Visual execution notes: Simple patch-ready shield or rectangle mark with bold icon, limited thread colors, and clear silhouette for embroidery digitizing.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Launch a 12-piece custom embroidered hat starter bundle for churches, teams, and local businesses.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.\n\nPrintify draft notes:\n- This is a draft package only; no product has been published automatically.\n- Final production art, provider, variants, price, shipping, and mockups require Manny approval.\n- Customer-facing promises must not be made until product proofing and fulfillment assumptions are confirmed.",
+        "tags": [
+          "custom embroidered",
+          "custom hat",
+          "embroidered hat",
+          "trucker hat",
+          "dad hat",
+          "church hats",
+          "team hats",
+          "logo hat",
+          "hat patch",
+          "custom gift",
+          "personalized",
+          "faith gift",
+          "christian gift"
+        ],
+        "blueprint_search_terms": "embroidered trucker hat dad cap patch hat",
+        "recommended_product_type": "Embroidered Trucker Hat",
+        "recommended_blank": "Structured trucker hat or dad cap with embroidery support.",
+        "visible": false,
+        "is_locked": false,
+        "publish_action": "none_manual_manny_approval_required"
+      }
+    }
+  ],
+  "auto_publish_enabled": false,
+  "approval_required_before_public_action": true,
+  "manny_approval_requirement": "Manny approval is required before creating live Printify products, publishing, changing pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+}

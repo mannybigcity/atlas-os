@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#0f172a"/>
+  <circle cx="220" cy="160" r="110" fill="#1d4ed8" opacity="0.45"/>
+  <circle cx="1360" cy="820" r="150" fill="#dc2626" opacity="0.35"/>
+  <path d="M180 500 C380 250 620 250 800 500 C980 750 1220 750 1420 500" fill="none" stroke="#f8fafc" stroke-width="16" opacity="0.45"/>
+  <rect x="180" y="210" width="1240" height="580" rx="44" fill="#111827" stroke="#f59e0b" stroke-width="10"/>
+  <text x="800" y="410" text-anchor="middle" font-family="Georgia,serif" font-size="74" font-weight="700" fill="#f8fafc">Faith Family Freedom Yard Sign Bundle</text>
+  <text x="800" y="510" text-anchor="middle" font-family="Arial,sans-serif" font-size="40" fill="#f59e0b">Faith Family Freedom • Pending Manny Approval</text>
+  <text x="800" y="615" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" fill="#cbd5e1">Demand 9 | Competition 8 | Profit 9 | Mission 10</text>
+  <text x="800" y="700" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" fill="#93c5fd">Original concept preview generated for internal gallery review only</text>
+</svg>

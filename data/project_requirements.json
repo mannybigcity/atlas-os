@@ -1,0 +1,61 @@
+{
+  "system_name": "RAMFAM Kingdom Project Requirements",
+  "owner": "Mason",
+  "projects": [
+    {
+      "name": "Hunter v3",
+      "purpose": "Lead Database System",
+      "required_files": [
+        "skills/hunter_skill.py",
+        "data/hunter_opportunities.json",
+        "data/hunter_leads.json"
+      ],
+      "required_commands": [
+        "Hunter, add lead",
+        "Hunter, show leads",
+        "Hunter, show website leads",
+        "Hunter, show commission opportunities"
+      ],
+      "next_step": "Create hunter_leads.json"
+    },
+    {
+      "name": "Scout v1",
+      "purpose": "Opportunity Discovery System",
+      "required_files": [
+        "skills/scout_skill.py",
+        "data/scout_opportunities.json"
+      ],
+      "required_commands": [
+        "Scout, find opportunities",
+        "Scout, show opportunities"
+      ],
+      "next_step": "Create scout_opportunities.json"
+    },
+    {
+      "name": "Taylor v1",
+      "purpose": "Website Tailor System",
+      "required_files": [
+        "skills/taylor_skill.py",
+        "data/website_projects.json"
+      ],
+      "required_commands": [
+        "Taylor, show websites",
+        "Taylor, create website project"
+      ],
+      "next_step": "Create website_projects.json"
+    },
+    {
+      "name": "Ranger v1",
+      "purpose": "Customer Success System",
+      "required_files": [
+        "skills/ranger_skill.py",
+        "data/customer_success.json"
+      ],
+      "required_commands": [
+        "Ranger, show customers",
+        "Ranger, show follow ups"
+      ],
+      "next_step": "Create customer_success.json"
+    }
+  ]
+}

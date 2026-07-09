@@ -1,0 +1,27 @@
+PROJECT: SIS CUSTOM CREATIONS WEBSITE
+
+MISSION:
+
+Review all screenshots located in:
+
+SCREENSHOTS/
+
+Identify:
+
+1. Best homepage designs
+2. Best mobile layouts
+3. Best service section layouts
+4. Best call-to-action examples
+5. Best booking flow examples
+6. Best color and branding concepts
+
+Deliverables:
+
+1. SIS Website Improvement Report
+2. SIS Website Master Plan
+
+Do not implement changes.
+
+Provide recommendations only.
+
+Await Manny approval.

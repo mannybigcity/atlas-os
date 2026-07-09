@@ -1,0 +1,108 @@
+{
+  "mission": "Commerce Pipeline Runner",
+  "generated_at": "2026-06-21T14:26:55",
+  "mission_folder": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655",
+  "pipeline_order": [
+    "Hunter",
+    "Micah",
+    "Amanda",
+    "Printify Draft Package"
+  ],
+  "agent_chain": {
+    "assigned_by": "Atlas",
+    "builder": "Mason",
+    "revenue_owner": "Hunter",
+    "design_owner": "Micah",
+    "listing_owner": "Amanda",
+    "draft_owner": "Mason",
+    "approval_owner": "Manny"
+  },
+  "stages": {
+    "hunter": {
+      "stage": "Hunter",
+      "status": "complete",
+      "json_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\01_hunter_etsy_research\\hunter_etsy_research_latest.json",
+      "markdown_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\01_hunter_etsy_research\\hunter_etsy_research_latest.md",
+      "archive_json_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\01_hunter_etsy_research\\hunter_etsy_research_20260621_142655.json",
+      "archive_markdown_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\01_hunter_etsy_research\\hunter_etsy_research_20260621_142655.md",
+      "mission": "Hunter Etsy Research",
+      "generated_at": "2026-06-21T14:26:55",
+      "approval_required_before_public_action": true
+    },
+    "micah": {
+      "stage": "Micah",
+      "status": "complete",
+      "json_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\02_micah_design_prompt_engine\\micah_design_prompts_latest.json",
+      "markdown_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\02_micah_design_prompt_engine\\micah_design_prompts_latest.md",
+      "archive_json_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\02_micah_design_prompt_engine\\micah_design_prompts_20260621_142655.json",
+      "archive_markdown_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\02_micah_design_prompt_engine\\micah_design_prompts_20260621_142655.md",
+      "mission": "Micah Design Prompt Engine",
+      "generated_at": "2026-06-21T14:26:55",
+      "approval_required_before_public_action": true
+    },
+    "amanda": {
+      "stage": "Amanda",
+      "status": "complete",
+      "json_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\03_amanda_listing_engine\\amanda_listing_packages_latest.json",
+      "markdown_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\03_amanda_listing_engine\\amanda_listing_packages_latest.md",
+      "archive_json_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\03_amanda_listing_engine\\amanda_listing_packages_20260621_142655.json",
+      "archive_markdown_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\03_amanda_listing_engine\\amanda_listing_packages_20260621_142655.md",
+      "mission": "Amanda Listing Engine",
+      "generated_at": "2026-06-21T14:26:55",
+      "approval_required_before_public_action": true
+    },
+    "printify": {
+      "stage": "Printify Draft Package",
+      "status": "complete",
+      "json_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\04_printify_draft_package_engine\\printify_draft_packages_latest.json",
+      "markdown_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\04_printify_draft_package_engine\\printify_draft_packages_latest.md",
+      "archive_json_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\04_printify_draft_package_engine\\printify_draft_packages_20260621_142655.json",
+      "archive_markdown_path": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\04_printify_draft_package_engine\\printify_draft_packages_20260621_142655.md",
+      "mission": "Printify Draft Package Engine",
+      "generated_at": "2026-06-21T14:26:55",
+      "approval_required_before_public_action": true
+    }
+  },
+  "counts": {
+    "hunter_opportunities": 1,
+    "micah_design_concepts": 1,
+    "amanda_listing_packages": 1,
+    "printify_draft_packages": 1
+  },
+  "executive_summary": {
+    "top_hunter_opportunity": "christian streetwear shirts",
+    "top_hunter_score": 8,
+    "top_printify_draft": "Christian Streetwear Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts",
+    "top_printify_draft_id": "printify-draft-01-christian-streetwear-shirts"
+  },
+  "auto_publish_enabled": false,
+  "actions_taken": [
+    "Generated local Hunter opportunity research.",
+    "Generated local Micah design prompt report.",
+    "Generated local Amanda listing package report.",
+    "Generated local Printify draft package report.",
+    "Generated this local mission summary."
+  ],
+  "actions_not_taken": [
+    "No Etsy listing was published.",
+    "No live Printify product was created or modified.",
+    "No sample order was placed.",
+    "No ad budget was spent.",
+    "No customer was contacted or committed."
+  ],
+  "approval_required_before_public_action": true,
+  "manny_approval_requirement": "Manny approval is required before publishing listings, creating live Printify products, changing live pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+  "manny_approval_gates": {
+    "publish": "blocked_pending_manny_approval",
+    "printify_live_creation": "blocked_pending_manny_approval",
+    "pricing_change": "blocked_pending_manny_approval",
+    "sample_order": "blocked_pending_manny_approval",
+    "ad_spend": "blocked_pending_manny_approval",
+    "customer_contact": "blocked_pending_manny_approval",
+    "customer_commitment": "blocked_pending_manny_approval"
+  },
+  "exports": {
+    "summary_json": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\commerce_pipeline_mission_summary.json",
+    "summary_report": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260621_142655\\commerce_pipeline_mission_summary.md"
+  }
+}

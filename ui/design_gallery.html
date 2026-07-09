@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAMFAM KINGDOM Gallery</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    :root {
+      --bg: #020617;
+      --panel: rgba(7, 12, 24, 0.88);
+      --panel-strong: rgba(15, 23, 42, 0.96);
+      --cyan: #00e5ff;
+      --purple: #a78bfa;
+      --green: #00ffb3;
+      --gold: #e5b95c;
+      --red: #fb7185;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --border: rgba(148, 163, 184, 0.22);
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 18% 10%, rgba(0, 229, 255, .20), transparent 30%),
+        radial-gradient(circle at 82% 18%, rgba(167, 139, 250, .18), transparent 28%),
+        radial-gradient(circle at 50% 100%, rgba(0, 255, 179, .10), transparent 32%),
+        var(--bg);
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(0, 229, 255, .045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 229, 255, .045) 1px, transparent 1px);
+      background-size: 42px 42px;
+      opacity: .5;
+    }
+
+    .shell {
+      position: relative;
+      z-index: 1;
+      width: min(1440px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: 22px 0 36px;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 16px;
+      align-items: center;
+      padding: 22px;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      background: var(--panel);
+      box-shadow: 0 0 45px rgba(0, 0, 0, .42), inset 0 0 30px rgba(0, 229, 255, .035);
+      backdrop-filter: blur(18px);
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--text);
+      font-size: clamp(28px, 4vw, 48px);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    .subtitle {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 13px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .back-link {
+      color: var(--green);
+      border: 1px solid rgba(0, 255, 179, .32);
+      border-radius: 999px;
+      padding: 12px 16px;
+      text-decoration: none;
+      font-weight: 900;
+      letter-spacing: 1px;
+      background: rgba(0, 255, 179, .08);
+      white-space: nowrap;
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(140px, 1fr));
+      gap: 14px;
+      margin: 16px 0;
+    }
+
+    .activity-panel {
+      margin-top: 16px;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      background: var(--panel);
+      overflow: hidden;
+      box-shadow: 0 0 32px rgba(0, 0, 0, .35);
+    }
+
+    .activity-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .activity-table th,
+    .activity-table td {
+      padding: 11px 14px;
+      border-bottom: 1px solid rgba(148, 163, 184, .14);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .activity-table th {
+      color: var(--muted);
+      font-size: 10px;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      background: rgba(0, 229, 255, .035);
+    }
+
+    .activity-table td {
+      color: #dbeafe;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .metric {
+      padding: 16px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: rgba(15, 23, 42, .78);
+    }
+
+    .metric span {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    .metric strong {
+      display: block;
+      margin-top: 8px;
+      font-size: 30px;
+      color: var(--cyan);
+      text-shadow: 0 0 16px rgba(0, 229, 255, .32);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      overflow: visible;
+    }
+
+    .status-section {
+      min-height: 320px;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      background: var(--panel);
+      box-shadow: 0 0 32px rgba(0, 0, 0, .35);
+      overflow: visible;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding: 16px 18px;
+      border-bottom: 1px solid var(--border);
+      background: rgba(0, 229, 255, .05);
+    }
+
+    .section-head h2 {
+      margin: 0;
+      color: var(--cyan);
+      font-size: 15px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .count-pill {
+      min-width: 34px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      color: var(--bg);
+      background: var(--green);
+      text-align: center;
+      font-weight: 950;
+    }
+
+    .cards {
+      display: grid;
+      gap: 12px;
+      padding: 14px;
+      overflow: visible;
+    }
+
+    .asset-card {
+      display: grid;
+      grid-template-columns: 112px 1fr;
+      gap: 14px;
+      padding: 13px;
+      border: 1px solid rgba(148, 163, 184, .18);
+      border-radius: 18px;
+      background: var(--panel-strong);
+      overflow: visible;
+      position: relative;
+      z-index: 1;
+    }
+
+    .asset-card:has(.asset-preview.has-image:hover),
+    .asset-card:has(.asset-preview.has-image:focus-visible) {
+      z-index: 40;
+    }
+
+    .asset-preview {
+      display: grid;
+      place-items: center;
+      position: relative;
+      width: 112px;
+      height: 112px;
+      min-height: 112px;
+      padding: 0;
+      border-radius: 16px;
+      border: 1px dashed rgba(0, 229, 255, .34);
+      overflow: visible;
+      color: var(--muted);
+      text-align: center;
+      font-size: 12px;
+      background: radial-gradient(circle, rgba(0, 229, 255, .12), rgba(15, 23, 42, .88));
+      cursor: zoom-in;
+      transition: box-shadow .18s ease, border-color .18s ease;
+      z-index: 1;
+    }
+
+    .asset-preview.has-image:hover,
+    .asset-preview.has-image:focus-visible {
+      z-index: 60;
+      border-color: rgba(0, 255, 179, .72);
+      box-shadow: 0 0 22px rgba(0, 229, 255, .30);
+      outline: none;
+    }
+
+    .asset-preview img {
+      position: relative;
+      z-index: 1;
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #020617;
+      pointer-events: none;
+      border-radius: 14px;
+      transform-origin: left center;
+      transition: transform .22s ease, box-shadow .22s ease;
+    }
+
+    .asset-preview.has-image:hover img,
+    .asset-preview.has-image:focus-visible img {
+      transform: scale(2.75);
+      z-index: 70;
+      box-shadow: 0 0 36px rgba(0, 229, 255, .38), 0 18px 55px rgba(0, 0, 0, .68);
+    }
+
+    .asset-preview.has-image::after {
+      content: "🔍";
+      position: absolute;
+      right: 7px;
+      bottom: 7px;
+      z-index: 2;
+      display: grid;
+      place-items: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 999px;
+      background: rgba(2, 6, 23, .78);
+      box-shadow: 0 0 18px rgba(0, 229, 255, .28);
+      font-size: 14px;
+      transition: opacity .18s ease, transform .18s ease;
+    }
+
+    .asset-preview.has-image:hover::after,
+    .asset-preview.has-image:focus-visible::after {
+      opacity: 0;
+      transform: scale(.82);
+    }
+
+    .asset-name {
+      margin: 0 0 8px;
+      color: var(--text);
+      font-size: 18px;
+    }
+
+    .field-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px 12px;
+    }
+
+    .field {
+      min-width: 0;
+    }
+
+    .label {
+      display: block;
+      color: var(--muted);
+      font-size: 10px;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+    }
+
+    .value {
+      display: block;
+      margin-top: 2px;
+      color: #dbeafe;
+      font-weight: 800;
+      overflow-wrap: anywhere;
+    }
+
+    .revenue {
+      color: var(--gold);
+    }
+
+    .channel-list {
+      display: grid;
+      gap: 3px;
+      margin-top: 2px;
+      color: #dbeafe;
+      font-weight: 850;
+    }
+
+    .channel-check {
+      color: var(--green);
+      margin-right: 5px;
+    }
+
+    .asset-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .action-button {
+      border: 1px solid rgba(0, 229, 255, .34);
+      border-radius: 999px;
+      padding: 9px 12px;
+      color: var(--text);
+      background: rgba(0, 229, 255, .08);
+      font-size: 11px;
+      font-weight: 950;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    .action-button:hover,
+    .action-button:focus-visible {
+      border-color: var(--green);
+      box-shadow: 0 0 18px rgba(0, 255, 179, .22);
+      outline: none;
+    }
+
+    .action-button.approve,
+    .action-button.publish {
+      color: var(--green);
+    }
+
+    .action-button.reject {
+      color: #fecdd3;
+      border-color: rgba(251, 113, 133, .44);
+      background: rgba(251, 113, 133, .10);
+    }
+
+    .action-button.preview {
+      color: var(--cyan);
+    }
+
+    .asset-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 10px;
+    }
+
+    .asset-link {
+      display: inline-block;
+      border: 1px solid rgba(167, 139, 250, .34);
+      border-radius: 999px;
+      padding: 8px 10px;
+      color: #ddd6fe;
+      background: rgba(167, 139, 250, .08);
+      font-size: 10px;
+      font-weight: 950;
+      letter-spacing: .8px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .asset-timeline {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border: 1px solid rgba(0, 255, 179, .18);
+      border-radius: 14px;
+      background: rgba(0, 255, 179, .045);
+    }
+
+    .asset-timeline-title {
+      color: var(--green);
+      font-size: 10px;
+      font-weight: 950;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+    }
+
+    .timeline-step {
+      margin-top: 7px;
+      color: #dbeafe;
+      font-size: 12px;
+      font-weight: 850;
+    }
+
+    .timeline-arrow {
+      color: var(--muted);
+      margin: 0 6px;
+    }
+
+    .action-button[disabled] {
+      opacity: .55;
+      cursor: wait;
+    }
+
+    .preview-modal {
+      position: fixed;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      padding: 28px;
+      background: rgba(2, 6, 23, .86);
+      backdrop-filter: blur(12px);
+      z-index: 100;
+    }
+
+    .preview-modal[hidden] {
+      display: none;
+    }
+
+    .preview-frame {
+      position: relative;
+      max-width: min(1100px, 96vw);
+      max-height: 92vh;
+      padding: 18px;
+      border: 1px solid rgba(0, 229, 255, .38);
+      border-radius: 24px;
+      background: rgba(7, 12, 24, .96);
+      box-shadow: 0 0 60px rgba(0, 229, 255, .22), 0 22px 80px rgba(0, 0, 0, .72);
+    }
+
+    .preview-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 36px;
+      height: 36px;
+      border: 1px solid rgba(251, 113, 133, .44);
+      border-radius: 999px;
+      color: #fecdd3;
+      background: rgba(251, 113, 133, .12);
+      font-size: 22px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .preview-frame img {
+      display: block;
+      width: auto;
+      max-width: calc(96vw - 70px);
+      max-height: calc(92vh - 90px);
+      object-fit: contain;
+      border-radius: 16px;
+      background: #020617;
+    }
+
+    .preview-caption {
+      margin: 12px 48px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .empty-state,
+    .loading-state {
+      padding: 22px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .error {
+      margin-top: 14px;
+      padding: 14px;
+      border: 1px solid rgba(251, 113, 133, .35);
+      border-radius: 16px;
+      color: #fecdd3;
+      background: rgba(251, 113, 133, .10);
+    }
+
+    .exports {
+      margin-top: 16px;
+      padding: 16px 18px;
+      border: 1px solid rgba(0, 229, 255, .22);
+      border-radius: 20px;
+      background: rgba(0, 229, 255, .055);
+    }
+
+    .exports h2 {
+      margin: 0 0 10px;
+      color: var(--cyan);
+      font-size: 13px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    .exports a {
+      display: inline-block;
+      margin-right: 14px;
+      color: var(--green);
+      font-weight: 900;
+      text-decoration: none;
+    }
+
+    @media (max-width: 980px) {
+      header,
+      .gallery-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .metrics {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 620px) {
+      .metrics,
+      .asset-card,
+      .field-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .asset-preview {
+        width: 100%;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="/assets/atlas-saas.css" />
+</head>
+<body data-atlas-app data-atlas-page="gallery">
+  <div class="shell">
+    <header>
+      <div>
+        <h1>RAMFAM KINGDOM Gallery</h1>
+        <div class="subtitle">Auto-Executed Work • Result Review Queue • Manual External Approval Guard</div>
+      </div>
+      <span class="atlas-status-chip">Admin Gate Active</span>
+    </header>
+
+    <section class="activity-panel" aria-label="Recent Kingdom Activity">
+      <div class="section-head"><h2>Recent Kingdom Activity</h2><span class="count-pill" id="count-activity">0</span></div>
+      <div id="recent-activity"><div class="loading-state">Loading recent Kingdom activity...</div></div>
+    </section>
+
+    <section class="metrics" aria-label="Kingdom gallery counts">
+      <div class="metric"><span>Review Queue</span><strong id="metric-pending_approval">0</strong></div>
+      <div class="metric"><span>Approved</span><strong id="metric-approved">0</strong></div>
+      <div class="metric"><span>Rejected</span><strong id="metric-rejected">0</strong></div>
+      <div class="metric"><span>Published Digital</span><strong id="metric-published_digital">0</strong></div>
+      <div class="metric"><span>Top Sellers</span><strong id="metric-top_sellers">0</strong></div>
+    </section>
+
+    <main class="gallery-grid" aria-live="polite">
+      <section class="status-section" data-section="pending_approval">
+        <div class="section-head"><h2>Kingdom Review Queue</h2><span class="count-pill" id="count-pending_approval">0</span></div>
+        <div class="cards" id="section-pending_approval"><div class="loading-state">Loading completed results for review...</div></div>
+      </section>
+
+      <section class="status-section" data-section="approved">
+        <div class="section-head"><h2>Approved</h2><span class="count-pill" id="count-approved">0</span></div>
+        <div class="cards" id="section-approved"><div class="loading-state">Loading approved assets...</div></div>
+      </section>
+
+      <section class="status-section" data-section="rejected">
+        <div class="section-head"><h2>Rejected</h2><span class="count-pill" id="count-rejected">0</span></div>
+        <div class="cards" id="section-rejected"><div class="loading-state">Loading rejected assets...</div></div>
+      </section>
+
+      <section class="status-section" data-section="published_digital">
+        <div class="section-head"><h2>Published Digital</h2><span class="count-pill" id="count-published_digital">0</span></div>
+        <div class="cards" id="section-published_digital"><div class="loading-state">Loading internal Kingdom Gallery publications...</div></div>
+      </section>
+
+      <section class="status-section" data-section="top_sellers">
+        <div class="section-head"><h2>Top Sellers</h2><span class="count-pill" id="count-top_sellers">0</span></div>
+        <div class="cards" id="section-top_sellers"><div class="loading-state">Loading top sellers...</div></div>
+      </section>
+    </main>
+
+    <section class="exports" aria-label="Latest Commerce Image Prompt Exporter Outputs">
+      <h2>Latest Commerce Image Prompt Exporter Outputs</h2>
+      <a href="/design-gallery/export/commerce_image_prompts_latest.md" target="_blank">Latest prompt report</a>
+      <a href="/design-gallery/export/commerce_image_prompts_latest.json" target="_blank">Latest prompt JSON</a>
+    </section>
+
+    <div id="error" class="error" style="display:none;"></div>
+  </div>
+
+  <div id="preview-modal" class="preview-modal" hidden>
+    <div class="preview-frame" role="dialog" aria-modal="true" aria-label="Full asset preview">
+      <button type="button" class="preview-close" aria-label="Close full preview">×</button>
+      <img id="preview-modal-image" src="" alt="Full asset preview" />
+      <div id="preview-modal-caption" class="preview-caption"></div>
+    </div>
+  </div>
+
+  <script>
+    const DATA_ENDPOINT = "/api/design-gallery/assets";
+    const ACTION_ENDPOINT = "/api/commerce/approval/assets/";
+    const sectionNames = ["pending_approval", "approved", "rejected", "published_digital", "top_sellers"];
+
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>'"]/g, character => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        "'": "&#39;",
+        '"': "&quot;"
+      }[character]));
+    }
+
+    function money(value) {
+      return Number(value || 0).toLocaleString(undefined, {
+        style: "currency",
+        currency: "USD",
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2
+      });
+    }
+
+    const channelLabels = {
+      kingdom_gallery: "Kingdom Gallery"
+    };
+
+    function publicationTypeLabel(value) {
+      const type = String(value || "").trim();
+      if (!type) return "Not selected";
+      return type.charAt(0).toUpperCase() + type.slice(1);
+    }
+
+    function publishedChannels(asset) {
+      const channels = Array.isArray(asset.channels) ? asset.channels : [];
+      if (!channels.length) return `<span class="value">No channels selected</span>`;
+      return `<div class="channel-list">${channels.map(channel => `<span><span class="channel-check">✓</span>${escapeHtml(channelLabels[channel] || channel)}</span>`).join("")}</div>`;
+    }
+
+    function preview(asset) {
+      if (asset.asset_preview) {
+        return `<button type="button" class="asset-preview has-image" data-preview-src="${escapeHtml(asset.asset_preview)}" data-preview-name="${escapeHtml(asset.asset_name)}"><img src="${escapeHtml(asset.asset_preview)}" alt="Asset Preview for ${escapeHtml(asset.asset_name)}" onerror="this.parentElement.textContent='Asset Preview';"></button>`;
+      }
+      return `<div class="asset-preview">Asset Preview</div>`;
+    }
+
+    function actionButtons(asset) {
+      const approval = String(asset.approval_status || "").toLowerCase();
+      const marketplace = String(asset.marketplace_status || "").toLowerCase();
+      const buttons = [];
+
+      if (asset.asset_preview) {
+        buttons.push(`<button type="button" class="action-button preview" data-preview-src="${escapeHtml(asset.asset_preview)}" data-preview-name="${escapeHtml(asset.asset_name)}">Preview</button>`);
+      }
+      if (approval.includes("pending")) {
+        buttons.push(`<button type="button" class="action-button approve" data-asset-id="${escapeHtml(asset.asset_id)}" data-action="approve">Approve Result</button>`);
+        buttons.push(`<button type="button" class="action-button reject" data-asset-id="${escapeHtml(asset.asset_id)}" data-action="reject">Needs Revision</button>`);
+      } else if (approval.includes("approved") && !marketplace.includes("published")) {
+        buttons.push(`<button type="button" class="action-button publish" data-asset-id="${escapeHtml(asset.asset_id)}" data-action="publish-digital">Publish Digital to Gallery</button>`);
+      }
+
+      return buttons.length ? `<div class="asset-actions">${buttons.join("")}</div>` : "";
+    }
+
+    function assetFileLinks(asset) {
+      const fileLinks = asset.file_links || {};
+      const linkLabels = [
+        ["svg", "View SVG"],
+        ["png", "View PNG"],
+        ["metadata", "View Metadata"],
+        ["listing_package", "View Listing Package"],
+        ["seo_tags", "View SEO Tags"],
+        ["marketing_copy", "View Marketing Copy"]
+      ];
+      const links = linkLabels
+        .filter(([key]) => fileLinks[key])
+        .map(([key, label]) => `<a class="asset-link" href="${escapeHtml(fileLinks[key])}" target="_blank" rel="noopener">${label}</a>`);
+      return links.length ? `<div class="asset-links">${links.join("")}</div>` : "";
+    }
+
+    function assetTimeline(asset) {
+      const timeline = asset.timeline || [];
+      if (!timeline.length) return "";
+      const steps = timeline.map(step => `<span class="timeline-step">${escapeHtml(step.action)}</span>`).join(`<span class="timeline-arrow">↓</span>`);
+      return `<div class="asset-timeline"><div class="asset-timeline-title">Asset Timeline</div><div>${steps}</div></div>`;
+    }
+
+    function renderRecentActivity(activity) {
+      const container = document.getElementById("recent-activity");
+      document.getElementById("count-activity").textContent = activity.length;
+      if (!activity.length) {
+        container.innerHTML = `<div class="empty-state">No Kingdom activity recorded yet.</div>`;
+        return;
+      }
+      const rows = activity.map(item => `
+        <tr>
+          <td>${escapeHtml(item.timestamp)}</td>
+          <td>${escapeHtml(item.agent)}</td>
+          <td>${escapeHtml(item.action)}</td>
+          <td>${escapeHtml(item.asset)}</td>
+        </tr>`).join("");
+      container.innerHTML = `
+        <table class="activity-table">
+          <thead><tr><th>Timestamp</th><th>Agent</th><th>Action</th><th>Asset</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>`;
+    }
+
+    function card(asset) {
+      const revenue = asset.revenue_tracking || {};
+      return `
+        <article class="asset-card" data-asset-id="${escapeHtml(asset.asset_id)}">
+          ${preview(asset)}
+          <div>
+            <h3 class="asset-name">${escapeHtml(asset.asset_name)}</h3>
+            <div class="field-grid">
+              <div class="field"><span class="label">Creator Agent</span><span class="value">${escapeHtml(asset.creator_agent)}</span></div>
+              <div class="field"><span class="label">Creation Date</span><span class="value">${escapeHtml(asset.creation_date)}</span></div>
+              <div class="field"><span class="label">Result Review Status</span><span class="value">${escapeHtml(asset.approval_status)}</span></div>
+              <div class="field"><span class="label">Marketplace Status</span><span class="value">${escapeHtml(asset.marketplace_status)}</span></div>
+              <div class="field"><span class="label">Publication Type</span><span class="value">${escapeHtml(publicationTypeLabel(asset.publication_type))}</span></div>
+              <div class="field"><span class="label">Publication Scope</span><span class="value">${escapeHtml(asset.publication_scope || "Internal review only")}</span></div>
+              <div class="field"><span class="label">External Publishing</span><span class="value">${asset.external_publication_blocked ? "Blocked" : "No external action taken"}</span></div>
+              <div class="field"><span class="label">Published Channels</span>${publishedChannels(asset)}</div>
+              <div class="field"><span class="label">Revenue Tracking</span><span class="value revenue">${money(revenue.total_revenue)} • ${Number(revenue.units_sold || 0)} sold</span></div>
+              <div class="field"><span class="label">File Location</span><span class="value">${escapeHtml(asset.file_location)}</span></div>
+            </div>
+            ${assetFileLinks(asset)}
+            ${assetTimeline(asset)}
+            ${actionButtons(asset)}
+          </div>
+        </article>`;
+    }
+
+    function renderSection(name, assets) {
+      const container = document.getElementById(`section-${name}`);
+      const count = assets.length;
+      document.getElementById(`count-${name}`).textContent = count;
+      document.getElementById(`metric-${name}`).textContent = count;
+
+      if (!count) {
+        container.innerHTML = `<div class="empty-state">No assets in this status yet.</div>`;
+        return;
+      }
+
+      container.innerHTML = assets.map(card).join("");
+    }
+
+    function renderPayload(payload) {
+      renderRecentActivity(payload.recent_activity || []);
+      sectionNames.forEach(name => renderSection(name, payload.sections?.[name] || []));
+    }
+
+    function showError(message) {
+      document.getElementById("error").style.display = "block";
+      document.getElementById("error").textContent = message;
+    }
+
+    async function changeAssetStatus(assetId, action, button) {
+      button.disabled = true;
+      button.textContent = "Working...";
+      try {
+        const response = await fetch(`${ACTION_ENDPOINT}${encodeURIComponent(assetId)}/${action}`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({})
+        });
+        const payload = await response.json();
+        if (!response.ok || !payload.success) throw new Error(payload.error || `Status update failed with ${response.status}`);
+        renderPayload(payload);
+      } catch (error) {
+        showError(`Kingdom Gallery status update failed: ${error.message}`);
+        await loadDesignGallery();
+      }
+    }
+
+    function openPreview(src, name) {
+      if (!src) return;
+      const modal = document.getElementById("preview-modal");
+      const image = document.getElementById("preview-modal-image");
+      image.src = src;
+      image.alt = `Full asset preview for ${name}`;
+      document.getElementById("preview-modal-caption").textContent = name;
+      modal.hidden = false;
+    }
+
+    function closePreview() {
+      const modal = document.getElementById("preview-modal");
+      document.getElementById("preview-modal-image").src = "";
+      modal.hidden = true;
+    }
+
+    document.addEventListener("click", event => {
+      const actionButton = event.target.closest("[data-action]");
+      if (actionButton) {
+        changeAssetStatus(actionButton.dataset.assetId, actionButton.dataset.action, actionButton);
+        return;
+      }
+
+      const previewButton = event.target.closest("[data-preview-src]");
+      if (previewButton) {
+        openPreview(previewButton.dataset.previewSrc, previewButton.dataset.previewName || "Asset Preview");
+        return;
+      }
+
+      if (event.target.id === "preview-modal" || event.target.classList.contains("preview-close")) {
+        closePreview();
+      }
+    });
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") closePreview();
+    });
+
+    async function loadDesignGallery() {
+      try {
+        const response = await fetch(DATA_ENDPOINT);
+        if (!response.ok) throw new Error(`Kingdom Gallery API returned ${response.status}`);
+        const payload = await response.json();
+        renderPayload(payload);
+      } catch (error) {
+        showError(`Kingdom Gallery data failed to load from ${DATA_ENDPOINT}: ${error.message}`);
+        sectionNames.forEach(name => renderSection(name, []));
+      }
+    }
+
+    loadDesignGallery();
+  </script>
+  <script src="/assets/atlas-saas-layout.js"></script>
+</body>
+</html>

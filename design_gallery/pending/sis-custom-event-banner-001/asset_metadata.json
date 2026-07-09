@@ -1,0 +1,21 @@
+{
+  "asset_id": "sis-custom-event-banner-001",
+  "asset_name": "SIS Custom Event Banner",
+  "creator_agent": "Mason",
+  "creation_date": "2026-06-18",
+  "file_location": "RAMFAM_KINGDOM_BRAIN/04_ASSETS/designs/sis-custom-event-banner.svg",
+  "file_locations": {
+    "metadata": "C:\\Users\\User\\Desktop\\PUTER\\design_gallery\\pending\\sis-custom-event-banner-001\\asset_metadata.json"
+  },
+  "approval_status": "Approved",
+  "marketplace_status": "Published",
+  "publication_type": "digital",
+  "channels": [
+    "etsy_digital",
+    "shopify_digital"
+  ],
+  "manual_approval_required": true,
+  "manual_approval_scope": "external_marketplace_action",
+  "updated_at": "2026-06-18T15:19:58",
+  "last_status_change": "2026-06-18T15:19:58"
+}

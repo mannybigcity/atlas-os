@@ -1,0 +1,12 @@
+{
+  "system": "Territory Manager",
+  "slug": "territory_manager",
+  "status": "FORGED_PENDING_MANNY_APPROVAL",
+  "main_file": "C:\\Users\\User\\Desktop\\PUTER\\skills\\territory_manager.py",
+  "skills_file": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\04_MASON_FOUNDRY\\TERRITORY_MANAGER_SKILLS.md",
+  "test_file": "C:\\Users\\User\\Desktop\\PUTER\\test_territory_manager.py",
+  "data_folder": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\07_TERRITORY_MANAGER",
+  "approval_required": true,
+  "built_by": "Mason Infrastructure Forge",
+  "orchestrated_by": "Atlas"
+}

@@ -1,0 +1,142 @@
+{
+  "gallery_status": "pending_approval",
+  "rank": 1,
+  "opportunity": {
+    "rank": 1,
+    "keyword": "America 250 faith family freedom shirts",
+    "focus": "America 250",
+    "source": "web_search_plus_local_seasonal_scoring",
+    "demand_score": 10,
+    "competition_score": 8,
+    "competition_level": "Low",
+    "profit_score": 8,
+    "mission_fit_score": 10,
+    "mission_fit": "High",
+    "selection_score": 9.0,
+    "opportunity_score": 9,
+    "demand_signal": "High",
+    "profit_signal": "High",
+    "average_price": 29.99,
+    "price_low": 22.99,
+    "price_high": 41.99,
+    "average_favorites": 180,
+    "sampled_listing_count": 4,
+    "uniqueness_signal": "High",
+    "recommended_offer": "Launch commemorative America 250 faith/family/freedom shirt and sweatshirt designs with optional family name/year.",
+    "risks": [
+      "Seasonal timing is tight; prioritize fast mockup/sample path.",
+      "Verify phrases, patriotic wording, and fonts for trademark/licensing before publishing."
+    ],
+    "next_actions": [
+      "Micah creates production-safe art prompt and concept package.",
+      "Amanda prepares listing title, tags, description, and pricing review notes.",
+      "Manny reviews gallery package before any public listing or customer commitment."
+    ],
+    "sample_listings": []
+  },
+  "micah_asset_package": {
+    "rank": 1,
+    "source_keyword": "America 250 faith family freedom shirts",
+    "source_opportunity_score": 9,
+    "source_signals": {
+      "demand": "High",
+      "competition": "Low",
+      "mission_fit": "High"
+    },
+    "design_title": "America 250 Faith Family Freedom Shirts: Seasonal Approval Asset Package",
+    "design_concept": "A coordinated family or church-group apparel design that feels warm, modern, and photo-ready for Etsy listing mockups. Hunter offer context: Launch commemorative America 250 faith/family/freedom shirt and sweatshirt designs with optional family name/year.",
+    "art_direction": "Stacked badge layout with subtle rays, hand-lettered faith phrase, and adaptable placement for adult, youth, and toddler shirts.",
+    "color_palette": [
+      "cream",
+      "deep forest green",
+      "terracotta",
+      "warm sand",
+      "soft black"
+    ],
+    "typography_suggestions": "Friendly bold serif headline paired with rounded sans-serif supporting text; preserve readability at shirt-print distance.",
+    "openai_image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for America 250 faith family freedom shirts. modern faith family shirt graphic, stacked vintage badge, subtle sunrise rays, hand-lettered warmth. Use this market context without copying listings: Hunter opportunity signals. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: cream, deep forest green, terracotta, warm sand, soft black.",
+    "image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for America 250 faith family freedom shirts. modern faith family shirt graphic, stacked vintage badge, subtle sunrise rays, hand-lettered warmth. Use this market context without copying listings: Hunter opportunity signals. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: cream, deep forest green, terracotta, warm sand, soft black.",
+    "commercial_use_notes": "Original artwork direction for the 'America 250 faith family freedom shirts' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval.",
+    "seasonal_scores": {
+      "demand_score": 10,
+      "competition_score": 8,
+      "profit_score": 8,
+      "mission_fit_score": 10,
+      "selection_score": 9.0
+    },
+    "asset_package_status": "pending_approval_gallery_ready",
+    "production_asset_files": []
+  },
+  "amanda_listing_package": {
+    "rank": 1,
+    "source_keyword": "America 250 faith family freedom shirts",
+    "source_opportunity_score": 9,
+    "source_design_title": "America 250 Faith Family Freedom Shirts: Seasonal Approval Asset Package",
+    "product_title": "America 250 Faith Family Freedom Shirts - Seasonal Approval Asset Package Custom Faith Shirt for Family Church Gifts",
+    "seo_title": "America 250 Faith Family Freedom Shirts - Seasonal Approval Asset Package Custom Faith Shirt for Family Church Gifts | America 250 Faith Fa\u2026",
+    "etsy_tags": [
+      "america 250 faith",
+      "christian shirt",
+      "faith shirt",
+      "custom shirt",
+      "church shirt",
+      "family shirts",
+      "teacher shirt",
+      "jesus shirt",
+      "retreat shirt",
+      "custom gift",
+      "personalized",
+      "faith gift",
+      "christian gift"
+    ],
+    "description": "America 250 Faith Family Freedom Shirts - Seasonal Approval Asset Package Custom Faith Shirt for Family Church Gifts\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: America 250 faith family freedom shirts.\n- Design direction from Micah: A coordinated family or church-group apparel design that feels warm, modern, and photo-ready for Etsy listing mockups. Hunter offer context: Launch commemorative America 250 faith/family/freedom shirt and sweatshirt designs with optional family name/year.\n- Visual execution notes: Stacked badge layout with subtle rays, hand-lettered faith phrase, and adaptable placement for adult, youth, and toddler shirts.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Launch commemorative America 250 faith/family/freedom shirt and sweatshirt designs with optional family name/year.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.",
+    "materials": [
+      "soft cotton or cotton-blend shirt",
+      "DTF, screen print, or vinyl transfer",
+      "care card",
+      "shipping mailer"
+    ],
+    "occasion": "Church event, family gathering, retreat, teacher appreciation, everyday faith wear",
+    "recipient": "Families, church groups, teachers, youth ministries, faith-based shoppers",
+    "category_recommendation": "Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts",
+    "pricing_suggestion": {
+      "suggested_price_range": "$28.49-$37.49",
+      "anchor_price": "$32.99",
+      "source_average_price": "$29.99",
+      "rationale": "Price inside or slightly above Hunter's sampled market range, then adjust after Manny reviews blank cost, labor, Etsy fees, shipping, personalization complexity, and desired margin.",
+      "manny_review_required": true
+    },
+    "production_notes": [
+      "Confirm blank/product cost, supplier availability, labor time, packaging, shipping class, and Etsy fees before publishing.",
+      "Create final production art from owned or properly licensed fonts and graphics only.",
+      "Run a small sample or internal proof before accepting custom orders at scale.",
+      "Check transfer size, shirt color contrast, wash-care language, and size chart accuracy.",
+      "Digitize embroidery/patch artwork and verify stitch count, minimum text height, and thread color limits."
+    ],
+    "mockup_notes": [
+      "Use mockups that clearly show the product category: Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts.",
+      "Reflect Micah art direction: Stacked badge layout with subtle rays, hand-lettered faith phrase, and adaptable placement for adult, youth, and toddler shirts.",
+      "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+      "Keep mockup styling aligned with this color palette: cream, deep forest green, terracotta, warm sand, soft black.",
+      "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+    ],
+    "manny_approval_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+  },
+  "files": {
+    "concept_preview_svg": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\01-america-250-faith-family-freedom-shirts\\concept_preview.svg",
+    "image_prompt_txt": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\01-america-250-faith-family-freedom-shirts\\image_prompt.txt",
+    "asset_brief_md": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\01-america-250-faith-family-freedom-shirts\\asset_brief.md",
+    "listing_copy_md": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\01-america-250-faith-family-freedom-shirts\\listing_copy.md",
+    "asset_package_json": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\01-america-250-faith-family-freedom-shirts\\asset_package.json"
+  },
+  "approval_gate": "Manny approval required before publishing, customer contact, ad spend, live product creation, or public marketplace action.",
+  "approval_status": "Approved",
+  "marketplace_status": "Review Queue",
+  "asset_id": "seasonal-top5-20260618-110851-01-america-250-faith-family-freedom-shirts",
+  "asset_name": "America 250 Faith Family Freedom Shirts: Seasonal Approval Asset Package",
+  "updated_at": "2026-06-21T17:40:17",
+  "last_status_change": "2026-06-21T17:40:17",
+  "file_locations": {
+    "metadata": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\01-america-250-faith-family-freedom-shirts\\asset_package.json"
+  }
+}

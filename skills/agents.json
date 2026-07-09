@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Alfred",
+        "role": "Chief of Staff",
+        "status": "Active",
+        "room": "Command Center",
+        "current_task": "Oversee Agent City and report to Manny",
+        "last_report": "Agent City is online."
+    },
+    {
+        "name": "Micah",
+        "role": "Social Media Manager",
+        "status": "Working",
+        "room": "Media Room",
+        "current_task": "Create a FRESH social media campaign",
+        "last_report": "Mission assigned by Manny on June 03, 2026 at 11:05 AM."
+    },
+    {
+        "name": "Gideon",
+        "role": "Sales Strategist",
+        "status": "Idle",
+        "room": "Sales Room",
+        "current_task": "Waiting for assignment",
+        "last_report": "Ready for sales missions."
+    }
+]

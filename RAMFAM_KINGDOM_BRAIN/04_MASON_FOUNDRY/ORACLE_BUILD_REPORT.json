@@ -1,0 +1,13 @@
+{
+  "agent": "Oracle",
+  "source": "Hermes through PowerShell bridge",
+  "bridge_file": "C:\\Users\\User\\Desktop\\PUTER\\hermes_bridge.ps1",
+  "worker_file": "C:\\Users\\User\\Desktop\\PUTER\\skills\\oracle_agent.py",
+  "skill_file": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\03_AGENT_SKILLS\\ORACLE_SKILLS.md",
+  "test_result": {
+    "returncode": 0,
+    "stdout": "{'agent': 'Oracle', 'status': 'completed', 'task': 'Evaluate a 50 hat order at $19 each with $12 hat cost and $0.75 patch cost.', 'summary': 'Oracle reviewed the task as a Kingdom Intelligence and Trend Watchtower request for RAMFAM KINGDOM, SIS Custom Creations, FRESH Apparel, and ATLAS.', 'recommendation': 'Summarize the intelligence, identify the practical business impact, and recommend the next safest action. Keep actions internal unless Manny approves a public, financial, customer-facing, legal, or reputation-impacting step.', 'approval_required': False, 'timestamp': '2026-06-16T10:30:52'}",
+    "stderr": ""
+  },
+  "timestamp": "2026-06-16T10:30:52.494088"
+}

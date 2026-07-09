@@ -1,0 +1,21 @@
+{
+  "asset_id": "faith_over_fear",
+  "asset_name": "Faith Over Fear",
+  "creator_agent": "Micah the Fox",
+  "date_created": "2026-06-18T09:44:04",
+  "creation_date": "2026-06-18",
+  "approval_status": "Approved",
+  "marketplace_status": "Published",
+  "revenue": 0,
+  "file_locations": {
+    "svg": "C:\\Users\\User\\Desktop\\PUTER\\design_gallery\\pending\\faith_over_fear\\faith_over_fear.svg",
+    "png": "C:\\Users\\User\\Desktop\\PUTER\\design_gallery\\pending\\faith_over_fear\\faith_over_fear.png",
+    "prompt": "C:\\Users\\User\\Desktop\\PUTER\\design_gallery\\pending\\faith_over_fear\\faith_over_fear_prompt.txt",
+    "listing_notes": "C:\\Users\\User\\Desktop\\PUTER\\design_gallery\\pending\\faith_over_fear\\listing_notes.txt",
+    "metadata": "C:\\Users\\User\\Desktop\\PUTER\\design_gallery\\pending\\faith_over_fear\\asset_metadata.json"
+  },
+  "output_location": "C:\\Users\\User\\Desktop\\PUTER\\design_gallery\\pending\\faith_over_fear",
+  "factory_phase": "Phase 3 - Micah Digital Factory",
+  "updated_at": "2026-06-18T10:24:10",
+  "last_status_change": "2026-06-18T10:24:10"
+}

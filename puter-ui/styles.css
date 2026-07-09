@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAMFAM KINGDOM | PUTER</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="logo-block">
+        <div class="logo-glow">🦁</div>
+        <div>
+          <h1>RAMFAM KINGDOM</h1>
+          <p>PUTER Command Hub</p>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <button class="active">👑 Throne Room</button>
+        <button>🦁 Atlas's Pride</button>
+        <button>🧠 Kingdom Brain</button>
+        <button>⚔️ Missions</button>
+      </nav>
+
+      <div class="status-card">
+        <span>Kingdom Status</span>
+        <strong>READY</strong>
+      </div>
+    </aside>
+
+    <main class="main-panel">
+      <header class="header-bar">
+        <div>
+          <h2>Welcome back, King Manny</h2>
+          <p>Atlas is standing by. The Pride is ready for orders.</p>
+        </div>
+        <div class="header-actions">
+          <button>Sync Kingdom</button>
+          <button>Focus Mode</button>
+        </div>
+      </header>
+
+      <section class="kingdom-grid">
+        <div class="hero-card">
+          <div class="hero-icon">🦁</div>
+          <div>
+            <h3>ATLAS THE KINGDOM MAKER</h3>
+            <p>Chief of Staff • Keeper of the Kingdom • Delegation Commander</p>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <span>Agents Ready</span>
+          <strong>9</strong>
+        </div>
+
+        <div class="metric-card">
+          <span>Hermes Status</span>
+          <strong>READY</strong>
+        </div>
+
+        <div class="metric-card">
+          <span>Kingdom Brain</span>
+          <strong>ONLINE</strong>
+        </div>
+      </section>
+
+      <section class="pride-panel">
+        <div class="section-header">
+          <div>
+            <h3>Atlas's Pride</h3>
+            <p>The Kingdom team standing ready for delegation.</p>
+          </div>
+        </div>
+
+        <div class="agent-grid">
+          <div class="agent-card">
+            <div class="agent-icon">🦁</div>
+            <h4>Atlas</h4>
+            <p>Kingdom Maker</p>
+            <span>Chief of Staff</span>
+          </div>
+
+          <div class="agent-card">
+            <div class="agent-icon">🪽</div>
+            <h4>Hermes</h4>
+            <p>Specialist Agent</p>
+            <span>Task Execution</span>
+          </div>
+
+          <div class="agent-card">
+            <div class="agent-icon">🦅</div>
+            <h4>Hunter</h4>
+            <p>Revenue Commander</p>
+            <span>Find the money</span>
+          </div>
+
+          <div class="agent-card">
+            <div class="agent-icon">🐼</div>
+            <h4>Amanda</h4>
+            <p>Community Outreach</p>
+            <span>Customers & schools</span>
+          </div>
+
+          <div class="agent-card">
+            <div class="agent-icon">🦊</div>
+            <h4>Micah</h4>
+            <p>Social Media Manager</p>
+            <span>Content & branding</span>
+          </div>
+
+          <div class="agent-card">
+            <div class="agent-icon">🐺</div>
+            <h4>David</h4>
+            <p>CRM Manager</p>
+            <span>Prospects & follow-ups</span>
+          </div>
+
+          <div class="agent-card">
+            <div class="agent-icon">🐂</div>
+            <h4>Gideon</h4>
+            <p>Finance Manager</p>
+            <span>Treasury watch</span>
+          </div>
+
+          <div class="agent-card">
+            <div class="agent-icon">🐕</div>
+            <h4>Ranger</h4>
+            <p>Customer Success</p>
+            <span>No customer left behind</span>
+          </div>
+
+          <div class="agent-card">
+            <div class="agent-icon">🦫</div>
+            <h4>Mason</h4>
+            <p>Kingdom Architect</p>
+            <span>Systems builder</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="console-panel">
+        <div class="console-header">
+          <span>Atlas Command Console</span>
+          <button>Clear</button>
+        </div>
+
+        <div class="chat-window" id="chatWindow">
+          <div class="message assistant">
+            <span class="message-label">ATLAS</span>
+            <p>Atlas is online. Hermes is ready. The Pride awaits your command.</p>
+          </div>
+        </div>
+
+        <form class="input-container" id="chatForm">
+          <input id="chatInput" type="text" placeholder="Command Atlas..." autocomplete="off" />
+          <button type="submit">Send</button>
+          <button type="button" class="mic-button" id="micButton" title="Voice input">🎙️</button>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "missions": [
+    {
+      "id": 1,
+      "agent": "Mason",
+      "priority": "HIGH",
+      "mission": "Build voice command center",
+      "status": "Working",
+      "hermes_response": "Mason report for Manny:\r\n\r\nBuild the first version directly inside:\r\n\r\nC:\\Users\\User\\Desktop\\PUTER\\ui\\atlas_neural_core.html\r\n\r\nDo not overbuild yet. The fastest useful version is browser voice-to-text that drops the spoken command into the existing Ask Atlas box, then Manny presses SEND.\r\n\r\nNext implementation steps:\r\n\r\n1. Add a Voice button beside SEND\r\n   - Button text: \ud83c\udf99 Voice\r\n   - id: voiceButton\r\n   - onclick: toggleVoiceCommand()\r\n\r\n2. Add a small status line under it\r\n   - id: voiceStatus\r\n   - Default: Voice ready.\r\n\r\n3. Add Web Speech API JavaScript\r\n   - Use window.SpeechRecognition || window.webkitSpeechRecognition\r\n   - Set lang to en-US\r\n   - Set interimResults to true\r\n   - Set continuous to false\r\n\r\n4. When Manny speaks, place transcript into:\r\n   - messageInput.value\r\n\r\n5. Do not auto-send yet\r\n   - First version should let Manny review the command.\r\n   - Then he clicks SEND.\r\n   - This keeps mistakes from firing real Kingdom commands.\r\n\r\n6. Add listening state\r\n   - Button glows while listening.\r\n   - ATLAS core state says Listening.\r\n   - On stop/error, return to Ready.\r\n\r\n7. Test these exact commands:\r\n   - \u201cAtlas, where is the money?\u201d\r\n   - \u201cAtlas, give me my morning briefing.\u201d\r\n   - \u201cMason, inspect the Kingdom.\u201d\r\n   - \u201cShow missions.\u201d\r\n\r\n8. Only after that works, build Phase 2:\r\n   - wake word\r\n   - auto-send\r\n   - spoken ATLAS replies\r\n   - Whisper backend fallback\r\n   - dedicated voice command page\r\n\r\nI saved the full implementation plan here:\r\n\r\nC:\\Users\\User\\Desktop\\PUTER\\.hermes\\plans\\2026-06-13_174336-voice-command-center.md\r\n\r\nMason recommendation: build Phase 1 in the existing ATLAS Neural Core first. No new backend route needed yet. Reuse the existing /chat command system.\r\n"
+    },
+    {
+      "id": 2,
+      "agent": "ATLAS",
+      "priority": "HIGH",
+      "mission": "Revenue Engine Alpha: Coordinate Hunter, Amanda, David, Micah, Gideon, and Mason to prepare approval-ready money-making actions for Atlas, SIS Custom Creations, FRESH Apparel, and current clients. No public posts, customer messages, spending, PayPal charges, or publishing without Manny approval. Return a CEO briefing with top revenue opportunities, outreach drafts, content drafts, CRM follow-ups, pricing recommendations, and technical fixes needed to support sales.",
+      "status": "Working"
+    }
+  ]
+}

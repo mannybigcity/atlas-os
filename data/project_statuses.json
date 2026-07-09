@@ -1,0 +1,114 @@
+{
+  "status_system": "RAMFAM Kingdom Project Status Manager",
+  "owner": "Mason",
+  "allowed_statuses": [
+    "Planned",
+    "Building",
+    "Testing",
+    "Complete"
+  ],
+  "projects": [
+    {
+      "name": "Mason v1 - Kingdom Architect",
+      "status": "Complete",
+      "owner": "Mason",
+      "priority": "High"
+    },
+    {
+      "name": "Mason v2 - Build Recommendation",
+      "status": "Complete",
+      "owner": "Mason",
+      "priority": "High"
+    },
+    {
+      "name": "Mason v3 - Construction Log",
+      "status": "Complete",
+      "owner": "Mason",
+      "priority": "High"
+    },
+    {
+      "name": "Mason v4 - Kingdom Inspector",
+      "status": "Complete",
+      "owner": "Mason",
+      "priority": "High"
+    },
+    {
+      "name": "Mason v5 - Project Blueprint System",
+      "status": "Complete",
+      "owner": "Mason",
+      "priority": "High"
+    },
+    {
+      "name": "Mason v6 - Project Manager",
+      "status": "Building",
+      "owner": "Mason",
+      "priority": "High"
+    },
+    {
+      "name": "Hunter v2",
+      "status": "Complete",
+      "owner": "Hunter",
+      "priority": "High"
+    },
+    {
+      "name": "Scout v1",
+      "status": "Building",
+      "owner": "Scout",
+      "priority": "Medium"
+    },
+    {
+      "name": "Taylor v1",
+      "status": "Planned",
+      "owner": "Taylor",
+      "priority": "Medium"
+    },
+    {
+      "name": "Ranger v1",
+      "status": "Planned",
+      "owner": "Ranger",
+      "priority": "Medium"
+    },
+    {
+      "name": "Hunter v3",
+      "status": "Planned",
+      "owner": "Mason",
+      "priority": "Medium"
+    },
+    {
+      "name": "Hunter V4",
+      "status": "Complete",
+      "owner": "Mason",
+      "priority": "Medium"
+    },
+    {
+      "name": "Hunter v5",
+      "status": "Building",
+      "owner": "Mason",
+      "priority": "Medium"
+    },
+    {
+      "name": "Hunter v5.1",
+      "status": "Planned",
+      "owner": "Mason",
+      "priority": "Medium"
+    },
+    {
+      "name": "Amanda v2",
+      "status": "Building",
+      "owner": "Mason",
+      "priority": "Medium"
+    },
+    {
+      "name": "v7",
+      "status": "Complete",
+      "owner": "Mason",
+      "priority": "Medium"
+    },
+    {
+      "name": "Hunter Maps Scanner",
+      "status": "Building",
+      "owner": "Mason",
+      "priority": "Medium"
+    }
+  ]
+}

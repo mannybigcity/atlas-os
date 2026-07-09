@@ -1,0 +1,24 @@
+{
+  "inspection_name": "RAMFAM Kingdom Inspection",
+  "phase": "Foundation",
+  "required_data_files": [
+    "kingdom_blueprint.json",
+    "construction_log.json"
+  ],
+  "required_agent_skills": [
+    "alfred_skill.py",
+    "mason_skill.py",
+    "hunter_skill.py",
+    "scout_skill.py",
+    "taylor_skill.py",
+    "ranger_skill.py"
+  ],
+  "required_future_systems": [
+    "Revenue Command Center",
+    "Website Lead Tracker",
+    "Commission Tracker",
+    "Proposal Pipeline",
+    "Shopify Integration",
+    "PayPal Integration"
+  ]
+}

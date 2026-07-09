@@ -1,0 +1,202 @@
+{
+  "blueprints": [
+    {
+      "name": "Alfred v1",
+      "purpose": "Serve as Chief of Staff for PUTER by coordinating reports, missions, priorities, and daily command-center awareness.",
+      "owner": "Alfred",
+      "mascot": "Bulldog Butler",
+      "priority": "High",
+      "status": "Active",
+      "files": [
+        "skills/alfred_skill.py",
+        "skills/alfred_report.py",
+        "agents/missions.json",
+        "logs/conversation.json"
+      ],
+      "commands": [
+        "Alfred, show missions",
+        "Alfred, inspect the cave",
+        "Good morning Alfred",
+        "Alfred, what should I work on next?"
+      ],
+      "notes": "Alfred is the command center operator and should remain the daily operations coordinator."
+    },
+    {
+      "name": "David v1",
+      "purpose": "Manage CRM, prospects, follow-ups, and customer pipeline movement.",
+      "owner": "David",
+      "mascot": "Wolf",
+      "priority": "High",
+      "status": "Active",
+      "files": [
+        "skills/david_deliverable.py",
+        "skills/david_report.py",
+        "crm/prospects.json",
+        "crm/followups.py",
+        "crm/crm_skill.py"
+      ],
+      "commands": [
+        "David, show CRM report",
+        "David, show followups",
+        "Generate David deliverables",
+        "David, who needs a follow-up?"
+      ],
+      "notes": "David owns prospect tracking and follow-up discipline."
+    },
+    {
+      "name": "Gideon v1",
+      "purpose": "Track revenue, invoices, paid orders, outstanding balances, and financial battlefield awareness.",
+      "owner": "Gideon",
+      "mascot": "Bull",
+      "priority": "High",
+      "status": "Active",
+      "files": [
+        "skills/gideon_report.py",
+        "revenue/revenue.json",
+        "orders/orders.json",
+        "orders/order_skill.py"
+      ],
+      "commands": [
+        "Gideon, show finance report",
+        "Gideon, show revenue",
+        "Gideon, what is outstanding?",
+        "Gideon, what has been paid?"
+      ],
+      "notes": "Gideon owns money tracking after opportunities become orders, invoices, or revenue."
+    },
+    {
+      "name": "Amanda v1",
+      "purpose": "Handle outreach, marketplace opportunities, Etsy-style growth, school/daycare leads, and local prospecting.",
+      "owner": "Amanda",
+      "mascot": "Panda",
+      "priority": "High",
+      "status": "Active",
+      "files": [
+        "skills/amanda_deliverable.py"
+      ],
+      "commands": [
+        "Generate Amanda deliverables",
+        "Amanda, show outreach ideas",
+        "Amanda, find local prospects",
+        "Amanda, marketplace report"
+      ],
+      "notes": "Amanda is outreach and marketplace support, named in tribute to Manny's sister."
+    },
+    {
+      "name": "Micah v1",
+      "purpose": "Create social media posts, captions, hooks, reels, community posts, and brand content for FRESH and SIS.",
+      "owner": "Micah",
+      "mascot": "Fox",
+      "priority": "High",
+      "status": "Active",
+      "files": [
+        "skills/micah_deliverable.py"
+      ],
+      "commands": [
+        "Generate Micah deliverables",
+        "Micah, create FRESH post",
+        "Micah, create SIS post",
+        "Micah, give me posts"
+      ],
+      "notes": "Micah owns social content and visibility."
+    },
+    {
+      "name": "Mason v1",
+      "purpose": "Serve as Kingdom Architect by managing blueprints, construction logs, inspections, and future build planning.",
+      "owner": "Mason",
+      "mascot": "Beaver",
+      "priority": "High",
+      "status": "Active",
+      "files": [
+        "skills/mason_skill.py",
+        "skills/project_blueprint_skill.py",
+        "data/kingdom_blueprint.json",
+        "data/construction_log.json",
+        "data/kingdom_inspection.json",
+        "data/project_blueprints.json"
+      ],
+      "commands": [
+        "Mason, show blueprint",
+        "Mason, what should we build next?",
+        "Mason, show construction log",
+        "Mason, inspect kingdom",
+        "Mason, blueprint Mason"
+      ],
+      "notes": "Mason builds the systems that help the Kingdom build itself."
+    },
+    {
+      "name": "Hunter v2",
+      "purpose": "Track money due, website leads, and commission opportunities so Manny can focus on fast cashflow.",
+      "owner": "Hunter",
+      "mascot": "Bald Eagle",
+      "priority": "High",
+      "status": "Active",
+      "files": [
+        "skills/hunter_skill.py",
+        "data/hunter_opportunities.json"
+      ],
+      "commands": [
+        "Hunter, where is the money?",
+        "Hunter, show money due",
+        "Hunter, show website leads",
+        "Hunter, show commission opportunities"
+      ],
+      "notes": "Hunter is the Revenue Commander and should focus on money closest to the bank."
+    },
+    {
+      "name": "Scout v1",
+      "purpose": "Find leads, trends, markets, opportunities, and intelligence before the Kingdom commits resources.",
+      "owner": "Scout",
+      "mascot": "Red-Tailed Hawk",
+      "priority": "Medium",
+      "status": "Planned",
+      "files": [
+        "skills/scout_skill.py",
+        "data/scout_intelligence.json"
+      ],
+      "commands": [
+        "Scout, find opportunities",
+        "Scout, show leads",
+        "Scout, market report"
+      ],
+      "notes": "Scout surveys the terrain before Hunter or Taylor move."
+    },
+    {
+      "name": "Taylor v1",
+      "purpose": "Create website blueprints, landing page plans, mockups, and client-facing website proposals.",
+      "owner": "Taylor",
+      "mascot": "Tiger",
+      "priority": "Medium",
+      "status": "Planned",
+      "files": [
+        "skills/taylor_skill.py",
+        "data/taylor_projects.json"
+      ],
+      "commands": [
+        "Taylor, build website plan",
+        "Taylor, show projects",
+        "Taylor, create client mockup plan"
+      ],
+      "notes": "Taylor is the Website Tailor and turns prospects into polished web offers."
+    },
+    {
+      "name": "Ranger v1",
+      "purpose": "Manage customer success, reviews, referrals, retention, relationship follow-ups, and customer care.",
+      "owner": "Ranger",
+      "mascot": "German Shepherd Texas Ranger",
+      "priority": "Medium",
+      "status": "Planned",
+      "files": [
+        "skills/ranger_skill.py",
+        "data/ranger_customers.json"
+      ],
+      "commands": [
+        "Ranger, who needs us today?",
+        "Ranger, customer report",
+        "Ranger, show reviews",
+        "Ranger, show referrals"
+      ],
+      "notes": "Ranger's mission is: No customer gets left behind."
+    }
+  ]
+}

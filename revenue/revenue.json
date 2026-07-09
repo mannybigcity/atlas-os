@@ -1,0 +1,14 @@
+[
+  {
+    "customer": "Uncle Ray",
+    "source": "Patch Hats",
+    "amount": 230.0,
+    "status": "Paid"
+  },
+  {
+    "customer": "Kandy",
+    "source": "Canes Baseball Team Shirts",
+    "amount": 325.0,
+    "status": "Paid"
+  }
+]

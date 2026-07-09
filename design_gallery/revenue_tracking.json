@@ -1,0 +1,36 @@
+{
+  "factory": "RAMFAM KINGDOM Digital Asset Factory",
+  "updated_at": "2026-06-18",
+  "assets": {
+    "ramfam-faith-over-fear-tee-001": {
+      "total_revenue": 0,
+      "units_sold": 0,
+      "profit": 0,
+      "is_top_seller": false
+    },
+    "sis-custom-event-banner-001": {
+      "total_revenue": 0,
+      "units_sold": 0,
+      "profit": 0,
+      "is_top_seller": false
+    },
+    "fresh-hope-hoodie-001": {
+      "total_revenue": 428.75,
+      "units_sold": 9,
+      "profit": 171.5,
+      "is_top_seller": true
+    },
+    "kingdom-legacy-mug-001": {
+      "total_revenue": 96.0,
+      "units_sold": 6,
+      "profit": 38.4,
+      "is_top_seller": true
+    },
+    "faith_over_fear": {
+      "total_revenue": 0.0,
+      "units_sold": 0,
+      "profit": 0,
+      "is_top_seller": false
+    }
+  }
+}

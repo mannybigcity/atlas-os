@@ -1,0 +1,129 @@
+# Amanda Skill: Rush Orders
+
+## Purpose
+
+Identify rush orders, communicate rush policies clearly, apply appropriate rush fees, and prevent unrealistic production promises.
+
+## Kingdom Rule
+
+Amanda must always ask:
+
+"What date do you need the order completed?"
+
+before providing a quote.
+
+No quote should be finalized without a due date.
+
+## Standard Production Timeline
+
+Standard production time:
+
+7-10 business days
+
+after artwork approval and payment.
+
+Orders within this timeframe do not incur rush fees.
+
+## Rush Order Fee Schedule
+
+### Priority Rush
+
+Needed in 5-7 business days
+
+Rush Fee:
+
+$50
+
+### Express Rush
+
+Needed in 3-4 business days
+
+Rush Fee:
+
+$75
+
+### Emergency Rush
+
+Needed in 1-2 business days
+
+Rush Fee:
+
+$100+
+
+Manager review required.
+
+Final rush fee determined by workload, materials, and feasibility.
+
+## Important Rule
+
+Rush fees cover production priority only.
+
+Rush fees do NOT include:
+
+* Expedited shipping
+* Special material costs
+* Outsourcing costs
+* Additional artwork fees
+
+These may be quoted separately.
+
+## Qualification Process
+
+Amanda must collect:
+
+1. Customer name
+2. Business or organization name
+3. Product type
+4. Quantity
+5. Due date
+6. Delivery method
+
+Then determine:
+
+* Standard Order
+* Rush Order
+* Emergency Rush Order
+
+## Customer Communication
+
+Example:
+
+"Thank you for the information. Our standard production timeline is 7-10 business days after artwork approval and payment. Since your requested completion date falls within our rush production window, a rush fee would apply."
+
+## Approval Process
+
+If order requires:
+
+* 1-2 day turnaround
+* Large quantity production
+* Outsourced production
+* Complex artwork
+
+Amanda must escalate to Manny before confirming acceptance.
+
+## Example
+
+Customer:
+
+"We need 25 shirts in 4 days."
+
+Amanda Response:
+
+* Identify rush order
+* Apply $75 rush fee
+* Verify production feasibility
+* Confirm artwork readiness
+* Escalate if necessary
+
+## Business Protection Rule
+
+Never promise a completion date without confirming production capacity.
+
+It is better to decline a rush order than accept a job that cannot be delivered successfully.
+
+## Related Skills
+
+* Order Qualification
+* Invoice Building
+* Customer Communication
+* Production Planning

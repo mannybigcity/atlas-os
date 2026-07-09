@@ -1,0 +1,20 @@
+import os
+import requests
+from requests.auth import HTTPBasicAuth
+from dotenv import load_dotenv
+
+load_dotenv()
+
+CLIENT_ID = os.getenv Ac-KuPaWMd3vVWqqiPijGt2T260C4AYH6UIM8v79WvJ0xH33Ugp5LHNxBi8rvXy5nU-j-BRqXOopNZfQ
+SECRET = os.getenv EGlplm_MZYVOvb_iYv4K6cEvzFgi-y4QTcPbnc5DEFzy6vTCf5OFYEgI2LNa9yec6vUKzZ0X3dFMqZcg
+
+url = "https://api-paypal.com/v1/oauth2/token"
+
+response = requests.post(
+    url,
+    data={"grant_type": "client_credentials"},
+    auth=HTTPBasicAuth(CLIENT_ID, SECRET)
+)
+
+print(response.status_code)
+print(response.text)

@@ -1,0 +1,349 @@
+{
+  "mission": "Commerce Approval Dashboard",
+  "generated_at": "2026-06-17T19:06:34",
+  "mission_folder": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260617_185633",
+  "source_summary_json": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\commerce_pipeline_runner\\commerce_pipeline_mission_20260617_185633\\commerce_pipeline_mission_summary.json",
+  "auto_publish_enabled": false,
+  "manny_approval_guard": {
+    "public_actions_blocked_until_manny_approval": true,
+    "publish_action": "blocked_pending_manny_approval",
+    "printify_live_creation": "blocked_pending_manny_approval",
+    "pricing_change": "blocked_pending_manny_approval",
+    "sample_order": "blocked_pending_manny_approval",
+    "ad_spend": "blocked_pending_manny_approval",
+    "customer_contact": "blocked_pending_manny_approval",
+    "customer_commitment": "blocked_pending_manny_approval",
+    "requirement": "Manny approval is required before publishing listings, creating live Printify products, changing live pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+  },
+  "counts": {
+    "hunter_opportunities": 6,
+    "micah_designs": 3,
+    "amanda_listings": 3,
+    "printify_draft_packages": 3
+  },
+  "approval_decisions": {
+    "hunter_opportunities": [
+      {
+        "item_id": "hunter-01",
+        "title": "custom laser engraved gifts",
+        "source_agent": "Hunter",
+        "summary": "Launch a personalized engraved gift bundle with scripture, family names, or business branding.",
+        "status": "pending_manny_review",
+        "approved_by": "",
+        "reviewed_at": "",
+        "rejection_reason": "",
+        "notes": "",
+        "approval_guard": "Manny approval is required before publishing listings, creating live Printify products, changing live pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "details": {
+          "opportunity_score": 10,
+          "demand_signal": "High",
+          "competition_level": "Low",
+          "mission_fit": "High"
+        }
+      },
+      {
+        "item_id": "hunter-02",
+        "title": "faith family shirts",
+        "source_agent": "Hunter",
+        "summary": "Launch a faith-forward personalized apparel offer with matching family/church group options.",
+        "status": "pending_manny_review",
+        "approved_by": "",
+        "reviewed_at": "",
+        "rejection_reason": "",
+        "notes": "",
+        "approval_guard": "Manny approval is required before publishing listings, creating live Printify products, changing live pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "details": {
+          "opportunity_score": 9,
+          "demand_signal": "Medium",
+          "competition_level": "Low",
+          "mission_fit": "High"
+        }
+      },
+      {
+        "item_id": "hunter-03",
+        "title": "custom embroidered hats",
+        "source_agent": "Hunter",
+        "summary": "Launch a 12-piece custom embroidered hat starter bundle for churches, teams, and local businesses.",
+        "status": "pending_manny_review",
+        "approved_by": "",
+        "reviewed_at": "",
+        "rejection_reason": "",
+        "notes": "",
+        "approval_guard": "Manny approval is required before publishing listings, creating live Printify products, changing live pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "details": {
+          "opportunity_score": 8,
+          "demand_signal": "Medium",
+          "competition_level": "Low",
+          "mission_fit": "High"
+        }
+      },
+      {
+        "item_id": "hunter-04",
+        "title": "christian shirts",
+        "source_agent": "Hunter",
+        "summary": "Use this as a design-validation keyword, but only build after finding a stronger niche angle.",
+        "status": "pending_manny_review",
+        "approved_by": "",
+        "reviewed_at": "",
+        "rejection_reason": "",
+        "notes": "",
+        "approval_guard": "Manny approval is required before publishing listings, creating live Printify products, changing live pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "details": {
+          "opportunity_score": 8,
+          "demand_signal": "High",
+          "competition_level": "Low",
+          "mission_fit": "High"
+        }
+      },
+      {
+        "item_id": "hunter-05",
+        "title": "teacher appreciation shirts",
+        "source_agent": "Hunter",
+        "summary": "Launch a faith-forward personalized apparel offer with matching family/church group options.",
+        "status": "pending_manny_review",
+        "approved_by": "",
+        "reviewed_at": "",
+        "rejection_reason": "",
+        "notes": "",
+        "approval_guard": "Manny approval is required before publishing listings, creating live Printify products, changing live pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "details": {
+          "opportunity_score": 8,
+          "demand_signal": "Medium",
+          "competition_level": "Low",
+          "mission_fit": "High"
+        }
+      },
+      {
+        "item_id": "hunter-06",
+        "title": "church event shirts",
+        "source_agent": "Hunter",
+        "summary": "Use this as a design-validation keyword, but only build after finding a stronger niche angle.",
+        "status": "pending_manny_review",
+        "approved_by": "",
+        "reviewed_at": "",
+        "rejection_reason": "",
+        "notes": "",
+        "approval_guard": "Manny approval is required before publishing listings, creating live Printify products, changing live pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "details": {
+          "opportunity_score": 5,
+          "demand_signal": "Low",
+          "competition_level": "Low",
+          "mission_fit": "Medium"
+        }
+      }
+    ],
+    "micah_designs": [
+      {
+        "item_id": "micah-01",
+        "title": "Custom Laser Engraved Gifts: Heirloom Scripture Minimal",
+        "source_agent": "Micah",
+        "summary": "A premium personalized keepsake built around family names, short scripture text, and a clean monogram focal point. Hunter offer context: Launch a personalized engraved gift bundle with scripture, family names, or business branding.",
+        "status": "pending_manny_review",
+        "approved_by": "",
+        "reviewed_at": "",
+        "rejection_reason": "",
+        "notes": "",
+        "approval_guard": "Manny approval is required before publishing listings, creating live Printify products, changing live pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "details": {
+          "source_keyword": "custom laser engraved gifts",
+          "source_opportunity_score": 10,
+          "image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for custom laser engraved gifts. premium heirloom engraving layout, clean monogram centerpiece, fine botanical line art, warm natural material texture. Use this market context without copying listings: Custom Laser Engraved Cutting Board Gift; Personalized Engraved Tumbler; Engraved Scripture Wood Sign. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: warm walnut brown, soft ivory, charcoal ink, muted sage, brushed gold accent."
+        }
+      },
+      {
+        "item_id": "micah-02",
+        "title": "Faith Family Shirts: Faith Family Matching Set",
+        "source_agent": "Micah",
+        "summary": "A coordinated family or church-group apparel design that feels warm, modern, and photo-ready for Etsy listing mockups. Hunter offer context: Launch a faith-forward personalized apparel offer with matching family/church group options.",
+        "status": "pending_manny_review",
+        "approved_by": "",
+        "reviewed_at": "",
+        "rejection_reason": "",
+        "notes": "",
+        "approval_guard": "Manny approval is required before publishing listings, creating live Printify products, changing live pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "details": {
+          "source_keyword": "faith family shirts",
+          "source_opportunity_score": 9,
+          "image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for faith family shirts. modern faith family shirt graphic, stacked vintage badge, subtle sunrise rays, hand-lettered warmth. Use this market context without copying listings: Matching Faith Family Shirts; Personalized Christian Family Reunion Shirts; Faith Based Family Vacation Shirts. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: cream, deep forest green, terracotta, warm sand, soft black."
+        }
+      },
+      {
+        "item_id": "micah-03",
+        "title": "Custom Embroidered Hats: Kingdom Workwear Patch",
+        "source_agent": "Micah",
+        "summary": "A durable embroidered hat or workwear patch design for teams, volunteers, and entrepreneurs who want a faith-rooted identity piece. Hunter offer context: Launch a 12-piece custom embroidered hat starter bundle for churches, teams, and local businesses.",
+        "status": "pending_manny_review",
+        "approved_by": "",
+        "reviewed_at": "",
+        "rejection_reason": "",
+        "notes": "",
+        "approval_guard": "Manny approval is required before publishing listings, creating live Printify products, changing live pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "details": {
+          "source_keyword": "custom embroidered hats",
+          "source_opportunity_score": 8,
+          "image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for custom embroidered hats. embroidered workwear hat patch, simple shield badge, faith rooted identity, limited thread color vector art. Use this market context without copying listings: Custom Embroidered Richardson 112 Trucker Hat; Personalized Dad Hat with Logo Embroidery; Bulk Custom Church Group Embroidered Hats. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: khaki, deep navy, white, rust, forest green."
+        }
+      }
+    ],
+    "amanda_listings": [
+      {
+        "item_id": "amanda-01",
+        "title": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming",
+        "source_agent": "Amanda",
+        "summary": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: custom laser engraved gifts.\n- Design direction from Micah: A premium personalized keepsake built around family names, short scripture text, and a clean monogram focal point. Hunter offer context: Launch a personalized ",
+        "status": "pending_manny_review",
+        "approved_by": "",
+        "reviewed_at": "",
+        "rejection_reason": "",
+        "notes": "",
+        "approval_guard": "Manny approval is required before publishing listings, creating live Printify products, changing live pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "details": {
+          "source_keyword": "custom laser engraved gifts",
+          "source_design_title": "Custom Laser Engraved Gifts: Heirloom Scripture Minimal",
+          "anchor_price": "$48.49",
+          "suggested_price_range": "$39.99-$56.99",
+          "tags": [
+            "custom laser gifts",
+            "engraved gift",
+            "laser engraved",
+            "cutting board",
+            "wood sign",
+            "wedding gift",
+            "housewarming",
+            "family name",
+            "scripture gift",
+            "custom gift",
+            "personalized",
+            "faith gift",
+            "christian gift"
+          ]
+        }
+      },
+      {
+        "item_id": "amanda-02",
+        "title": "Faith Family Shirts - Faith Family Matching Set Custom Faith Shirt for Family Church Gifts",
+        "source_agent": "Amanda",
+        "summary": "Faith Family Shirts - Faith Family Matching Set Custom Faith Shirt for Family Church Gifts\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: faith family shirts.\n- Design direction from Micah: A coordinated family or church-group apparel design that feels warm, modern, and photo-ready for Etsy listing mockups. Hunter offer context: Launch a faith-forward person",
+        "status": "pending_manny_review",
+        "approved_by": "",
+        "reviewed_at": "",
+        "rejection_reason": "",
+        "notes": "",
+        "approval_guard": "Manny approval is required before publishing listings, creating live Printify products, changing live pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "details": {
+          "source_keyword": "faith family shirts",
+          "source_design_title": "Faith Family Shirts: Faith Family Matching Set",
+          "anchor_price": "$31.71",
+          "suggested_price_range": "$27.39-$36.04",
+          "tags": [
+            "faith family shirts",
+            "christian shirt",
+            "faith shirt",
+            "custom shirt",
+            "church shirt",
+            "family shirts",
+            "teacher shirt",
+            "jesus shirt",
+            "retreat shirt",
+            "custom gift",
+            "personalized",
+            "faith gift",
+            "christian gift"
+          ]
+        }
+      },
+      {
+        "item_id": "amanda-03",
+        "title": "Custom Embroidered Hat - Kingdom Workwear Patch Personalized Church Team Business Cap",
+        "source_agent": "Amanda",
+        "summary": "Custom Embroidered Hat - Kingdom Workwear Patch Personalized Church Team Business Cap\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: custom embroidered hats.\n- Design direction from Micah: A durable embroidered hat or workwear patch design for teams, volunteers, and entrepreneurs who want a faith-rooted identity piece. Hunter offer context: Launch a 12-piece",
+        "status": "pending_manny_review",
+        "approved_by": "",
+        "reviewed_at": "",
+        "rejection_reason": "",
+        "notes": "",
+        "approval_guard": "Manny approval is required before publishing listings, creating live Printify products, changing live pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "details": {
+          "source_keyword": "custom embroidered hats",
+          "source_design_title": "Custom Embroidered Hats: Kingdom Workwear Patch",
+          "anchor_price": "$29.99",
+          "suggested_price_range": "$24.99-$34.99",
+          "tags": [
+            "custom embroidered",
+            "custom hat",
+            "embroidered hat",
+            "trucker hat",
+            "dad hat",
+            "church hats",
+            "team hats",
+            "logo hat",
+            "hat patch",
+            "custom gift",
+            "personalized",
+            "faith gift",
+            "christian gift"
+          ]
+        }
+      }
+    ],
+    "printify_draft_packages": [
+      {
+        "item_id": "printify-draft-01-custom-laser-engraved-gifts",
+        "title": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming",
+        "source_agent": "Printify Draft Package",
+        "summary": "Wood or bamboo cutting board-style blank if available; otherwise route to manual SIS laser production instead of Printify.",
+        "status": "pending_manny_review",
+        "approved_by": "",
+        "reviewed_at": "",
+        "rejection_reason": "",
+        "notes": "",
+        "approval_guard": "Manny approval is required before publishing listings, creating live Printify products, changing live pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "details": {
+          "product_type": "Wooden Cutting Board",
+          "retail_price": 48.49,
+          "estimated_profit": 17.69,
+          "visible": false,
+          "publish_action": "none_manual_manny_approval_required"
+        }
+      },
+      {
+        "item_id": "printify-draft-02-faith-family-shirts",
+        "title": "Faith Family Shirts - Faith Family Matching Set Custom Faith Shirt for Family Church Gifts",
+        "source_agent": "Printify Draft Package",
+        "summary": "Bella+Canvas 3001 or Comfort Colors 1717 if available in the target Printify shop.",
+        "status": "pending_manny_review",
+        "approved_by": "",
+        "reviewed_at": "",
+        "rejection_reason": "",
+        "notes": "",
+        "approval_guard": "Manny approval is required before publishing listings, creating live Printify products, changing live pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "details": {
+          "product_type": "Unisex Jersey T-Shirt",
+          "retail_price": 31.71,
+          "estimated_profit": 11.2,
+          "visible": false,
+          "publish_action": "none_manual_manny_approval_required"
+        }
+      },
+      {
+        "item_id": "printify-draft-03-custom-embroidered-hats",
+        "title": "Custom Embroidered Hat - Kingdom Workwear Patch Personalized Church Team Business Cap",
+        "source_agent": "Printify Draft Package",
+        "summary": "Structured trucker hat or dad cap with embroidery support.",
+        "status": "pending_manny_review",
+        "approved_by": "",
+        "reviewed_at": "",
+        "rejection_reason": "",
+        "notes": "",
+        "approval_guard": "Manny approval is required before publishing listings, creating live Printify products, changing live pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "details": {
+          "product_type": "Embroidered Trucker Hat",
+          "retail_price": 29.99,
+          "estimated_profit": 8.69,
+          "visible": false,
+          "publish_action": "none_manual_manny_approval_required"
+        }
+      }
+    ]
+  }
+}

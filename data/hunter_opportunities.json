@@ -1,0 +1,19 @@
+{
+  "mission": "Find money, revenue opportunities, commission deals, invoices, and sales paths.",
+  "money_due_now": [
+    {
+      "name": "Kandy - Canes Baseball",
+      "amount": 325,
+      "status": "Outstanding",
+      "notes": "Invoice/payment follow-up needed."
+    },
+    {
+      "name": "Bobby - B&B HVAC",
+      "amount": 0,
+      "status": "Mockup Approved",
+      "notes": "Needs quote, invoice, or next-step follow-up."
+    }
+  ],
+  "website_leads": [],
+  "commission_opportunities": []
+}

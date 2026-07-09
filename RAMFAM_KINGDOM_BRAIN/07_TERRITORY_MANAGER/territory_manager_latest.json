@@ -1,0 +1,13 @@
+{
+  "system": "Territory Manager",
+  "status": "proposal_ready",
+  "task": "Test Territory Manager",
+  "context": {
+    "test": true
+  },
+  "approval_required": true,
+  "built_by": "Mason Infrastructure Forge",
+  "orchestrated_by": "Atlas",
+  "timestamp": "2026-06-16T12:27:52.819430",
+  "next_action": "Manny review and approval required before deployment."
+}

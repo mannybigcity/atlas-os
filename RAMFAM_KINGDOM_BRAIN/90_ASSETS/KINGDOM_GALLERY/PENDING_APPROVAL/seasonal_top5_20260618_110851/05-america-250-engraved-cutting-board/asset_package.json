@@ -1,0 +1,132 @@
+{
+  "gallery_status": "pending_approval",
+  "rank": 5,
+  "opportunity": {
+    "rank": 5,
+    "keyword": "America 250 engraved cutting board",
+    "focus": "America 250",
+    "source": "web_search_plus_local_seasonal_scoring",
+    "demand_score": 7,
+    "competition_score": 9,
+    "competition_level": "Low",
+    "profit_score": 10,
+    "mission_fit_score": 8,
+    "mission_fit": "High",
+    "selection_score": 8.43,
+    "opportunity_score": 8,
+    "demand_signal": "Medium",
+    "profit_signal": "High",
+    "average_price": 54.99,
+    "price_low": 47.99,
+    "price_high": 66.99,
+    "average_favorites": 126,
+    "sampled_listing_count": 3,
+    "uniqueness_signal": "High",
+    "recommended_offer": "Premium commemorative engraved board for patriotic hosts and family gatherings.",
+    "risks": [
+      "Seasonal timing is tight; prioritize fast mockup/sample path.",
+      "Verify phrases, patriotic wording, and fonts for trademark/licensing before publishing."
+    ],
+    "next_actions": [
+      "Micah creates production-safe art prompt and concept package.",
+      "Amanda prepares listing title, tags, description, and pricing review notes.",
+      "Manny reviews gallery package before any public listing or customer commitment."
+    ],
+    "sample_listings": []
+  },
+  "micah_asset_package": {
+    "rank": 5,
+    "source_keyword": "America 250 engraved cutting board",
+    "source_opportunity_score": 8,
+    "source_signals": {
+      "demand": "Medium",
+      "competition": "Low",
+      "mission_fit": "High"
+    },
+    "design_title": "America 250 Engraved Cutting Board: Seasonal Approval Asset Package",
+    "design_concept": "A cutting board or wood sign concept for weddings, housewarmings, and family legacy gifts with personalization front and center. Hunter offer context: Premium commemorative engraved board for patriotic hosts and family gatherings.",
+    "art_direction": "Arched composition with wreath frame, family surname, establishment year, and optional short blessing line engraved into warm wood.",
+    "color_palette": [
+      "maple wood",
+      "dark walnut",
+      "linen",
+      "olive branch green",
+      "matte black"
+    ],
+    "typography_suggestions": "Refined script for surname, high-readability serif for blessing text, and small sans-serif for year/location.",
+    "openai_image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for America 250 engraved cutting board. personalized blessing cutting board engraving, arched wreath frame, family legacy gift, elegant wood mockup. Use this market context without copying listings: Hunter opportunity signals. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: maple wood, dark walnut, linen, olive branch green, matte black.",
+    "image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for America 250 engraved cutting board. personalized blessing cutting board engraving, arched wreath frame, family legacy gift, elegant wood mockup. Use this market context without copying listings: Hunter opportunity signals. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: maple wood, dark walnut, linen, olive branch green, matte black.",
+    "commercial_use_notes": "Original artwork direction for the 'America 250 engraved cutting board' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval.",
+    "seasonal_scores": {
+      "demand_score": 7,
+      "competition_score": 9,
+      "profit_score": 10,
+      "mission_fit_score": 8,
+      "selection_score": 8.43
+    },
+    "asset_package_status": "pending_approval_gallery_ready",
+    "production_asset_files": []
+  },
+  "amanda_listing_package": {
+    "rank": 5,
+    "source_keyword": "America 250 engraved cutting board",
+    "source_opportunity_score": 8,
+    "source_design_title": "America 250 Engraved Cutting Board: Seasonal Approval Asset Package",
+    "product_title": "America 250 Engraved Cutting Board - Personalized Engraved Wood Gift for Family Wedding Housewarming",
+    "seo_title": "America 250 Engraved Cutting Board - Personalized Engraved Wood Gift for Family Wedding Housewarming | America 250 Engraved Cutting Board…",
+    "etsy_tags": [
+      "america 250 engraved",
+      "engraved gift",
+      "laser engraved",
+      "cutting board",
+      "wood sign",
+      "wedding gift",
+      "housewarming",
+      "family name",
+      "scripture gift",
+      "custom gift",
+      "personalized",
+      "faith gift",
+      "christian gift"
+    ],
+    "description": "America 250 Engraved Cutting Board - Personalized Engraved Wood Gift for Family Wedding Housewarming\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: America 250 engraved cutting board.\n- Design direction from Micah: A cutting board or wood sign concept for weddings, housewarmings, and family legacy gifts with personalization front and center. Hunter offer context: Premium commemorative engraved board for patriotic hosts and family gatherings.\n- Visual execution notes: Arched composition with wreath frame, family surname, establishment year, and optional short blessing line engraved into warm wood.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Premium commemorative engraved board for patriotic hosts and family gatherings.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.",
+    "materials": [
+      "wood blank such as maple, bamboo, walnut, or acacia",
+      "laser engraving",
+      "food-safe finish when applicable",
+      "protective packaging"
+    ],
+    "occasion": "Wedding, housewarming, anniversary, Christmas, Mother's Day, closing gift",
+    "recipient": "Couples, families, grandparents, homeowners, pastors, small business clients",
+    "category_recommendation": "Home & Living > Home Decor > Signs OR Kitchen & Dining > Cutting Boards",
+    "pricing_suggestion": {
+      "suggested_price_range": "$52.24-$68.74",
+      "anchor_price": "$60.49",
+      "source_average_price": "$54.99",
+      "rationale": "Price inside or slightly above Hunter's sampled market range, then adjust after Manny reviews blank cost, labor, Etsy fees, shipping, personalization complexity, and desired margin.",
+      "manny_review_required": true
+    },
+    "production_notes": [
+      "Confirm blank/product cost, supplier availability, labor time, packaging, shipping class, and Etsy fees before publishing.",
+      "Create final production art from owned or properly licensed fonts and graphics only.",
+      "Run a small sample or internal proof before accepting custom orders at scale.",
+      "Test laser settings on scrap material and confirm engraving contrast before photographing the sample."
+    ],
+    "mockup_notes": [
+      "Use mockups that clearly show the product category: Home & Living > Home Decor > Signs OR Kitchen & Dining > Cutting Boards.",
+      "Reflect Micah art direction: Arched composition with wreath frame, family surname, establishment year, and optional short blessing line engraved into warm wood.",
+      "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+      "Keep mockup styling aligned with this color palette: maple wood, dark walnut, linen, olive branch green, matte black.",
+      "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+    ],
+    "manny_approval_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+  },
+  "files": {
+    "concept_preview_svg": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\05-america-250-engraved-cutting-board\\concept_preview.svg",
+    "image_prompt_txt": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\05-america-250-engraved-cutting-board\\image_prompt.txt",
+    "asset_brief_md": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\05-america-250-engraved-cutting-board\\asset_brief.md",
+    "listing_copy_md": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\05-america-250-engraved-cutting-board\\listing_copy.md",
+    "asset_package_json": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851\\05-america-250-engraved-cutting-board\\asset_package.json"
+  },
+  "approval_gate": "Manny approval required before publishing, customer contact, ad spend, live product creation, or public marketplace action."
+}

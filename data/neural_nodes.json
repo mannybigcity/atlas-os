@@ -1,0 +1,106 @@
+[
+  {
+    "id": "agent_agent_roles",
+    "type": "agent",
+    "title": "AGENT ROLES",
+    "source_file": "RAMFAM_KINGDOM_BRAIN/00_KINGDOM_FOUNDATION/AGENT_ROLES.md",
+    "created_at": "2026-06-12T20:09:47-05:00",
+    "color": "blue"
+  },
+  {
+    "id": "agent_amanda",
+    "type": "agent",
+    "title": "AMANDA",
+    "source_file": "RAMFAM_KINGDOM_BRAIN/01_AGENTS_ROLES/AMANDA.md",
+    "created_at": "2026-06-12T20:09:47-05:00",
+    "color": "blue"
+  },
+  {
+    "id": "agent_david",
+    "type": "agent",
+    "title": "DAVID",
+    "source_file": "RAMFAM_KINGDOM_BRAIN/01_AGENTS_ROLES/DAVID.md",
+    "created_at": "2026-06-12T20:09:47-05:00",
+    "color": "blue"
+  },
+  {
+    "id": "agent_gideon",
+    "type": "agent",
+    "title": "GIDEON",
+    "source_file": "RAMFAM_KINGDOM_BRAIN/01_AGENTS_ROLES/GIDEON.md",
+    "created_at": "2026-06-12T20:09:47-05:00",
+    "color": "blue"
+  },
+  {
+    "id": "agent_hunter",
+    "type": "agent",
+    "title": "HUNTER",
+    "source_file": "RAMFAM_KINGDOM_BRAIN/01_AGENTS_ROLES/HUNTER.md",
+    "created_at": "2026-06-12T20:09:47-05:00",
+    "color": "blue"
+  },
+  {
+    "id": "agent_mason",
+    "type": "agent",
+    "title": "MASON",
+    "source_file": "RAMFAM_KINGDOM_BRAIN/01_AGENTS_ROLES/MASON.md",
+    "created_at": "2026-06-12T20:09:47-05:00",
+    "color": "blue"
+  },
+  {
+    "id": "agent_micah",
+    "type": "agent",
+    "title": "MICAH",
+    "source_file": "RAMFAM_KINGDOM_BRAIN/01_AGENTS_ROLES/MICAH.md",
+    "created_at": "2026-06-12T20:09:47-05:00",
+    "color": "blue"
+  },
+  {
+    "id": "agent_ranger",
+    "type": "agent",
+    "title": "RANGER",
+    "source_file": "RAMFAM_KINGDOM_BRAIN/01_AGENTS_ROLES/RANGER.md",
+    "created_at": "2026-06-12T20:09:47-05:00",
+    "color": "blue"
+  },
+  {
+    "id": "agent_taylor",
+    "type": "agent",
+    "title": "TAYLOR",
+    "source_file": "RAMFAM_KINGDOM_BRAIN/01_AGENTS_ROLES/TAYLOR.md",
+    "created_at": "2026-06-12T20:09:47-05:00",
+    "color": "blue"
+  },
+  {
+    "id": "playbook_sis_customer_order_intake_playbook",
+    "type": "playbook",
+    "title": "SIS CUSTOMER ORDER INTAKE PLAYBOOK",
+    "source_file": "RAMFAM_KINGDOM_BRAIN/02_SIS_CUSTOM_CREATIONS/SIS_CUSTOMER_ORDER_INTAKE_PLAYBOOK.md",
+    "created_at": "2026-06-12T20:09:47-05:00",
+    "color": "cyan"
+  },
+  {
+    "id": "playbook_sis_quote_to_invoice_playbook",
+    "type": "playbook",
+    "title": "SIS QUOTE TO INVOICE PLAYBOOK",
+    "source_file": "RAMFAM_KINGDOM_BRAIN/02_SIS_CUSTOM_CREATIONS/SIS_QUOTE_TO_INVOICE_PLAYBOOK.md",
+    "created_at": "2026-06-12T20:09:47-05:00",
+    "color": "cyan"
+  },
+  {
+    "id": "playbook_hvac_lead_generation_playbook",
+    "type": "playbook",
+    "title": "HVAC LEAD GENERATION PLAYBOOK",
+    "source_file": "RAMFAM_KINGDOM_BRAIN/04_SALES/HVAC_LEAD_GENERATION_PLAYBOOK.md",
+    "created_at": "2026-06-12T20:09:47-05:00",
+    "color": "cyan"
+  },
+  {
+    "id": "playbook_kingdom_inspection_playbook",
+    "type": "playbook",
+    "title": "KINGDOM INSPECTION PLAYBOOK",
+    "source_file": "RAMFAM_KINGDOM_BRAIN/06_OPERATIONS/KINGDOM_INSPECTION_PLAYBOOK.md",
+    "created_at": "2026-06-12T20:09:47-05:00",
+    "color": "cyan"
+  }
+]

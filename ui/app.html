@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Lion's Den | Atlas Executive Headquarters</title>
+  <link rel="stylesheet" href="/assets/atlas-saas.css" />
+</head>
+<body data-atlas-app data-atlas-page="dashboard" data-atlas-custom-topbar="true">
+  <section class="lions-den" aria-label="The Lion's Den Executive Headquarters">
+    <header class="lions-topbar" aria-label="Executive status bar">
+      <div>
+        <p class="atlas-saas-eyebrow">Good Morning Manny</p>
+        <h2>THE LION'S DEN</h2>
+        <p>Kingdom Builder • Massive Action. Maximum Effort. Minimal Money.</p>
+      </div>
+      <div class="lions-runtime">
+        <span class="atlas-saas-live-pill"><span class="atlas-saas-pulse"></span>Runtime Online</span>
+        <span id="lions-current-time" class="lions-time">Current Time</span>
+        <span id="lions-notifications" class="lions-notifications">Notifications: checking</span>
+      </div>
+    </header>
+
+    <section class="lions-kpis" aria-label="Executive KPIs">
+      <article class="lion-kpi-card">
+        <span>Today's Revenue</span>
+        <strong id="kpi-today-revenue">Waiting for connector</strong>
+        <small>Finance connector required</small>
+      </article>
+      <article class="lion-kpi-card">
+        <span>Monthly Revenue</span>
+        <strong id="kpi-monthly-revenue">Waiting for connector</strong>
+        <small>Finance connector required</small>
+      </article>
+      <article class="lion-kpi-card">
+        <span>Active Hunts</span>
+        <strong id="kpi-active-hunts">—</strong>
+        <small id="kpi-active-hunts-note">Loading missions</small>
+      </article>
+      <article class="lion-kpi-card">
+        <span>Active Clients</span>
+        <strong id="kpi-active-clients">—</strong>
+        <small id="kpi-active-clients-note">Loading CRM</small>
+      </article>
+      <article class="lion-kpi-card">
+        <span>Pending Approvals</span>
+        <strong id="kpi-pending-approvals">—</strong>
+        <small id="kpi-pending-approvals-note">Loading gallery</small>
+      </article>
+      <article class="lion-kpi-card alert-card">
+        <span>Critical Alerts</span>
+        <strong id="kpi-critical-alerts">—</strong>
+        <small id="kpi-critical-alerts-note">Checking runtime</small>
+      </article>
+    </section>
+
+    <section class="lions-main-grid" aria-label="Executive headquarters modules">
+      <article class="lions-panel pride-panel">
+        <div class="lions-panel-head">
+          <div>
+            <h3>THE PRIDE</h3>
+            <p>Executive status cards</p>
+          </div>
+          <a href="/missions">Mission Control</a>
+        </div>
+        <div id="pride-grid" class="pride-grid" aria-live="polite">
+          <div class="lions-loading">Loading executive status from live mission data…</div>
+        </div>
+      </article>
+
+      <article class="lions-panel hunts-panel">
+        <div class="lions-panel-head">
+          <div>
+            <h3>TODAY'S HUNTS</h3>
+            <p>Open missions by priority</p>
+          </div>
+          <a href="/missions">Open</a>
+        </div>
+        <div id="hunts-list" class="hunts-list" aria-live="polite">
+          <div class="lions-loading">Loading missions…</div>
+        </div>
+      </article>
+
+      <article class="lions-panel feed-panel">
+        <div class="lions-panel-head">
+          <div>
+            <h3>EXECUTIVE FEED</h3>
+            <p>Newest updates from executive_messages.json</p>
+          </div>
+          <span id="feed-count" class="mini-chip">Live</span>
+        </div>
+        <div id="executive-feed" class="executive-feed" aria-live="polite">
+          <div class="lions-loading">Loading executive feed…</div>
+        </div>
+      </article>
+
+      <article class="lions-panel health-panel">
+        <div class="lions-panel-head">
+          <div>
+            <h3>BUSINESS HEALTH</h3>
+            <p>Real connectors only; no fabricated financials</p>
+          </div>
+          <a href="/crm">CRM</a>
+        </div>
+        <div class="health-grid">
+          <div><span>Revenue</span><strong>Waiting for connector</strong></div>
+          <div><span>Cash</span><strong>Waiting for connector</strong></div>
+          <div><span>Expenses</span><strong>Waiting for connector</strong></div>
+          <div><span>Profit</span><strong>Waiting for connector</strong></div>
+          <div><span>Outstanding invoices</span><strong>Waiting for connector</strong></div>
+          <div><span>CRM activity</span><strong id="health-crm-activity">Loading CRM</strong></div>
+        </div>
+      </article>
+
+      <article id="finance" class="lions-panel finance-panel">
+        <div class="lions-panel-head">
+          <div>
+            <h3>FINANCE</h3>
+            <p>Connector-ready widgets</p>
+          </div>
+          <span class="mini-chip waiting">Waiting</span>
+        </div>
+        <div class="finance-grid">
+          <div class="finance-widget paypal-widget">
+            <h4>PayPal</h4>
+            <strong>Waiting for PayPal connection</strong>
+            <small>Ready for official PayPal API data: today, yesterday, 7 days, 30 days, latest transactions, connection status.</small>
+          </div>
+          <div class="finance-widget"><h4>Stripe</h4><strong>Waiting for connector</strong></div>
+          <div class="finance-widget"><h4>Shopify</h4><strong>Waiting for connector</strong></div>
+          <div class="finance-widget"><h4>Bank</h4><strong>Waiting for connector</strong></div>
+          <div class="finance-widget"><h4>Square</h4><strong>Waiting for connector</strong></div>
+        </div>
+      </article>
+
+      <article class="lions-panel clients-panel">
+        <div class="lions-panel-head">
+          <div>
+            <h3>CLIENTS</h3>
+            <p>Top clients, newest clients, needs attention</p>
+          </div>
+          <a href="/crm">Customer Command</a>
+        </div>
+        <div class="client-columns">
+          <div><h4>Top Clients</h4><div id="top-clients" class="client-list">Loading…</div></div>
+          <div><h4>Newest Clients</h4><div id="newest-clients" class="client-list">Loading…</div></div>
+          <div><h4>Needs Attention</h4><div id="attention-clients" class="client-list">Loading…</div></div>
+        </div>
+        <div class="quick-launch">
+          <a href="/missions">Mission Control</a>
+          <a href="/crm">Customer Command</a>
+          <a href="/commerce-command-center">Commerce Center</a>
+          <a href="/design-gallery">Design Gallery</a>
+          <a href="/logout">Logout</a>
+        </div>
+      </article>
+    </section>
+  </section>
+
+  <script src="/assets/atlas-saas-layout.js"></script>
+  <script>
+    (function () {
+      const executives = ["Atlas", "Mason", "Hunter", "David", "Amanda", "Gideon", "Oracle", "Taylor", "Scout", "Debbie"];
+      const money = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
+      const priorityRank = { critical: 0, high: 1, medium: 2, normal: 3, low: 4 };
+
+      function text(id, value) {
+        const node = document.getElementById(id);
+        if (node) node.textContent = value;
+      }
+
+      function escapeHtml(value) {
+        return String(value == null ? "" : value).replace(/[&<>'"]/g, function (char) {
+          return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" })[char];
+        });
+      }
+
+      function statusClass(status) {
+        const normalized = String(status || "").toLowerCase();
+        if (normalized.includes("block") || normalized.includes("critical")) return "danger";
+        if (normalized.includes("complete") || normalized.includes("done") || normalized.includes("active")) return "good";
+        if (normalized.includes("work") || normalized.includes("progress") || normalized.includes("new")) return "working";
+        return "waiting";
+      }
+
+      function openMissions(missions) {
+        return missions.filter((mission) => !String(mission.status || "").toLowerCase().includes("complete"));
+      }
+
+      function renderPride(missions) {
+        const grid = document.getElementById("pride-grid");
+        if (!grid) return;
+        const latestByAgent = new Map();
+        missions.forEach((mission) => {
+          const agent = String(mission.agent || "Atlas").trim();
+          const previous = latestByAgent.get(agent);
+          const previousDate = previous ? new Date(previous.updated_at || previous.created_at || 0).getTime() : 0;
+          const currentDate = new Date(mission.updated_at || mission.created_at || 0).getTime();
+          if (!previous || currentDate >= previousDate) latestByAgent.set(agent, mission);
+        });
+        grid.innerHTML = executives.map((agent) => {
+          const mission = latestByAgent.get(agent) || {};
+          const status = mission.status || "Ready";
+          const hunt = mission.mission || mission.task || "Standing by";
+          const update = mission.updated_at || mission.created_at || "No live update yet";
+          return `<div class="pride-card ${statusClass(status)}"><strong>${agent}</strong><span>${escapeHtml(status)}</span><p>${escapeHtml(hunt)}</p><small>${escapeHtml(update)}</small></div>`;
+        }).join("");
+      }
+
+      function renderHunts(missions) {
+        const list = document.getElementById("hunts-list");
+        if (!list) return;
+        const hunts = openMissions(missions)
+          .sort((a, b) => (priorityRank[String(a.priority || "normal").toLowerCase()] ?? 9) - (priorityRank[String(b.priority || "normal").toLowerCase()] ?? 9))
+          .slice(0, 5);
+        if (!hunts.length) {
+          list.innerHTML = '<div class="empty-state">No open missions right now.</div>';
+          return;
+        }
+        list.innerHTML = hunts.map((mission) => {
+          const status = String(mission.status || "new").toLowerCase();
+          const progress = status.includes("work") ? 55 : status.includes("block") ? 25 : 15;
+          return `<div class="hunt-row"><div><strong>${escapeHtml(mission.mission || mission.task || "Untitled mission")}</strong><span>${escapeHtml(mission.agent || "Atlas")} • ${escapeHtml(mission.priority || "normal")}</span></div><div class="progress"><i style="width:${progress}%"></i></div></div>`;
+        }).join("");
+      }
+
+      function renderFeed(messages) {
+        const feed = document.getElementById("executive-feed");
+        if (!feed) return;
+        const newest = (messages || []).slice().reverse().slice(0, 6);
+        text("feed-count", `${newest.length} updates`);
+        if (!newest.length) {
+          feed.innerHTML = '<div class="empty-state">No executive messages yet.</div>';
+          return;
+        }
+        feed.innerHTML = newest.map((message) => {
+          const title = message.title || `${message.to || message.agent || "Executive"} ${message.status || "update"}`;
+          const summary = message.summary || message.result_summary || message.task || "Runtime update recorded.";
+          return `<div class="feed-line"><strong>${escapeHtml(title)}</strong><p>${escapeHtml(summary)}</p><small>${escapeHtml(message.timestamp || message.created_at || "")}</small></div>`;
+        }).join("");
+      }
+
+      function renderClients(customers, summary, followups) {
+        const sortedByValue = customers.slice().sort((a, b) => Number(b.lifetime_value || 0) - Number(a.lifetime_value || 0));
+        const newest = customers.slice().reverse().slice(0, 3);
+        const needsAttention = (followups || []).slice(0, 3);
+        const clientItem = (client) => `<div class="client-item"><strong>${escapeHtml(client.name || client.business || "Unnamed")}</strong><span>${escapeHtml(client.business || client.status || "Client")}</span></div>`;
+        document.getElementById("top-clients").innerHTML = sortedByValue.length ? sortedByValue.slice(0, 3).map(clientItem).join("") : '<div class="empty-state">No client revenue records yet.</div>';
+        document.getElementById("newest-clients").innerHTML = newest.length ? newest.map(clientItem).join("") : '<div class="empty-state">No clients yet.</div>';
+        document.getElementById("attention-clients").innerHTML = needsAttention.length ? needsAttention.map(clientItem).join("") : '<div class="empty-state">No urgent follow-ups.</div>';
+        text("kpi-active-clients", String(summary.active_customers ?? customers.length));
+        text("kpi-active-clients-note", "Live from CRM");
+        text("health-crm-activity", `${summary.total_prospects || 0} prospects / ${summary.total_customers || customers.length} clients`);
+      }
+
+      async function getJson(url) {
+        const response = await fetch(url, { headers: { Accept: "application/json" } });
+        if (!response.ok) throw new Error(`${url} returned ${response.status}`);
+        return response.json();
+      }
+
+      function updateTime() {
+        text("lions-current-time", new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" }));
+      }
+
+      async function refreshLionDen() {
+        try {
+          const missionPayload = await getJson("/api/missions/list");
+          const missions = missionPayload.missions || [];
+          const open = openMissions(missions);
+          const blocked = open.filter((mission) => String(mission.status || "").toLowerCase().includes("block"));
+          text("kpi-active-hunts", String(open.length));
+          text("kpi-active-hunts-note", "Live from Mission Control");
+          text("kpi-critical-alerts", String(blocked.length));
+          text("kpi-critical-alerts-note", blocked.length ? "Blocked missions need review" : "No blocked missions");
+          renderPride(missions);
+          renderHunts(missions);
+          renderFeed(missionPayload.executive_messages || []);
+        } catch (error) {
+          text("kpi-active-hunts-note", "Mission data unavailable");
+          text("kpi-critical-alerts-note", "Runtime check failed");
+          console.error("Lion's Den mission refresh failed", error);
+        }
+
+        try {
+          const galleryPayload = await getJson("/api/design-gallery/assets");
+          const pending = galleryPayload.counts ? galleryPayload.counts.pending_approval : (galleryPayload.review_queue || []).length;
+          text("kpi-pending-approvals", String(pending || 0));
+          text("kpi-pending-approvals-note", "Live from Design Gallery");
+        } catch (error) {
+          text("kpi-pending-approvals-note", "Gallery data unavailable");
+          console.error("Lion's Den gallery refresh failed", error);
+        }
+
+        try {
+          const [summaryPayload, customersPayload, followupsPayload] = await Promise.all([
+            getJson("/api/crm/summary"),
+            getJson("/api/crm/customers"),
+            getJson("/api/crm/followups")
+          ]);
+          renderClients(customersPayload.customers || [], summaryPayload.summary || {}, followupsPayload.followups || []);
+          text("lions-notifications", `${(followupsPayload.followups || []).length} follow-ups`);
+        } catch (error) {
+          text("kpi-active-clients-note", "CRM data unavailable");
+          text("health-crm-activity", "CRM unavailable");
+          text("lions-notifications", "Notifications unavailable");
+          console.error("Lion's Den CRM refresh failed", error);
+        }
+      }
+
+      updateTime();
+      refreshLionDen();
+      window.setInterval(updateTime, 30000);
+      window.setInterval(refreshLionDen, 60000);
+    })();
+  </script>
+</body>
+</html>

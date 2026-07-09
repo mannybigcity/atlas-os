@@ -1,0 +1,111 @@
+{
+  "mission": "Hunter Etsy Research",
+  "generated_at": "2026-06-21T14:26:55",
+  "agent_chain": {
+    "assigned_by": "Atlas",
+    "builder": "Mason",
+    "revenue_owner": "Hunter"
+  },
+  "api_used": false,
+  "api_errors": {
+    "christian streetwear shirts": "ETSY_KEYSTRING not available or API disabled"
+  },
+  "keywords": [
+    "christian streetwear shirts"
+  ],
+  "top_opportunity": {
+    "keyword": "christian streetwear shirts",
+    "source": "offline_seed_data",
+    "sampled_listing_count": 3,
+    "price_low": 21.99,
+    "price_high": 29.99,
+    "average_price": 25.32,
+    "average_favorites": 173.67,
+    "competition_level": "Low",
+    "demand_signal": "High",
+    "uniqueness_signal": "Low",
+    "mission_fit": "High",
+    "opportunity_score": 8,
+    "recommended_offer": "Use this as a design-validation keyword, but only build after finding a stronger niche angle.",
+    "risks": [
+      "Main risk is execution speed: validate demand before building a large catalog."
+    ],
+    "next_actions": [
+      "Pick the strongest niche angle and draft 3 listing titles.",
+      "Estimate blank/product cost, labor time, shipping, and Etsy fees before publishing.",
+      "Create one mockup or sample photo, then test with local/social audience before scaling."
+    ],
+    "sample_listings": [
+      {
+        "title": "Faith Over Fear Christian T Shirt",
+        "price": 23.99,
+        "currency": "USD",
+        "favorites": 210,
+        "url": "offline-seed"
+      },
+      {
+        "title": "Jesus Loves You Comfort Colors Shirt",
+        "price": 29.99,
+        "currency": "USD",
+        "favorites": 175,
+        "url": "offline-seed"
+      },
+      {
+        "title": "Bible Verse Scripture Tee",
+        "price": 21.99,
+        "currency": "USD",
+        "favorites": 136,
+        "url": "offline-seed"
+      }
+    ]
+  },
+  "opportunities": [
+    {
+      "keyword": "christian streetwear shirts",
+      "source": "offline_seed_data",
+      "sampled_listing_count": 3,
+      "price_low": 21.99,
+      "price_high": 29.99,
+      "average_price": 25.32,
+      "average_favorites": 173.67,
+      "competition_level": "Low",
+      "demand_signal": "High",
+      "uniqueness_signal": "Low",
+      "mission_fit": "High",
+      "opportunity_score": 8,
+      "recommended_offer": "Use this as a design-validation keyword, but only build after finding a stronger niche angle.",
+      "risks": [
+        "Main risk is execution speed: validate demand before building a large catalog."
+      ],
+      "next_actions": [
+        "Pick the strongest niche angle and draft 3 listing titles.",
+        "Estimate blank/product cost, labor time, shipping, and Etsy fees before publishing.",
+        "Create one mockup or sample photo, then test with local/social audience before scaling."
+      ],
+      "sample_listings": [
+        {
+          "title": "Faith Over Fear Christian T Shirt",
+          "price": 23.99,
+          "currency": "USD",
+          "favorites": 210,
+          "url": "offline-seed"
+        },
+        {
+          "title": "Jesus Loves You Comfort Colors Shirt",
+          "price": 29.99,
+          "currency": "USD",
+          "favorites": 175,
+          "url": "offline-seed"
+        },
+        {
+          "title": "Bible Verse Scripture Tee",
+          "price": 21.99,
+          "currency": "USD",
+          "favorites": 136,
+          "url": "offline-seed"
+        }
+      ]
+    }
+  ],
+  "approval_required_before_public_action": true
+}

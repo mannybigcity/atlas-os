@@ -1,0 +1,24 @@
+{
+  "system_name": "Hunter Lead Lifecycle System",
+  "owner": "Hunter",
+  "mission": "Track every lead from discovery to revenue.",
+  "stages": [
+    "New",
+    "Sent To Hunter",
+    "Sent To Amanda",
+    "Contacted",
+    "Interested",
+    "Proposal Sent",
+    "Negotiating",
+    "Closed Won",
+    "Closed Lost"
+  ],
+  "pipeline": [
+    {
+      "lead_name": "Cypress Plumbing Website Opportunity",
+      "value": 500,
+      "stage": "Proposal Sent",
+      "notes": "Amanda contacted this lead."
+    }
+  ]
+}

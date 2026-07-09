@@ -1,0 +1,97 @@
+{
+  "kingdom_name": "RAMFAM Kingdom",
+  "architect": "Mason",
+  "mission": "Build the Kingdom one brick at a time.",
+  "principle": "Precept upon precept. Line upon line.",
+  "existing_agents": [
+    {
+      "name": "Alfred",
+      "role": "Chief of Staff",
+      "status": "active"
+    },
+    {
+      "name": "David",
+      "role": "CRM Manager",
+      "status": "active"
+    },
+    {
+      "name": "Gideon",
+      "role": "Finance Manager",
+      "status": "active"
+    },
+    {
+      "name": "Micah",
+      "role": "Social Media Manager",
+      "status": "active"
+    },
+    {
+      "name": "Amanda",
+      "role": "Outreach and Marketplace Manager",
+      "status": "active"
+    }
+  ],
+  "planned_agents": [
+    {
+      "name": "Mason",
+      "role": "Kingdom Architect",
+      "status": "building_now",
+      "mission": "Design and organize future systems, files, agents, dashboards, and workflows."
+    },
+    {
+      "name": "Hunter",
+      "role": "Revenue Commander",
+      "status": "planned",
+      "mission": "Find money, revenue opportunities, commission deals, invoices, and sales paths."
+    },
+    {
+      "name": "Scout",
+      "role": "Opportunity Scout",
+      "status": "planned",
+      "mission": "Find leads, trends, markets, and intelligence."
+    },
+    {
+      "name": "Taylor",
+      "role": "Website Tailor",
+      "status": "planned",
+      "mission": "Build websites, mockups, and client-facing web proposals."
+    },
+    {
+      "name": "Ranger",
+      "role": "Customer Success Director",
+      "status": "planned",
+      "mission": "No customer gets left behind."
+    }
+  ],
+  "existing_systems": [
+    "CRM",
+    "Orders",
+    "Revenue Tracking",
+    "Conversation History",
+    "Dashboard Data",
+    "Agent City",
+    "RAMFAM Manor"
+  ],
+  "planned_systems": [
+    "Kingdom Blueprint System",
+    "Construction Log",
+    "Revenue Command Center",
+    "Website Lead Tracker",
+    "Commission Opportunity Tracker",
+    "Proposal Pipeline",
+    "PayPal Integration",
+    "Shopify Integration",
+    "Social Media Connectors"
+  ],
+  "current_priority": {
+    "project": "Mason v1 - Kingdom Architect",
+    "reason": "Mason will help design and organize future builds instead of Manny and Puter starting from scratch every time.",
+    "recommended_next_build": "Construction Log"
+  },
+  "construction_log": [
+    {
+      "project": "Mason v1",
+      "status": "started",
+      "notes": "Created Kingdom Blueprint Database."
+    }
+  ]
+}

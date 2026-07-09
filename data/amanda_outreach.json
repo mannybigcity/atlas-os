@@ -1,0 +1,19 @@
+{
+  "system_name": "Amanda Outreach Database",
+  "owner": "Amanda",
+  "mission": "Track outreach opportunities and contact status.",
+  "outreach_queue": [
+    {
+      "business_name": "Cypress Plumbing Website Opportunity",
+      "source": "Hunter",
+      "status": "Contacted",
+      "notes": "Added from revenue pipeline."
+    },
+    {
+      "business_name": "Test Roofing Company",
+      "source": "Hunter Maps Scanner",
+      "status": "Pending Contact",
+      "notes": "Maps target. Category: Roofing. City: Houston. Rating: 4.9. Reviews: 120. Website: No Website Found. Score: 10."
+    }
+  ]
+}

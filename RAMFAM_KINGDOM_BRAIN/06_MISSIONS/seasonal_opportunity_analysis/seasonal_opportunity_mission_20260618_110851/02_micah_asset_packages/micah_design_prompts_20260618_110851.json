@@ -1,0 +1,213 @@
+{
+  "mission": "Micah Design Prompt Engine",
+  "generated_at": "2026-06-18T11:08:51",
+  "source_mission": "Atlas Seasonal Opportunity Analysis",
+  "source_generated_at": "2026-06-18T11:08:51",
+  "agent_chain": {
+    "assigned_by": "Atlas",
+    "builder": "Mason",
+    "revenue_owner": "Hunter",
+    "design_owner": "Micah"
+  },
+  "top_source_opportunity": {
+    "rank": 1,
+    "keyword": "America 250 faith family freedom shirts",
+    "focus": "America 250",
+    "source": "web_search_plus_local_seasonal_scoring",
+    "demand_score": 10,
+    "competition_score": 8,
+    "competition_level": "Low",
+    "profit_score": 8,
+    "mission_fit_score": 10,
+    "mission_fit": "High",
+    "selection_score": 9.0,
+    "opportunity_score": 9,
+    "demand_signal": "High",
+    "profit_signal": "High",
+    "average_price": 29.99,
+    "price_low": 22.99,
+    "price_high": 41.99,
+    "average_favorites": 180,
+    "sampled_listing_count": 4,
+    "uniqueness_signal": "High",
+    "recommended_offer": "Launch commemorative America 250 faith/family/freedom shirt and sweatshirt designs with optional family name/year.",
+    "risks": [
+      "Seasonal timing is tight; prioritize fast mockup/sample path.",
+      "Verify phrases, patriotic wording, and fonts for trademark/licensing before publishing."
+    ],
+    "next_actions": [
+      "Micah creates production-safe art prompt and concept package.",
+      "Amanda prepares listing title, tags, description, and pricing review notes.",
+      "Manny reviews gallery package before any public listing or customer commitment."
+    ],
+    "sample_listings": []
+  },
+  "design_concepts": [
+    {
+      "rank": 1,
+      "source_keyword": "America 250 faith family freedom shirts",
+      "source_opportunity_score": 9,
+      "source_signals": {
+        "demand": "High",
+        "competition": "Low",
+        "mission_fit": "High"
+      },
+      "design_title": "America 250 Faith Family Freedom Shirts: Seasonal Approval Asset Package",
+      "design_concept": "A coordinated family or church-group apparel design that feels warm, modern, and photo-ready for Etsy listing mockups. Hunter offer context: Launch commemorative America 250 faith/family/freedom shirt and sweatshirt designs with optional family name/year.",
+      "art_direction": "Stacked badge layout with subtle rays, hand-lettered faith phrase, and adaptable placement for adult, youth, and toddler shirts.",
+      "color_palette": [
+        "cream",
+        "deep forest green",
+        "terracotta",
+        "warm sand",
+        "soft black"
+      ],
+      "typography_suggestions": "Friendly bold serif headline paired with rounded sans-serif supporting text; preserve readability at shirt-print distance.",
+      "openai_image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for America 250 faith family freedom shirts. modern faith family shirt graphic, stacked vintage badge, subtle sunrise rays, hand-lettered warmth. Use this market context without copying listings: Hunter opportunity signals. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: cream, deep forest green, terracotta, warm sand, soft black.",
+      "image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for America 250 faith family freedom shirts. modern faith family shirt graphic, stacked vintage badge, subtle sunrise rays, hand-lettered warmth. Use this market context without copying listings: Hunter opportunity signals. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: cream, deep forest green, terracotta, warm sand, soft black.",
+      "commercial_use_notes": "Original artwork direction for the 'America 250 faith family freedom shirts' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval.",
+      "seasonal_scores": {
+        "demand_score": 10,
+        "competition_score": 8,
+        "profit_score": 8,
+        "mission_fit_score": 10,
+        "selection_score": 9.0
+      },
+      "asset_package_status": "pending_approval_gallery_ready",
+      "production_asset_files": []
+    },
+    {
+      "rank": 2,
+      "source_keyword": "Faith Family Freedom yard sign bundle",
+      "source_opportunity_score": 9,
+      "source_signals": {
+        "demand": "High",
+        "competition": "Low",
+        "mission_fit": "High"
+      },
+      "design_title": "Faith Family Freedom Yard Sign Bundle: Seasonal Approval Asset Package",
+      "design_concept": "A coordinated family or church-group apparel design that feels warm, modern, and photo-ready for Etsy listing mockups. Hunter offer context: Offer family porch/yard sign bundles for church families and July gatherings.",
+      "art_direction": "Stacked badge layout with subtle rays, hand-lettered faith phrase, and adaptable placement for adult, youth, and toddler shirts.",
+      "color_palette": [
+        "cream",
+        "deep forest green",
+        "terracotta",
+        "warm sand",
+        "soft black"
+      ],
+      "typography_suggestions": "Friendly bold serif headline paired with rounded sans-serif supporting text; preserve readability at shirt-print distance.",
+      "openai_image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for Faith Family Freedom yard sign bundle. modern faith family shirt graphic, stacked vintage badge, subtle sunrise rays, hand-lettered warmth. Use this market context without copying listings: Hunter opportunity signals. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: cream, deep forest green, terracotta, warm sand, soft black.",
+      "image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for Faith Family Freedom yard sign bundle. modern faith family shirt graphic, stacked vintage badge, subtle sunrise rays, hand-lettered warmth. Use this market context without copying listings: Hunter opportunity signals. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: cream, deep forest green, terracotta, warm sand, soft black.",
+      "commercial_use_notes": "Original artwork direction for the 'Faith Family Freedom yard sign bundle' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval.",
+      "seasonal_scores": {
+        "demand_score": 9,
+        "competition_score": 8,
+        "profit_score": 9,
+        "mission_fit_score": 10,
+        "selection_score": 8.93
+      },
+      "asset_package_status": "pending_approval_gallery_ready",
+      "production_asset_files": []
+    },
+    {
+      "rank": 3,
+      "source_keyword": "Church summer event shirts",
+      "source_opportunity_score": 8,
+      "source_signals": {
+        "demand": "High",
+        "competition": "Medium",
+        "mission_fit": "High"
+      },
+      "design_title": "Church Summer Event Shirts: Seasonal Approval Asset Package",
+      "design_concept": "An event-ready design system for retreats, youth groups, conferences, and ministry teams needing a clean custom shirt concept. Hunter offer context: Custom church picnic/VBS/retreat shirts with editable church name, date, and theme.",
+      "art_direction": "Outdoor badge emblem with mountain or path symbolism, simple cross-negative-space detail, and editable event/date line.",
+      "color_palette": [
+        "navy",
+        "bone",
+        "copper",
+        "olive",
+        "sky blue"
+      ],
+      "typography_suggestions": "Condensed sans-serif for event text, sturdy slab serif for the theme phrase, clean microtype for location and year.",
+      "openai_image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for Church summer event shirts. church retreat badge emblem, mountain path symbolism, clean cross negative space, screen print vector style. Use this market context without copying listings: Hunter opportunity signals. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: navy, bone, copper, olive, sky blue.",
+      "image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for Church summer event shirts. church retreat badge emblem, mountain path symbolism, clean cross negative space, screen print vector style. Use this market context without copying listings: Hunter opportunity signals. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: navy, bone, copper, olive, sky blue.",
+      "commercial_use_notes": "Original artwork direction for the 'Church summer event shirts' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval.",
+      "seasonal_scores": {
+        "demand_score": 9,
+        "competition_score": 7,
+        "profit_score": 8,
+        "mission_fit_score": 10,
+        "selection_score": 8.43
+      },
+      "asset_package_status": "pending_approval_gallery_ready",
+      "production_asset_files": []
+    },
+    {
+      "rank": 4,
+      "source_keyword": "America 250 custom embroidered hats",
+      "source_opportunity_score": 8,
+      "source_signals": {
+        "demand": "High",
+        "competition": "Low",
+        "mission_fit": "High"
+      },
+      "design_title": "America 250 Custom Embroidered Hats: Seasonal Approval Asset Package",
+      "design_concept": "A durable embroidered hat or workwear patch design for teams, volunteers, and entrepreneurs who want a faith-rooted identity piece. Hunter offer context: Create patch/embroidered patriotic hats for commemorative local events.",
+      "art_direction": "Simple patch-ready shield or rectangle mark with bold icon, limited thread colors, and clear silhouette for embroidery digitizing.",
+      "color_palette": [
+        "khaki",
+        "deep navy",
+        "white",
+        "rust",
+        "forest green"
+      ],
+      "typography_suggestions": "Block sans-serif or slab serif, no hairline strokes, all text large enough to survive embroidery on a hat front.",
+      "openai_image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for America 250 custom embroidered hats. embroidered workwear hat patch, simple shield badge, faith rooted identity, limited thread color vector art. Use this market context without copying listings: Hunter opportunity signals. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: khaki, deep navy, white, rust, forest green.",
+      "image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for America 250 custom embroidered hats. embroidered workwear hat patch, simple shield badge, faith rooted identity, limited thread color vector art. Use this market context without copying listings: Hunter opportunity signals. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: khaki, deep navy, white, rust, forest green.",
+      "commercial_use_notes": "Original artwork direction for the 'America 250 custom embroidered hats' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval.",
+      "seasonal_scores": {
+        "demand_score": 8,
+        "competition_score": 8,
+        "profit_score": 9,
+        "mission_fit_score": 9,
+        "selection_score": 8.43
+      },
+      "asset_package_status": "pending_approval_gallery_ready",
+      "production_asset_files": []
+    },
+    {
+      "rank": 5,
+      "source_keyword": "America 250 engraved cutting board",
+      "source_opportunity_score": 8,
+      "source_signals": {
+        "demand": "Medium",
+        "competition": "Low",
+        "mission_fit": "High"
+      },
+      "design_title": "America 250 Engraved Cutting Board: Seasonal Approval Asset Package",
+      "design_concept": "A cutting board or wood sign concept for weddings, housewarmings, and family legacy gifts with personalization front and center. Hunter offer context: Premium commemorative engraved board for patriotic hosts and family gatherings.",
+      "art_direction": "Arched composition with wreath frame, family surname, establishment year, and optional short blessing line engraved into warm wood.",
+      "color_palette": [
+        "maple wood",
+        "dark walnut",
+        "linen",
+        "olive branch green",
+        "matte black"
+      ],
+      "typography_suggestions": "Refined script for surname, high-readability serif for blessing text, and small sans-serif for year/location.",
+      "openai_image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for America 250 engraved cutting board. personalized blessing cutting board engraving, arched wreath frame, family legacy gift, elegant wood mockup. Use this market context without copying listings: Hunter opportunity signals. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: maple wood, dark walnut, linen, olive branch green, matte black.",
+      "image_prompt": "OpenAI image generation prompt: Create an original Etsy-ready product design for America 250 engraved cutting board. personalized blessing cutting board engraving, arched wreath frame, family legacy gift, elegant wood mockup. Use this market context without copying listings: Hunter opportunity signals. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: maple wood, dark walnut, linen, olive branch green, matte black.",
+      "commercial_use_notes": "Original artwork direction for the 'America 250 engraved cutting board' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval.",
+      "seasonal_scores": {
+        "demand_score": 7,
+        "competition_score": 9,
+        "profit_score": 10,
+        "mission_fit_score": 8,
+        "selection_score": 8.43
+      },
+      "asset_package_status": "pending_approval_gallery_ready",
+      "production_asset_files": []
+    }
+  ],
+  "approval_required_before_public_action": true
+}

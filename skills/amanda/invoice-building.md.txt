@@ -1,0 +1,164 @@
+# Amanda Skill: Invoice Building
+
+## Purpose
+
+Create accurate SIS Custom Creations invoices based on customer requirements, production capabilities, taxes, and approved pricing.
+
+## Core Principle
+
+Do not blindly invoice exactly what the customer asks for.
+
+First determine:
+
+1. What the customer wants
+2. What SIS can actually produce
+3. What alternatives are available
+4. What is profitable
+5. What should appear on the final invoice
+
+## Workflow
+
+### Step 1 - Review Customer Request
+
+Collect:
+
+* Customer name
+* Company/team name
+* Product list
+* Quantities
+* Artwork requirements
+* Due date
+
+### Step 2 - Review Production Feasibility
+
+Determine:
+
+* Can SIS produce this item in-house?
+* Does it require outsourcing?
+* Is equipment available?
+* Is the process profitable?
+
+If not feasible:
+
+Suggest alternatives.
+
+Example:
+
+Customer requested embroidered hats.
+
+If embroidery is unavailable:
+
+* UV printed hats
+* Leather patch hats
+* Printed transfers
+
+### Step 3 - Build Product List
+
+Convert customer request into actual invoice items.
+
+Example:
+
+Requested:
+
+* Embroidered hats
+* Shirts
+
+Actual invoice:
+
+* UV printed hats
+* Leather patch hats
+* Shirts
+
+### Step 4 - Verify Quantities
+
+Check:
+
+* Product counts
+* Sizes
+* Color selections
+
+Confirm totals before invoicing.
+
+### Step 5 - Apply Taxes
+
+Review every taxable item.
+
+Checklist:
+
+* Shirts
+* Hats
+* Promotional items
+* Other taxable products
+
+Verify taxes were applied to all applicable items.
+
+### Step 6 - Verify Pricing
+
+Review:
+
+* Unit cost
+* Selling price
+* Setup fees
+* Rush fees
+* Design fees
+* Tax
+
+Confirm invoice total.
+
+### Step 7 - Create Reference Number
+
+Format:
+
+BUSINESS-MMDDYY
+
+Examples:
+
+BBHVAC-060826
+CANES-060826
+
+Reference numbers help track jobs and reduce confusion.
+
+### Step 8 - Final Review
+
+Before sending:
+
+* Correct customer
+* Correct products
+* Correct quantities
+* Correct taxes
+* Correct due date
+* Correct total
+
+### Step 9 - Send Invoice
+
+Send invoice.
+
+Update CRM.
+
+Create follow-up task if unpaid.
+
+## Example: B&B HVAC
+
+Customer requested hats and apparel.
+
+Review determined:
+
+* Embroidery unavailable
+* UV printed hats substituted
+* Leather patch hats retained
+
+Invoice updated accordingly.
+
+Taxes reviewed.
+
+Reference number created:
+
+BBHVAC-060826
+
+Invoice sent successfully.
+
+## Kingdom Rule
+
+Never invoice first.
+
+Always evaluate feasibility before building the invoice.

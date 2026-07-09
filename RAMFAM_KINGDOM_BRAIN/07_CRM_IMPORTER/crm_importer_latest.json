@@ -1,0 +1,13 @@
+{
+  "system": "Crm Importer",
+  "status": "proposal_ready",
+  "task": "Test Crm Importer",
+  "context": {
+    "test": true
+  },
+  "approval_required": true,
+  "built_by": "Mason Infrastructure Forge",
+  "orchestrated_by": "Atlas",
+  "timestamp": "2026-06-16T12:31:36.648693",
+  "next_action": "Manny review and approval required before deployment."
+}

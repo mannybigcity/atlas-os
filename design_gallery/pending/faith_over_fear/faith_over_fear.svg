@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-label="Faith Over Fear digital asset">
+  <defs>
+    <radialGradient id="kingdomGlow" cx="50%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.34"/>
+      <stop offset="45%" stop-color="#1e1b4b" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" x2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="50%" stop-color="#e5b95c"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#kingdomGlow)"/>
+  <circle cx="600" cy="600" r="418" fill="none" stroke="#00e5ff" stroke-opacity="0.24" stroke-width="16"/>
+  <path d="M600 180 L888 314 L816 850 L600 1018 L384 850 L312 314 Z" fill="#0f172a" fill-opacity="0.72" stroke="url(#gold)" stroke-width="18"/>
+  <path d="M560 330 H640 V540 H815 V620 H640 V890 H560 V620 H385 V540 H560 Z" fill="url(#gold)"/>
+  <text x="600" y="976" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="900" fill="#f8fafc" letter-spacing="4">Faith Over Fear</text>
+  <text x="600" y="1060" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#67e8f9" letter-spacing="6">RAMFAM KINGDOM DIGITAL ASSET FACTORY</text>
+</svg>

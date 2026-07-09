@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAMFAM KINGDOM | ATLAS Brain</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      height: 100vh;
+      overflow: hidden;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #f8fafc;
+      background: #020617;
+    }
+
+    .brain-shell {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      background:
+        radial-gradient(circle at center, rgba(59,130,246,.22), transparent 28%),
+        radial-gradient(circle at 78% 18%, rgba(168,85,247,.18), transparent 24%),
+        radial-gradient(circle at 18% 82%, rgba(245,158,11,.16), transparent 28%),
+        linear-gradient(135deg, #020617, #030712 55%, #0f172a);
+    }
+
+    .particles {
+      position: absolute;
+      inset: 0;
+      background-image:
+        radial-gradient(circle, rgba(96,165,250,.8) 1px, transparent 1px),
+        radial-gradient(circle, rgba(250,204,21,.5) 1px, transparent 1px),
+        radial-gradient(circle, rgba(192,132,252,.55) 1px, transparent 1px);
+      background-size: 90px 90px, 140px 140px, 190px 190px;
+      animation: drift 18s linear infinite;
+      opacity: .28;
+    }
+
+    @keyframes drift {
+      from { transform: translate(0, 0); }
+      to { transform: translate(-80px, 60px); }
+    }
+
+    .title {
+      position: absolute;
+      top: 24px;
+      left: 28px;
+      z-index: 5;
+    }
+
+    .title h1 {
+      margin: 0;
+      font-size: 30px;
+      color: #facc15;
+      letter-spacing: 4px;
+      text-shadow: 0 0 22px rgba(250,204,21,.45);
+    }
+
+    .title p {
+      margin: 8px 0 0;
+      color: #93c5fd;
+      letter-spacing: 2px;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .metrics {
+      position: absolute;
+      top: 24px;
+      right: 28px;
+      display: flex;
+      gap: 12px;
+      z-index: 5;
+    }
+
+    .metric-card {
+      width: 145px;
+      padding: 14px;
+      border-radius: 18px;
+      background: rgba(15,23,42,.58);
+      border: 1px solid rgba(148,163,184,.18);
+      box-shadow: 0 0 30px rgba(59,130,246,.12);
+      backdrop-filter: blur(12px);
+    }
+
+    .metric-card span {
+      color: #93c5fd;
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 1px;
+    }
+
+    .metric-card strong {
+      display: block;
+      margin-top: 8px;
+      font-size: 24px;
+      color: #facc15;
+    }
+
+    svg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .link {
+      stroke: rgba(96,165,250,.42);
+      stroke-width: 2;
+      filter: drop-shadow(0 0 8px rgba(59,130,246,.85));
+      stroke-dasharray: 8 10;
+      animation: dash 6s linear infinite;
+    }
+
+    @keyframes dash {
+      to { stroke-dashoffset: -120; }
+    }
+
+    .node {
+      position: absolute;
+      width: 146px;
+      height: 146px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      cursor: pointer;
+      z-index: 3;
+      border: 1px solid rgba(147,197,253,.42);
+      background:
+        radial-gradient(circle at 35% 25%, rgba(255,255,255,.18), transparent 20%),
+        radial-gradient(circle, rgba(37,99,235,.32), rgba(15,23,42,.82));
+      box-shadow:
+        0 0 34px rgba(59,130,246,.28),
+        inset 0 0 24px rgba(147,197,253,.09);
+      backdrop-filter: blur(10px);
+      transition: .2s ease;
+      animation: float 5s ease-in-out infinite alternate;
+    }
+
+    .node:hover {
+      transform: scale(1.08);
+      border-color: rgba(250,204,21,.9);
+      box-shadow:
+        0 0 45px rgba(250,204,21,.35),
+        0 0 80px rgba(96,165,250,.22);
+    }
+
+    .node .icon {
+      font-size: 34px;
+      margin-bottom: 5px;
+    }
+
+    .node strong {
+      display: block;
+      font-size: 15px;
+      letter-spacing: 1px;
+      color: #fff;
+    }
+
+    .node small {
+      display: block;
+      margin-top: 4px;
+      font-size: 10px;
+      color: #cbd5e1;
+      letter-spacing: 1px;
+    }
+
+    .atlas {
+      left: 50%;
+      top: 50%;
+      width: 210px;
+      height: 210px;
+      transform: translate(-50%, -50%);
+      background:
+        radial-gradient(circle at 35% 25%, rgba(255,255,255,.26), transparent 18%),
+        radial-gradient(circle, rgba(250,204,21,.48), rgba(37,99,235,.25), rgba(2,6,23,.96));
+      border-color: rgba(250,204,21,.85);
+      box-shadow:
+        0 0 70px rgba(250,204,21,.42),
+        0 0 130px rgba(59,130,246,.25);
+      animation: atlasPulse 3.5s ease-in-out infinite alternate;
+    }
+
+    .atlas .icon { font-size: 54px; }
+    .atlas strong { font-size: 24px; color: #facc15; }
+
+    @keyframes atlasPulse {
+      from { box-shadow: 0 0 55px rgba(250,204,21,.35), 0 0 110px rgba(59,130,246,.2); }
+      to { box-shadow: 0 0 90px rgba(250,204,21,.58), 0 0 150px rgba(168,85,247,.32); }
+    }
+
+    @keyframes float {
+      from { margin-top: 0; }
+      to { margin-top: -12px; }
+    }
+
+    .family { left: 18%; top: 18%; }
+    .faith { left: 50%; top: 10%; transform: translateX(-50%); }
+    .business { right: 18%; top: 18%; }
+    .missions { left: 8%; top: 47%; }
+    .revenue { right: 8%; top: 47%; }
+    .agents { left: 18%; bottom: 16%; }
+    .health { left: 50%; bottom: 8%; transform: translateX(-50%); }
+    .files { right: 18%; bottom: 16%; }
+
+    .drawer {
+      position: absolute;
+      top: 0;
+      right: -430px;
+      width: 410px;
+      height: 100vh;
+      padding: 26px;
+      z-index: 10;
+      background: rgba(2,6,23,.88);
+      border-left: 1px solid rgba(250,204,21,.32);
+      box-shadow: -25px 0 80px rgba(0,0,0,.7);
+      backdrop-filter: blur(16px);
+      transition: .25s ease;
+      overflow-y: auto;
+    }
+
+    .drawer.open { right: 0; }
+
+    .close {
+      float: right;
+      background: rgba(250,204,21,.12);
+      color: #facc15;
+      border: 1px solid rgba(250,204,21,.38);
+      border-radius: 10px;
+      padding: 8px 11px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .drawer h2 {
+      margin: 0 0 8px;
+      color: #facc15;
+      letter-spacing: 2px;
+      text-shadow: 0 0 18px rgba(250,204,21,.35);
+    }
+
+    .drawer p {
+      color: #cbd5e1;
+      line-height: 1.5;
+      margin-bottom: 18px;
+    }
+
+    .detail-card {
+      margin: 12px 0;
+      padding: 14px;
+      border-radius: 16px;
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(148,163,184,.16);
+    }
+
+    .detail-card strong {
+      display: block;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+
+    .detail-card span {
+      color: #cbd5e1;
+      line-height: 1.45;
+      font-size: 14px;
+    }
+
+    .bottom-bar {
+      position: absolute;
+      left: 28px;
+      right: 28px;
+      bottom: 22px;
+      z-index: 4;
+      height: 74px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+
+    .quick-card {
+      padding: 14px;
+      border-radius: 18px;
+      background: rgba(15,23,42,.58);
+      border: 1px solid rgba(148,163,184,.16);
+      backdrop-filter: blur(12px);
+    }
+
+    .quick-card strong {
+      color: #facc15;
+      display: block;
+      margin-bottom: 5px;
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
+
+    .quick-card span {
+      color: #cbd5e1;
+      font-size: 12px;
+    }
+
+    @media (max-width: 1050px) {
+      .metrics, .bottom-bar { display: none; }
+      .node { width: 118px; height: 118px; }
+      .atlas { width: 165px; height: 165px; }
+      .drawer { width: 100%; right: -100%; }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="brain-shell">
+    <div class="particles"></div>
+
+    <section class="title">
+      <h1>ATLAS BRAIN</h1>
+      <p>RAMFAM KINGDOM • PERSONAL + BUSINESS OPERATING SYSTEM</p>
+    </section>
+
+    <section class="metrics">
+      <div class="metric-card"><span>PAID REVENUE</span><strong id="paidRevenue">$0</strong></div>
+      <div class="metric-card"><span>OUTSTANDING</span><strong id="outstandingRevenue">$0</strong></div>
+      <div class="metric-card"><span>OPEN MISSIONS</span><strong id="openMissions">0</strong></div>
+      <div class="metric-card"><span>STATUS</span><strong id="kingdomStatus">READY</strong></div>
+    </section>
+
+    <svg>
+      <line class="link" x1="50%" y1="50%" x2="18%" y2="18%" />
+      <line class="link" x1="50%" y1="50%" x2="50%" y2="10%" />
+      <line class="link" x1="50%" y1="50%" x2="82%" y2="18%" />
+      <line class="link" x1="50%" y1="50%" x2="8%" y2="47%" />
+      <line class="link" x1="50%" y1="50%" x2="92%" y2="47%" />
+      <line class="link" x1="50%" y1="50%" x2="18%" y2="84%" />
+      <line class="link" x1="50%" y1="50%" x2="50%" y2="92%" />
+      <line class="link" x1="50%" y1="50%" x2="82%" y2="84%" />
+    </svg>
+
+    <div class="node atlas" onclick="openNode('atlas')">
+      <div><div class="icon">🦁</div><strong>ATLAS</strong><small>KINGDOM BRAIN</small></div>
+    </div>
+
+    <div class="node family" onclick="openNode('family')">
+      <div><div class="icon">👨‍👩‍👧‍👦</div><strong>FAMILY</strong><small>RamFam Core</small></div>
+    </div>
+
+    <div class="node faith" onclick="openNode('faith')">
+      <div><div class="icon">🙏</div><strong>FAITH</strong><small>Foundation</small></div>
+    </div>
+
+    <div class="node business" onclick="openNode('business')">
+      <div><div class="icon">💼</div><strong>BUSINESS</strong><small>SIS • FRESH</small></div>
+    </div>
+
+    <div class="node missions" onclick="openNode('missions')">
+      <div><div class="icon">⚔️</div><strong>MISSIONS</strong><small>Today’s Work</small></div>
+    </div>
+
+    <div class="node revenue" onclick="openNode('revenue')">
+      <div><div class="icon">💰</div><strong>REVENUE</strong><small>Money Watch</small></div>
+    </div>
+
+    <div class="node agents" onclick="openNode('agents')">
+      <div><div class="icon">🦫</div><strong>AGENTS</strong><small>The Pride</small></div>
+    </div>
+
+    <div class="node health" onclick="openNode('health')">
+      <div><div class="icon">🏥</div><strong>HEALTH</strong><small>Strength</small></div>
+    </div>
+
+    <div class="node files" onclick="openNode('files')">
+      <div><div class="icon">🗂️</div><strong>FILES</strong><small>Memory Vault</small></div>
+    </div>
+
+    <aside class="drawer" id="drawer">
+      <button class="close" onclick="closeDrawer()">X</button>
+      <h2 id="drawerTitle">ATLAS</h2>
+      <p id="drawerText">Select a neuron to open RAMFAM Kingdom intelligence.</p>
+      <div id="drawerItems"></div>
+    </aside>
+
+    <section class="bottom-bar">
+      <div class="quick-card"><strong>PRIVATE BRAIN</strong><span>Family, health, faith, and personal context live here.</span></div>
+      <div class="quick-card"><strong>BUSINESS BRAIN</strong><span>SIS, FRESH, orders, leads, and revenue.</span></div>
+      <div class="quick-card"><strong>AGENT BRAIN</strong><span>Atlas leads. Mason builds. Hermes stays hidden.</span></div>
+      <div class="quick-card"><strong>NEXT BUILD</strong><span>Make each neuron open live files and dashboards.</span></div>
+    </section>
+  </main>
+
+  <script>
+    const brainData = {
+      atlas: {
+        title: "ATLAS • Kingdom Brain",
+        text: "Atlas connects Manny's family, faith, health, businesses, files, missions, and agents into one visual operating system.",
+        items: [
+          ["Role", "Chief of Staff and Kingdom Maker."],
+          ["Purpose", "Help Manny make better decisions faster."],
+          ["Rule", "Faith first. Family protected. Revenue focused. Kingdom built."]
+        ]
+      },
+      family: {
+        title: "Family Neuron",
+        text: "The heart of RAMFAM KINGDOM.",
+        items: [
+          ["Manny", "Builder, father, husband, Kingdom operator."],
+          ["Deleana", "Wife, partner, educator, future SIS operator."],
+          ["Danica", "Bean. Family joy and legacy."],
+          ["Myles", "Navy son. Honor and expansion."],
+          ["Dezarai", "Granddaughter. Legacy motivation."]
+        ]
+      },
+      faith: {
+        title: "Faith Neuron",
+        text: "The foundation under the entire Kingdom.",
+        items: [
+          ["Daily Word", "Proverbs routine and Verse of the Day."],
+          ["Prayer", "Thank you for your love, mercy, and grace."],
+          ["FRESH Mission", "Faithfully Reaching Everybody Seeking Hope."],
+          ["Kingdom Filter", "Build what honors God, helps family, and creates impact."]
+        ]
+      },
+      business: {
+        title: "Business Neuron",
+        text: "Revenue engines and active business operations.",
+        items: [
+          ["SIS Custom Creations", "Orders, shirts, hats, parties, signs, business solutions."],
+          ["FRESH Apparel", "One Shirt. One Meal."],
+          ["RAMFAM KINGDOM", "AI agents, dashboards, brain system, and automation."],
+          ["Future Businesses", "AI twins, Christian artist platform, Second Key Services."]
+        ]
+      },
+      health: {
+        title: "Health Neuron",
+        text: "The Kingdom needs Manny strong.",
+        items: [
+          ["Dialysis", "Nightly PD routine."],
+          ["Transplant", "Kidney transplant list focus."],
+          ["Daily Needs", "Protein, electrolytes, rest, appointments."],
+          ["Rule", "No burnout as a business strategy."]
+        ]
+      },
+      agents: {
+        title: "Agent Pride Neuron",
+        text: "The RAMFAM agent team.",
+        items: [
+          ["Atlas", "Chief of Staff."],
+          ["Mason", "Kingdom Architect and builder."],
+          ["Hunter", "Revenue Commander."],
+          ["Amanda", "Outreach."],
+          ["CRM", "Dashboard"],
+          ["Gideon", "Finance."],
+          ["Micah", "Media."],
+          ["Ranger", "Customer Success."],
+          ["Scout", "Market intelligence."],
+          ["Taylor", "Website Tailor."]
+        ]
+      },
+      missions: {
+        title: "Missions Neuron",
+        text: "Daily execution and priority work.",
+        items: [
+          ["Today", "Revenue first. Follow-ups second. Build third."],
+          ["Mason", "Upgrade Atlas Brain and Executive Dashboard."],
+          ["Hunter", "Find and rank money opportunities."],
+          ["Amanda", "Prepare outreach and customer messages."]
+        ]
+      },
+      revenue: {
+        title: "Revenue Neuron",
+        text: "Cash flow, money waiting, pipeline, and financial pressure.",
+        items: [
+          ["Gideon", "Finance manager and treasury watch."],
+          ["Revenue First", "Collect payments and move active orders."],
+          ["Freedom Number", "$2,600 net monthly target to bring Deleana home."],
+          ["Priority", "Outstanding invoices and fastest path to cash."]
+        ]
+      },
+      files: {
+        title: "Files Neuron",
+        text: "This becomes the visual doorway to Kingdom documents, memories, orders, projects, and agent files.",
+        items: [
+          ["Family Files", "Important personal and household context."],
+          ["Business Files", "Orders, invoices, policies, prospects, and websites."],
+          ["Agent Files", "Agent roles, missions, skills, and logs."],
+          ["Future", "Click a file neuron and open the actual document."]
+        ]
+      }
+    };
+
+    function openNode(key) {
+      const data = brainData[key];
+      document.getElementById("drawerTitle").textContent = data.title;
+      document.getElementById("drawerText").textContent = data.text;
+
+      const drawerItems = document.getElementById("drawerItems");
+      drawerItems.innerHTML = "";
+
+      data.items.forEach(function(item) {
+        const card = document.createElement("div");
+        card.className = "detail-card";
+        card.innerHTML = "<strong>" + item[0] + "</strong><span>" + item[1] + "</span>";
+        drawerItems.appendChild(card);
+      });
+
+      document.getElementById("drawer").classList.add("open");
+    }
+
+    function closeDrawer() {
+      document.getElementById("drawer").classList.remove("open");
+    }
+
+    function money(value) {
+      const number = Number(value || 0);
+      return "$" + number.toLocaleString(undefined, {
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0
+      });
+    }
+
+    async function loadDashboardData() {
+      try {
+        const response = await fetch("/dashboard-data");
+        const data = await response.json();
+
+        document.getElementById("paidRevenue").textContent = money(data.paid_revenue);
+        document.getElementById("outstandingRevenue").textContent = money(data.outstanding_revenue);
+        document.getElementById("openMissions").textContent = data.open_missions || 0;
+        document.getElementById("kingdomStatus").textContent = data.cave_status || "READY";
+      } catch (error) {
+        document.getElementById("kingdomStatus").textContent = "CHECK";
+      }
+    }
+
+    loadDashboardData();
+    setInterval(loadDashboardData, 10000);
+  </script>
+</body>
+</html>

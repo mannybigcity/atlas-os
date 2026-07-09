@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Customer Command</title>
+  <style>
+    * { box-sizing: border-box; }
+    :root {
+      --bg: #020617;
+      --panel: rgba(7, 12, 24, 0.86);
+      --panel-strong: rgba(15, 23, 42, 0.94);
+      --cyan: #00e5ff;
+      --green: #00ffb3;
+      --purple: #8b5cf6;
+      --orange: #fb923c;
+      --red: #fb7185;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --border: rgba(148, 163, 184, 0.2);
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 18% 20%, rgba(0, 229, 255, .17), transparent 30%),
+        radial-gradient(circle at 76% 10%, rgba(139, 92, 246, .18), transparent 28%),
+        radial-gradient(circle at 62% 88%, rgba(0, 255, 179, .10), transparent 30%),
+        var(--bg);
+      overflow-x: hidden;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(0,229,255,.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,229,255,.045) 1px, transparent 1px);
+      background-size: 42px 42px;
+      pointer-events: none;
+      opacity: .55;
+    }
+    .app { position: relative; z-index: 2; padding: 18px; max-width: 1480px; margin: 0 auto; }
+    .glass {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: 0 0 45px rgba(0,0,0,.42), inset 0 0 30px rgba(0,229,255,.035);
+      backdrop-filter: blur(16px);
+    }
+    header { display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 18px 22px; margin-bottom: 14px; }
+    h1 { margin: 0; text-transform: uppercase; letter-spacing: 3px; font-size: clamp(24px, 3vw, 42px); }
+    .subtitle { margin-top: 4px; color: var(--muted); text-transform: uppercase; letter-spacing: 2px; font-size: 12px; }
+    .nav { display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+    .nav a, button {
+      border: 0;
+      border-radius: 16px;
+      color: white;
+      text-decoration: none;
+      font-weight: 950;
+      letter-spacing: 1px;
+      cursor: pointer;
+      background: linear-gradient(135deg, var(--cyan), var(--purple));
+      box-shadow: 0 0 18px rgba(0,229,255,.17);
+      padding: 12px 14px;
+    }
+    button.secondary, .nav a.secondary { background: rgba(15,23,42,.92); border: 1px solid rgba(0,229,255,.24); }
+    button.danger { background: linear-gradient(135deg, #fb7185, #b91c1c); }
+    .metrics { display: grid; grid-template-columns: repeat(6, minmax(140px, 1fr)); gap: 12px; margin-bottom: 14px; }
+    .metric { padding: 18px; }
+    .metric-label { color: var(--muted); text-transform: uppercase; letter-spacing: 1.4px; font-size: 11px; font-weight: 900; }
+    .metric-value { margin-top: 8px; font-size: 30px; font-weight: 950; line-height: 1; text-shadow: 0 0 14px currentColor; }
+    .green { color: var(--green); } .cyan { color: var(--cyan); } .purple { color: var(--purple); } .orange { color: var(--orange); } .red { color: var(--red); }
+    .layout { display: grid; grid-template-columns: 385px minmax(0, 1fr); gap: 14px; align-items: start; }
+    .panel { padding: 18px; }
+    h2 { margin: 0 0 14px; color: var(--cyan); text-transform: uppercase; letter-spacing: 2px; font-size: 14px; }
+    label { display: block; margin: 10px 0 6px; color: #dbeafe; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; font-weight: 900; }
+    input, select, textarea {
+      width: 100%;
+      border: 1px solid rgba(0,229,255,.22);
+      background: rgba(0,0,0,.44);
+      color: white;
+      border-radius: 14px;
+      padding: 12px;
+      outline: none;
+      font: inherit;
+    }
+    textarea { min-height: 90px; resize: vertical; }
+    input:focus, select:focus, textarea:focus { border-color: var(--cyan); box-shadow: 0 0 16px rgba(0,229,255,.12); }
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .actions { display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
+    .toolbar { display: grid; grid-template-columns: 1fr 180px 130px; gap: 10px; margin-bottom: 12px; }
+    .target { margin-bottom: 12px; padding: 14px; border-radius: 18px; background: rgba(0,0,0,.38); border: 1px solid rgba(0,255,179,.18); }
+    .target strong { color: var(--green); text-transform: uppercase; letter-spacing: 1px; }
+    .table-wrap { overflow: auto; border-radius: 18px; border: 1px solid rgba(148,163,184,.18); }
+    table { width: 100%; border-collapse: collapse; min-width: 960px; background: rgba(0,0,0,.25); }
+    th, td { padding: 12px; text-align: left; border-bottom: 1px solid rgba(148,163,184,.14); vertical-align: top; }
+    th { position: sticky; top: 0; background: var(--panel-strong); color: var(--muted); text-transform: uppercase; letter-spacing: 1px; font-size: 11px; z-index: 1; }
+    td { color: #e5eefc; font-size: 14px; }
+    .status { display: inline-block; padding: 5px 9px; border-radius: 999px; background: rgba(0,229,255,.12); border: 1px solid rgba(0,229,255,.22); font-weight: 900; font-size: 12px; }
+    .small { color: var(--muted); font-size: 12px; line-height: 1.4; }
+    .row-actions { display: flex; gap: 7px; flex-wrap: wrap; }
+    .row-actions button { padding: 8px 10px; border-radius: 12px; font-size: 11px; }
+    .notice { margin-top: 10px; color: var(--green); min-height: 20px; font-size: 13px; }
+    .customer-vault { margin-top: 14px; }
+    .customer-grid { display: grid; grid-template-columns: 330px minmax(0, 1fr); gap: 14px; align-items: start; }
+    .customer-toolbar { display: grid; grid-template-columns: 1fr 160px; gap: 10px; margin-bottom: 12px; }
+    @media (max-width: 1080px) {
+      .metrics { grid-template-columns: repeat(2, minmax(150px, 1fr)); }
+      .layout, .customer-grid { grid-template-columns: 1fr; }
+      .toolbar { grid-template-columns: 1fr; }
+      header { align-items: flex-start; flex-direction: column; }
+      .nav { justify-content: flex-start; }
+    }
+  </style>
+  <link rel="stylesheet" href="/assets/atlas-saas.css" />
+</head>
+<body data-atlas-app data-atlas-page="crm">
+  <main class="app">
+    <header class="glass">
+      <div>
+        <h1>Customer Command</h1>
+        <div class="subtitle">Revenue-first relationship tracking for SIS, FRESH, and RAMFAM Kingdom</div>
+      </div>
+      <div class="nav" aria-label="CRM app status">
+        <span class="atlas-status-chip">Admin Gate Active</span>
+      </div>
+    </header>
+
+    <section class="metrics" aria-label="CRM Metrics">
+      <div class="metric glass"><div class="metric-label">Active Pipeline</div><div id="pipelineValue" class="metric-value green">$0</div></div>
+      <div class="metric glass"><div class="metric-label">Prospects</div><div id="totalProspects" class="metric-value cyan">0</div></div>
+      <div class="metric glass"><div class="metric-label">Overdue Follow-Ups</div><div id="overdueFollowups" class="metric-value red">0</div></div>
+      <div class="metric glass"><div class="metric-label">Due Today</div><div id="todayFollowups" class="metric-value orange">0</div></div>
+      <div class="metric glass"><div class="metric-label">Closed Won</div><div id="closedWon" class="metric-value purple">0</div></div>
+      <div class="metric glass"><div class="metric-label">Customers</div><div id="totalCustomers" class="metric-value green">0</div></div>
+      <div class="metric glass"><div class="metric-label">Book of Business</div><div id="customerBook" class="metric-value green">$0</div></div>
+    </section>
+
+    <section class="layout">
+      <aside class="panel glass">
+        <h2 id="formTitle">Add Prospect</h2>
+        <form id="prospectForm">
+          <input type="hidden" id="prospectId" />
+          <label for="name">Contact Name</label>
+          <input id="name" name="name" placeholder="Kandy" />
+
+          <label for="business">Business / Organization</label>
+          <input id="business" name="business" placeholder="Canes Baseball" />
+
+          <label for="product">Product / Need</label>
+          <input id="product" name="product" placeholder="Team shirts, hats, signs..." />
+
+          <div class="form-grid">
+            <div>
+              <label for="status">Status</label>
+              <select id="status" name="status">
+                <option>New</option>
+                <option>Hot</option>
+                <option>Quoted</option>
+                <option>Mockup Approved</option>
+                <option>Invoice Sent</option>
+                <option>Closed Won</option>
+                <option>Closed Lost</option>
+              </select>
+            </div>
+            <div>
+              <label for="value">Deal Value</label>
+              <input id="value" name="value" type="number" min="0" step="0.01" placeholder="1200" />
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div>
+              <label for="follow_up">Follow-Up Date</label>
+              <input id="follow_up" name="follow_up" type="date" />
+            </div>
+            <div>
+              <label for="source">Source</label>
+              <input id="source" name="source" placeholder="Referral, Facebook, Event" />
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" />
+            </div>
+            <div>
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" />
+            </div>
+          </div>
+
+          <label for="notes">Notes</label>
+          <textarea id="notes" name="notes" placeholder="Customer commitment, deadline, decision-maker, next promise..."></textarea>
+
+          <div class="actions">
+            <button type="submit">Save Prospect</button>
+            <button class="secondary" type="button" onclick="resetForm()">Clear</button>
+          </div>
+          <div id="notice" class="notice"></div>
+        </form>
+      </aside>
+
+      <section class="panel glass">
+        <h2>Pipeline</h2>
+        <div id="nextTarget" class="target"><strong>Next Money Target:</strong> Loading...</div>
+        <div class="toolbar">
+          <input id="search" placeholder="Search name, business, product, notes..." oninput="debouncedLoad()" />
+          <select id="statusFilter" onchange="loadCRM()">
+            <option value="">All Statuses</option>
+            <option>New</option>
+            <option>Hot</option>
+            <option>Quoted</option>
+            <option>Mockup Approved</option>
+            <option>Invoice Sent</option>
+            <option>Closed Won</option>
+            <option>Closed Lost</option>
+          </select>
+          <button class="secondary" onclick="loadCRM()">Refresh</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Contact</th><th>Business</th><th>Need</th><th>Status</th><th>Value</th><th>Follow-Up</th><th>Next Action</th><th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="prospectRows"></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+
+    <section class="customer-vault panel glass">
+      <h2>Follow-Up Command Queue</h2>
+      <div id="followupQueue" class="small">Loading follow-ups...</div>
+    </section>
+
+    <section class="customer-vault panel glass">
+      <h2>Activity Timeline</h2>
+      <div class="target"><strong>Relationship Memory:</strong> Calls, texts, emails, and next promises logged against prospects and customers.</div>
+      <div id="activityTimeline" class="small">Loading activity...</div>
+    </section>
+
+    <section class="customer-vault customer-grid">
+      <aside class="panel glass">
+        <h2 id="customerFormTitle">Add Customer</h2>
+        <form id="customerForm">
+          <input type="hidden" id="customerId" />
+          <label for="customerName">Customer Name</label>
+          <input id="customerName" placeholder="Manny Ramirez" />
+          <label for="customerBusiness">Business / Organization</label>
+          <input id="customerBusiness" placeholder="SIS Custom Creations" />
+          <label for="customerLastProduct">Last Product / Commitment</label>
+          <input id="customerLastProduct" placeholder="Event shirts, reorder, promo kit..." />
+          <div class="form-grid">
+            <div>
+              <label for="customerValue">Lifetime Value</label>
+              <input id="customerValue" type="number" min="0" step="0.01" placeholder="2400" />
+            </div>
+            <div>
+              <label for="customerStatus">Status</label>
+              <select id="customerStatus">
+                <option>Active</option>
+                <option>VIP</option>
+                <option>Needs Follow-Up</option>
+                <option>Dormant</option>
+              </select>
+            </div>
+          </div>
+          <label for="customerFollowUp">Next Follow-Up Date</label>
+          <input id="customerFollowUp" type="date" />
+          <label for="customerNextAction">Next Action</label>
+          <input id="customerNextAction" placeholder="Ask for reorder timing, request review, confirm delivery..." />
+          <div class="form-grid">
+            <div>
+              <label for="customerEmail">Email</label>
+              <input id="customerEmail" type="email" />
+            </div>
+            <div>
+              <label for="customerPhone">Phone</label>
+              <input id="customerPhone" />
+            </div>
+          </div>
+          <label for="customerNotes">Customer Notes</label>
+          <textarea id="customerNotes" placeholder="Preferences, delivery promises, review/referral opportunities..."></textarea>
+          <div class="actions">
+            <button type="submit">Save Customer</button>
+            <button class="secondary" type="button" onclick="resetCustomerForm()">Clear</button>
+          </div>
+          <div id="customerNotice" class="notice"></div>
+        </form>
+      </aside>
+
+      <section class="panel glass">
+        <h2>Customer Vault</h2>
+        <div class="target"><strong>Book of Business:</strong> <span id="customerBookValue">$0</span> lifetime tracked revenue.</div>
+        <div class="customer-toolbar">
+          <input id="customerSearch" placeholder="Search customers, businesses, products, notes..." oninput="debouncedLoadCustomers()" />
+          <button class="secondary" onclick="loadCustomers()">Refresh</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Customer</th><th>Business</th><th>Last Product</th><th>Status</th><th>Lifetime Value</th><th>Follow-Up</th><th>Next Action</th><th>Notes</th><th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="customerRows"></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script>
+    const money = value => "$" + Number(value || 0).toLocaleString(undefined, { maximumFractionDigits: 0 });
+    let loadTimer = null;
+    let customerLoadTimer = null;
+    let customerTimer = null;
+
+    function setNotice(message, isError = false) {
+      const notice = document.getElementById("notice");
+      notice.textContent = message || "";
+      notice.style.color = isError ? "#fb7185" : "#00ffb3";
+    }
+
+    function formData() {
+      const data = {};
+      ["name", "business", "product", "status", "value", "follow_up", "source", "email", "phone", "notes"].forEach(id => {
+        data[id] = document.getElementById(id).value.trim();
+      });
+      data.value = Number(data.value || 0);
+      return data;
+    }
+
+    function resetForm() {
+      document.getElementById("prospectForm").reset();
+      document.getElementById("prospectId").value = "";
+      document.getElementById("formTitle").textContent = "Add Prospect";
+      setNotice("");
+    }
+
+    function customerFormData() {
+      return {
+        name: document.getElementById("customerName").value.trim(),
+        business: document.getElementById("customerBusiness").value.trim(),
+        email: document.getElementById("customerEmail").value.trim(),
+        phone: document.getElementById("customerPhone").value.trim(),
+        last_product: document.getElementById("customerLastProduct").value.trim(),
+        lifetime_value: Number(document.getElementById("customerValue").value || 0),
+        status: document.getElementById("customerStatus").value.trim(),
+        follow_up: document.getElementById("customerFollowUp").value.trim(),
+        next_action: document.getElementById("customerNextAction").value.trim(),
+        notes: document.getElementById("customerNotes").value.trim(),
+      };
+    }
+
+    function resetCustomerForm() {
+      document.getElementById("customerForm").reset();
+      document.getElementById("customerId").value = "";
+      document.getElementById("customerStatus").value = "Active";
+      document.getElementById("customerFormTitle").textContent = "Add Customer";
+      setCustomerNotice("");
+    }
+
+    function setCustomerNotice(message, isError = false) {
+      const notice = document.getElementById("customerNotice");
+      notice.textContent = message || "";
+      notice.style.color = isError ? "#fb7185" : "#00ffb3";
+    }
+
+    function customerData() {
+      return {
+        name: document.getElementById("customerName").value.trim(),
+        business: document.getElementById("customerBusiness").value.trim(),
+        last_product: document.getElementById("customerLastProduct").value.trim(),
+        lifetime_value: Number(document.getElementById("customerValue").value || 0),
+        status: document.getElementById("customerStatus").value.trim(),
+        follow_up: document.getElementById("customerFollowUp").value.trim(),
+        next_action: document.getElementById("customerNextAction").value.trim(),
+        email: document.getElementById("customerEmail").value.trim(),
+        phone: document.getElementById("customerPhone").value.trim(),
+        notes: document.getElementById("customerNotes").value.trim()
+      };
+    }
+
+    function resetCustomerForm() {
+      document.getElementById("customerForm").reset();
+      document.getElementById("customerId").value = "";
+      document.getElementById("customerFormTitle").textContent = "Add Customer";
+      setCustomerNotice("");
+    }
+
+    function editCustomer(id) {
+      const customer = (window.crmCustomers || []).find(item => item.id === id);
+      if (!customer) return;
+      document.getElementById("customerId").value = customer.id;
+      document.getElementById("customerName").value = customer.name || "";
+      document.getElementById("customerBusiness").value = customer.business || "";
+      document.getElementById("customerLastProduct").value = customer.last_product || "";
+      document.getElementById("customerValue").value = customer.lifetime_value || "";
+      document.getElementById("customerStatus").value = customer.status || "Active";
+      document.getElementById("customerFollowUp").value = customer.follow_up || "";
+      document.getElementById("customerNextAction").value = customer.next_action || "";
+      document.getElementById("customerEmail").value = customer.email || "";
+      document.getElementById("customerPhone").value = customer.phone || "";
+      document.getElementById("customerNotes").value = customer.notes || "";
+      document.getElementById("customerFormTitle").textContent = "Edit Customer";
+      document.getElementById("customerForm").scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    async function removeCustomer(id) {
+      if (!confirm("Delete this customer from the CRM?")) return;
+      const response = await fetch(`/api/crm/customers/${id}`, { method: "DELETE" });
+      if (!response.ok) return setCustomerNotice("Unable to delete customer.", true);
+      setCustomerNotice("Customer deleted.");
+      await loadCRM();
+    }
+
+    function debouncedLoadCustomers() {
+      clearTimeout(customerTimer);
+      customerTimer = setTimeout(loadCustomers, 250);
+    }
+
+    async function loadCustomers(summary = null) {
+      const query = encodeURIComponent(document.getElementById("customerSearch").value || "");
+      const response = await fetch(`/api/crm/customers?q=${query}`);
+      const data = await response.json();
+      const customers = data.customers || [];
+      window.crmCustomers = customers;
+
+      const totalValue = summary ? summary.customer_lifetime_value : customers.reduce((total, customer) => total + Number(customer.lifetime_value || 0), 0);
+      document.getElementById("totalCustomers").textContent = summary ? (summary.total_customers || 0) : customers.length;
+      document.getElementById("customerBookValue").textContent = money(totalValue);
+
+      const rows = document.getElementById("customerRows");
+      if (!customers.length) {
+        rows.innerHTML = `<tr><td colspan="9" class="small">No customers saved yet. Convert wins or add existing customers here.</td></tr>`;
+        return;
+      }
+      rows.innerHTML = customers.map(c => `
+        <tr>
+          <td><strong>${escapeHtml(c.name || "Unknown")}</strong><div class="small">${escapeHtml(c.email || "")} ${escapeHtml(c.phone || "")}</div></td>
+          <td>${escapeHtml(c.business || "")}</td>
+          <td>${escapeHtml(c.last_product || "")}</td>
+          <td><span class="status">${escapeHtml(c.status || "Active")}</span></td>
+          <td>${money(c.lifetime_value)}</td>
+          <td>${escapeHtml(c.follow_up || "")}</td>
+          <td>${escapeHtml(c.next_action || "")}</td>
+          <td>${escapeHtml(c.notes || "")}</td>
+          <td><div class="row-actions">
+            <button class="secondary" onclick="editCustomer('${c.id}')">Edit</button>
+            <button onclick="logTouchpoint('customer', '${c.id}')">Log Touch</button>
+            <button class="danger" onclick="removeCustomer('${c.id}')">Delete</button>
+          </div></td>
+        </tr>
+      `).join("");
+    }
+
+    function editProspect(id) {
+      const prospect = window.crmProspects.find(item => item.id === id);
+      if (!prospect) return;
+      document.getElementById("prospectId").value = prospect.id;
+      ["name", "business", "product", "status", "value", "follow_up", "source", "email", "phone", "notes"].forEach(field => {
+        document.getElementById(field).value = prospect[field] || "";
+      });
+      document.getElementById("formTitle").textContent = "Edit Prospect";
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    async function markWon(id) {
+      const response = await fetch(`/api/crm/prospects/${id}/convert`, { method: "POST" });
+      const data = await response.json();
+      if (!response.ok) return setNotice(data.error || "Unable to convert prospect.", true);
+      setNotice(`Converted ${data.customer.business || data.customer.name} to customer.`);
+      await loadCRM();
+      await loadCustomers();
+    }
+
+    async function removeProspect(id) {
+      if (!confirm("Delete this prospect from the CRM?")) return;
+      const response = await fetch(`/api/crm/prospects/${id}`, { method: "DELETE" });
+      if (!response.ok) return setNotice("Unable to delete prospect.", true);
+      setNotice("Prospect deleted.");
+      await loadCRM();
+    }
+
+    async function renderFollowupQueue() {
+      const response = await fetch("/api/crm/followups");
+      const data = await response.json();
+      const queue = (data.followups || []).slice(0, 8);
+      const element = document.getElementById("followupQueue");
+      if (!queue.length) {
+        element.innerHTML = "No dated follow-ups yet. Add follow-up dates to protect customer commitments.";
+        return;
+      }
+      element.innerHTML = queue.map(item => `
+        <div class="target">
+          <strong>${escapeHtml(item.follow_up)}</strong> — ${escapeHtml(item.record_type || "prospect")} / ${escapeHtml(item.name || "Unknown")} / ${escapeHtml(item.business || "")}<br />
+          ${escapeHtml(item.next_action || "Follow up and confirm next step")}
+        </div>
+      `).join("");
+    }
+
+    async function loadActivityTimeline() {
+      const response = await fetch("/api/crm/timeline?limit=12");
+      const data = await response.json();
+      const timeline = data.timeline || [];
+      const element = document.getElementById("activityTimeline");
+      if (!timeline.length) {
+        element.innerHTML = "No activity logged yet. Use Log Touch on a prospect or customer after every call, text, email, or promise.";
+        return;
+      }
+      element.innerHTML = timeline.map(item => `
+        <div class="target">
+          <strong>${escapeHtml(item.type || "Note")}</strong> — ${escapeHtml(item.record_type)}: ${escapeHtml(item.record_name || "Unknown")} / ${escapeHtml(item.business || "")}
+          <div>${escapeHtml(item.note || "")}</div>
+          <div class="small">${escapeHtml(item.created_at || "")}${item.next_follow_up ? " • Next follow-up: " + escapeHtml(item.next_follow_up) : ""}</div>
+        </div>
+      `).join("");
+    }
+
+    async function logTouchpoint(recordType, id) {
+      const type = prompt("Touchpoint type (Call, Text, Email, Meeting, Note):", "Call");
+      if (type === null) return;
+      const note = prompt("What happened / what promise was made?");
+      if (!note) return;
+      const next_follow_up = prompt("Next follow-up date (YYYY-MM-DD), optional:", "") || "";
+      const endpoint = recordType === "customer"
+        ? `/api/crm/customers/${id}/touchpoints`
+        : `/api/crm/prospects/${id}/touchpoints`;
+      const response = await fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ type, note, next_follow_up })
+      });
+      const data = await response.json();
+      if (!response.ok) {
+        const message = data.error || "Unable to log touchpoint.";
+        recordType === "customer" ? setCustomerNotice(message, true) : setNotice(message, true);
+        return;
+      }
+      recordType === "customer" ? setCustomerNotice("Customer touchpoint logged.") : setNotice("Prospect touchpoint logged.");
+      await loadCRM();
+    }
+
+    document.getElementById("prospectForm").addEventListener("submit", async event => {
+      event.preventDefault();
+      const id = document.getElementById("prospectId").value;
+      const response = await fetch(id ? `/api/crm/prospects/${id}` : "/api/crm/prospects", {
+        method: id ? "PATCH" : "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData())
+      });
+      const data = await response.json();
+      if (!response.ok) return setNotice(data.error || "Unable to save prospect.", true);
+      setNotice(id ? "Prospect updated." : "Prospect added.");
+      resetForm();
+      await loadCRM();
+    });
+
+    document.getElementById("customerForm").addEventListener("submit", async event => {
+      event.preventDefault();
+      const id = document.getElementById("customerId").value;
+      const response = await fetch(id ? `/api/crm/customers/${id}` : "/api/crm/customers", {
+        method: id ? "PATCH" : "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(customerData())
+      });
+      const data = await response.json();
+      if (!response.ok) return setCustomerNotice(data.error || "Unable to save customer.", true);
+      setCustomerNotice(id ? "Customer updated." : "Customer added.");
+      resetCustomerForm();
+      await loadCRM();
+    });
+
+    function debouncedLoad() {
+      clearTimeout(loadTimer);
+      loadTimer = setTimeout(loadCRM, 250);
+    }
+
+    async function loadCRM() {
+      const query = encodeURIComponent(document.getElementById("search").value || "");
+      const status = encodeURIComponent(document.getElementById("statusFilter").value || "");
+      const [summaryResponse, prospectsResponse] = await Promise.all([
+        fetch("/api/crm/summary"),
+        fetch(`/api/crm/prospects?q=${query}&status=${status}`)
+      ]);
+      const summaryData = await summaryResponse.json();
+      const prospectsData = await prospectsResponse.json();
+      const summary = summaryData.summary || {};
+      const prospects = prospectsData.prospects || [];
+      window.crmProspects = prospects;
+
+      document.getElementById("pipelineValue").textContent = money(summary.active_pipeline_value);
+      document.getElementById("totalProspects").textContent = summary.total_prospects || 0;
+      document.getElementById("overdueFollowups").textContent = summary.followups_overdue || 0;
+      document.getElementById("todayFollowups").textContent = summary.followups_due_today || 0;
+      document.getElementById("closedWon").textContent = summary.closed_won || 0;
+      document.getElementById("totalCustomers").textContent = summary.total_customers || 0;
+      document.getElementById("customerBook").textContent = money(summary.customer_lifetime_value);
+      document.getElementById("customerBookValue").textContent = money(summary.customer_lifetime_value);
+      await renderFollowupQueue();
+      document.getElementById("totalCustomers").textContent = summary.total_customers || 0;
+
+      const target = summary.next_money_target;
+      document.getElementById("nextTarget").innerHTML = target
+        ? `<strong>Next Money Target:</strong> ${target.name || "Unknown"} / ${target.business || ""} — ${money(target.value)} — ${target.next_action || "Follow up"}`
+        : `<strong>Next Money Target:</strong> No active pipeline target yet. Add a prospect or revive a lead.`;
+
+      await loadCustomers(summary);
+      await loadActivityTimeline();
+
+      const rows = document.getElementById("prospectRows");
+      if (!prospects.length) {
+        rows.innerHTML = `<tr><td colspan="8" class="small">No prospects found. Add the next revenue opportunity.</td></tr>`;
+        return;
+      }
+      rows.innerHTML = prospects.map(p => `
+        <tr>
+          <td><strong>${escapeHtml(p.name || "Unknown")}</strong><div class="small">${escapeHtml(p.email || "")} ${escapeHtml(p.phone || "")}</div></td>
+          <td>${escapeHtml(p.business || "")}</td>
+          <td>${escapeHtml(p.product || "")}</td>
+          <td><span class="status">${escapeHtml(p.status || "New")}</span></td>
+          <td>${money(p.value)}</td>
+          <td>${escapeHtml(p.follow_up || "")}</td>
+          <td>${escapeHtml(p.next_action || "")}</td>
+          <td><div class="row-actions">
+            <button class="secondary" onclick="editProspect('${p.id}')">Edit</button>
+            <button onclick="logTouchpoint('prospect', '${p.id}')">Log Touch</button>
+            <button onclick="markWon('${p.id}')">Won</button>
+            <button class="danger" onclick="removeProspect('${p.id}')">Delete</button>
+          </div></td>
+        </tr>
+      `).join("");
+    }
+
+    function escapeHtml(value) {
+      return String(value || "").replace(/[&<>'"]/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;","\"":"&quot;"}[char]));
+    }
+
+    loadCRM().catch(error => setNotice("CRM data connection failed: " + error.message, true));
+    loadCustomers().catch(error => setCustomerNotice("Customer data connection failed: " + error.message, true));
+  </script>
+  <script src="/assets/atlas-saas-layout.js"></script>
+</body>
+</html>

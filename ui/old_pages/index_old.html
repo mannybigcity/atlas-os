@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ATLAS COMMAND CENTER | RAMFAM Command Center</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    :root {
+      --gold: #ffd700;
+      --gold-soft: rgba(255, 215, 0, 0.18);
+      --blue: #60a5fa;
+      --green: #22c55e;
+      --red: #f87171;
+      --purple: #c084fc;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --panel: rgba(5, 9, 14, 0.86);
+      --panel2: rgba(11, 18, 28, 0.92);
+      --border: rgba(255, 215, 0, 0.22);
+    }
+
+    body {
+      margin: 0;
+      height: 100vh;
+      overflow: hidden;
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at 50% 0%, rgba(255, 215, 0, 0.12), transparent 28%),
+        radial-gradient(circle at 20% 30%, rgba(96, 165, 250, 0.13), transparent 26%),
+        radial-gradient(circle at 80% 55%, rgba(255, 215, 0, 0.08), transparent 30%),
+        linear-gradient(135deg, #020305, #07101a 42%, #020305);
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+      background-size: 42px 42px;
+      mask-image: radial-gradient(circle at center, black, transparent 80%);
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.04), transparent 8%, transparent 92%, rgba(0,0,0,0.55)),
+        repeating-linear-gradient(0deg, rgba(255,255,255,0.025) 0px, rgba(255,255,255,0.025) 1px, transparent 1px, transparent 4px);
+      opacity: 0.55;
+    }
+
+    .app {
+      position: relative;
+      z-index: 1;
+      height: 100vh;
+      padding: 18px;
+      display: grid;
+      grid-template-columns: 260px 1fr 320px;
+      grid-template-rows: 92px 1fr 300px;
+      gap: 14px;
+      grid-template-areas:
+        "sidebar topbar topbar"
+        "sidebar command missions"
+        "sidebar console quick";
+    }
+
+    .panel,
+    .sidebar,
+    .topbar {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow:
+        0 0 24px rgba(0,0,0,0.55),
+        inset 0 0 22px rgba(255, 215, 0, 0.035);
+      backdrop-filter: blur(8px);
+    }
+
+    .sidebar {
+      grid-area: sidebar;
+      padding: 22px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .sidebar::before,
+    .panel::before,
+    .topbar::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      border-radius: inherit;
+      background: linear-gradient(135deg, rgba(255,255,255,0.07), transparent 22%, transparent 78%, rgba(255,215,0,0.05));
+    }
+
+    .brand {
+      position: relative;
+      margin-bottom: 26px;
+    }
+
+    .brand .small {
+      color: var(--gold);
+      letter-spacing: 3px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .brand .name {
+      font-size: 30px;
+      font-weight: 900;
+      letter-spacing: 3px;
+      margin-top: 6px;
+    }
+
+    .brand .tag {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 6px;
+      line-height: 1.4;
+    }
+
+    .agent-card {
+      position: relative;
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      gap: 10px;
+      align-items: center;
+      padding: 12px 10px;
+      margin-bottom: 10px;
+      background: rgba(255,255,255,0.035);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 14px;
+    }
+
+    .agent-icon {
+      height: 42px;
+      width: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 12px;
+      background: rgba(255, 215, 0, 0.1);
+      border: 1px solid rgba(255, 215, 0, 0.2);
+      font-size: 22px;
+    }
+
+    .agent-name {
+      font-weight: 800;
+      letter-spacing: 1px;
+      font-size: 13px;
+    }
+
+    .agent-role {
+      color: var(--muted);
+      font-size: 11px;
+      margin-top: 2px;
+    }
+
+    .agent-status {
+      color: var(--green);
+      font-size: 11px;
+      margin-top: 4px;
+      letter-spacing: 1px;
+      font-weight: 700;
+    }
+
+    .alfred {
+      position: absolute;
+      left: 22px;
+      right: 22px;
+      bottom: 22px;
+      padding: 14px;
+      border-radius: 14px;
+      background: rgba(0,0,0,0.32);
+      border: 1px solid rgba(255,215,0,0.18);
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .alfred strong {
+      color: white;
+      display: block;
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+
+    .topbar {
+      grid-area: topbar;
+      padding: 18px 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .welcome h1 {
+      margin: 0;
+      font-size: 24px;
+      letter-spacing: 2px;
+    }
+
+    .welcome p {
+      margin: 7px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+
+    .status-block {
+      text-align: right;
+      min-width: 200px;
+    }
+
+    .status-label {
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .status-value {
+      color: var(--green);
+      font-size: 30px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      text-shadow: 0 0 14px rgba(34,197,94,0.45);
+    }
+
+    .command {
+      grid-area: command;
+      position: relative;
+      overflow: hidden;
+      padding: 20px;
+    }
+
+    .missions {
+      grid-area: missions;
+      position: relative;
+      overflow: hidden;
+      padding: 20px;
+    }
+
+    .console {min-height: 520px;
+      grid-area: console;
+      position: relative;
+      overflow: hidden;
+      padding: 18px;
+    }
+
+    .quick {
+      grid-area: quick;
+      position: relative;
+      overflow: hidden;
+      padding: 18px;
+    }
+
+    .panel-title {
+      margin: 0 0 14px;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .hero-board {
+      min-height: 100%;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      gap: 14px;
+    }
+
+    .objective {
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 28px;
+      border-radius: 18px;
+      background:
+        radial-gradient(circle at center, rgba(255,215,0,0.13), transparent 60%),
+        rgba(0,0,0,0.28);
+      border: 1px solid rgba(255,215,0,0.22);
+    }
+
+    .objective .label {
+      color: var(--muted);
+      letter-spacing: 3px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    .objective .mission {
+      color: var(--gold);
+      font-size: clamp(28px, 4vw, 52px);
+      font-weight: 950;
+      letter-spacing: 2px;
+      margin: 16px 0;
+      text-shadow: 0 0 22px rgba(255,215,0,0.23);
+    }
+
+    .objective .value {
+      color: var(--green);
+      font-size: 34px;
+      font-weight: 900;
+      text-shadow: 0 0 16px rgba(34,197,94,0.35);
+    }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+    }
+
+    .metric {
+      padding: 14px;
+      min-height: 88px;
+      background: rgba(255,255,255,0.035);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 15px;
+    }
+
+    .metric-label {
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .metric-value {
+      font-size: 26px;
+      font-weight: 900;
+      margin-top: 10px;
+    }
+
+    .green-text { color: var(--green); }
+    .yellow-text { color: var(--gold); }
+    .blue-text { color: var(--blue); }
+    .purple-text { color: var(--purple); }
+    .red-text { color: var(--red); }
+
+    .row {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      color: #d1d5db;
+      font-size: 14px;
+    }
+
+    .row span:last-child {
+      color: #fff;
+      font-weight: 800;
+      text-align: right;
+    }
+
+    .feed-item {
+      position: relative;
+      z-index: 2;
+      padding: 12px;
+      margin-bottom: 10px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.035);
+      border: 1px solid rgba(255,255,255,0.08);
+      color: #d1d5db;
+      line-height: 1.35;
+      font-size: 13px;
+    }
+
+    .feed-item strong {
+      color: white;
+      display: block;
+      margin-bottom: 4px;
+      letter-spacing: 1px;
+    }
+
+    .chat-box {
+      position: relative;
+      z-index: 2;
+      height: 390px;
+      overflow-y: auto;
+      padding: 14px;
+      background: rgba(0,0,0,0.42);
+      border: 1px solid rgba(96, 165, 250, 0.22);
+      border-radius: 14px;
+      white-space: pre-wrap;
+      font-size: 18px;
+      line-height: 1.45;
+      box-shadow: inset 0 0 18px rgba(96,165,250,0.05);
+    }
+
+    .message {
+      margin-bottom: 14px;
+    }
+
+    .user {
+      color: var(--blue);
+      font-weight: 900;
+    }
+
+    .puter {
+      color: var(--gold);
+      font-weight: 900;
+    }
+
+    .input-area {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    input {
+      flex: 1;
+      background: rgba(0,0,0,0.58);
+      border: 1px solid rgba(255, 215, 0, 0.35);
+      color: white;
+      padding: 14px;
+      border-radius: 12px;
+      font-size: 15px;
+      outline: none;
+    }
+
+    input:focus {
+      border-color: var(--gold);
+      box-shadow: 0 0 15px rgba(255,215,0,0.12);
+    }
+
+    button {
+      background: var(--gold);
+      border: none;
+      color: #050608;
+      font-weight: 900;
+      padding: 0 18px;
+      border-radius: 12px;
+      cursor: pointer;
+      letter-spacing: 1px;
+    }
+
+    .quick button {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 9px;
+      background: rgba(255, 215, 0, 0.11);
+      border: 1px solid rgba(255, 215, 0, 0.32);
+      color: var(--gold);
+    }
+
+    .quick button:hover {
+      background: rgba(255, 215, 0, 0.18);
+    }
+
+    .verse {
+      position: relative;
+      z-index: 2;
+      color: #cbd5e1;
+      font-style: italic;
+      line-height: 1.5;
+      font-size: 13px;
+      margin-top: 8px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
+    @media (max-width: 1200px) {
+      body { overflow: auto; }
+
+      .app {
+        height: auto;
+        min-height: 100vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+          "topbar"
+          "command"
+          "missions"
+          "console"
+          "quick";
+      }
+
+      .sidebar {
+        display: none;
+      }
+
+      .metric-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .topbar {
+        display: block;
+      }
+
+      .status-block {
+        text-align: left;
+        margin-top: 16px;
+      }
+
+      .metric-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .objective .mission {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="app">
+
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="small">RAMFAM KINGDOM</div>
+        <div class="name">Atlas Command Center</div>
+        <div class="tag">Faith • Family • Business • Purpose</div>
+      </div>
+
+      <div class="agent-card">
+        <div class="agent-icon">🦅</div>
+        <div>
+          <div class="agent-name">HUNTER</div>
+          <div class="agent-role">Revenue Commander</div>
+          <div class="agent-status">READY</div>
+        </div>
+      </div>
+
+      <div class="agent-card">
+        <div class="agent-icon">🐼</div>
+        <div>
+          <div class="agent-name">AMANDA</div>
+          <div class="agent-role">Outreach Operations</div>
+          <div class="agent-status">AWAITING MISSION</div>
+        </div>
+      </div>
+
+      <div class="agent-card">
+        <div class="agent-icon">🦊</div>
+        <div>
+          <div class="agent-name">MICAH</div>
+          <div class="agent-role">Media Operations</div>
+          <div class="agent-status">READY</div>
+        </div>
+      </div>
+
+      <div class="agent-card">
+        <div class="agent-icon">🐂</div>
+        <div>
+          <div class="agent-name">GIDEON</div>
+          <div class="agent-role">Finance Manager</div>
+          <div class="agent-status">STANDBY</div>
+        </div>
+      </div>
+
+      <div class="agent-card">
+        <div class="agent-icon">🐕</div>
+        <div>
+          <div class="agent-name">RANGER</div>
+          <div class="agent-role">Customer Success</div>
+          <div class="agent-status">STANDBY</div>
+        </div>
+      </div>
+
+      <div class="agent-card">
+        <div class="agent-icon">🦫</div>
+        <div>
+          <div class="agent-name">MASON</div>
+          <div class="agent-role">Kingdom Architect</div>
+          <div class="agent-status">BUILDING</div>
+        </div>
+      </div>
+
+      <div class="alfred">
+        <strong>ATLAS ONLINE</strong>
+        Cave caretaker active.<br>
+        Monitoring money, missions, agents, and follow-ups.
+      </div>
+    </aside>
+
+    <header class="topbar">
+      <div class="welcome">
+        <h1>Welcome home, Manny. Atlas is watching the Kingdom: family, faith, revenue, health, and mission.</h1>
+        <p>RAMFAM KINGDOM COMMAND CENTER</p>
+      </div>
+
+      <div class="status-block">
+        <div class="status-label">Kingdom Status</div>
+        <div id="caveStatus" class="status-value">LOADING</div>
+      </div>
+    </header>
+f
+    <main class="panel command">
+      <div class="hero-board">
+        <h2 class="panel-title">Primary Objective</h2>
+
+        <div class="objective">
+          <div>
+            <div class="label">Mission of the Day</div>
+            <div id="missionOfDay" class="mission">Loading...</div>
+            <div id="missionValue" class="value">$0</div>
+          </div>
+        </div>
+
+        <section class="metric-grid">
+          <div class="metric">
+            <div class="metric-label">Paid Revenue</div>
+            <div id="paidRevenue" class="metric-value green-text">$0</div>
+          </div>
+          <div class="metric">
+            <div class="metric-label">Outstanding</div>
+            <div id="outstandingRevenue" class="metric-value yellow-text">$0</div>
+          </div>
+          <div class="metric">
+            <div class="metric-label">Pipeline</div>
+            <div id="pipeline" class="metric-value blue-text">$0</div>
+          </div>
+          <div class="metric">
+            <div class="metric-label">Prospects</div>
+            <div id="prospectCount" class="metric-value purple-text">0</div>
+          </div>
+          <div class="metric">
+            <div class="metric-label">Follow-Ups</div>
+            <div id="followupCount" class="metric-value red-text">0</div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <section class="panel missions">
+      <h2 class="panel-title">Mission Feed</h2>
+
+      <div class="feed-item">
+        <strong>⚠️ NEXT MONEY TARGET</strong>
+        <span id="moneyTargetText">Checking active target...</span>
+      </div>
+
+      <div class="feed-item">
+        <strong>🦅 HUNTER</strong>
+        Find the next person who can pay today.
+      </div>
+
+      <div class="feed-item">
+        <strong>🐼 AMANDA</strong>
+        Outreach campaign waiting for assignment.
+      </div>
+
+      <div class="feed-item">
+        <strong>🦊 MICAH</strong>
+        Content and social selling ready.
+      </div>
+
+      <div class="feed-item">
+        <strong>🐂 GIDEON</strong>
+        Finance station watching paid and unpaid orders.
+      </div>
+
+      <h2 class="panel-title" style="margin-top:18px;">Atlas Report</h2>
+      <div class="row"><span>Cave Status</span><span id="alfredStatus" class="green-text">GREEN</span></div>
+      <div class="row"><span>Prospects</span><span id="alfredProspects">0</span></div>
+      <div class="row"><span>Paid Orders</span><span id="alfredPaidOrders">0</span></div>
+      <div class="row"><span>Awaiting Payment</span><span id="alfredAwaitingPaymentOrders">0</span></div>
+      <div class="row"><span>Open Missions</span><span id="alfredOpenMissions">0</span></div>
+      <div class="row"><span>Follow-Ups</span><span id="alfredFollowups" class="red-text">0</span></div>
+    </section>
+
+    <section class="panel console">
+      <h2 class="panel-title">Atlas Command Console</h2>
+
+      <div id="chatBox" class="chat-box">
+        <div class="message"><span class="puter">PUTER:</span> Cave online. RAMFAM Command Center active. What is the mission?</div>
+      </div>
+
+      <div class="input-area">
+        <input id="messageInput" placeholder="Ask PUTER..." />
+        <button onclick="sendMessage()">SEND</button>
+      </div>
+    </section>
+
+    <section class="panel quick">
+      <h2 class="panel-title">Quick Commands</h2>
+
+      <button onclick="quickCommand('Atlas, where is the money?')">WHERE IS THE MONEY?</button>
+      <button onclick="quickCommand('Use the atlas_morning_report tool.')">MORNING REPORT</button>
+      <button onclick="quickCommand('Atlas, INSPECT THE KINGDOM.')">INSPECT THE CAVE</button>
+      <button onclick="quickCommand('Show missions.')">SHOW MISSIONS</button>
+      <button onclick="quickCommand('Show all prospects.')">SHOW PROSPECTS</button>
+      <button onclick="window.open('/The RAMFAM KINGDOM', '_blank')">ENTER THE KINGDOM</button>
+
+      <div class="verse">
+        “But they that wait upon the Lord shall renew their strength...”<br>
+        — Isaiah 40:31
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const chatBox = document.getElementById("chatBox");
+    const messageInput = document.getElementById("messageInput");
+
+    function d(id) {
+      return document.getElementById(id);
+    }
+
+    function money(value) {
+      const number = Number(value || 0);
+      return "$" + number.toLocaleString(undefined, {
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0
+      });
+    }
+
+    async function loadDashboardData() {
+      try {
+        const response = await fetch("/dashboard-data");
+        const data = await response.json();
+
+        const caveStatus = data.cave_status || "GREEN";
+
+        d("caveStatus").textContent = caveStatus;
+        d("alfredStatus").textContent = caveStatus;
+
+        d("paidRevenue").textContent = money(data.paid_revenue);
+        d("outstandingRevenue").textContent = money(data.outstanding_revenue);
+        d("pipeline").textContent = money(data.pipeline);
+
+        d("prospectCount").textContent = data.prospects || 0;
+        d("followupCount").textContent = data.followups || 0;
+
+        d("alfredProspects").textContent = data.prospects || 0;
+        d("alfredPaidOrders").textContent = data.paid_orders || 0;
+        d("alfredAwaitingPaymentOrders").textContent = data.awaiting_payment_orders || 0;
+        d("alfredOpenMissions").textContent = data.open_missions || 0;
+        d("alfredFollowups").textContent = data.followups || 0;
+
+        const target = data.next_money_target;
+
+        if (target && Number(target.amount || 0) > 0) {
+          const customer = target.customer || target.client || "Customer";
+          const product = target.product || "Order";
+          const status = target.status || "Outstanding";
+
+          d("missionOfDay").textContent = `Collect Payment from ${customer}`;
+          d("missionValue").textContent = money(target.amount);
+          d("moneyTargetText").textContent = `${customer} | ${product} | ${money(target.amount)} ${status}`;
+        } else {
+          d("missionOfDay").textContent = "Create New Revenue";
+          d("missionValue").textContent = "Prospect";
+          d("moneyTargetText").textContent = "No outstanding payment target. Hunter needs new revenue.";
+        }
+
+      } catch (error) {
+        d("caveStatus").textContent = "ERROR";
+        d("alfredStatus").textContent = "ERROR";
+        d("moneyTargetText").textContent = "Dashboard data connection failed.";
+      }
+    }
+
+    function addMessage(sender, text, className) {
+      const div = document.createElement("div");
+      div.className = "message";
+      div.innerHTML = `<span class="${className}">${sender}:</span> ${text}`;
+      chatBox.appendChild(div);
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    async function sendMessage() {
+      const message = messageInput.value.trim();
+      if (!message) return;
+
+      addMessage("YOU", message, "user");
+      messageInput.value = "";
+
+      try {
+        const response = await fetch("/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message })
+        });
+
+        const data = await response.json();
+        addMessage("PUTER", data.response || data.reply || "No response received.", "puter");
+        loadDashboardData();
+
+      } catch (error) {
+        addMessage("SYSTEM", "Error connecting to PUTER.", "puter");
+      }
+    }
+
+    function quickCommand(command) {
+      messageInput.value = command;
+      sendMessage();
+    }
+
+    messageInput.addEventListener("keydown", function(event) {
+      if (event.key === "Enter") {
+        sendMessage();
+      }
+    });
+
+    loadDashboardData();
+    setInterval(loadDashboardData, 10000);
+  </script>
+</body>
+</html>

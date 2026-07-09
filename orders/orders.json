@@ -1,0 +1,16 @@
+[
+  {
+    "customer": "Uncle Ray",
+    "product": "10 patch hats",
+    "quantity": 10,
+    "total": 230.0,
+    "status": "Paid"
+  },
+  {
+    "customer": "Kandy",
+    "product": "Canes Baseball Team Shirts",
+    "quantity": 13,
+    "total": 325.0,
+    "status": "Outstanding"
+  }
+]

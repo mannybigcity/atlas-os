@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RAMFAM Kingdom | SIS Custom Creations & FRESH Apparel</title>
+  <meta name="description" content="Revenue-first website MVP for RAMFAM Kingdom, SIS Custom Creations, and FRESH Apparel & Design.">
+  <style>
+    * { box-sizing: border-box; }
+    :root {
+      --bg: #0f172a;
+      --panel: #111c33;
+      --panel-2: #f8fafc;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --gold: #f59e0b;
+      --gold-2: #fbbf24;
+      --blue: #2563eb;
+      --green: #16a34a;
+      --ink: #0f172a;
+      --line: rgba(148, 163, 184, 0.24);
+      --radius: 22px;
+      --shadow: 0 24px 70px rgba(2, 8, 23, 0.35);
+    }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(245, 158, 11, 0.28), transparent 34rem),
+        radial-gradient(circle at 80% 10%, rgba(37, 99, 235, 0.30), transparent 28rem),
+        var(--bg);
+      line-height: 1.55;
+    }
+    a { color: inherit; }
+    .wrap { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(18px);
+      background: rgba(15, 23, 42, 0.78);
+      border-bottom: 1px solid var(--line);
+    }
+    nav {
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .brand { display: flex; align-items: center; gap: 12px; font-weight: 900; letter-spacing: -0.03em; }
+    .crest {
+      width: 42px; height: 42px; border-radius: 14px;
+      display: grid; place-items: center;
+      background: linear-gradient(135deg, var(--gold), #7c2d12);
+      box-shadow: 0 10px 24px rgba(245, 158, 11, .28);
+    }
+    .navlinks { display: flex; gap: 18px; align-items: center; color: var(--muted); font-weight: 700; font-size: 14px; }
+    .navlinks a { text-decoration: none; }
+    .btn {
+      border: 0;
+      border-radius: 999px;
+      padding: 13px 20px;
+      background: linear-gradient(135deg, var(--gold-2), var(--gold));
+      color: #1f1300;
+      font-weight: 900;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: 0 14px 32px rgba(245, 158, 11, .25);
+    }
+    .btn.secondary { background: rgba(255,255,255,.08); color: var(--text); border: 1px solid var(--line); box-shadow: none; }
+    .hero { padding: 82px 0 54px; }
+    .hero-grid { display: grid; grid-template-columns: 1.08fr .92fr; gap: 34px; align-items: center; }
+    .eyebrow { color: var(--gold-2); font-weight: 900; text-transform: uppercase; letter-spacing: .16em; font-size: 13px; }
+    h1 { font-size: clamp(42px, 7vw, 76px); line-height: .96; margin: 16px 0 22px; letter-spacing: -0.075em; }
+    .lead { color: #cbd5e1; font-size: clamp(18px, 2vw, 22px); max-width: 720px; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+    .proof { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 34px; }
+    .proof div, .card {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.065);
+      border-radius: var(--radius);
+      padding: 18px;
+      box-shadow: var(--shadow);
+    }
+    .proof strong { display:block; color: #fff; font-size: 26px; }
+    .proof span { color: var(--muted); font-weight: 700; font-size: 13px; }
+    .hero-card { position: relative; overflow: hidden; }
+    .hero-card h2 { font-size: 30px; margin: 0 0 10px; letter-spacing: -0.04em; }
+    .mission-line { border-left: 4px solid var(--gold); padding-left: 16px; color: #dbeafe; margin: 22px 0; }
+    .service-list { display: grid; gap: 10px; margin-top: 18px; }
+    .service-pill { padding: 13px 14px; border: 1px solid var(--line); border-radius: 16px; background: rgba(15, 23, 42, .45); font-weight: 800; }
+    section { padding: 58px 0; }
+    .section-title { max-width: 760px; margin-bottom: 24px; }
+    .section-title h2 { font-size: clamp(32px, 4vw, 52px); line-height: 1; margin: 8px 0 12px; letter-spacing: -0.06em; }
+    .section-title p { color: var(--muted); font-size: 18px; }
+    .services { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .service-card { min-height: 190px; display: flex; flex-direction: column; justify-content: space-between; }
+    .service-card .icon { font-size: 34px; }
+    .service-card h3 { font-size: 22px; margin: 14px 0 8px; }
+    .service-card p { color: #cbd5e1; margin: 0; }
+    .light { background: var(--panel-2); color: var(--ink); border-radius: 36px 36px 0 0; margin-top: 28px; }
+    .light .section-title p { color: #475569; }
+    .quote-grid { display: grid; grid-template-columns: .86fr 1.14fr; gap: 24px; align-items: start; }
+    .quote-box { background: white; color: var(--ink); border: 1px solid #e2e8f0; border-radius: var(--radius); padding: 22px; box-shadow: 0 20px 54px rgba(15,23,42,.12); }
+    label { display: grid; gap: 7px; font-weight: 900; color: #1e293b; font-size: 13px; }
+    input, textarea, select {
+      width: 100%; border: 1px solid #cbd5e1; border-radius: 14px; padding: 13px 14px; font: inherit; background: #f8fafc; color: var(--ink);
+    }
+    textarea { min-height: 104px; resize: vertical; }
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .full { grid-column: 1 / -1; }
+    .note { background: #fff7ed; border: 1px solid #fed7aa; color: #9a3412; border-radius: 16px; padding: 14px; font-weight: 800; margin: 0 0 18px; }
+    .summary { margin-top: 16px; background: #ecfdf5; border: 1px solid #bbf7d0; color: #14532d; padding: 14px; border-radius: 16px; display: none; white-space: pre-wrap; }
+    .fresh { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; align-items: stretch; }
+    .fresh .big { background: linear-gradient(135deg, #14532d, #16a34a); }
+    .fresh .big h2 { font-size: clamp(34px, 5vw, 62px); line-height: .98; letter-spacing: -0.06em; margin: 0 0 14px; }
+    footer { border-top: 1px solid var(--line); padding: 28px 0; color: var(--muted); }
+    .footer-grid { display: flex; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+    @media (max-width: 860px) {
+      .navlinks { display: none; }
+      .hero-grid, .quote-grid, .fresh { grid-template-columns: 1fr; }
+      .proof, .services { grid-template-columns: 1fr; }
+      .form-grid { grid-template-columns: 1fr; }
+      .hero { padding-top: 48px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="wrap" aria-label="Main navigation">
+      <div class="brand"><div class="crest">👑</div><div>RAMFAM Kingdom<br><span style="color:var(--muted);font-size:12px;letter-spacing:0">SIS Custom Creations · FRESH Apparel</span></div></div>
+      <div class="navlinks">
+        <a href="#services">Services</a>
+        <a href="#quote">Request Quote</a>
+        <a href="#fresh">FRESH Mission</a>
+        <a class="btn" href="#quote">Start a Quote</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Custom apparel · hats · laser engraving · signs</div>
+          <h1>Bring your brand, team, or event to life.</h1>
+          <p class="lead">SIS Custom Creations helps businesses, teams, churches, families, and events create quality custom products with a clear process and personal service.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#quote">Request a Quote ASAP →</a>
+            <a class="btn secondary" href="#services">See Services</a>
+          </div>
+          <div class="proof" aria-label="Kingdom proof points">
+            <div><strong>7-10</strong><span>business day standard production target</span></div>
+            <div><strong>Quote</strong><span>built around quantity, artwork, and deadline</span></div>
+            <div><strong>Mission</strong><span>revenue, service, family, legacy</span></div>
+          </div>
+        </div>
+        <aside class="card hero-card">
+          <div class="eyebrow">FRESH Apparel & Design</div>
+          <h2>Faithfully Reaching Everybody Seeking Hope</h2>
+          <p class="mission-line">One Shirt. One Meal. Every purchase helps provide hope and assistance to others.</p>
+          <div class="service-list">
+            <div class="service-pill">Custom shirts for events and teams</div>
+            <div class="service-pill">Hats, patches, and branded goods</div>
+            <div class="service-pill">Signs and promotional products</div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <div class="section-title">
+          <div class="eyebrow">SIS Custom Creations</div>
+          <h2>Products and services ready for your next order.</h2>
+          <p>Start with what you need, when you need it, and whether your artwork is ready. SIS will help turn that into a clear quote.</p>
+        </div>
+        <div class="services">
+          <article class="card service-card"><div><div class="icon">👕</div><h3>Custom Apparel</h3><p>T-shirts, polos, workwear, team shirts, and event apparel.</p></div><a href="#quote">Quote apparel →</a></article>
+          <article class="card service-card"><div><div class="icon">🧢</div><h3>Hats</h3><p>Leather patch hats, UV printed hats, and branded headwear.</p></div><a href="#quote">Quote hats →</a></article>
+          <article class="card service-card"><div><div class="icon">🔥</div><h3>Laser Engraving</h3><p>Custom engraved gifts, business items, and specialty products.</p></div><a href="#quote">Quote engraving →</a></article>
+          <article class="card service-card"><div><div class="icon">📣</div><h3>Promotional Products</h3><p>Useful branded items for teams, customers, events, and giveaways.</p></div><a href="#quote">Quote promo items →</a></article>
+          <article class="card service-card"><div><div class="icon">🎪</div><h3>Event Services</h3><p>Support for events that need coordinated custom products.</p></div><a href="#quote">Plan an event →</a></article>
+          <article class="card service-card"><div><div class="icon">🪧</div><h3>Signs</h3><p>Business, event, and promotional signs that help people find you.</p></div><a href="#quote">Quote signs →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="quote" class="light">
+      <div class="wrap quote-grid">
+        <div class="section-title">
+          <div class="eyebrow">Request a quote</div>
+          <h2>Tell us what you need and when you need it.</h2>
+          <p>No quote is complete until the due date, pricing, tax, invoice, and follow-up are handled. This MVP captures the right intake questions first.</p>
+          <p class="note">Draft mode: add approved phone/email/form integration before publishing live. Pricing is intentionally not listed until Manny approves exact numbers.</p>
+        </div>
+        <form class="quote-box" id="quoteForm">
+          <div class="form-grid">
+            <label>Name<input name="Name" required placeholder="Your name"></label>
+            <label>Business / Organization<input name="Business" placeholder="Business, team, church, school..."></label>
+            <label>Phone<input name="Phone" placeholder="Approved phone before launch"></label>
+            <label>Email<input type="email" name="Email" placeholder="you@example.com"></label>
+            <label>Product needed<select name="Product"><option>Custom apparel</option><option>Hats</option><option>Laser engraving</option><option>Promotional products</option><option>Event services</option><option>Signs</option><option>Not sure yet</option></select></label>
+            <label>Quantity<input name="Quantity" placeholder="Example: 24 shirts"></label>
+            <label class="full">Sizes / colors<textarea name="Sizes and colors" placeholder="List sizes, shirt colors, hat colors, etc."></textarea></label>
+            <label>Artwork available?<select name="Artwork"><option>Yes, ready to send</option><option>I need help with artwork</option><option>Not sure</option></select></label>
+            <label>Required completion date<input type="date" name="Required completion date"></label>
+            <label class="full">Project details<textarea name="Project details" placeholder="Tell us about your design, event, business, or deadline."></textarea></label>
+          </div>
+          <button class="btn" type="submit" style="margin-top:16px">Create Quote Request Draft</button>
+          <div class="summary" id="summary"></div>
+        </form>
+      </div>
+    </section>
+
+    <section id="fresh">
+      <div class="wrap fresh">
+        <div class="card big">
+          <div class="eyebrow">FRESH Apparel & Design</div>
+          <h2>One Shirt. One Meal.</h2>
+          <p>FRESH means Faithfully Reaching Everybody Seeking Hope. The brand exists to create apparel with purpose and provide hope and assistance to others.</p>
+        </div>
+        <div class="card">
+          <div class="eyebrow">Kingdom standard</div>
+          <h2 style="font-size:36px;margin:8px 0 12px;letter-spacing:-.04em">Built for revenue, service, and legacy.</h2>
+          <p style="color:#cbd5e1">This website MVP is intentionally simple: capture leads, explain services, support customers, and protect the King's focus by avoiding overbuilding.</p>
+          <div class="hero-actions"><a class="btn" href="#quote">Start a quote</a><a class="btn secondary" href="#services">Review services</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <strong>RAMFAM Kingdom · SIS Custom Creations · FRESH Apparel & Design</strong>
+      <span>Draft MVP by Mason + Taylor. Manny approval required before launch.</span>
+    </div>
+  </footer>
+
+  <script>
+    const form = document.querySelector('#quoteForm');
+    const summary = document.querySelector('#summary');
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const data = new FormData(form);
+      const lines = ['Quote Request Draft', '-------------------'];
+      for (const [key, value] of data.entries()) {
+        lines.push(`${key}: ${value || '[blank]'}`);
+      }
+      summary.textContent = lines.join('\n');
+      summary.style.display = 'block';
+      summary.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+  </script>
+</body>
+</html>

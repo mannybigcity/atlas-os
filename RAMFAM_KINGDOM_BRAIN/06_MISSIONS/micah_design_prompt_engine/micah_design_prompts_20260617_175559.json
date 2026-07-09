@@ -1,0 +1,291 @@
+{
+  "mission": "Micah Design Prompt Engine",
+  "generated_at": "2026-06-17T17:55:59",
+  "source_mission": "Hunter Etsy Research",
+  "source_generated_at": "2026-06-17T17:46:58",
+  "agent_chain": {
+    "assigned_by": "Atlas",
+    "builder": "Mason",
+    "revenue_owner": "Hunter",
+    "design_owner": "Micah"
+  },
+  "top_source_opportunity": {
+    "keyword": "custom laser engraved gifts",
+    "source": "offline_seed_data",
+    "sampled_listing_count": 3,
+    "price_low": 34.99,
+    "price_high": 42.0,
+    "average_price": 38.99,
+    "average_favorites": 95.33,
+    "competition_level": "Low",
+    "demand_signal": "High",
+    "uniqueness_signal": "Medium",
+    "mission_fit": "High",
+    "opportunity_score": 10,
+    "recommended_offer": "Launch a personalized engraved gift bundle with scripture, family names, or business branding.",
+    "risks": [
+      "Main risk is execution speed: validate demand before building a large catalog."
+    ],
+    "next_actions": [
+      "Pick the strongest niche angle and draft 3 listing titles.",
+      "Estimate blank/product cost, labor time, shipping, and Etsy fees before publishing.",
+      "Create one mockup or sample photo, then test with local/social audience before scaling."
+    ],
+    "sample_listings": [
+      {
+        "title": "Custom Laser Engraved Cutting Board Gift",
+        "price": 39.99,
+        "currency": "USD",
+        "favorites": 132,
+        "url": "offline-seed"
+      },
+      {
+        "title": "Personalized Engraved Tumbler",
+        "price": 34.99,
+        "currency": "USD",
+        "favorites": 96,
+        "url": "offline-seed"
+      },
+      {
+        "title": "Engraved Scripture Wood Sign",
+        "price": 42.0,
+        "currency": "USD",
+        "favorites": 58,
+        "url": "offline-seed"
+      }
+    ]
+  },
+  "design_concepts": [
+    {
+      "rank": 1,
+      "source_keyword": "custom laser engraved gifts",
+      "source_opportunity_score": 10,
+      "source_signals": {
+        "demand": "High",
+        "competition": "Low",
+        "mission_fit": "High"
+      },
+      "design_title": "Custom Laser Engraved Gifts: Heirloom Scripture Minimal",
+      "design_concept": "A premium personalized keepsake built around family names, short scripture text, and a clean monogram focal point. Hunter offer context: Launch a personalized engraved gift bundle with scripture, family names, or business branding.",
+      "art_direction": "Minimal heirloom composition with centered engraving layout, fine line botanical accents, generous negative space, and balanced product mockup framing.",
+      "color_palette": [
+        "warm walnut brown",
+        "soft ivory",
+        "charcoal ink",
+        "muted sage",
+        "brushed gold accent"
+      ],
+      "typography_suggestions": "Elegant serif for the family name, small caps sans-serif for dates, and restrained script only for one accent word.",
+      "image_prompt": "Create an original Etsy-ready product design for custom laser engraved gifts. premium heirloom engraving layout, clean monogram centerpiece, fine botanical line art, warm natural material texture. Use this market context without copying listings: Custom Laser Engraved Cutting Board Gift; Personalized Engraved Tumbler; Engraved Scripture Wood Sign. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: warm walnut brown, soft ivory, charcoal ink, muted sage, brushed gold accent.",
+      "commercial_use_notes": "Original artwork direction for the 'custom laser engraved gifts' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval."
+    },
+    {
+      "rank": 2,
+      "source_keyword": "faith family shirts",
+      "source_opportunity_score": 9,
+      "source_signals": {
+        "demand": "Medium",
+        "competition": "Low",
+        "mission_fit": "High"
+      },
+      "design_title": "Faith Family Shirts: Faith Family Matching Set",
+      "design_concept": "A coordinated family or church-group apparel design that feels warm, modern, and photo-ready for Etsy listing mockups. Hunter offer context: Launch a faith-forward personalized apparel offer with matching family/church group options.",
+      "art_direction": "Stacked badge layout with subtle rays, hand-lettered faith phrase, and adaptable placement for adult, youth, and toddler shirts.",
+      "color_palette": [
+        "cream",
+        "deep forest green",
+        "terracotta",
+        "warm sand",
+        "soft black"
+      ],
+      "typography_suggestions": "Friendly bold serif headline paired with rounded sans-serif supporting text; preserve readability at shirt-print distance.",
+      "image_prompt": "Create an original Etsy-ready product design for faith family shirts. modern faith family shirt graphic, stacked vintage badge, subtle sunrise rays, hand-lettered warmth. Use this market context without copying listings: Matching Faith Family Shirts; Personalized Christian Family Reunion Shirts; Faith Based Family Vacation Shirts. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: cream, deep forest green, terracotta, warm sand, soft black.",
+      "commercial_use_notes": "Original artwork direction for the 'faith family shirts' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval."
+    },
+    {
+      "rank": 3,
+      "source_keyword": "custom embroidered hats",
+      "source_opportunity_score": 8,
+      "source_signals": {
+        "demand": "Medium",
+        "competition": "Low",
+        "mission_fit": "High"
+      },
+      "design_title": "Custom Embroidered Hats: Church Retreat Badge",
+      "design_concept": "An event-ready design system for retreats, youth groups, conferences, and ministry teams needing a clean custom shirt concept. Hunter offer context: Launch a 12-piece custom embroidered hat starter bundle for churches, teams, and local businesses.",
+      "art_direction": "Outdoor badge emblem with mountain or path symbolism, simple cross-negative-space detail, and editable event/date line.",
+      "color_palette": [
+        "navy",
+        "bone",
+        "copper",
+        "olive",
+        "sky blue"
+      ],
+      "typography_suggestions": "Condensed sans-serif for event text, sturdy slab serif for the theme phrase, clean microtype for location and year.",
+      "image_prompt": "Create an original Etsy-ready product design for custom embroidered hats. church retreat badge emblem, mountain path symbolism, clean cross negative space, screen print vector style. Use this market context without copying listings: Custom Embroidered Richardson 112 Trucker Hat; Personalized Dad Hat with Logo Embroidery; Bulk Custom Church Group Embroidered Hats. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: navy, bone, copper, olive, sky blue.",
+      "commercial_use_notes": "Original artwork direction for the 'custom embroidered hats' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval."
+    },
+    {
+      "rank": 4,
+      "source_keyword": "christian shirts",
+      "source_opportunity_score": 8,
+      "source_signals": {
+        "demand": "High",
+        "competition": "Low",
+        "mission_fit": "High"
+      },
+      "design_title": "Christian Shirts: Teacher Grace Collection",
+      "design_concept": "A teacher appreciation design with faith-forward encouragement that can live on shirts, tumblers, totes, or stickers. Hunter offer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.",
+      "art_direction": "Soft classroom motifs with pencil, apple, tiny florals, and a positive hand-lettered phrase arranged for print-on-demand blanks.",
+      "color_palette": [
+        "dusty rose",
+        "mustard",
+        "cream",
+        "sage",
+        "graphite"
+      ],
+      "typography_suggestions": "Playful handwritten headline balanced by tidy rounded sans-serif; keep letters thick enough for vinyl or DTF transfer.",
+      "image_prompt": "Create an original Etsy-ready product design for christian shirts. teacher appreciation faith graphic, soft classroom icons, cheerful hand lettering, boutique Etsy printable style. Use this market context without copying listings: Faith Over Fear Christian T Shirt; Jesus Loves You Comfort Colors Shirt; Bible Verse Scripture Tee. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: dusty rose, mustard, cream, sage, graphite.",
+      "commercial_use_notes": "Original artwork direction for the 'christian shirts' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval."
+    },
+    {
+      "rank": 5,
+      "source_keyword": "teacher appreciation shirts",
+      "source_opportunity_score": 8,
+      "source_signals": {
+        "demand": "Medium",
+        "competition": "Low",
+        "mission_fit": "High"
+      },
+      "design_title": "Teacher Appreciation Shirts: Local Business Heritage Mark",
+      "design_concept": "A polished custom brand-mark concept for engraved gifts, hats, and promotional products aimed at local business buyers. Hunter offer context: Launch a faith-forward personalized apparel offer with matching family/church group options.",
+      "art_direction": "Vintage maker's mark with border, initials area, subtle texture, and flexible badge variants for hat patches or laser engraving.",
+      "color_palette": [
+        "black",
+        "natural leather",
+        "antique gold",
+        "smoke gray",
+        "canvas tan"
+      ],
+      "typography_suggestions": "Industrial slab serif with clean geometric sans-serif; avoid overly thin strokes so the mark engraves cleanly.",
+      "image_prompt": "Create an original Etsy-ready product design for teacher appreciation shirts. vintage local business badge mark, premium maker logo, laser engraving friendly, hat patch compatible. Use this market context without copying listings: Teacher Appreciation Custom Shirt; Personalized Teacher Team Shirts; Faith Based Teacher Shirt. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: black, natural leather, antique gold, smoke gray, canvas tan.",
+      "commercial_use_notes": "Original artwork direction for the 'teacher appreciation shirts' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval."
+    },
+    {
+      "rank": 6,
+      "source_keyword": "church event shirts",
+      "source_opportunity_score": 5,
+      "source_signals": {
+        "demand": "Low",
+        "competition": "Low",
+        "mission_fit": "Medium"
+      },
+      "design_title": "Church Event Shirts: Hope Forward Statement Tee",
+      "design_concept": "A bold FRESH-aligned statement shirt built around encouragement, service, and everyday witness without copying common slogans. Hunter offer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.",
+      "art_direction": "Modern typography-led shirt graphic with kinetic layout, small icon accents, and optional meal-giving impact line.",
+      "color_palette": [
+        "washed black",
+        "off white",
+        "sunrise orange",
+        "royal blue",
+        "muted gold"
+      ],
+      "typography_suggestions": "Heavy condensed headline, italic accent word, and simple sans-serif footer; prioritize clear production-ready hierarchy.",
+      "image_prompt": "Create an original Etsy-ready product design for church event shirts. bold faith based statement tee, modern typographic streetwear layout, hopeful energy, screen print ready. Use this market context without copying listings: Custom Church Retreat Shirts; Youth Group Event Shirt Design; Women Ministry Conference Shirt. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: washed black, off white, sunrise orange, royal blue, muted gold.",
+      "commercial_use_notes": "Original artwork direction for the 'church event shirts' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval."
+    },
+    {
+      "rank": 7,
+      "source_keyword": "custom laser engraved gifts",
+      "source_opportunity_score": 10,
+      "source_signals": {
+        "demand": "High",
+        "competition": "Low",
+        "mission_fit": "High"
+      },
+      "design_title": "Custom Laser Engraved Gifts: Personalized Blessing Board",
+      "design_concept": "A cutting board or wood sign concept for weddings, housewarmings, and family legacy gifts with personalization front and center. Hunter offer context: Launch a personalized engraved gift bundle with scripture, family names, or business branding.",
+      "art_direction": "Arched composition with wreath frame, family surname, establishment year, and optional short blessing line engraved into warm wood.",
+      "color_palette": [
+        "maple wood",
+        "dark walnut",
+        "linen",
+        "olive branch green",
+        "matte black"
+      ],
+      "typography_suggestions": "Refined script for surname, high-readability serif for blessing text, and small sans-serif for year/location.",
+      "image_prompt": "Create an original Etsy-ready product design for custom laser engraved gifts. personalized blessing cutting board engraving, arched wreath frame, family legacy gift, elegant wood mockup. Use this market context without copying listings: Custom Laser Engraved Cutting Board Gift; Personalized Engraved Tumbler; Engraved Scripture Wood Sign. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: maple wood, dark walnut, linen, olive branch green, matte black.",
+      "commercial_use_notes": "Original artwork direction for the 'custom laser engraved gifts' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval."
+    },
+    {
+      "rank": 8,
+      "source_keyword": "faith family shirts",
+      "source_opportunity_score": 9,
+      "source_signals": {
+        "demand": "Medium",
+        "competition": "Low",
+        "mission_fit": "High"
+      },
+      "design_title": "Faith Family Shirts: Youth Group Energy Drop",
+      "design_concept": "A youth ministry shirt concept with high-energy graphics while staying clean enough for church approval and Etsy listing photos. Hunter offer context: Launch a faith-forward personalized apparel offer with matching family/church group options.",
+      "art_direction": "Dynamic sticker-like composition with bold outline, halftone texture, motion lines, and editable ministry name block.",
+      "color_palette": [
+        "electric blue",
+        "sun yellow",
+        "white",
+        "black",
+        "coral"
+      ],
+      "typography_suggestions": "Chunky sans-serif headline with subtle hand-drawn secondary text; avoid distressed text that harms legibility.",
+      "image_prompt": "Create an original Etsy-ready product design for faith family shirts. youth group shirt graphic, energetic sticker style, bold outline, halftone accents, church appropriate. Use this market context without copying listings: Matching Faith Family Shirts; Personalized Christian Family Reunion Shirts; Faith Based Family Vacation Shirts. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: electric blue, sun yellow, white, black, coral.",
+      "commercial_use_notes": "Original artwork direction for the 'faith family shirts' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval."
+    },
+    {
+      "rank": 9,
+      "source_keyword": "custom embroidered hats",
+      "source_opportunity_score": 8,
+      "source_signals": {
+        "demand": "Medium",
+        "competition": "Low",
+        "mission_fit": "High"
+      },
+      "design_title": "Custom Embroidered Hats: Scripture Tumbler Wrap",
+      "design_concept": "A seamless tumbler wrap concept pairing scripture-inspired encouragement with floral or geometric details for giftable listings. Hunter offer context: Launch a 12-piece custom embroidered hat starter bundle for churches, teams, and local businesses.",
+      "art_direction": "Repeating wrap layout with central phrase panel, balanced pattern edges, and production-safe spacing for 20oz/30oz tumblers.",
+      "color_palette": [
+        "blush",
+        "cream",
+        "eucalyptus",
+        "deep plum",
+        "rose gold"
+      ],
+      "typography_suggestions": "Soft script accent with clean serif phrase text; keep phrase panel uncluttered for mockup readability.",
+      "image_prompt": "Create an original Etsy-ready product design for custom embroidered hats. seamless tumbler wrap design, scripture inspired encouragement, floral geometric border, Etsy sublimation style. Use this market context without copying listings: Custom Embroidered Richardson 112 Trucker Hat; Personalized Dad Hat with Logo Embroidery; Bulk Custom Church Group Embroidered Hats. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: blush, cream, eucalyptus, deep plum, rose gold.",
+      "commercial_use_notes": "Original artwork direction for the 'custom embroidered hats' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval."
+    },
+    {
+      "rank": 10,
+      "source_keyword": "christian shirts",
+      "source_opportunity_score": 8,
+      "source_signals": {
+        "demand": "High",
+        "competition": "Low",
+        "mission_fit": "High"
+      },
+      "design_title": "Christian Shirts: Kingdom Workwear Patch",
+      "design_concept": "A durable embroidered hat or workwear patch design for teams, volunteers, and entrepreneurs who want a faith-rooted identity piece. Hunter offer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.",
+      "art_direction": "Simple patch-ready shield or rectangle mark with bold icon, limited thread colors, and clear silhouette for embroidery digitizing.",
+      "color_palette": [
+        "khaki",
+        "deep navy",
+        "white",
+        "rust",
+        "forest green"
+      ],
+      "typography_suggestions": "Block sans-serif or slab serif, no hairline strokes, all text large enough to survive embroidery on a hat front.",
+      "image_prompt": "Create an original Etsy-ready product design for christian shirts. embroidered workwear hat patch, simple shield badge, faith rooted identity, limited thread color vector art. Use this market context without copying listings: Faith Over Fear Christian T Shirt; Jesus Loves You Comfort Colors Shirt; Bible Verse Scripture Tee. Flat vector or clean product-design artwork, crisp edges, high readability, balanced composition, transparent background, print-on-demand ready, no mockup text cut off, no copyrighted characters, no brand logos, no trademarked slogans, no photorealistic people. Color palette: khaki, deep navy, white, rust, forest green.",
+      "commercial_use_notes": "Original artwork direction for the 'christian shirts' opportunity. No copyrighted characters, sports/team marks, brand logos, celebrity names, protected lyrics, or trademarked slogans. Verify phrase trademark status before listing, use licensed fonts/graphics only, and create final production art from owned or properly licensed assets. Public listing, ad spend, or customer outreach requires Manny approval."
+    }
+  ],
+  "approval_required_before_public_action": true
+}

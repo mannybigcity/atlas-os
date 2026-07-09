@@ -1,0 +1,14 @@
+MASON FORGE REQUEST
+
+Read:
+C:\Users\User\Desktop\PUTER\RAMFAM_KINGDOM_BRAIN\04_MASON_FOUNDRY\MASON_INFRASTRUCTURE_FOUNDRY_PLAN.md
+C:\Users\User\Desktop\PUTER\RAMFAM_KINGDOM_BRAIN\04_MASON_FOUNDRY\MISSION_RUNNER_SKILLS.md
+
+Then forge:
+C:\Users\User\Desktop\PUTER\skills\mason_infrastructure_forge.py
+
+Purpose:
+Teach Mason to generate complete Kingdom infrastructure systems from plain-English blueprints.
+
+Do not overwrite working files without backup.
+Every generated system must include a test and Manny approval gate.

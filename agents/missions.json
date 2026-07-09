@@ -1,0 +1,24 @@
+[
+  {
+    "agent": "Micah",
+    "role": "Social Media Manager",
+    "room": "Media Room",
+    "status": "Complete",
+    "priority": "HIGH",
+    "date": "2026-06-05",
+    "mission": "Push FRESH Apparel today across Facebook, TikTok, Instagram, and community groups.",
+    "task": "Create 3 short posts and 2 reel captions using Manny's Jimmy John's story, the Carolina blue shirt photo, and the hook: One Shirt = One Shirt + One Meal for someone in need.",
+    "goal": "Drive traffic to the Shopify store and get at least 1 FRESH shirt sale today."
+  },
+  {
+    "agent": "Amanda",
+    "role": "Outreach + Marketplace Manager",
+    "room": "Marketplace Room",
+    "status": "Working",
+    "priority": "HIGH",
+    "date": "2026-06-05",
+    "mission": "Push FRESH Apparel through personal outreach today.",
+    "task": "Create 10 warm message templates Manny can send to friends, family, church contacts, local community members, and supporters.",
+    "goal": "Start real conversations and ask for support without sounding spammy."
+  }
+]

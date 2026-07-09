@@ -1,0 +1,621 @@
+{
+  "mission": "Amanda Listing Engine",
+  "generated_at": "2026-06-17T18:31:14",
+  "source_missions": {
+    "hunter": "Hunter Etsy Research",
+    "hunter_generated_at": "2026-06-17T17:46:58",
+    "micah": "Micah Design Prompt Engine",
+    "micah_generated_at": "2026-06-17T18:13:38"
+  },
+  "agent_chain": {
+    "assigned_by": "Atlas",
+    "builder": "Mason",
+    "revenue_owner": "Hunter",
+    "design_owner": "Micah",
+    "listing_owner": "Amanda",
+    "approval_owner": "Manny"
+  },
+  "top_listing_package": {
+    "rank": 1,
+    "source_keyword": "custom laser engraved gifts",
+    "source_opportunity_score": 10,
+    "source_design_title": "Custom Laser Engraved Gifts: Heirloom Scripture Minimal",
+    "product_title": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming",
+    "seo_title": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming | Custom Laser Engraved Gifts, Personalized…",
+    "etsy_tags": [
+      "custom laser gifts",
+      "engraved gift",
+      "laser engraved",
+      "cutting board",
+      "wood sign",
+      "wedding gift",
+      "housewarming",
+      "family name",
+      "scripture gift",
+      "custom gift",
+      "personalized",
+      "faith gift",
+      "christian gift"
+    ],
+    "description": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: custom laser engraved gifts.\n- Design direction from Micah: A premium personalized keepsake built around family names, short scripture text, and a clean monogram focal point. Hunter offer context: Launch a personalized engraved gift bundle with scripture, family names, or business branding.\n- Visual execution notes: Minimal heirloom composition with centered engraving layout, fine line botanical accents, generous negative space, and balanced product mockup framing.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Launch a personalized engraved gift bundle with scripture, family names, or business branding.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.",
+    "materials": [
+      "wood blank such as maple, bamboo, walnut, or acacia",
+      "laser engraving",
+      "food-safe finish when applicable",
+      "protective packaging"
+    ],
+    "occasion": "Wedding, housewarming, anniversary, Christmas, Mother's Day, closing gift",
+    "recipient": "Couples, families, grandparents, homeowners, pastors, small business clients",
+    "category_recommendation": "Home & Living > Home Decor > Signs OR Kitchen & Dining > Cutting Boards",
+    "pricing_suggestion": {
+      "suggested_price_range": "$39.99-$56.99",
+      "anchor_price": "$48.49",
+      "source_average_price": "$38.99",
+      "rationale": "Price inside or slightly above Hunter's sampled market range, then adjust after Manny reviews blank cost, labor, Etsy fees, shipping, personalization complexity, and desired margin.",
+      "manny_review_required": true
+    },
+    "production_notes": [
+      "Confirm blank/product cost, supplier availability, labor time, packaging, shipping class, and Etsy fees before publishing.",
+      "Create final production art from owned or properly licensed fonts and graphics only.",
+      "Run a small sample or internal proof before accepting custom orders at scale.",
+      "Test laser settings on scrap material and confirm engraving contrast before photographing the sample."
+    ],
+    "mockup_notes": [
+      "Use mockups that clearly show the product category: Home & Living > Home Decor > Signs OR Kitchen & Dining > Cutting Boards.",
+      "Reflect Micah art direction: Minimal heirloom composition with centered engraving layout, fine line botanical accents, generous negative space, and balanced product mockup framing.",
+      "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+      "Keep mockup styling aligned with this color palette: warm walnut brown, soft ivory, charcoal ink, muted sage, brushed gold accent.",
+      "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+    ],
+    "manny_approval_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+  },
+  "listing_packages": [
+    {
+      "rank": 1,
+      "source_keyword": "custom laser engraved gifts",
+      "source_opportunity_score": 10,
+      "source_design_title": "Custom Laser Engraved Gifts: Heirloom Scripture Minimal",
+      "product_title": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming",
+      "seo_title": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming | Custom Laser Engraved Gifts, Personalized…",
+      "etsy_tags": [
+        "custom laser gifts",
+        "engraved gift",
+        "laser engraved",
+        "cutting board",
+        "wood sign",
+        "wedding gift",
+        "housewarming",
+        "family name",
+        "scripture gift",
+        "custom gift",
+        "personalized",
+        "faith gift",
+        "christian gift"
+      ],
+      "description": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: custom laser engraved gifts.\n- Design direction from Micah: A premium personalized keepsake built around family names, short scripture text, and a clean monogram focal point. Hunter offer context: Launch a personalized engraved gift bundle with scripture, family names, or business branding.\n- Visual execution notes: Minimal heirloom composition with centered engraving layout, fine line botanical accents, generous negative space, and balanced product mockup framing.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Launch a personalized engraved gift bundle with scripture, family names, or business branding.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.",
+      "materials": [
+        "wood blank such as maple, bamboo, walnut, or acacia",
+        "laser engraving",
+        "food-safe finish when applicable",
+        "protective packaging"
+      ],
+      "occasion": "Wedding, housewarming, anniversary, Christmas, Mother's Day, closing gift",
+      "recipient": "Couples, families, grandparents, homeowners, pastors, small business clients",
+      "category_recommendation": "Home & Living > Home Decor > Signs OR Kitchen & Dining > Cutting Boards",
+      "pricing_suggestion": {
+        "suggested_price_range": "$39.99-$56.99",
+        "anchor_price": "$48.49",
+        "source_average_price": "$38.99",
+        "rationale": "Price inside or slightly above Hunter's sampled market range, then adjust after Manny reviews blank cost, labor, Etsy fees, shipping, personalization complexity, and desired margin.",
+        "manny_review_required": true
+      },
+      "production_notes": [
+        "Confirm blank/product cost, supplier availability, labor time, packaging, shipping class, and Etsy fees before publishing.",
+        "Create final production art from owned or properly licensed fonts and graphics only.",
+        "Run a small sample or internal proof before accepting custom orders at scale.",
+        "Test laser settings on scrap material and confirm engraving contrast before photographing the sample."
+      ],
+      "mockup_notes": [
+        "Use mockups that clearly show the product category: Home & Living > Home Decor > Signs OR Kitchen & Dining > Cutting Boards.",
+        "Reflect Micah art direction: Minimal heirloom composition with centered engraving layout, fine line botanical accents, generous negative space, and balanced product mockup framing.",
+        "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+        "Keep mockup styling aligned with this color palette: warm walnut brown, soft ivory, charcoal ink, muted sage, brushed gold accent.",
+        "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+      ],
+      "manny_approval_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+    },
+    {
+      "rank": 2,
+      "source_keyword": "faith family shirts",
+      "source_opportunity_score": 9,
+      "source_design_title": "Faith Family Shirts: Faith Family Matching Set",
+      "product_title": "Faith Family Shirts - Faith Family Matching Set Custom Faith Shirt for Family Church Gifts",
+      "seo_title": "Faith Family Shirts - Faith Family Matching Set Custom Faith Shirt for Family Church Gifts | Faith Family Shirts, Personalized, Made to Ord…",
+      "etsy_tags": [
+        "faith family shirts",
+        "christian shirt",
+        "faith shirt",
+        "custom shirt",
+        "church shirt",
+        "family shirts",
+        "teacher shirt",
+        "jesus shirt",
+        "retreat shirt",
+        "custom gift",
+        "personalized",
+        "faith gift",
+        "christian gift"
+      ],
+      "description": "Faith Family Shirts - Faith Family Matching Set Custom Faith Shirt for Family Church Gifts\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: faith family shirts.\n- Design direction from Micah: A coordinated family or church-group apparel design that feels warm, modern, and photo-ready for Etsy listing mockups. Hunter offer context: Launch a faith-forward personalized apparel offer with matching family/church group options.\n- Visual execution notes: Stacked badge layout with subtle rays, hand-lettered faith phrase, and adaptable placement for adult, youth, and toddler shirts.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Launch a faith-forward personalized apparel offer with matching family/church group options.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.",
+      "materials": [
+        "soft cotton or cotton-blend shirt",
+        "DTF, screen print, or vinyl transfer",
+        "care card",
+        "shipping mailer"
+      ],
+      "occasion": "Church event, family gathering, retreat, teacher appreciation, everyday faith wear",
+      "recipient": "Families, church groups, teachers, youth ministries, faith-based shoppers",
+      "category_recommendation": "Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts",
+      "pricing_suggestion": {
+        "suggested_price_range": "$27.39-$36.04",
+        "anchor_price": "$31.71",
+        "source_average_price": "$28.83",
+        "rationale": "Price inside or slightly above Hunter's sampled market range, then adjust after Manny reviews blank cost, labor, Etsy fees, shipping, personalization complexity, and desired margin.",
+        "manny_review_required": true
+      },
+      "production_notes": [
+        "Confirm blank/product cost, supplier availability, labor time, packaging, shipping class, and Etsy fees before publishing.",
+        "Create final production art from owned or properly licensed fonts and graphics only.",
+        "Run a small sample or internal proof before accepting custom orders at scale.",
+        "Check transfer size, shirt color contrast, wash-care language, and size chart accuracy.",
+        "Digitize embroidery/patch artwork and verify stitch count, minimum text height, and thread color limits."
+      ],
+      "mockup_notes": [
+        "Use mockups that clearly show the product category: Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts.",
+        "Reflect Micah art direction: Stacked badge layout with subtle rays, hand-lettered faith phrase, and adaptable placement for adult, youth, and toddler shirts.",
+        "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+        "Keep mockup styling aligned with this color palette: cream, deep forest green, terracotta, warm sand, soft black.",
+        "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+      ],
+      "manny_approval_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+    },
+    {
+      "rank": 3,
+      "source_keyword": "custom embroidered hats",
+      "source_opportunity_score": 8,
+      "source_design_title": "Custom Embroidered Hats: Kingdom Workwear Patch",
+      "product_title": "Custom Embroidered Hat - Kingdom Workwear Patch Personalized Church Team Business Cap",
+      "seo_title": "Custom Embroidered Hat - Kingdom Workwear Patch Personalized Church Team Business Cap | Custom Embroidered Hats, Personalized, Made to Orde…",
+      "etsy_tags": [
+        "custom embroidered",
+        "custom hat",
+        "embroidered hat",
+        "trucker hat",
+        "dad hat",
+        "church hats",
+        "team hats",
+        "logo hat",
+        "hat patch",
+        "custom gift",
+        "personalized",
+        "faith gift",
+        "christian gift"
+      ],
+      "description": "Custom Embroidered Hat - Kingdom Workwear Patch Personalized Church Team Business Cap\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: custom embroidered hats.\n- Design direction from Micah: A durable embroidered hat or workwear patch design for teams, volunteers, and entrepreneurs who want a faith-rooted identity piece. Hunter offer context: Launch a 12-piece custom embroidered hat starter bundle for churches, teams, and local businesses.\n- Visual execution notes: Simple patch-ready shield or rectangle mark with bold icon, limited thread colors, and clear silhouette for embroidery digitizing.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Launch a 12-piece custom embroidered hat starter bundle for churches, teams, and local businesses.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.",
+      "materials": [
+        "structured trucker hat or dad hat blank",
+        "embroidery thread or patch material",
+        "stabilizer backing",
+        "packaging sleeve"
+      ],
+      "occasion": "Team event, church group order, business launch, Father's Day, volunteer appreciation",
+      "recipient": "Church teams, dads, coaches, business owners, ministry volunteers",
+      "category_recommendation": "Clothing > Unisex Adult Clothing > Hats & Caps > Baseball & Trucker Caps",
+      "pricing_suggestion": {
+        "suggested_price_range": "$24.99-$34.99",
+        "anchor_price": "$29.99",
+        "source_average_price": "$24.83",
+        "rationale": "Price inside or slightly above Hunter's sampled market range, then adjust after Manny reviews blank cost, labor, Etsy fees, shipping, personalization complexity, and desired margin.",
+        "manny_review_required": true
+      },
+      "production_notes": [
+        "Confirm blank/product cost, supplier availability, labor time, packaging, shipping class, and Etsy fees before publishing.",
+        "Create final production art from owned or properly licensed fonts and graphics only.",
+        "Run a small sample or internal proof before accepting custom orders at scale.",
+        "Check transfer size, shirt color contrast, wash-care language, and size chart accuracy.",
+        "Digitize embroidery/patch artwork and verify stitch count, minimum text height, and thread color limits."
+      ],
+      "mockup_notes": [
+        "Use mockups that clearly show the product category: Clothing > Unisex Adult Clothing > Hats & Caps > Baseball & Trucker Caps.",
+        "Reflect Micah art direction: Simple patch-ready shield or rectangle mark with bold icon, limited thread colors, and clear silhouette for embroidery digitizing.",
+        "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+        "Keep mockup styling aligned with this color palette: khaki, deep navy, white, rust, forest green.",
+        "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+      ],
+      "manny_approval_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+    },
+    {
+      "rank": 4,
+      "source_keyword": "christian shirts",
+      "source_opportunity_score": 8,
+      "source_design_title": "Christian Shirts: Hope Forward Statement Tee",
+      "product_title": "Christian Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts",
+      "seo_title": "Christian Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts | Christian Shirts, Personalized, Made to Order, F…",
+      "etsy_tags": [
+        "christian shirts",
+        "christian shirt",
+        "faith shirt",
+        "custom shirt",
+        "church shirt",
+        "family shirts",
+        "teacher shirt",
+        "jesus shirt",
+        "retreat shirt",
+        "custom gift",
+        "personalized",
+        "faith gift",
+        "christian gift"
+      ],
+      "description": "Christian Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: christian shirts.\n- Design direction from Micah: A bold FRESH-aligned statement shirt built around encouragement, service, and everyday witness without copying common slogans. Hunter offer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.\n- Visual execution notes: Modern typography-led shirt graphic with kinetic layout, small icon accents, and optional meal-giving impact line.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.",
+      "materials": [
+        "soft cotton or cotton-blend shirt",
+        "DTF, screen print, or vinyl transfer",
+        "care card",
+        "shipping mailer"
+      ],
+      "occasion": "Church event, family gathering, retreat, teacher appreciation, everyday faith wear",
+      "recipient": "Families, church groups, teachers, youth ministries, faith-based shoppers",
+      "category_recommendation": "Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts",
+      "pricing_suggestion": {
+        "suggested_price_range": "$24.99-$32.99",
+        "anchor_price": "$28.99",
+        "source_average_price": "$25.32",
+        "rationale": "Price inside or slightly above Hunter's sampled market range, then adjust after Manny reviews blank cost, labor, Etsy fees, shipping, personalization complexity, and desired margin.",
+        "manny_review_required": true
+      },
+      "production_notes": [
+        "Confirm blank/product cost, supplier availability, labor time, packaging, shipping class, and Etsy fees before publishing.",
+        "Create final production art from owned or properly licensed fonts and graphics only.",
+        "Run a small sample or internal proof before accepting custom orders at scale.",
+        "Check transfer size, shirt color contrast, wash-care language, and size chart accuracy."
+      ],
+      "mockup_notes": [
+        "Use mockups that clearly show the product category: Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts.",
+        "Reflect Micah art direction: Modern typography-led shirt graphic with kinetic layout, small icon accents, and optional meal-giving impact line.",
+        "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+        "Keep mockup styling aligned with this color palette: washed black, off white, sunrise orange, royal blue, muted gold.",
+        "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+      ],
+      "manny_approval_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+    },
+    {
+      "rank": 5,
+      "source_keyword": "teacher appreciation shirts",
+      "source_opportunity_score": 8,
+      "source_design_title": "Teacher Appreciation Shirts: Faith Family Matching Set",
+      "product_title": "Teacher Appreciation Shirts - Faith Family Matching Set Custom Faith Shirt for Family Church Gifts",
+      "seo_title": "Teacher Appreciation Shirts - Faith Family Matching Set Custom Faith Shirt for Family Church Gifts | Teacher Appreciation Shirts, Personali…",
+      "etsy_tags": [
+        "teacher appreciation",
+        "christian shirt",
+        "faith shirt",
+        "custom shirt",
+        "church shirt",
+        "family shirts",
+        "teacher shirt",
+        "jesus shirt",
+        "retreat shirt",
+        "custom gift",
+        "personalized",
+        "faith gift",
+        "christian gift"
+      ],
+      "description": "Teacher Appreciation Shirts - Faith Family Matching Set Custom Faith Shirt for Family Church Gifts\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: teacher appreciation shirts.\n- Design direction from Micah: A coordinated family or church-group apparel design that feels warm, modern, and photo-ready for Etsy listing mockups. Hunter offer context: Launch a faith-forward personalized apparel offer with matching family/church group options.\n- Visual execution notes: Stacked badge layout with subtle rays, hand-lettered faith phrase, and adaptable placement for adult, youth, and toddler shirts.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Launch a faith-forward personalized apparel offer with matching family/church group options.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.",
+      "materials": [
+        "soft cotton or cotton-blend shirt",
+        "DTF, screen print, or vinyl transfer",
+        "care card",
+        "shipping mailer"
+      ],
+      "occasion": "Church event, family gathering, retreat, teacher appreciation, everyday faith wear",
+      "recipient": "Families, church groups, teachers, youth ministries, faith-based shoppers",
+      "category_recommendation": "Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts",
+      "pricing_suggestion": {
+        "suggested_price_range": "$24.99-$32.99",
+        "anchor_price": "$28.99",
+        "source_average_price": "$25.16",
+        "rationale": "Price inside or slightly above Hunter's sampled market range, then adjust after Manny reviews blank cost, labor, Etsy fees, shipping, personalization complexity, and desired margin.",
+        "manny_review_required": true
+      },
+      "production_notes": [
+        "Confirm blank/product cost, supplier availability, labor time, packaging, shipping class, and Etsy fees before publishing.",
+        "Create final production art from owned or properly licensed fonts and graphics only.",
+        "Run a small sample or internal proof before accepting custom orders at scale.",
+        "Check transfer size, shirt color contrast, wash-care language, and size chart accuracy.",
+        "Digitize embroidery/patch artwork and verify stitch count, minimum text height, and thread color limits."
+      ],
+      "mockup_notes": [
+        "Use mockups that clearly show the product category: Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts.",
+        "Reflect Micah art direction: Stacked badge layout with subtle rays, hand-lettered faith phrase, and adaptable placement for adult, youth, and toddler shirts.",
+        "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+        "Keep mockup styling aligned with this color palette: cream, deep forest green, terracotta, warm sand, soft black.",
+        "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+      ],
+      "manny_approval_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+    },
+    {
+      "rank": 6,
+      "source_keyword": "church event shirts",
+      "source_opportunity_score": 5,
+      "source_design_title": "Church Event Shirts: Church Retreat Badge",
+      "product_title": "Church Event Shirts - Church Retreat Badge Custom Faith Shirt for Family Church Gifts",
+      "seo_title": "Church Event Shirts - Church Retreat Badge Custom Faith Shirt for Family Church Gifts | Church Event Shirts, Personalized, Made to Order, F…",
+      "etsy_tags": [
+        "church event shirts",
+        "christian shirt",
+        "faith shirt",
+        "custom shirt",
+        "church shirt",
+        "family shirts",
+        "teacher shirt",
+        "jesus shirt",
+        "retreat shirt",
+        "custom gift",
+        "personalized",
+        "faith gift",
+        "christian gift"
+      ],
+      "description": "Church Event Shirts - Church Retreat Badge Custom Faith Shirt for Family Church Gifts\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: church event shirts.\n- Design direction from Micah: An event-ready design system for retreats, youth groups, conferences, and ministry teams needing a clean custom shirt concept. Hunter offer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.\n- Visual execution notes: Outdoor badge emblem with mountain or path symbolism, simple cross-negative-space detail, and editable event/date line.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.",
+      "materials": [
+        "soft cotton or cotton-blend shirt",
+        "DTF, screen print, or vinyl transfer",
+        "care card",
+        "shipping mailer"
+      ],
+      "occasion": "Church event, family gathering, retreat, teacher appreciation, everyday faith wear",
+      "recipient": "Families, church groups, teachers, youth ministries, faith-based shoppers",
+      "category_recommendation": "Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts",
+      "pricing_suggestion": {
+        "suggested_price_range": "$24.99-$32.99",
+        "anchor_price": "$28.99",
+        "source_average_price": "$23.49",
+        "rationale": "Price inside or slightly above Hunter's sampled market range, then adjust after Manny reviews blank cost, labor, Etsy fees, shipping, personalization complexity, and desired margin.",
+        "manny_review_required": true
+      },
+      "production_notes": [
+        "Confirm blank/product cost, supplier availability, labor time, packaging, shipping class, and Etsy fees before publishing.",
+        "Create final production art from owned or properly licensed fonts and graphics only.",
+        "Run a small sample or internal proof before accepting custom orders at scale.",
+        "Check transfer size, shirt color contrast, wash-care language, and size chart accuracy."
+      ],
+      "mockup_notes": [
+        "Use mockups that clearly show the product category: Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts.",
+        "Reflect Micah art direction: Outdoor badge emblem with mountain or path symbolism, simple cross-negative-space detail, and editable event/date line.",
+        "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+        "Keep mockup styling aligned with this color palette: navy, bone, copper, olive, sky blue.",
+        "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+      ],
+      "manny_approval_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+    },
+    {
+      "rank": 7,
+      "source_keyword": "custom laser engraved gifts",
+      "source_opportunity_score": 10,
+      "source_design_title": "Custom Laser Engraved Gifts: Personalized Blessing Board",
+      "product_title": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming",
+      "seo_title": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming | Custom Laser Engraved Gifts, Personalized…",
+      "etsy_tags": [
+        "custom laser gifts",
+        "engraved gift",
+        "laser engraved",
+        "cutting board",
+        "wood sign",
+        "wedding gift",
+        "housewarming",
+        "family name",
+        "scripture gift",
+        "custom gift",
+        "personalized",
+        "faith gift",
+        "christian gift"
+      ],
+      "description": "Custom Laser Engraved Gifts - Personalized Engraved Wood Gift for Family Wedding Housewarming\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: custom laser engraved gifts.\n- Design direction from Micah: A cutting board or wood sign concept for weddings, housewarmings, and family legacy gifts with personalization front and center. Hunter offer context: Launch a personalized engraved gift bundle with scripture, family names, or business branding.\n- Visual execution notes: Arched composition with wreath frame, family surname, establishment year, and optional short blessing line engraved into warm wood.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Launch a personalized engraved gift bundle with scripture, family names, or business branding.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.",
+      "materials": [
+        "wood blank such as maple, bamboo, walnut, or acacia",
+        "laser engraving",
+        "food-safe finish when applicable",
+        "protective packaging"
+      ],
+      "occasion": "Wedding, housewarming, anniversary, Christmas, Mother's Day, closing gift",
+      "recipient": "Couples, families, grandparents, homeowners, pastors, small business clients",
+      "category_recommendation": "Home & Living > Home Decor > Signs OR Kitchen & Dining > Cutting Boards",
+      "pricing_suggestion": {
+        "suggested_price_range": "$39.99-$56.99",
+        "anchor_price": "$48.49",
+        "source_average_price": "$38.99",
+        "rationale": "Price inside or slightly above Hunter's sampled market range, then adjust after Manny reviews blank cost, labor, Etsy fees, shipping, personalization complexity, and desired margin.",
+        "manny_review_required": true
+      },
+      "production_notes": [
+        "Confirm blank/product cost, supplier availability, labor time, packaging, shipping class, and Etsy fees before publishing.",
+        "Create final production art from owned or properly licensed fonts and graphics only.",
+        "Run a small sample or internal proof before accepting custom orders at scale.",
+        "Test laser settings on scrap material and confirm engraving contrast before photographing the sample."
+      ],
+      "mockup_notes": [
+        "Use mockups that clearly show the product category: Home & Living > Home Decor > Signs OR Kitchen & Dining > Cutting Boards.",
+        "Reflect Micah art direction: Arched composition with wreath frame, family surname, establishment year, and optional short blessing line engraved into warm wood.",
+        "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+        "Keep mockup styling aligned with this color palette: maple wood, dark walnut, linen, olive branch green, matte black.",
+        "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+      ],
+      "manny_approval_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+    },
+    {
+      "rank": 8,
+      "source_keyword": "faith family shirts",
+      "source_opportunity_score": 9,
+      "source_design_title": "Faith Family Shirts: Hope Forward Statement Tee",
+      "product_title": "Faith Family Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts",
+      "seo_title": "Faith Family Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts | Faith Family Shirts, Personalized, Made to Or…",
+      "etsy_tags": [
+        "faith family shirts",
+        "christian shirt",
+        "faith shirt",
+        "custom shirt",
+        "church shirt",
+        "family shirts",
+        "teacher shirt",
+        "jesus shirt",
+        "retreat shirt",
+        "custom gift",
+        "personalized",
+        "faith gift",
+        "christian gift"
+      ],
+      "description": "Faith Family Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: faith family shirts.\n- Design direction from Micah: A bold FRESH-aligned statement shirt built around encouragement, service, and everyday witness without copying common slogans. Hunter offer context: Launch a faith-forward personalized apparel offer with matching family/church group options.\n- Visual execution notes: Modern typography-led shirt graphic with kinetic layout, small icon accents, and optional meal-giving impact line.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Launch a faith-forward personalized apparel offer with matching family/church group options.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.",
+      "materials": [
+        "soft cotton or cotton-blend shirt",
+        "DTF, screen print, or vinyl transfer",
+        "care card",
+        "shipping mailer"
+      ],
+      "occasion": "Church event, family gathering, retreat, teacher appreciation, everyday faith wear",
+      "recipient": "Families, church groups, teachers, youth ministries, faith-based shoppers",
+      "category_recommendation": "Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts",
+      "pricing_suggestion": {
+        "suggested_price_range": "$27.39-$36.04",
+        "anchor_price": "$31.71",
+        "source_average_price": "$28.83",
+        "rationale": "Price inside or slightly above Hunter's sampled market range, then adjust after Manny reviews blank cost, labor, Etsy fees, shipping, personalization complexity, and desired margin.",
+        "manny_review_required": true
+      },
+      "production_notes": [
+        "Confirm blank/product cost, supplier availability, labor time, packaging, shipping class, and Etsy fees before publishing.",
+        "Create final production art from owned or properly licensed fonts and graphics only.",
+        "Run a small sample or internal proof before accepting custom orders at scale.",
+        "Check transfer size, shirt color contrast, wash-care language, and size chart accuracy."
+      ],
+      "mockup_notes": [
+        "Use mockups that clearly show the product category: Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts.",
+        "Reflect Micah art direction: Modern typography-led shirt graphic with kinetic layout, small icon accents, and optional meal-giving impact line.",
+        "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+        "Keep mockup styling aligned with this color palette: washed black, off white, sunrise orange, royal blue, muted gold.",
+        "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+      ],
+      "manny_approval_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+    },
+    {
+      "rank": 9,
+      "source_keyword": "custom embroidered hats",
+      "source_opportunity_score": 8,
+      "source_design_title": "Custom Embroidered Hats: Local Business Heritage Mark",
+      "product_title": "Custom Embroidered Hat - Local Business Heritage Mark Personalized Church Team Business Cap",
+      "seo_title": "Custom Embroidered Hat - Local Business Heritage Mark Personalized Church Team Business Cap | Custom Embroidered Hats, Personalized, Made t…",
+      "etsy_tags": [
+        "custom embroidered",
+        "custom hat",
+        "embroidered hat",
+        "trucker hat",
+        "dad hat",
+        "church hats",
+        "team hats",
+        "logo hat",
+        "hat patch",
+        "custom gift",
+        "personalized",
+        "faith gift",
+        "christian gift"
+      ],
+      "description": "Custom Embroidered Hat - Local Business Heritage Mark Personalized Church Team Business Cap\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: custom embroidered hats.\n- Design direction from Micah: A polished custom brand-mark concept for engraved gifts, hats, and promotional products aimed at local business buyers. Hunter offer context: Launch a 12-piece custom embroidered hat starter bundle for churches, teams, and local businesses.\n- Visual execution notes: Vintage maker's mark with border, initials area, subtle texture, and flexible badge variants for hat patches or laser engraving.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Launch a 12-piece custom embroidered hat starter bundle for churches, teams, and local businesses.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.",
+      "materials": [
+        "structured trucker hat or dad hat blank",
+        "embroidery thread or patch material",
+        "stabilizer backing",
+        "packaging sleeve"
+      ],
+      "occasion": "Team event, church group order, business launch, Father's Day, volunteer appreciation",
+      "recipient": "Church teams, dads, coaches, business owners, ministry volunteers",
+      "category_recommendation": "Clothing > Unisex Adult Clothing > Hats & Caps > Baseball & Trucker Caps",
+      "pricing_suggestion": {
+        "suggested_price_range": "$24.99-$34.99",
+        "anchor_price": "$29.99",
+        "source_average_price": "$24.83",
+        "rationale": "Price inside or slightly above Hunter's sampled market range, then adjust after Manny reviews blank cost, labor, Etsy fees, shipping, personalization complexity, and desired margin.",
+        "manny_review_required": true
+      },
+      "production_notes": [
+        "Confirm blank/product cost, supplier availability, labor time, packaging, shipping class, and Etsy fees before publishing.",
+        "Create final production art from owned or properly licensed fonts and graphics only.",
+        "Run a small sample or internal proof before accepting custom orders at scale.",
+        "Test laser settings on scrap material and confirm engraving contrast before photographing the sample.",
+        "Digitize embroidery/patch artwork and verify stitch count, minimum text height, and thread color limits."
+      ],
+      "mockup_notes": [
+        "Use mockups that clearly show the product category: Clothing > Unisex Adult Clothing > Hats & Caps > Baseball & Trucker Caps.",
+        "Reflect Micah art direction: Vintage maker's mark with border, initials area, subtle texture, and flexible badge variants for hat patches or laser engraving.",
+        "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+        "Keep mockup styling aligned with this color palette: black, natural leather, antique gold, smoke gray, canvas tan.",
+        "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+      ],
+      "manny_approval_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+    },
+    {
+      "rank": 10,
+      "source_keyword": "christian shirts",
+      "source_opportunity_score": 8,
+      "source_design_title": "Christian Shirts: Faith Family Matching Set",
+      "product_title": "Christian Shirts - Faith Family Matching Set Custom Faith Shirt for Family Church Gifts",
+      "seo_title": "Christian Shirts - Faith Family Matching Set Custom Faith Shirt for Family Church Gifts | Christian Shirts, Personalized, Made to Order, Fa…",
+      "etsy_tags": [
+        "christian shirts",
+        "christian shirt",
+        "faith shirt",
+        "custom shirt",
+        "church shirt",
+        "family shirts",
+        "teacher shirt",
+        "jesus shirt",
+        "retreat shirt",
+        "custom gift",
+        "personalized",
+        "faith gift",
+        "christian gift"
+      ],
+      "description": "Christian Shirts - Faith Family Matching Set Custom Faith Shirt for Family Church Gifts\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: christian shirts.\n- Design direction from Micah: A coordinated family or church-group apparel design that feels warm, modern, and photo-ready for Etsy listing mockups. Hunter offer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.\n- Visual execution notes: Stacked badge layout with subtle rays, hand-lettered faith phrase, and adaptable placement for adult, youth, and toddler shirts.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.",
+      "materials": [
+        "soft cotton or cotton-blend shirt",
+        "DTF, screen print, or vinyl transfer",
+        "care card",
+        "shipping mailer"
+      ],
+      "occasion": "Church event, family gathering, retreat, teacher appreciation, everyday faith wear",
+      "recipient": "Families, church groups, teachers, youth ministries, faith-based shoppers",
+      "category_recommendation": "Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts",
+      "pricing_suggestion": {
+        "suggested_price_range": "$24.99-$32.99",
+        "anchor_price": "$28.99",
+        "source_average_price": "$25.32",
+        "rationale": "Price inside or slightly above Hunter's sampled market range, then adjust after Manny reviews blank cost, labor, Etsy fees, shipping, personalization complexity, and desired margin.",
+        "manny_review_required": true
+      },
+      "production_notes": [
+        "Confirm blank/product cost, supplier availability, labor time, packaging, shipping class, and Etsy fees before publishing.",
+        "Create final production art from owned or properly licensed fonts and graphics only.",
+        "Run a small sample or internal proof before accepting custom orders at scale.",
+        "Check transfer size, shirt color contrast, wash-care language, and size chart accuracy.",
+        "Digitize embroidery/patch artwork and verify stitch count, minimum text height, and thread color limits."
+      ],
+      "mockup_notes": [
+        "Use mockups that clearly show the product category: Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts.",
+        "Reflect Micah art direction: Stacked badge layout with subtle rays, hand-lettered faith phrase, and adaptable placement for adult, youth, and toddler shirts.",
+        "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+        "Keep mockup styling aligned with this color palette: cream, deep forest green, terracotta, warm sand, soft black.",
+        "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+      ],
+      "manny_approval_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+    }
+  ],
+  "approval_required_before_public_action": true,
+  "manny_approval_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+}

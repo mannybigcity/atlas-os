@@ -1,0 +1,286 @@
+{
+  "mission": "Printify Draft Package Engine",
+  "generated_at": "2026-06-21T14:26:55",
+  "source_mission": "Amanda Listing Engine",
+  "source_generated_at": "2026-06-21T14:26:55",
+  "agent_chain": {
+    "assigned_by": "Atlas",
+    "builder": "Mason",
+    "listing_owner": "Amanda",
+    "draft_owner": "Mason",
+    "approval_owner": "Manny"
+  },
+  "top_printify_draft_package": {
+    "rank": 1,
+    "draft_id": "printify-draft-01-christian-streetwear-shirts",
+    "source_listing_rank": 1,
+    "source_keyword": "christian streetwear shirts",
+    "source_design_title": "Christian Streetwear Shirts: Hope Forward Statement Tee",
+    "title": "Christian Streetwear Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts",
+    "product_type_recommendation": {
+      "product_type": "Unisex Jersey T-Shirt",
+      "printify_category": "Men's Clothing > T-shirts OR Women's Clothing > T-shirts",
+      "recommended_blank": "Bella+Canvas 3001 or Comfort Colors 1717 if available in the target Printify shop.",
+      "blueprint_search_terms": "unisex jersey t-shirt bella canvas comfort colors shirt",
+      "variant_notes": [
+        "Start with core unisex sizes S-2XL.",
+        "Use neutral, high-conversion colors such as black, white, heather, cream, navy, and forest."
+      ],
+      "source_category": "Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts",
+      "selection_status": "recommended_not_selected"
+    },
+    "print_area_notes": [
+      "Primary print area: front chest, centered, approximately 11-12 inches wide for adult shirts.",
+      "Prepare transparent PNG artwork at 4500 x 5400 px, 300 DPI, sRGB, with no background box.",
+      "Keep important text inside safe margins and verify contrast on each garment color."
+    ],
+    "mockup_direction": [
+      "Use a clean front-facing shirt hero mockup first.",
+      "Include a close-up of the chest print, a lifestyle/family or church group context mockup, and a size/color chart image.",
+      "Use mockups that clearly show the product category: Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts.",
+      "Reflect Micah art direction: Modern typography-led shirt graphic with kinetic layout, small icon accents, and optional meal-giving impact line.",
+      "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+      "Keep mockup styling aligned with this color palette: washed black, off white, sunrise orange, royal blue, muted gold.",
+      "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+    ],
+    "product_description": "Christian Streetwear Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts\n\nChristian Streetwear Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: christian streetwear shirts.\n- Design direction from Micah: A bold FRESH-aligned statement shirt built around encouragement, service, and everyday witness without copying common slogans. Hunter offer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.\n- Visual execution notes: Modern typography-led shirt graphic with kinetic layout, small icon accents, and optional meal-giving impact line.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.\n\nPrintify draft notes:\n- This is a draft package only; no product has been published automatically.\n- Final production art, provider, variants, price, shipping, and mockups require Manny approval.\n- Customer-facing promises must not be made until product proofing and fulfillment assumptions are confirmed.",
+    "pricing_math": {
+      "retail_price": 28.99,
+      "estimated_printify_base_cost": 12.5,
+      "estimated_shipping_cost": 4.75,
+      "estimated_marketplace_transaction_fee": 1.88,
+      "estimated_payment_fee": 1.12,
+      "estimated_total_cost": 20.25,
+      "estimated_profit": 8.74,
+      "target_margin_percent": 30.1,
+      "source_average_price": "$25.32",
+      "pricing_status": "draft_math_pending_manny_review",
+      "notes": "Replace estimates with exact Printify provider cost, selected variant cost, shop fees, shipping profile, discounts, and tax assumptions before publishing."
+    },
+    "tags": [
+      "christian streetwear",
+      "christian shirt",
+      "faith shirt",
+      "custom shirt",
+      "church shirt",
+      "family shirts",
+      "teacher shirt",
+      "jesus shirt",
+      "retreat shirt",
+      "custom gift",
+      "personalized",
+      "faith gift",
+      "christian gift"
+    ],
+    "listing_checklist": [
+      {
+        "item": "Manny approves product type, supplier/provider, and launch risk.",
+        "status": "pending_manny_review"
+      },
+      {
+        "item": "Final artwork uses owned/licensed fonts and graphics only.",
+        "status": "pending_manny_review"
+      },
+      {
+        "item": "No copyrighted characters, protected logos, celebrity names, lyrics, or trademarked slogans.",
+        "status": "pending_manny_review"
+      },
+      {
+        "item": "Printify blueprint/provider and variant availability are confirmed.",
+        "status": "pending_manny_review"
+      },
+      {
+        "item": "Print area dimensions, safe margins, bleed, and file format are verified.",
+        "status": "pending_manny_review"
+      },
+      {
+        "item": "Retail price, fees, shipping assumptions, and margin are reviewed.",
+        "status": "pending_manny_review"
+      },
+      {
+        "item": "Mockups accurately represent the selected blank, colors, and personalization limits.",
+        "status": "pending_manny_review"
+      },
+      {
+        "item": "Description, tags, and customer-facing production time are reviewed.",
+        "status": "pending_manny_review"
+      },
+      {
+        "item": "Sample/proof path is defined before public launch or customer commitment.",
+        "status": "pending_manny_review"
+      }
+    ],
+    "manny_approval_gate": {
+      "required_approval": "Manny approval is required before creating live Printify products, publishing, changing pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+      "approved_for_publish": false,
+      "approved_for_sample_order": false,
+      "approved_for_ad_spend": false,
+      "approved_for_customer_commitment": false,
+      "source_amanda_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+    },
+    "printify_draft_payload": {
+      "title": "Christian Streetwear Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts",
+      "description": "Christian Streetwear Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts\n\nChristian Streetwear Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: christian streetwear shirts.\n- Design direction from Micah: A bold FRESH-aligned statement shirt built around encouragement, service, and everyday witness without copying common slogans. Hunter offer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.\n- Visual execution notes: Modern typography-led shirt graphic with kinetic layout, small icon accents, and optional meal-giving impact line.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.\n\nPrintify draft notes:\n- This is a draft package only; no product has been published automatically.\n- Final production art, provider, variants, price, shipping, and mockups require Manny approval.\n- Customer-facing promises must not be made until product proofing and fulfillment assumptions are confirmed.",
+      "tags": [
+        "christian streetwear",
+        "christian shirt",
+        "faith shirt",
+        "custom shirt",
+        "church shirt",
+        "family shirts",
+        "teacher shirt",
+        "jesus shirt",
+        "retreat shirt",
+        "custom gift",
+        "personalized",
+        "faith gift",
+        "christian gift"
+      ],
+      "blueprint_search_terms": "unisex jersey t-shirt bella canvas comfort colors shirt",
+      "recommended_product_type": "Unisex Jersey T-Shirt",
+      "recommended_blank": "Bella+Canvas 3001 or Comfort Colors 1717 if available in the target Printify shop.",
+      "visible": false,
+      "is_locked": false,
+      "publish_action": "none_manual_manny_approval_required"
+    }
+  },
+  "printify_draft_packages": [
+    {
+      "rank": 1,
+      "draft_id": "printify-draft-01-christian-streetwear-shirts",
+      "source_listing_rank": 1,
+      "source_keyword": "christian streetwear shirts",
+      "source_design_title": "Christian Streetwear Shirts: Hope Forward Statement Tee",
+      "title": "Christian Streetwear Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts",
+      "product_type_recommendation": {
+        "product_type": "Unisex Jersey T-Shirt",
+        "printify_category": "Men's Clothing > T-shirts OR Women's Clothing > T-shirts",
+        "recommended_blank": "Bella+Canvas 3001 or Comfort Colors 1717 if available in the target Printify shop.",
+        "blueprint_search_terms": "unisex jersey t-shirt bella canvas comfort colors shirt",
+        "variant_notes": [
+          "Start with core unisex sizes S-2XL.",
+          "Use neutral, high-conversion colors such as black, white, heather, cream, navy, and forest."
+        ],
+        "source_category": "Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts",
+        "selection_status": "recommended_not_selected"
+      },
+      "print_area_notes": [
+        "Primary print area: front chest, centered, approximately 11-12 inches wide for adult shirts.",
+        "Prepare transparent PNG artwork at 4500 x 5400 px, 300 DPI, sRGB, with no background box.",
+        "Keep important text inside safe margins and verify contrast on each garment color."
+      ],
+      "mockup_direction": [
+        "Use a clean front-facing shirt hero mockup first.",
+        "Include a close-up of the chest print, a lifestyle/family or church group context mockup, and a size/color chart image.",
+        "Use mockups that clearly show the product category: Clothing > Unisex Adult Clothing > Tops & Tees > T-shirts.",
+        "Reflect Micah art direction: Modern typography-led shirt graphic with kinetic layout, small icon accents, and optional meal-giving impact line.",
+        "Include at least one hero image, one close-up/detail image, one personalization example, and one scale/context image.",
+        "Keep mockup styling aligned with this color palette: washed black, off white, sunrise orange, royal blue, muted gold.",
+        "Do not publish mockups until Manny approves final wording, price, and production feasibility."
+      ],
+      "product_description": "Christian Streetwear Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts\n\nChristian Streetwear Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: christian streetwear shirts.\n- Design direction from Micah: A bold FRESH-aligned statement shirt built around encouragement, service, and everyday witness without copying common slogans. Hunter offer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.\n- Visual execution notes: Modern typography-led shirt graphic with kinetic layout, small icon accents, and optional meal-giving impact line.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.\n\nPrintify draft notes:\n- This is a draft package only; no product has been published automatically.\n- Final production art, provider, variants, price, shipping, and mockups require Manny approval.\n- Customer-facing promises must not be made until product proofing and fulfillment assumptions are confirmed.",
+      "pricing_math": {
+        "retail_price": 28.99,
+        "estimated_printify_base_cost": 12.5,
+        "estimated_shipping_cost": 4.75,
+        "estimated_marketplace_transaction_fee": 1.88,
+        "estimated_payment_fee": 1.12,
+        "estimated_total_cost": 20.25,
+        "estimated_profit": 8.74,
+        "target_margin_percent": 30.1,
+        "source_average_price": "$25.32",
+        "pricing_status": "draft_math_pending_manny_review",
+        "notes": "Replace estimates with exact Printify provider cost, selected variant cost, shop fees, shipping profile, discounts, and tax assumptions before publishing."
+      },
+      "tags": [
+        "christian streetwear",
+        "christian shirt",
+        "faith shirt",
+        "custom shirt",
+        "church shirt",
+        "family shirts",
+        "teacher shirt",
+        "jesus shirt",
+        "retreat shirt",
+        "custom gift",
+        "personalized",
+        "faith gift",
+        "christian gift"
+      ],
+      "listing_checklist": [
+        {
+          "item": "Manny approves product type, supplier/provider, and launch risk.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Final artwork uses owned/licensed fonts and graphics only.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "No copyrighted characters, protected logos, celebrity names, lyrics, or trademarked slogans.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Printify blueprint/provider and variant availability are confirmed.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Print area dimensions, safe margins, bleed, and file format are verified.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Retail price, fees, shipping assumptions, and margin are reviewed.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Mockups accurately represent the selected blank, colors, and personalization limits.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Description, tags, and customer-facing production time are reviewed.",
+          "status": "pending_manny_review"
+        },
+        {
+          "item": "Sample/proof path is defined before public launch or customer commitment.",
+          "status": "pending_manny_review"
+        }
+      ],
+      "manny_approval_gate": {
+        "required_approval": "Manny approval is required before creating live Printify products, publishing, changing pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action.",
+        "approved_for_publish": false,
+        "approved_for_sample_order": false,
+        "approved_for_ad_spend": false,
+        "approved_for_customer_commitment": false,
+        "source_amanda_requirement": "Manny approval is required before publishing this listing, changing live pricing, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+      },
+      "printify_draft_payload": {
+        "title": "Christian Streetwear Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts",
+        "description": "Christian Streetwear Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts\n\nChristian Streetwear Shirts - Hope Forward Statement Tee Custom Faith Shirt for Family Church Gifts\n\nCreate a meaningful made-to-order gift with a polished RAMFAM Kingdom/SIS Custom Creations production standard.\n\nWhy shoppers will like it:\n- Built around the proven Hunter opportunity: christian streetwear shirts.\n- Design direction from Micah: A bold FRESH-aligned statement shirt built around encouragement, service, and everyday witness without copying common slogans. Hunter offer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.\n- Visual execution notes: Modern typography-led shirt graphic with kinetic layout, small icon accents, and optional meal-giving impact line.\n- Personalization-friendly so buyers can request names, dates, church/team names, or short approved wording where the product allows.\n\nOrdering notes:\n1. Choose the product option and quantity.\n2. Add personalization details exactly as they should appear.\n3. Amanda/Manny review final wording, pricing, and production limits before public launch or customer commitment.\n\nOffer context: Use this as a design-validation keyword, but only build after finding a stronger niche angle.\n\nCompliance note: Final art must avoid copyrighted characters, protected brand marks, celebrity names, unlicensed lyrics, and trademarked slogans.\n\nPrintify draft notes:\n- This is a draft package only; no product has been published automatically.\n- Final production art, provider, variants, price, shipping, and mockups require Manny approval.\n- Customer-facing promises must not be made until product proofing and fulfillment assumptions are confirmed.",
+        "tags": [
+          "christian streetwear",
+          "christian shirt",
+          "faith shirt",
+          "custom shirt",
+          "church shirt",
+          "family shirts",
+          "teacher shirt",
+          "jesus shirt",
+          "retreat shirt",
+          "custom gift",
+          "personalized",
+          "faith gift",
+          "christian gift"
+        ],
+        "blueprint_search_terms": "unisex jersey t-shirt bella canvas comfort colors shirt",
+        "recommended_product_type": "Unisex Jersey T-Shirt",
+        "recommended_blank": "Bella+Canvas 3001 or Comfort Colors 1717 if available in the target Printify shop.",
+        "visible": false,
+        "is_locked": false,
+        "publish_action": "none_manual_manny_approval_required"
+      }
+    }
+  ],
+  "auto_publish_enabled": false,
+  "approval_required_before_public_action": true,
+  "manny_approval_requirement": "Manny approval is required before creating live Printify products, publishing, changing pricing, ordering samples, spending ad budget, contacting customers, accepting custom orders, or making any public/reputation-impacting marketplace action."
+}

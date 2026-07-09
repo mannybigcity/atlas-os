@@ -1,0 +1,248 @@
+{
+  "mission_folder": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\seasonal_opportunity_analysis\\seasonal_opportunity_mission_20260618_110851",
+  "gallery_folder": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\90_ASSETS\\KINGDOM_GALLERY\\PENDING_APPROVAL\\seasonal_top5_20260618_110851",
+  "top_25": [
+    {
+      "rank": 1,
+      "keyword": "America 250 faith family freedom shirts",
+      "demand": 10,
+      "competition": 8,
+      "profit": 8,
+      "mission_fit": 10,
+      "selection": 9.0
+    },
+    {
+      "rank": 2,
+      "keyword": "Faith Family Freedom yard sign bundle",
+      "demand": 9,
+      "competition": 8,
+      "profit": 9,
+      "mission_fit": 10,
+      "selection": 8.93
+    },
+    {
+      "rank": 3,
+      "keyword": "Church summer event shirts",
+      "demand": 9,
+      "competition": 7,
+      "profit": 8,
+      "mission_fit": 10,
+      "selection": 8.43
+    },
+    {
+      "rank": 4,
+      "keyword": "America 250 custom embroidered hats",
+      "demand": 8,
+      "competition": 8,
+      "profit": 9,
+      "mission_fit": 9,
+      "selection": 8.43
+    },
+    {
+      "rank": 5,
+      "keyword": "America 250 engraved cutting board",
+      "demand": 7,
+      "competition": 9,
+      "profit": 10,
+      "mission_fit": 8,
+      "selection": 8.43
+    },
+    {
+      "rank": 6,
+      "keyword": "Faith family freedom hat patch",
+      "demand": 8,
+      "competition": 8,
+      "profit": 8,
+      "mission_fit": 10,
+      "selection": 8.36
+    },
+    {
+      "rank": 7,
+      "keyword": "Grandpa lake life shirt and tumbler set",
+      "demand": 9,
+      "competition": 8,
+      "profit": 8,
+      "mission_fit": 8,
+      "selection": 8.32
+    },
+    {
+      "rank": 8,
+      "keyword": "Camping grandpa wood sign",
+      "demand": 8,
+      "competition": 8,
+      "profit": 9,
+      "mission_fit": 8,
+      "selection": 8.25
+    },
+    {
+      "rank": 9,
+      "keyword": "Family reunion faith shirts",
+      "demand": 9,
+      "competition": 6,
+      "profit": 8,
+      "mission_fit": 10,
+      "selection": 8.18
+    },
+    {
+      "rank": 10,
+      "keyword": "Lake house grandpa engraved sign",
+      "demand": 7,
+      "competition": 8,
+      "profit": 10,
+      "mission_fit": 8,
+      "selection": 8.18
+    },
+    {
+      "rank": 11,
+      "keyword": "Summer family reunion welcome sign",
+      "demand": 7,
+      "competition": 8,
+      "profit": 9,
+      "mission_fit": 9,
+      "selection": 8.11
+    },
+    {
+      "rank": 12,
+      "keyword": "Church volunteer appreciation summer gifts",
+      "demand": 7,
+      "competition": 8,
+      "profit": 8,
+      "mission_fit": 10,
+      "selection": 8.04
+    },
+    {
+      "rank": 13,
+      "keyword": "Christian Fourth of July shirts",
+      "demand": 10,
+      "competition": 5,
+      "profit": 7,
+      "mission_fit": 10,
+      "selection": 8.0
+    },
+    {
+      "rank": 14,
+      "keyword": "Patriotic Christian tumbler wrap",
+      "demand": 8,
+      "competition": 7,
+      "profit": 8,
+      "mission_fit": 9,
+      "selection": 7.93
+    },
+    {
+      "rank": 15,
+      "keyword": "Father’s Day grandpa photo frame",
+      "demand": 7,
+      "competition": 8,
+      "profit": 9,
+      "mission_fit": 8,
+      "selection": 7.93
+    },
+    {
+      "rank": 16,
+      "keyword": "VBS church crew shirts",
+      "demand": 8,
+      "competition": 6,
+      "profit": 8,
+      "mission_fit": 10,
+      "selection": 7.86
+    },
+    {
+      "rank": 17,
+      "keyword": "Faith family freedom car decal",
+      "demand": 7,
+      "competition": 8,
+      "profit": 7,
+      "mission_fit": 9,
+      "selection": 7.61
+    },
+    {
+      "rank": 18,
+      "keyword": "Summer family prayer journal cover",
+      "demand": 6,
+      "competition": 9,
+      "profit": 7,
+      "mission_fit": 9,
+      "selection": 7.54
+    },
+    {
+      "rank": 19,
+      "keyword": "Father’s Day Christian dad shirt",
+      "demand": 9,
+      "competition": 5,
+      "profit": 7,
+      "mission_fit": 9,
+      "selection": 7.5
+    },
+    {
+      "rank": 20,
+      "keyword": "Lake life family vacation shirts",
+      "demand": 8,
+      "competition": 7,
+      "profit": 7,
+      "mission_fit": 8,
+      "selection": 7.5
+    },
+    {
+      "rank": 21,
+      "keyword": "Patriotic Psalm shirt",
+      "demand": 8,
+      "competition": 5,
+      "profit": 7,
+      "mission_fit": 10,
+      "selection": 7.36
+    },
+    {
+      "rank": 22,
+      "keyword": "Fourth of July church picnic shirts",
+      "demand": 7,
+      "competition": 7,
+      "profit": 7,
+      "mission_fit": 9,
+      "selection": 7.36
+    },
+    {
+      "rank": 23,
+      "keyword": "Family camping trip shirts",
+      "demand": 7,
+      "competition": 7,
+      "profit": 7,
+      "mission_fit": 8,
+      "selection": 7.18
+    },
+    {
+      "rank": 24,
+      "keyword": "July 4th family BBQ shirts",
+      "demand": 8,
+      "competition": 6,
+      "profit": 7,
+      "mission_fit": 7,
+      "selection": 7.07
+    },
+    {
+      "rank": 25,
+      "keyword": "Grandpa camping mug",
+      "demand": 8,
+      "competition": 6,
+      "profit": 7,
+      "mission_fit": 7,
+      "selection": 7.07
+    }
+  ],
+  "top_5_selected": [
+    "America 250 faith family freedom shirts",
+    "Faith Family Freedom yard sign bundle",
+    "Church summer event shirts",
+    "America 250 custom embroidered hats",
+    "America 250 engraved cutting board"
+  ],
+  "assets_created": 5,
+  "listings_created": 5,
+  "reports": {
+    "hunter_json": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\seasonal_opportunity_analysis\\seasonal_opportunity_mission_20260618_110851\\01_hunter_seasonal_research\\hunter_seasonal_opportunity_analysis_latest.json",
+    "hunter_markdown": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\seasonal_opportunity_analysis\\seasonal_opportunity_mission_20260618_110851\\01_hunter_seasonal_research\\hunter_seasonal_opportunity_analysis_latest.md",
+    "micah_json": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\seasonal_opportunity_analysis\\seasonal_opportunity_mission_20260618_110851\\02_micah_asset_packages\\micah_design_prompts_latest.json",
+    "micah_markdown": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\seasonal_opportunity_analysis\\seasonal_opportunity_mission_20260618_110851\\02_micah_asset_packages\\micah_design_prompts_latest.md",
+    "amanda_json": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\seasonal_opportunity_analysis\\seasonal_opportunity_mission_20260618_110851\\03_amanda_listing_packages\\amanda_listing_packages_latest.json",
+    "amanda_markdown": "C:\\Users\\User\\Desktop\\PUTER\\RAMFAM_KINGDOM_BRAIN\\06_MISSIONS\\seasonal_opportunity_analysis\\seasonal_opportunity_mission_20260618_110851\\03_amanda_listing_packages\\amanda_listing_packages_latest.md"
+  }
+}

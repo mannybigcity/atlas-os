@@ -1,0 +1,19 @@
+{
+  "system_name": "Scout Opportunity Database",
+  "owner": "Scout",
+  "mission": "Track opportunities discovered by Scout.",
+  "opportunities": [
+    {
+      "name": "Cypress Plumbing Website Opportunity",
+      "type": "Website",
+      "value": 500,
+      "status": "Sent To Hunter"
+    },
+    {
+      "name": "Cypress Plumbing Website",
+      "type": "Website",
+      "value": 500,
+      "status": "New"
+    }
+  ]
+}

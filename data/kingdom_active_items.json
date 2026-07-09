@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "name": "Follow up with Uncle Ray about unpaid invoice",
+      "type": "invoice",
+      "status": "unpaid",
+      "customer": "Uncle Ray / Manpower Resources"
+    },
+    {
+      "name": "Check Bobbie B&B HVAC customer order",
+      "type": "customer_order",
+      "status": "active",
+      "customer": "Bobbie / B&B HVAC"
+    },
+    {
+      "name": "Improve Atlas decision system",
+      "type": "system",
+      "status": "active",
+      "customer": ""
+    },
+    {
+      "name": "Work on FRESH Apparel website idea",
+      "type": "expansion",
+      "status": "idea",
+      "customer": ""
+    },
+    {
+      "name": "Build Amanda outreach agent",
+      "type": "agent",
+      "status": "future",
+      "customer": ""
+    }
+  ]
+}

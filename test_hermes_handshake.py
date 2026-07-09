@@ -1,0 +1,1 @@
+print("Hermes handshake test file exists.")

@@ -1,0 +1,39 @@
+{
+  "campaign_name": "Revenue War Room",
+  "owner": "Mason",
+  "revenue_goal": 500,
+  "status": "Active",
+  "hunter_mission": {
+    "title": "Find Revenue Opportunities",
+    "goal": 20,
+    "target_types": [
+      "HVAC",
+      "Plumbing",
+      "Roofing",
+      "Landscaping",
+      "Churches"
+    ]
+  },
+  "amanda_mission": {
+    "title": "Find Outreach Opportunities",
+    "goal": 20,
+    "target_types": [
+      "Schools",
+      "Daycares",
+      "Churches",
+      "Baseball Teams",
+      "Community Groups"
+    ]
+  },
+  "micah_mission": {
+    "title": "Create Revenue Content",
+    "goal": 5,
+    "content_types": [
+      "Facebook Post",
+      "Facebook Reel",
+      "TikTok",
+      "Instagram Post",
+      "Community Group Post"
+    ]
+  }
+}
